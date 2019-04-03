@@ -1,0 +1,17 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kdeglobals][General]
+ColorScheme=Qogir-dark
+
+[kdeglobals][Icons]
+Theme=Qogir-dark
+
+[plasmarc][Theme]
+name=Qogir-dark
+
+[kwinrc][org.kde.kdecoration2]
+theme=__aurorae__svg__Qogir-dark
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
