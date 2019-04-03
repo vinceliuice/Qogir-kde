@@ -1,4 +1,4 @@
-<img src="https://github.com/vinceliuice/Qogir-kde/master/images/logo.png" alt="Logo" align="right" /> Qogir KDE Theme
+<img src="https://github.com/vinceliuice/Qogir-kde/blob/master/images/logo.png" alt="Logo" align="right" /> Qogir KDE Theme
 ======
 
 Qogir kde is a flat Design theme for KDE Plasma desktop.
@@ -37,7 +37,7 @@ GNU GPL v3
 
 ## preview
 
-![1](https://github.com/vinceliuice/Qogir-theme/blob/master/images/preview1.png?raw=true)
-![2](https://github.com/vinceliuice/Qogir-theme/blob/master/images/preview2.png?raw=true)
-![3](https://github.com/vinceliuice/Qogir-theme/blob/master/images/preview3.png?raw=true)
+![1](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview1.png?raw=true)
+![2](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview2.png?raw=true)
+![3](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview3.png?raw=true)
 
