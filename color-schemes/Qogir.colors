@@ -63,8 +63,8 @@ ForegroundVisited=69,40,134
 [Colors:View]
 BackgroundAlternate=248,248,248
 BackgroundNormal=250,251,252
-DecorationFocus=61,174,233
-DecorationHover=142,203,233
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=255,128,224
 ForegroundInactive=136,135,134
 ForegroundLink=0,87,174
@@ -90,7 +90,7 @@ ForegroundVisited=69,40,134
 
 [General]
 ColorScheme=Qogir
-Name=Qogir
+Name=Qogir-1
 shadeSortColumn=true
 
 [KDE]

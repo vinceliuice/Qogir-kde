@@ -21,8 +21,8 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=251,251,252
 BackgroundNormal=255,255,255
-DecorationFocus=61,174,233
-DecorationHover=142,203,233
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=255,128,224
 ForegroundInactive=136,135,134
 ForegroundLink=0,87,174
@@ -35,8 +35,8 @@ ForegroundVisited=69,40,134
 [Colors:Selection]
 BackgroundAlternate=82,148,226
 BackgroundNormal=82,148,226
-DecorationFocus=61,174,233
-DecorationHover=142,203,233
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=255,128,224
 ForegroundInactive=142,203,233
 ForegroundLink=0,87,174
@@ -49,8 +49,8 @@ ForegroundVisited=69,40,134
 [Colors:Tooltip]
 BackgroundAlternate=50,52,61
 BackgroundNormal=40,42,51
-DecorationFocus=61,174,233
-DecorationHover=142,203,233
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=255,128,224
 ForegroundInactive=96,112,128
 ForegroundLink=0,87,174
@@ -63,8 +63,8 @@ ForegroundVisited=69,40,134
 [Colors:View]
 BackgroundAlternate=248,248,248
 BackgroundNormal=250,251,252
-DecorationFocus=61,174,233
-DecorationHover=142,203,233
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=255,128,224
 ForegroundInactive=136,135,134
 ForegroundLink=0,87,174
@@ -77,8 +77,8 @@ ForegroundVisited=69,40,134
 [Colors:Window]
 BackgroundAlternate=255,255,255
 BackgroundNormal=255,255,255
-DecorationFocus=61,174,233
-DecorationHover=142,203,233
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=255,128,224
 ForegroundInactive=136,135,134
 ForegroundLink=0,87,174
@@ -90,7 +90,7 @@ ForegroundVisited=69,40,134
 
 [General]
 ColorScheme=Qogir-light
-Name=Qogir-light
+Name=Qogir-light-1
 shadeSortColumn=true
 
 [KDE]
