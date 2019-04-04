@@ -90,16 +90,16 @@ ForegroundVisited=69,40,134
 
 [General]
 ColorScheme=Qogir-light
-Name=Qogir-light-1
+Name=Qogir-light
 shadeSortColumn=true
 
 [KDE]
 contrast=0
 
 [WM]
-activeBackground=247,247,247
+activeBackground=255,255,255
 activeBlend=244,244,244
 activeForeground=0,0,0
-inactiveBackground=238,238,238
+inactiveBackground=250,251,252
 inactiveBlend=240,240,240
 inactiveForeground=90,90,90
