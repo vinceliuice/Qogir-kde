@@ -19,8 +19,8 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=50,52,61
-BackgroundNormal=40,42,51
+BackgroundAlternate=66,68,79
+BackgroundNormal=48,51,61
 DecorationFocus=82,148,226
 DecorationHover=82,148,226
 ForegroundActive=61,174,233

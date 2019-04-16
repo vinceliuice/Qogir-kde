@@ -34,6 +34,8 @@ install() {
   cp -ur ${SRC_DIR}/color-schemes/${name}${color}.colors                             ${SCHEMES_DIR}
   cp -ur ${SRC_DIR}/Kvantum/${name}${color}                                          ${KVANTUM_DIR}
   cp -ur ${SRC_DIR}/plasma/desktoptheme/${name}${ELSE_DARK}                          ${PLASMA_DIR}
+  cp -ur ${SRC_DIR}/color-schemes/${name}-light.colors                               ${PLASMA_DIR}/${name}/colors
+  cp -ur ${SRC_DIR}/color-schemes/${name}-dark.colors                                ${PLASMA_DIR}/${name}-dark/colors
   cp -ur ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}      ${LOOKFEEL_DIR}
 }
 
@@ -44,5 +46,3 @@ for color in "${colors[@]:-${COLOR_VARIANTS[@]}}"; do
 done
 
 echo "Install finished..."
-
-
