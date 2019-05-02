@@ -14,7 +14,7 @@ In this repository you'll find:
 ## Installation
 
 ```sh
-./Install
+./install.sh
 ```
 
 ## Recommendations

@@ -21,7 +21,7 @@ install() {
   local AURORAE_THEME=${AURPRAE_DIR}/${name}${color}
   local PLASMA_THEME=${PLASMA_DIR}/${name}${color}
   local LOOKFEEL_THEME=${LOOKFEEL_DIR}/${name}${color}
-  local SCHEMES_THEME=${SCHEMES_DIR}/${name}${color}
+  local SCHEMES_THEME=${SCHEMES_DIR}/${name}${color}.colors
   local KVANTUM_THEME=${KVANTUM_DIR}/${name}${color}
 
   [[ -d ${AURORAE_THEME} ]] && rm -rf ${AURORAE_THEME}
