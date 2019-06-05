@@ -95,8 +95,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
 [General]
-ColorScheme=Qogir-dark
-Name=Qogir-dark
+ColorScheme=Qogirdark
+Name=Qogirdark
 shadeSortColumn=true
 
 [KDE]

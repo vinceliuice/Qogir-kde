@@ -95,8 +95,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=69,40,134
 
 [General]
-ColorScheme=Qogir-light
-Name=Qogir-light
+ColorScheme=Qogirlight
+Name=Qogirlight
 shadeSortColumn=true
 
 [KDE]
