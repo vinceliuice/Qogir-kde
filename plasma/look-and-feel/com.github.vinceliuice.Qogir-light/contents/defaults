@@ -11,6 +11,10 @@ Theme=Qogir
 name=Qogir
 
 [kwinrc][org.kde.kdecoration2]
+BorderSize=None
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Qogir-light
 
 [kcminputrc][Mouse]
