@@ -70,7 +70,7 @@ scrollable_menu=true
 submenu_delay=250
 
 [GeneralColors]
-window.color=#32343Dcc
+window.color=#32343D
 base.color=#282A33
 alt.base.color=#2e303a
 button.color=#2e303a
@@ -486,3 +486,7 @@ interior=false
 [Window]
 interior=true
 interior.element=window
+frame=true
+frame.element=window
+frame.bottom=10
+frame.top=10

@@ -14,7 +14,7 @@
    height="1230"
    id="svg927"
    sodipodi:docname="Qogir-light.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
      id="metadata931">
     <rdf:RDF>
@@ -40,11 +40,11 @@
      inkscape:window-height="711"
      id="namedview929"
      showgrid="true"
-     inkscape:zoom="2.828427"
-     inkscape:cx="55.10803"
-     inkscape:cy="389.21562"
+     inkscape:zoom="5.656854"
+     inkscape:cx="50.618212"
+     inkscape:cy="36.652176"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg927"
      inkscape:snap-bbox="true"
@@ -1428,75 +1428,79 @@
        d="m 398.5859,91.0859 c -7.80469,7.80469 -15.6094,15.6094 -23.4141,23.4141 8.9427,0 17.8854,0 26.8281,0 0,-8.94271 0,-17.8854 0,-26.8281 -1.13802,1.13802 -2.27604,2.27604 -3.41406,3.41406 z" />
   </g>
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      inkscape:connector-curvature="0"
-     d="m 52,1188 h 8 v 4 h -8 z"
+     d="m 51,1187 h 8 v 4 h -8 z"
      id="itemview-pressed-top" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      inkscape:connector-curvature="0"
-     d="m 52,1200 h 8 v 4 h -8 z"
+     d="m 51,1199 h 8 v 4 h -8 z"
      id="itemview-pressed-bottom" />
   <path
      style="fill:#5294e2;fill-rule:evenodd"
      inkscape:connector-curvature="0"
-     d="m 52,1192 h 8 v 8 h -8 z"
+     d="m 51,1191 h 8 v 8 h -8 z"
      id="itemview-pressed" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
-     inkscape:connector-curvature="0"
-     d="m 60,1188 h 4 v 4 h -4 z"
-     id="itemview-pressed-topright" />
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+     d="m 59,1187 v 4 h 4 c 0,-2.4031 -1.6113,-4 -4,-4 z"
+     id="itemview-pressed-topright"
+     inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
-     inkscape:connector-curvature="0"
-     d="m 60,1200 h 4 v 4 h -4 z"
-     id="itemview-pressed-bottomright" />
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+     d="m 59,1199 v 4 c 2.4031,0 4,-1.6113 4,-4 z"
+     id="itemview-pressed-bottomright"
+     inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      inkscape:connector-curvature="0"
-     d="m 60,1192 h 4 v 8 h -4 z"
+     d="m 59,1191 h 4 v 8 h -4 z"
      id="itemview-pressed-right" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      inkscape:connector-curvature="0"
-     d="m 48,1192 h 4 v 8 h -4 z"
+     d="m 47,1191 h 4 v 8 h -4 z"
      id="itemview-pressed-left" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
-     inkscape:connector-curvature="0"
-     d="m 52,1188 v 4 h -4 v -4 z"
-     id="itemview-pressed-topleft" />
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+     d="m 51,1187 c -2.403085,0 -4,1.6113 -4,4 h 4 z"
+     id="itemview-pressed-topleft"
+     inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
-     inkscape:connector-curvature="0"
-     d="m 48,1200 h 4 v 4 h -4 z"
-     id="itemview-pressed-bottomleft" />
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
+     d="m 47,1199 c 0,2.4031 1.6113,4 4,4 v -4 z"
+     id="itemview-pressed-bottomleft"
+     inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      id="itemview-toggled-top"
-     d="m 85,1187 h 8 v 4 h -8 z" />
+     d="m 75,1187 h 8 v 4 h -8 z"
+     inkscape:connector-curvature="0" />
   <path
      style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      id="itemview-toggled-bottom"
-     d="m 85,1203 h 8 v 4 h -8 z"
+     d="m 75,1199 h 8 v 4 h -8 z"
      inkscape:connector-curvature="0" />
   <path
      style="fill:#5294e2;fill-rule:evenodd"
      id="itemview-toggled"
-     d="m 85,1193 8,0 0,8 -8,0 z" />
+     d="m 75,1191 h 8 v 8 h -8 z"
+     inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      id="itemview-toggled-right"
-     d="m 95,1193 h 4 v 8 h -4 z" />
+     d="m 83,1191 h 4 v 8 h -4 z"
+     inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-rule:evenodd;fill-opacity:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      id="itemview-toggled-left"
-     d="m 79,1193 h 4 v 8 h -4 z" />
+     d="m 71,1191 h 4 v 8 h -4 z"
+     inkscape:connector-curvature="0" />
   <path
      style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd"
      id="itemview-toggled-topleft"
-     d="m 83,1187 v 4 h -4 c 0,-2.3887 1.596915,-4 4,-4 z"
+     d="m 75,1187 v 4 h -4 c 0,-2.3887 1.596915,-4 4,-4 z"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <use
@@ -1507,7 +1511,7 @@
      style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
      id="itemview-focused-top"
      xlink:href="#itemview-toggled-top"
-     transform="translate(-63,-1)" />
+     transform="translate(-49)" />
   <use
      width="450"
      x="0"
@@ -1516,7 +1520,7 @@
      style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
      id="itemview-focused-bottom"
      xlink:href="#itemview-toggled-bottom"
-     transform="translate(-63,1)" />
+     transform="translate(-49)" />
   <use
      width="450"
      x="0"
@@ -1525,7 +1529,7 @@
      style="opacity:0.2"
      id="itemview-focused"
      xlink:href="#itemview-toggled"
-     transform="translate(-63)" />
+     transform="translate(-49)" />
   <use
      width="450"
      x="0"
@@ -1534,7 +1538,7 @@
      style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
      id="itemview-focused-right"
      xlink:href="#itemview-toggled-right"
-     transform="translate(-63)" />
+     transform="translate(-49)" />
   <use
      width="450"
      x="0"
@@ -1543,7 +1547,7 @@
      style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
      id="itemview-focused-left"
      xlink:href="#itemview-toggled-left"
-     transform="translate(-64)" />
+     transform="translate(-49)" />
   <use
      width="450"
      x="0"
@@ -1552,7 +1556,7 @@
      style="opacity:0.2;fill:#5096e1;fill-opacity:0.2"
      id="itemview-focused-topleft"
      xlink:href="#itemview-toggled-topleft"
-     transform="translate(-64,-1)" />
+     transform="translate(-49)" />
   <use
      width="100%"
      x="0"
@@ -3757,7 +3761,7 @@
      y="0"
      xlink:href="#itemview-toggled-topleft"
      id="itemview-toggled-topright"
-     transform="matrix(-1,0,0,1,178,0)"
+     transform="matrix(-1,0,0,1,158,0)"
      width="100%"
      height="100%" />
   <use
@@ -3765,7 +3769,7 @@
      y="0"
      xlink:href="#itemview-toggled-topleft"
      id="itemview-toggled-bottomleft"
-     transform="matrix(1,0,0,-1,0,2394)"
+     transform="matrix(1,0,0,-1,0,2390)"
      width="100%"
      height="100%" />
   <use
@@ -3773,7 +3777,7 @@
      y="0"
      xlink:href="#itemview-toggled-topleft"
      id="itemview-toggled-bottomright"
-     transform="rotate(-180,89,1197)"
+     transform="rotate(-180,79,1195)"
      width="100%"
      height="100%" />
   <use
@@ -3781,7 +3785,7 @@
      y="0"
      xlink:href="#itemview-toggled-topleft"
      id="itemview-focused-topright"
-     transform="matrix(-1,0,0,1,115,-1)"
+     transform="matrix(-1,0,0,1,109,0)"
      width="100%"
      height="100%"
      style="opacity:0.2" />
@@ -3790,7 +3794,7 @@
      y="0"
      xlink:href="#itemview-toggled-topleft"
      id="itemview-focused-bottomright"
-     transform="rotate(-180,57.5,1197.5)"
+     transform="rotate(-180,54.5,1195)"
      width="100%"
      height="100%"
      style="opacity:0.2" />
@@ -3799,7 +3803,7 @@
      y="0"
      xlink:href="#itemview-toggled-topleft"
      id="itemview-focused-bottomleft"
-     transform="rotate(-90,57.5,1229.5)"
+     transform="rotate(-90,54.5,1219.5)"
      width="100%"
      height="100%"
      style="opacity:0.2" />
