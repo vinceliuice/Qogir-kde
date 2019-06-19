@@ -9,7 +9,7 @@ InactiveTextColor=161,161,161
 InactiveTextShadowColor=255,255,255,255
 InactiveUnfocusedTabColor=120,120,120
 
-Animation=true
+Animation=1
 Shadow=true
 TextShadowOffsetX=1
 TextShadowOffsetY=1
