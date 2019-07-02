@@ -21,10 +21,17 @@ install() {
 
   local AURORAE_THEME=${AURPRAE_DIR}/${name}${color}
   local PLASMA_THEME=${PLASMA_DIR}/${name}${color}
-  local LOOKFEEL_THEME=${LOOKFEEL_DIR}/${name}${color}.jpeg
+  local LOOKFEEL_THEME=${LOOKFEEL_DIR}/com.github.vinceliuice.${name}${color}
   local SCHEMES_THEME=${SCHEMES_DIR}/${name}${c_color}.colors
-  local WALLPAPER_THEME=${WALLPAPER_DIR}/${name}${color}
+  local WALLPAPER_THEME=${WALLPAPER_DIR}/${name}/${name}${color}.jpeg
   local KVANTUM_THEME=${KVANTUM_DIR}/${name}${color}
+
+  mkdir -p                                                                           ${AURORAE_DIR}
+  mkdir -p                                                                           ${SCHEMES_DIR}
+  mkdir -p                                                                           ${PLASMA_DIR}
+  mkdir -p                                                                           ${LOOKFEEL_DIR}
+  mkdir -p                                                                           ${KVANTUM_DIR}
+  mkdir -p                                                                           ${WALLPAPER_DIR}/${name}
 
   [[ -d ${AURORAE_THEME} ]] && rm -rf ${AURORAE_THEME}
   [[ -d ${PLASMA_THEME} ]] && rm -rf ${PLASMA_THEME}
@@ -35,7 +42,7 @@ install() {
 
   cp -ur ${SRC_DIR}/aurorae/themes/${name}${color}                                   ${AURORAE_DIR}
   cp -ur ${SRC_DIR}/color-schemes/*.colors                                           ${SCHEMES_DIR}
-  cp -ur ${SRC_DIR}/wallpaper/*.jpeg                                                 ${WALLPAPER_DIR}
+  cp -ur ${SRC_DIR}/wallpaper/*.jpeg                                                 ${WALLPAPER_DIR}/${name}
   cp -ur ${SRC_DIR}/Kvantum/${name}${color}                                          ${KVANTUM_DIR}
   cp -ur ${SRC_DIR}/plasma/desktoptheme/${name}${ELSE_DARK}                          ${PLASMA_DIR}
   cp -ur ${SRC_DIR}/color-schemes/${name}light.colors                                ${PLASMA_DIR}/${name}/colors
