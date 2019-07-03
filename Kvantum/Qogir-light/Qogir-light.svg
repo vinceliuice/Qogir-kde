@@ -40,9 +40,9 @@
      inkscape:window-height="711"
      id="namedview929"
      showgrid="true"
-     inkscape:zoom="5.656854"
-     inkscape:cx="50.618212"
-     inkscape:cy="36.652176"
+     inkscape:zoom="31.999999"
+     inkscape:cx="46.721033"
+     inkscape:cy="435.75798"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -2808,7 +2808,7 @@
   <path
      style="fill:#b74aff;stroke-width:1"
      id="menu-shadow-hint-top"
-     d="m 44.99965,788 h 2.5 v 8 h -2.5 z"
+     d="m 44.99965,790 h 2.5 v 6 h -2.5 z"
      inkscape:connector-curvature="0" />
   <use
      width="100%"
@@ -3499,7 +3499,7 @@
   <path
      style="fill:#b74aff;stroke-width:1"
      inkscape:connector-curvature="0"
-     d="M 44.5,856 H 47 v 8 h -2.5 z"
+     d="m 44,856 h 2.5 v 8 H 44 Z"
      id="menu-shadow-hint-bottom" />
   <path
      style="fill:#b74aff"

@@ -14,7 +14,7 @@
    height="1230"
    id="svg927"
    sodipodi:docname="Qogir.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
      id="metadata931">
     <rdf:RDF>
@@ -41,10 +41,10 @@
      id="namedview929"
      showgrid="true"
      inkscape:zoom="45.254832"
-     inkscape:cx="47.665354"
-     inkscape:cy="368.91366"
+     inkscape:cx="44.261013"
+     inkscape:cy="437.99894"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg927"
      inkscape:snap-bbox="true"
@@ -2868,7 +2868,7 @@
   <path
      style="fill:#b74aff;stroke-width:1"
      id="menu-shadow-hint-top"
-     d="m 44.99965,788 h 2.5 v 8 h -2.5 z"
+     d="m 44.99965,790 h 2.5 v 6 h -2.5 z"
      inkscape:connector-curvature="0" />
   <use
      width="100%"
