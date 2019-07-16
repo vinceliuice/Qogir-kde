@@ -22,7 +22,7 @@ import QtQuick 2.1
 
 Image {
     id: root
-    source: "images/background.jpeg"
+    source: "images/background.jpg"
 
     property int stage
 
@@ -42,7 +42,7 @@ Image {
         }
         Rectangle {
             radius: 3
-            color: "#101217"
+            color: "#bbbbbb"
             anchors {
                 bottom: parent.bottom
                 bottomMargin: 50

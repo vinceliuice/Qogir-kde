@@ -22,7 +22,7 @@ import QtQuick 2.1
 
 Image {
     id: root
-    source: "images/background.jpeg"
+    source: "images/background.jpg"
 
     property int stage
 
