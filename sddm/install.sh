@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cp -ur Qogir /usr/share/sddm/themes
+cp -r Qogir /usr/share/sddm/themes
 
 echo "Install finished..."
