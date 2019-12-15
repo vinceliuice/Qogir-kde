@@ -37,14 +37,14 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="711"
+     inkscape:window-height="712"
      id="namedview951"
      showgrid="true"
      inkscape:zoom="8.6830415"
-     inkscape:cx="41.572617"
-     inkscape:cy="36.376529"
+     inkscape:cx="283.28617"
+     inkscape:cy="58.145743"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg949"
      inkscape:snap-global="true"
@@ -2687,11 +2687,11 @@
      id="common-focused-left"
      transform="translate(-9,5)">
     <rect
-       width="2.5"
-       x="270.5"
+       width="1"
+       x="272"
        y="1170"
        height="30"
-       style="fill:#4693e6"
+       style="fill:#32343d;fill-opacity:1;stroke-width:0.63245553"
        id="rect4870" />
     <path
        style="fill:#32343D"
@@ -2707,10 +2707,10 @@
      id="common-focused-topleft"
      transform="translate(-9,5)">
     <path
-       style="fill:#4693e6"
+       style="fill:#32343d;fill-opacity:1;stroke-width:0.40000001"
        id="path4878"
-       d="m 308.5,1172.5 -2.5,0 0,2.5 2.5,0 z"
-       transform="translate(-35.5,-5)" />
+       d="m 273,1169 h -1 v 1 h 1 z"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:#32343D"
        id="path4880"
@@ -4056,35 +4056,35 @@
      d="m 15,916 h 10 v 10 H 15 Z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
      id="tab-toggled-bottom"
-     d="m 25,941 h 10 v 5 H 25 Z"
+     d="m 25,936 h 10 v 10 H 25 Z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
      id="tab-toggled-bottomright"
-     d="m 35,941 h 10 v 5 H 35 Z"
+     d="m 35,936 h 10 v 10 H 35 Z"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     style="fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354"
      id="tab-toggled-bottomleft"
-     d="m 15,941 h 10 v 5 H 15 Z"
+     d="m 15,936 h 10 v 10 H 15 Z"
      inkscape:connector-curvature="0" />
   <path
      inkscape:connector-curvature="0"
-     d="m 61,941 h 10 v 5 H 61 Z"
+     d="m 61,936 h 10 v 10 H 61 Z"
      id="tab-focused-bottom"
-     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:0.99999994" />
+     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421342" />
   <path
      inkscape:connector-curvature="0"
-     d="m 71,941 h 10 v 5 H 71 Z"
+     d="m 71,936 h 10 v 10 H 71 Z"
      id="tab-focused-bottomright"
-     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1" />
+     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354" />
   <path
      inkscape:connector-curvature="0"
-     d="m 51,941 h 10 v 5 H 51 Z"
+     d="m 51,936 h 10 v 10 H 51 Z"
      id="tab-focused-bottomleft"
-     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1" />
+     style="opacity:0.5;fill:#5294e2;fill-opacity:1;fill-rule:evenodd;stroke-width:1.41421354" />
   <use
      width="100%"
      x="0"
