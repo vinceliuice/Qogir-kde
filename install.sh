@@ -34,6 +34,7 @@ install() {
   mkdir -p                                                                           ${WALLPAPER_DIR}/${name}
 
   [[ -d ${AURORAE_THEME} ]] && rm -rf ${AURORAE_THEME}
+  [[ -d ${AURORAE_THEME}-circle ]] && rm -rf ${AURORAE_THEME}-circle
   [[ -d ${PLASMA_THEME} ]] && rm -rf ${PLASMA_THEME}
   [[ -d ${LOOKFEEL_THEME} ]] && rm -rf ${LOOKFEEL_THEME}
   [[ -d ${SCHEMES_THEME} ]] && rm -rf ${SCHEMES_THEME}
@@ -41,6 +42,7 @@ install() {
   [[ -d ${KVANTUM_THEME} ]] && rm -rf ${KVANTUM_THEME}
 
   cp -ur ${SRC_DIR}/aurorae/themes/${name}${color}                                   ${AURORAE_DIR}
+  cp -ur ${SRC_DIR}/aurorae/themes/${name}${color}-circle                            ${AURORAE_DIR}
   cp -ur ${SRC_DIR}/color-schemes/*.colors                                           ${SCHEMES_DIR}
   cp -ur ${SRC_DIR}/wallpaper/*.jpeg                                                 ${WALLPAPER_DIR}/${name}
   cp -ur ${SRC_DIR}/Kvantum/${name}${color}                                          ${KVANTUM_DIR}
