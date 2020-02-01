@@ -56,6 +56,20 @@ transient_groove=true
 submenu_overlap=3
 tooltip_delay=-1
 tree_branch_line=true
+click_behavior=0
+contrast=1.00
+dialog_button_layout=0
+intensity=1.00
+no_inactiveness=false
+no_window_pattern=false
+opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
+reduce_menu_opacity=0
+reduce_window_opacity=0
+respect_DE=true
+saturation=1.00
+scrollable_menu=true
+shadowless_popup=false
+submenu_delay=250
 
 [GeneralColors]
 window.color=#fafbfc
@@ -89,12 +103,17 @@ kcapacitybar_as_progressbar=true
 force_size_grip=true
 iconless_pushbutton=true
 iconless_menu=false
-disabled_icon_opacity=100
+disabled_icon_opacity=35
 lxqtmainmenu_iconsize=22
 normal_default_pushbutton=true
 single_top_toolbar=true
 tint_on_mouseover=0
 transparent_pcmanfm_view=false
+kinetic_scrolling=false
+middle_click_scroll=false
+no_selection_tint=false
+opaque_colors=false
+scroll_jump_workaround=false
 
 [PanelButtonCommand]
 frame=true

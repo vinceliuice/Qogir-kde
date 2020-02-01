@@ -37,14 +37,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="712"
+     inkscape:window-height="706"
      id="namedview929"
      showgrid="true"
-     inkscape:zoom="7.9999997"
-     inkscape:cx="283.10279"
-     inkscape:cy="46.04359"
+     inkscape:zoom="5.656854"
+     inkscape:cx="64.192368"
+     inkscape:cy="104.68557"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg927"
      inkscape:snap-bbox="true"
@@ -53,7 +53,7 @@
      inkscape:object-paths="true"
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-nodes="false">
+     inkscape:snap-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid1859" />
@@ -1679,28 +1679,32 @@
   <g
      style="fill-rule:evenodd"
      id="scrollbarslider-normal-topleft"
-     transform="translate(-135.5,5.749757)">
+     transform="translate(-136,6)">
     <path
        style="fill:#969696;fill-opacity:0"
        id="scrollbarslider-normal-topleft0-9"
-       d="m 155,1089 c -6.648,0 -12,5.3521 -12,12 h 12 v -12 z " />
+       d="m 155,1089 c -6.648,0 -12,5.3521 -12,12 h 12 z"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:#b8babf"
-       id="path4475-1"
-       d="m 155,1092.5 c -4,0.011 -4,2.7501 -4,8.4998 l 4,2e-4 z" />
+       d="M 19 1098 C 16.784 1098 15 1099.784 15 1102 L 15 1107 L 19 1107 L 19 1098 z "
+       transform="translate(136,-6)"
+       id="path4475-1" />
   </g>
   <g
      style="fill-rule:evenodd"
      id="scrollbarslider-normal-left"
-     transform="translate(-135.5,5.749757)">
+     transform="matrix(1,0,0,0.96967383,-136,39.389107)">
     <path
        style="fill:#969696;fill-opacity:0"
        id="scrollbarslider-normal-left0-1"
-       d="m 143,1101 0,16.4064 0,.094 12,0 0,-16.5 -12,0 z " />
+       d="m 143,1101 v 16.4064 0.094 h 12 v -16.5 h -12 z"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:#b8babf"
        id="path4477-3"
-       d="m 151,1100.9998 0,16.4064 0,0.094 4,2e-4 0,-16.5 -4,-2e-4 z" />
+       d="m 151,1100.9998 v 16.4064 0.094 l 4,2e-4 v -16.5 l -4,-2e-4 z"
+       inkscape:connector-curvature="0" />
   </g>
   <use
      width="450"
@@ -1709,7 +1713,7 @@
      height="1230"
      xlink:href="#scrollbarslider-normal-left"
      id="scrollbarslider-normal-right"
-     transform="matrix(-1,0,0,1,39,0)" />
+     transform="matrix(-1,0,0,1,38,0)" />
   <use
      width="450"
      x="0"
@@ -1717,7 +1721,7 @@
      height="1230"
      xlink:href="#scrollbarslider-normal-topleft"
      id="scrollbarslider-normal-topright"
-     transform="matrix(-1,0,0,1,39,0)" />
+     transform="matrix(-1,0,0,1,38,0)" />
   <use
      width="450"
      x="0"
@@ -1725,7 +1729,7 @@
      height="1230"
      xlink:href="#scrollbarslider-normal-topleft"
      id="scrollbarslider-normal-bottomleft"
-     transform="matrix(1,0,0,-1,0,2230.0001)" />
+     transform="matrix(1,0,0,-1,0,2230)" />
   <use
      width="450"
      x="0"
@@ -1733,7 +1737,7 @@
      height="1230"
      xlink:href="#scrollbarslider-normal-topleft"
      id="scrollbarslider-normal-bottomright"
-     transform="matrix(-1,0,0,-1,39,2230.0001)" />
+     transform="rotate(180,19,1115)" />
   <use
      width="100%"
      x="0"
@@ -3680,31 +3684,35 @@
   </g>
   <g
      id="scrollbarslider-focused-topright"
-     transform="matrix(0.75,0,0,1.0341089,-117.24949,404.85716)">
+     transform="matrix(0.75,0,0,1.0341089,-117.74949,404.35506)">
     <path
        style="opacity:0"
        id="rect5155"
-       d="m 225,669.797 c 6.66669,-2.7e-4 12,3.86779 12,8.70287 h -12 z" />
+       d="m 225,669.797 c 6.66669,-2.7e-4 12,3.86779 12,8.70287 h -12 z"
+       inkscape:connector-curvature="0" />
     <path
-       style="fill:#5294e2;fill-rule:evenodd"
-       id="path5158"
-       d="M 225,671.73076 V 678.5 h 9.33336 c 0,-3.86819 -4,-6.76924 -9.33336,-6.76925 z" />
+       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.66568142"
+       d="M 51 1099 L 51 1105.998 L 55 1105.998 L 55 1103 C 55 1100.784 53.216 1099 51 1099 z "
+       transform="matrix(1.3333333,0,0,0.96701614,156.99932,-391.01787)"
+       id="path5158" />
   </g>
   <g
      id="scrollbarslider-focused-topleft"
-     transform="matrix(0.75,0,0,1.0341101,-117.2495,404.85647)">
+     transform="matrix(0.75,0,0,1.0341101,-117.7495,404.35437)">
     <path
        style="opacity:0"
        id="rect5162"
-       d="m 225,669.79687 v 8.70291 h -12 c -2e-5,-4.8351 5.33333,-8.70316 12,-8.70291 z" />
+       d="m 225,669.79687 v 8.70291 h -12 c -2e-5,-4.8351 5.33333,-8.70316 12,-8.70291 z"
+       inkscape:connector-curvature="0" />
     <path
-       style="fill:#5294e2;fill-rule:evenodd"
-       id="path5164"
-       d="m 225,671.73066 c -5.33333,-10e-6 -9.33334,2.90104 -9.33334,6.76924 H 225 Z" />
+       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.66576654"
+       d="M 51 1099 C 48.784 1099 47 1100.784 47 1103 L 47 1105.998 L 51 1105.998 L 51 1099 z "
+       transform="matrix(1.3333333,0,0,0.96701502,156.99933,-391.01675)"
+       id="path5164" />
   </g>
   <g
      id="scrollbarslider-focused-left"
-     transform="matrix(0.75,0,0,0.76086208,-117.25,590.25521)">
+     transform="matrix(0.75,0,0,0.73921626,-117.75,604.43979)">
     <rect
        width="12"
        x="213"
@@ -3713,13 +3721,14 @@
        style="opacity:0"
        id="rect5168" />
     <path
-       style="fill:#5294e2;fill-rule:evenodd"
+       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.75592905"
        id="path5170"
-       d="m 215.66667,678.5 0,23 H 225 v -23 z" />
+       d="m 219.66667,678.5 v 23 H 225 v -23 z"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="scrollbarslider-focused-right"
-     transform="matrix(0.75,0,0,0.76085633,-117.25,590.2589)">
+     transform="matrix(0.75,0,0,0.73920868,-117.75,604.44474)">
     <rect
        width="12"
        x="225"
@@ -3728,9 +3737,10 @@
        style="opacity:0"
        id="rect5174" />
     <path
-       style="fill:#5294e2;fill-rule:evenodd"
+       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.7559303"
        id="path5176"
-       d="m 225,678.5005 v 23 h 9.3333 v -23 z" />
+       d="m 225,678.5005 v 23 h 5.33333 v -23 z"
+       inkscape:connector-curvature="0" />
   </g>
   <use
      width="100%"
@@ -3739,7 +3749,7 @@
      height="100%"
      id="scrollbarslider-focused-bottomright"
      xlink:href="#scrollbarslider-focused-topright"
-     transform="matrix(1,0,0,-1,-1.3e-5,2230.5002)" />
+     transform="matrix(1,0,0,-1,-1.3e-5,2228.9979)" />
   <use
      width="100%"
      x="0"
@@ -3747,7 +3757,7 @@
      height="100%"
      id="scrollbarslider-focused-bottomleft"
      xlink:href="#scrollbarslider-focused-topleft"
-     transform="matrix(1,0,0,-1,0,2230.5001)" />
+     transform="matrix(1,0,0,-1,0,2228.9978)" />
   <use
      width="100%"
      x="0"
@@ -3755,7 +3765,7 @@
      height="100%"
      id="scrollbarslider-pressed-topright"
      xlink:href="#scrollbarslider-focused-topright"
-     transform="translate(37.4995)" />
+     transform="translate(37.9995,0.50210254)" />
   <use
      width="100%"
      x="0"
@@ -3763,7 +3773,7 @@
      height="100%"
      id="scrollbarslider-pressed-topleft"
      xlink:href="#scrollbarslider-focused-topleft"
-     transform="translate(37.4995)" />
+     transform="translate(37.9995,0.50210254)" />
   <use
      width="100%"
      x="0"
@@ -3771,7 +3781,7 @@
      height="100%"
      id="scrollbarslider-pressed-left"
      xlink:href="#scrollbarslider-focused-left"
-     transform="translate(37.5)" />
+     transform="translate(38,0.50210254)" />
   <use
      width="100%"
      x="0"
@@ -3779,7 +3789,7 @@
      height="100%"
      id="scrollbarslider-pressed-right"
      xlink:href="#scrollbarslider-focused-right"
-     transform="translate(37.5)" />
+     transform="translate(38,0.50210254)" />
   <use
      width="100%"
      x="0"
@@ -3787,7 +3797,7 @@
      height="100%"
      id="scrollbarslider-pressed-bottomright"
      xlink:href="#scrollbarslider-focused-topright"
-     transform="matrix(1,0,0,-1,37.499487,2230.5001)" />
+     transform="matrix(1,0,0,-1,37.999487,2229.5)" />
   <use
      width="100%"
      x="0"
@@ -3795,7 +3805,7 @@
      height="100%"
      id="scrollbarslider-pressed-bottomleft"
      xlink:href="#scrollbarslider-focused-topleft"
-     transform="matrix(1,0,0,-1,37.4995,2230.5002)" />
+     transform="matrix(1,0,0,-1,37.9995,2229.5001)" />
   <use
      width="100%"
      x="0"

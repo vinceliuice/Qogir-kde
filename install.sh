@@ -41,11 +41,10 @@ install() {
   [[ -d ${WALLPAPER_THEME} ]] && rm -rf ${WALLPAPER_THEME}
   [[ -d ${KVANTUM_THEME} ]] && rm -rf ${KVANTUM_THEME}
 
-  cp -ur ${SRC_DIR}/aurorae/themes/${name}${color}                                   ${AURORAE_DIR}
-  cp -ur ${SRC_DIR}/aurorae/themes/${name}${color}-circle                            ${AURORAE_DIR}
+  cp -ur ${SRC_DIR}/aurorae/themes/*                                                 ${AURORAE_DIR}
   cp -ur ${SRC_DIR}/color-schemes/*.colors                                           ${SCHEMES_DIR}
   cp -ur ${SRC_DIR}/wallpaper/*.jpeg                                                 ${WALLPAPER_DIR}/${name}
-  cp -ur ${SRC_DIR}/Kvantum/${name}${color}                                          ${KVANTUM_DIR}
+  cp -ur ${SRC_DIR}/Kvantum/*                                                        ${KVANTUM_DIR}
   cp -ur ${SRC_DIR}/plasma/desktoptheme/${name}${ELSE_DARK}                          ${PLASMA_DIR}
 
   if [[ ${color} == '-dark' ]]; then

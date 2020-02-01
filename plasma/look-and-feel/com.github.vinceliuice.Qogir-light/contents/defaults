@@ -15,7 +15,7 @@ BorderSize=None
 ButtonsOnLeft=
 ButtonsOnRight=IAX
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Qogir-light
+theme=__aurorae__svg__Qogir-light-circle
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors

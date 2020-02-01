@@ -19,9 +19,9 @@ UseTextShadow=true
 
 [Layout]
 BorderTop=0
-BorderBottom=2
-BorderLeft=0
-BorderRight=0
+BorderBottom=1
+BorderLeft=1
+BorderRight=1
 ButtonHeight=30
 ButtonMarginTop=0
 ButtonSpacing=0

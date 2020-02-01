@@ -68,6 +68,8 @@ respect_DE=true
 saturation=1.00
 scrollable_menu=true
 submenu_delay=250
+click_behavior=0
+shadowless_popup=false
 
 [GeneralColors]
 window.color=#f5f6f7cc
@@ -101,7 +103,7 @@ kcapacitybar_as_progressbar=true
 force_size_grip=true
 iconless_pushbutton=true
 iconless_menu=false
-disabled_icon_opacity=100
+disabled_icon_opacity=35
 lxqtmainmenu_iconsize=22
 normal_default_pushbutton=true
 single_top_toolbar=true
@@ -111,6 +113,7 @@ middle_click_scroll=false
 no_selection_tint=false
 opaque_colors=false
 scroll_jump_workaround=false
+kinetic_scrolling=false
 
 [PanelButtonCommand]
 frame=true
@@ -140,6 +143,14 @@ frame.expansion=6
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
+text.normal.color=#5c616c
+text.focus.color=#32343D
+text.press.color=white
+text.toggle.color=white
+text.bold=false
+indicator.element=arrow
+indicator.size=0
+frame.expansion=0
 
 [Dock]
 inherits=PanelButtonCommand
