@@ -1,0 +1,17 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#dfdfdf}</style>
+ </defs>
+ <g id="kate">
+  <path d="m6 6v21h20v-21zm1 1h18v19h-18zm3 7v1h12v-1zm0 3v1h12v-1zm0 3v1h12v-1zm0 3v1h7v-1z" fill="#dfdfdf"/>
+  <path d="M0 0h32v32H0z" fill="none"/>
+ </g>
+ <g id="22-22-kate">
+  <path d="m49 5h22v22h-22z" fill="none"/>
+  <path d="m54 9v14h12v-14zm1 1h10v12h-10zm2 5v1h6v-1zm0 2v1h6v-1zm0 2v1h4v-1z" fill="#dfdfdf"/>
+ </g>
+ <g id="16-16-kate">
+  <path d="m81 8h16v16h-16z" fill="none"/>
+  <path d="m83 9v14h12v-14zm1 1h10v12h-10zm2 5v1h6v-1zm0 2v1h6v-1zm0 2v1h4v-1z" fill="#dfdfdf"/>
+ </g>
+</svg>

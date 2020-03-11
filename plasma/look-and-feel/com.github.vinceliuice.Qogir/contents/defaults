@@ -18,4 +18,4 @@ library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Qogir-circle
 
 [kcminputrc][Mouse]
-cursorTheme=breeze_cursors
+cursorTheme=Qogir-cursors

@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="svg4153" version="1.1" width="22" height="22"><defs id="defs4157"><style type="text/css" id="current-color-scheme"></style></defs><g id="ktorrent" fill-opacity="1" stroke="none"><path id="rect4163" d="M8 3v6h1V4h4v5h1V3H8zm-2.207 7L5 10.816 11 17l6-6.184-.793-.816L11 15.367 5.793 10zM4 17v2h14v-2h-1v1H5v-1H4z" fill="currentColor" color="#dfdfdf"/><path id="rect4183" opacity="1" fill="none" stroke-width=".1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" stroke-opacity="1" d="M0 0h22v22H0z"/></g></svg>
+<svg id="svg4153" width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4157">
+  <style id="current-color-scheme" type="text/css"/>
+ </defs>
+ <g id="ktorrent">
+  <path id="rect4183" d="m0 0h22v22h-22z" fill="none"/>
+  <g id="g836" transform="translate(3.0025,3)" enable-background="new" fill="#dfdfdf">
+   <g id="g824" fill="#dfdfdf">
+    <path id="path822" d="m3.002 0c-0.554 0-1 0.447-1 1v2c0 0.555 0.446 1 1 1h3v3h-2.344l4.344 6.282 4.375-6.281h-2.375v-3.001h3c0.554 0 1-0.446 1-1v-2c0-0.554-0.446-1-1-1zm0 1h10v2h-10zm-2.007 13.031v1.969h14.005l-5e-3 -1.969z" fill="#dfdfdf"/>
+   </g>
+  </g>
+ </g>
+</svg>

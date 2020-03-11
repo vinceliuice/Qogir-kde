@@ -1,1 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg2" viewBox="0 0 54 32"><defs id="defs3051"><style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#dfdfdf}</style></defs><g id="22-22-drive"><path id="path7" class="ColorScheme-Text" d="M4 13v16h14V13H4zm1 1h12v12H5V14zm2.5 1a.5.5 0 0 0-.5.5.5.5 0 0 0 .5.5.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5zM9 15l-1 1 1 1-1 1 1 1 1-1 1-1-1-1-1-1zm-2.5 2a.5.5 0 0 0-.5.5.5.5 0 0 0 .5.5.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5zm1 2a.5.5 0 0 0-.5.5.5.5 0 0 0 .5.5.5.5 0 0 0 .5-.5.5.5 0 0 0-.5-.5zm3.5 3v1h5v-1h-5zm0 2v1h5v-1h-5zm-5 3h10v1H6v-1z" fill="currentColor" fill-opacity="1" stroke="none"/><path id="path9" d="M0 10v22h22V10H0z" opacity="1" fill="none"/></g><g id="drive"><path id="path11" class="ColorScheme-Text" d="M27 4v24h22V4H27zm1 1h20v19H28V5zm3.5 2a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zM33 7l-1 1 1 1-1 1 1 1 1-1 1-1-1-1-1-1zm-2.5 2a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zm1 2a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zm7.5 6v1h7v-1h-7zm0 2v1h7v-1h-7zm0 2v1h7v-1h-7zm-10 4h18v2H29v-2z" fill="currentColor" fill-opacity="1" stroke="none"/><path id="path14" d="M22 0v32h32V0H22z" opacity="1" fill="none"/></g><g transform="translate(0 13)" id="16-16-drive"><path id="path15" class="ColorScheme-Text" d="M-14 5v12h12V5h-12zm1 1h10v8h-5v1h-2v-1h-3V6zm1 1v6h8V7h-8zm1 1h1v2h4V8h1v4h-6V8zm-2 7h2v1h-2v-1zm6 0h3v1h-3v-1z" fill="currentColor" fill-opacity="1" stroke="none"/><path id="path17" d="M-16 3v16H0V3h-16z" opacity="1" fill="none"/></g></svg>
+<svg version="1.1" viewBox="0 0 54 32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#dfdfdf}</style>
+ </defs>
+ <g id="16-16-drive">
+  <path d="m-17.83 16v16h16v-16z" fill="none"/>
+  <g transform="translate(-17.83 16)" fill="#dfdfdf">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+   <path class="ColorScheme-Text" d="m8 13c-2.209 0-4-1.7909-4-4s1.791-4 4-4h4v4c0 2.2091-1.7909 4-4 4zm0-2c1.1046 0 2-0.8954 2-2s-0.8954-2-2-2-2 0.8954-2 2 0.8954 2 2 2z" color="#dfdfdf"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+  </g>
+ </g>
+ <g id="22-22-drive">
+  <path d="m0 10v22h22v-22z" fill="none"/>
+  <g transform="translate(3.3105 13)" fill="#dfdfdf">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+   <path class="ColorScheme-Text" d="m8 13c-2.209 0-4-1.7909-4-4s1.791-4 4-4h4v4c0 2.2091-1.7909 4-4 4zm0-2c1.1046 0 2-0.8954 2-2s-0.8954-2-2-2-2 0.8954-2 2 0.8954 2 2 2z" color="#dfdfdf"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+  </g>
+ </g>
+ <g id="drive">
+  <path d="m22 0v32h32v-32z" fill="none"/>
+  <path class="ColorScheme-Text" d="m38 25c-4.418 0-8-3.5818-8-8s3.582-8 8-8h8v8c0 4.4182-3.5818 8-8 8zm0-4c2.2092 0 4-1.7908 4-4s-1.7908-4-4-4-4 1.7908-4 4 1.7908 4 4 4z" color="#dfdfdf" fill="#dfdfdf" stroke-width="2"/>
+  <rect x="29" y="25" width="1" height="1" ry=".5" fill="#dfdfdf" style="paint-order:stroke fill markers"/>
+  <rect x="46" y="25" width="1" height="1" ry=".5" fill="#dfdfdf" style="paint-order:stroke fill markers"/>
+  <path d="m29 4c-1.108 0-2 0.892-2 2v20c0 1.108 0.892 2 2 2h18c1.108 0 2-0.892 2-2v-20c0-1.108-0.892-2-2-2h-18zm0 1h18c0.554 0 1 0.446 1 1v20c0 0.554-0.446 1-1 1h-18c-0.554 0-1-0.446-1-1v-20c0-0.554 0.446-1 1-1z" fill="#dfdfdf" style="paint-order:stroke fill markers"/>
+  <rect x="29" y="6" width="1" height="1" ry=".5" fill="#dfdfdf" style="paint-order:stroke fill markers"/>
+  <rect x="46" y="6" width="1" height="1" ry=".5" fill="#dfdfdf" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>
