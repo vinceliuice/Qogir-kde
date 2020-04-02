@@ -1,0 +1,15 @@
+<svg version="1.1" viewBox="0 0 54 32" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb">
+ <defs>
+  <style id="current-color-scheme" type="text/css"/>
+ </defs>
+ <g id="start-here-kde" transform="matrix(1.3333 0 0 1.3333 -79.333 0)" fill="#dfdfdf" stroke-linecap="round" stroke-opacity=".494" style="paint-order:stroke fill markers">
+  <path transform="matrix(.75 0 0 .75 59.5 0)" d="m38 1a15 15 0 0 0-15 15 15 15 0 0 0 15 15 15 15 0 0 0 15-15 15 15 0 0 0-15-15zm0 1a14 14 0 0 1 14 14 14 14 0 0 1-14 14 14 14 0 0 1-14-14 14 14 0 0 1 14-14z" stroke-width=".956"/>
+  <path d="m96.25 16.5h-11.25l5.25-9.75z" opacity=".5" stroke-width=".75"/>
+  <path d="m92.5 16.5h-12.75l6-12z" stroke-width=".75"/>
+ </g>
+ <g id="22-22-start-here-kde" transform="matrix(1.375 0 0 1.375 -5.5 -8.125)" fill="#dfdfdf" stroke-linecap="round">
+  <path d="m17.091 21.909h-6.5455l3.6364-5.8182z" opacity=".5" stroke-opacity=".494" stroke-width=".727" style="paint-order:stroke fill markers"/>
+  <path d="m14.909 21.909h-8l3.6364-8z" stroke-opacity=".494" stroke-width=".727" style="paint-order:stroke fill markers"/>
+  <path transform="matrix(.72727 0 0 .72727 4 5.9091)" d="m11 8a10 10 0 0 0-10 10 10 10 0 0 0 10 10 10 10 0 0 0 10-10 10 10 0 0 0-10-10zm0 1a9 9 0 0 1 9 9 9 9 0 0 1-9 9 9 9 0 0 1-9-9 9 9 0 0 1 9-9z" fill-rule="evenodd" stroke-linejoin="round" stroke-width="24.001" style="paint-order:fill markers stroke"/>
+ </g>
+</svg>

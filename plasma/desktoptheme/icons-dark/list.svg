@@ -1,0 +1,13 @@
+<svg id="svg" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css"/>
+ </defs>
+ <g id="list-add">
+  <path d="M10 3v7H3v2.1h7V19h2v-6.9h7V10h-7V3z" color="#7b7c7e" fill="#dfdfdf"/>
+  <path d="M0 0h22v22H0z" fill="#566060" fill-opacity="0"/>
+ </g>
+ <g id="list-remove" transform="translate(22)">
+  <path d="M11 3a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm0 1a7 7 0 0 1 7 7 6.947 6.947 0 0 1-1.719 4.594L6.406 5.719A6.947 6.947 0 0 1 11 4zM5.719 6.406l9.875 9.875A6.947 6.947 0 0 1 11 18a7 7 0 0 1-7-7c0-1.762.644-3.363 1.719-4.594z" fill="#e74c3c" font-family="Sans" font-weight="400" overflow="visible" style="block-progression:tb;text-decoration-line:none;text-indent:0;text-transform:none"/>
+  <path d="M0 0h22v22H0z" fill="#566060" fill-opacity="0"/>
+ </g>
+</svg>

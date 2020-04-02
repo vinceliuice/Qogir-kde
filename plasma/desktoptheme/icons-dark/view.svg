@@ -1,0 +1,23 @@
+<svg version="1.1" viewBox="0 0 54 64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#dfdfdf}</style>
+ </defs>
+ <g id="22-22-view-refresh">
+  <path class="ColorScheme-Text" d="M11 13c-1.442 0-2.803.37-3.969 1.031l.719.688.063.062 2.75 2.781.718-.718-2.5-2.469A6.935 6.935 0 0 1 11 14c3.878 0 7 3.122 7 7a6.992 6.992 0 0 1-.781 3.219l.75.75A8.023 8.023 0 0 0 19 21c0-4.432-3.568-8-8-8zm-6.969 4.031A8.023 8.023 0 0 0 3 21c0 4.432 3.568 8 8 8 1.442 0 2.803-.37 3.969-1.031l-.688-.688-.062-.062-2.781-2.782-.688.72 2.469 2.468A6.935 6.935 0 0 1 11 28c-3.878 0-7-3.122-7-7 0-1.163.284-2.256.781-3.219l-.75-.75z" fill="currentColor"/>
+  <path d="M0 10v22h22V10H0z" fill="none"/>
+ </g>
+ <g id="view-refresh">
+  <path class="ColorScheme-Text" d="M38 4a12 12 0 0 0-6.084 1.672l5.377 5.378.707-.71-4.404-4.404A11 11 0 0 1 38 5a11 11 0 0 1 11 11 11 11 0 0 1-1.404 5.352l.732.728A12 12 0 0 0 50 16 12 12 0 0 0 38 4M27.672 9.916A12 12 0 0 0 26 16a12 12 0 0 0 12 12 12 12 0 0 0 6.084-1.672l-5.377-5.379-.707.707 4.406 4.404A11 11 0 0 1 38 27a11 11 0 0 1-11-11 11 11 0 0 1 1.404-5.352z" fill="currentColor"/>
+  <path d="M22 0v32h32V0H22z" fill="none"/>
+ </g>
+ <g id="22-22-view-history" transform="translate(0 32)">
+  <path class="ColorScheme-Text" d="m11 13c-4.432 0-8 3.568-8 8s3.568 8 8 8 8-3.568 8-8-3.568-8-8-8zm0 1c3.878 0 7 3.122 7 7s-3.122 7-7 7-7-3.122-7-7 3.122-7 7-7zm-1 1v7h6v-1h-5v-6h-1z" fill="currentColor"/>
+  <path d="M0 10v22h22V10H0z" fill="none"/>
+ </g>
+ <g id="view-history" transform="translate(22,32)">
+  <circle cx="16" cy="16" r="14" fill="#9575cd" stroke="#7d5eb6" stroke-width="2"/>
+  <circle cx="16" cy="16" r="14" fill="#9575cd"/>
+  <rect width="32" height="32" rx="0" ry="0" opacity="0" stroke-width="2" style="paint-order:fill markers stroke"/>
+  <path d="m16.25 7.25a8.75 8.75 0 0 0-8.75 8.75h-2.5l3.75 5 3.75-5h-2.5a6.25 6.25 0 0 1 6.25-6.25 6.25 6.25 0 0 1 6.25 6.25 6.25 6.25 0 0 1-6.25 6.25v2.5a8.75 8.75 0 0 0 8.75-8.75 8.75 8.75 0 0 0-8.75-8.75zm-1.25 4.375v5.3345l4.0284 2.6855 0.69335-1.04-3.4716-2.3145v-4.6655z" enable-background="new" fill="#f9f9f9"/>
+ </g>
+</svg>

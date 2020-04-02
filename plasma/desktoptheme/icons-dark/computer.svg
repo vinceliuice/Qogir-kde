@@ -1,0 +1,37 @@
+<svg width="70" height="64" version="1.0" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#dfdfdf}</style>
+ </defs>
+ <g id="22-22-computer" transform="matrix(.75 0 0 .75 -273.43 -345.6)">
+  <path d="m385.9 516.8h29.333v29.333h-29.333z" fill="#00000f" fill-opacity=".004" opacity=".01"/>
+  <path class="ColorScheme-Text" transform="translate(364.57 460.8) scale(1.3333)" d="M17 45v14h7v2h-2v1h10v-1h-2v-2h7V45zm1 1h18v11H18zm7 13h4v2h-4z" fill="currentColor"/>
+ </g>
+ <g id="22-22-computer-laptop" transform="matrix(.75 0 0 .75 -168 -765.27)">
+  <path d="m245.33 1033.7h29.333v29.333h-29.333z" fill="#dfdfdf" fill-opacity=".004" opacity=".01"/>
+  <path class="ColorScheme-Text" transform="matrix(1.3333 0 0 1.3333 224 1020.4)" d="M18 13v14h-1a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2h-1V13H18zm1 1h16v12H19V14z" fill="currentColor"/>
+ </g>
+ <g id="16-16-computer" transform="matrix(.54507 0 0 .54507 -210.34 -233.68)">
+  <path d="m385.9 516.8h29.333v29.333h-29.333z" fill="#00000f" fill-opacity=".004" opacity=".01"/>
+  <path class="ColorScheme-Text" d="m393.24 540.64h14.677v1.843h-14.677zm4.662-1.826h5.333v1.826h-5.333zm-10.167-18.339v18.339h25.667v-18.339zm1.836 1.827h22.016v12.842h-22.016z" fill="currentColor"/>
+ </g>
+ <g id="16-16-computer-laptop" transform="matrix(.54546 0 0 .54546 -133.82 -547.84)">
+  <path d="m245.33 1033.7h29.333v29.333h-29.333z" fill="#dfdfdf" fill-opacity=".004" opacity=".01"/>
+  <path class="ColorScheme-Text" d="m250.98 1041v12.833h-3.733c0 2 2.417 3.667 2.417 3.667h20.666s2.417-1.667 2.417-3.667h-3.434v-12.833zm1.833 1.833h14.667v9.167h-14.667z" fill="currentColor"/>
+ </g>
+ <g id="computer" transform="translate(-79.424 -3.5254)">
+  <g transform="translate(356.77 109.85)">
+   <path d="m-226.11-52.322c-0.404 0-0.73 0.275-0.729 0.616v4.845l-2.277 0.154c-0.404 0-0.728 0.275-0.728 0.616v0.769h13v-0.769c0-0.34-0.325-0.616-0.729-0.616l-2.267-0.154v-4.845c0-0.341-0.325-0.616-0.729-0.616z" fill="none" stroke="#42557f" stroke-opacity=".291"/>
+   <path d="m-225.89-52.405c-0.26 0-0.452 0.184-0.45 0.407v5.349l-2.545 0.184h-0.01c-0.26 0-0.45 0.184-0.45 0.407v0.269h12v-0.269c0-0.223-0.19-0.407-0.45-0.407h-0.012l-2.543-0.184v-5.349c0-0.223-0.19-0.407-0.45-0.407z" fill="#fafafa"/>
+   <rect x="-237.85" y="-71.322" width="29" height="19" rx="1" ry="1" fill="#434855" stroke="#252831" stroke-dashoffset=".5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".784"/>
+   <path d="m-237.35-70.822h28v18h-28z" fill="#5294e2" fill-rule="evenodd"/>
+  </g>
+  <rect x="117.42" y="35.525" width="32" height="32" opacity="0" stroke-width=".75158"/>
+ </g>
+ <g id="computer-laptop" transform="translate(-37 1)">
+  <rect x="77.527" y="5.5273" width="26.945" height="18.945" rx=".92912" ry=".99742" fill="#434855" stroke="#252831" stroke-dashoffset=".5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".784" stroke-width="1.0546"/>
+  <path d="m78 6h26v18h-26z" fill="#5294e2" fill-rule="evenodd" stroke-width="1.0607"/>
+  <rect x="75" y="-1" width="32" height="32" opacity="0" stroke-width=".75158"/>
+  <rect x="76" y="25" width="30" height="1" rx="0" ry="0" fill="#fafafa" opacity=".65" stroke="#415380" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".29" stroke-width="2" style="paint-order:markers stroke fill"/>
+  <rect x="76" y="25" width="30" height="1" rx="0" ry="0" fill="#fafafa" opacity=".65" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>

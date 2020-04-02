@@ -1,0 +1,13 @@
+<svg id="svg" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#5c616c}</style>
+ </defs>
+ <g id="wallet-open">
+  <path class="ColorScheme-Text" d="M3 3v4H2v11c0 .554.446 1 1 1h17V8c0-.554-.446-1-1-1h-5V3zm1 1h9v3h-2.508A2.5 2.5 0 0 0 8.5 6a2.5 2.5 0 0 0-1.998 1H4zM3 8h16v3h-7c-1.108 0-2 .892-2 2s.892 2 2 2h7v3H3zm10 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="#dfdfdf"/>
+  <path d="M0 0h22v22H0z" fill="none"/>
+ </g>
+ <g id="wallet-closed" transform="translate(-18.741)">
+  <path class="ColorScheme-Text" d="m48.741 7v11c0 0.554 0.446 1 1 1h17v-11c0-0.554-0.446-1-1-1h-16zm1 1h16v3h-7c-1.108 0-2 0.892-2 2s0.892 2 2 2h7v3h-16zm10 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" color="#5c616c" fill="#dfdfdf"/>
+  <path d="m46.741 0h22v22h-22z" fill="none"/>
+ </g>
+</svg>

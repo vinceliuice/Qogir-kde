@@ -1,0 +1,64 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <g id="disk-quota" transform="translate(-326,-534.36)">
+  <g transform="translate(329,537.36)" fill="#dfdfdf">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+  </g>
+  <rect x="326" y="534.36" width="22" height="22" clip-rule="evenodd" fill-opacity="0" stroke-linejoin="round" stroke-miterlimit="1.4142" stroke-width=".54635"/>
+  <path d="m337 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="#dfdfdf" opacity=".3"/>
+  <circle cx="337" cy="545.36" r="2" fill="#dfdfdf"/>
+ </g>
+ <g id="disk-quota-missing" transform="translate(-326,-534.36)">
+  <g transform="translate(353,537.36)" fill="#dfdfdf">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+  </g>
+  <rect x="350" y="534.36" width="22" height="22" clip-rule="evenodd" fill-opacity="0" stroke-linejoin="round" stroke-miterlimit="1.4142" stroke-width=".54635"/>
+  <path d="m361 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="#dfdfdf" opacity=".3"/>
+  <circle cx="361" cy="545.36" r="2" fill="#dfdfdf"/>
+  <path d="m370 545.36c-0.55228 0-1 0.44772-1 1s0.44772 4 1 4 1-3.4477 1-4-0.44772-1-1-1zm0 6a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" fill="#f47750"/>
+ </g>
+ <g id="disk-quota-critical" transform="translate(-255,-534.36)">
+  <g transform="translate(353,537.36)" fill="#dfdfdf">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+  </g>
+  <rect x="350" y="534.36" width="22" height="22" clip-rule="evenodd" fill-opacity="0" stroke-linejoin="round" stroke-miterlimit="1.4142" stroke-width=".54635"/>
+  <path d="m361 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="#e74c3c" opacity=".3"/>
+  <circle cx="361" cy="545.36" r="2" fill="#e74c3c"/>
+  <path d="m370 545.36c-0.55228 0-1 0.44772-1 1s0.44772 4 1 4 1-3.4477 1-4-0.44772-1-1-1zm0 6a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" fill="#e74c3c"/>
+ </g>
+ <g id="disk-quota-low" transform="translate(-278,-534.36)">
+  <g transform="translate(329,537.36)" fill="#dfdfdf">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+  </g>
+  <rect x="326" y="534.36" width="22" height="22" clip-rule="evenodd" fill-opacity="0" stroke-linejoin="round" stroke-miterlimit="1.4142" stroke-width=".54635"/>
+  <path d="m337 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="#fdbc4b" opacity=".3"/>
+  <circle cx="337" cy="545.36" r="2" fill="#fdbc4b"/>
+ </g>
+ <g id="disk-quota-high" transform="translate(-255,-534.36)">
+  <g transform="translate(329,537.36)" fill="#dfdfdf">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5" style="paint-order:stroke fill markers"/>
+  </g>
+  <rect x="326" y="534.36" width="22" height="22" clip-rule="evenodd" fill-opacity="0" stroke-linejoin="round" stroke-miterlimit="1.4142" stroke-width=".54635"/>
+  <path d="m337 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="#e74c3c" opacity=".3"/>
+  <circle cx="337" cy="545.36" r="2" fill="#e74c3c"/>
+ </g>
+</svg>
