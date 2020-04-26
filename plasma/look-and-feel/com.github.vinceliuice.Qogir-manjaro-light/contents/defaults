@@ -1,5 +1,5 @@
-[kdeglobals][KDE]
-widgetStyle=kvantum
+[kcminputrc][Mouse]
+cursorTheme=Qogir-manjaro
 
 [kdeglobals][General]
 ColorScheme=Qogirmanjarolight
@@ -7,8 +7,14 @@ ColorScheme=Qogirmanjarolight
 [kdeglobals][Icons]
 Theme=Qogir-manjaro
 
-[plasmarc][Theme]
-name=Qogir-manjaro
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kwinrc][DesktopSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kwinrc][WindowSwitcher]
+LayoutName=org.kde.breeze.desktop
 
 [kwinrc][org.kde.kdecoration2]
 BorderSize=None
@@ -17,5 +23,5 @@ ButtonsOnRight=IAX
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Qogir-light-circle
 
-[kcminputrc][Mouse]
-cursorTheme=Qogir-cursors
+[plasmarc][Theme]
+name=Qogir-manjaro

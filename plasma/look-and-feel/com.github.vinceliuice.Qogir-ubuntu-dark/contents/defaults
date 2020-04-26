@@ -1,5 +1,5 @@
-[kdeglobals][KDE]
-widgetStyle=kvantum
+[kcminputrc][Mouse]
+cursorTheme=Qogir-ubuntu-dark
 
 [kdeglobals][General]
 ColorScheme=Qogirubuntudark
@@ -7,8 +7,14 @@ ColorScheme=Qogirubuntudark
 [kdeglobals][Icons]
 Theme=Qogir-ubuntu-dark
 
-[plasmarc][Theme]
-name=Qogir-ubuntu-dark
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kwinrc][DesktopSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kwinrc][WindowSwitcher]
+LayoutName=org.kde.breeze.desktop
 
 [kwinrc][org.kde.kdecoration2]
 BorderSize=None
@@ -17,5 +23,5 @@ ButtonsOnRight=IAX
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Qogir-dark-circle
 
-[kcminputrc][Mouse]
-cursorTheme=Qogir-cursors
+[plasmarc][Theme]
+name=Qogir-ubuntu-dark

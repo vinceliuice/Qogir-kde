@@ -1,20 +1,18 @@
 [Desktop Entry]
-Name=Qogir-manjaro-light
 Comment=Qogir-light theme for kde plasma
 Encoding=UTF-8
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
-
+Name=Qogir-manjaro-light
 Type=Service
-
-X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-ParentApp=
 X-KDE-PluginInfo-Author=Vince Liuice
 X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
 X-KDE-PluginInfo-License=GPL3.0
 X-KDE-PluginInfo-Name=com.github.vinceliuice.Qogir-manjaro-light
-X-KDE-PluginInfo-Version=
+X-KDE-PluginInfo-Version=0.1
 X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Qogir-kde
+X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults
-X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1298431,kns://plasma-themes.knsrc/api.kde-look.org/1366185,kns://aurorae.knsrc/api.kde-look.org/1298366,kns://icons.knsrc/api.kde-look.org/1296407,kns://wallpaper.knsrc/api.kde-look.org/1308425,kns://sddmtheme.knsrc/api.kde-look.org/1311077,kns://xcursor.knsrc/api.kde-look.org/1366182,kns://cgcgtk3.knsrc/api.kde-look.org/1230631
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1298431,kns://plasma-themes.knsrc/api.kde-look.org/1366185,kns://aurorae.knsrc/api.kde-look.org/1298366,kns://icons.knsrc/api.kde-look.org/1296407,kns://wallpaper.knsrc/api.kde-look.org/1308425,kns://sddmtheme.knsrc/api.kde-look.org/1311077,kns://xcursor.knsrc/api.kde-look.org/1366182

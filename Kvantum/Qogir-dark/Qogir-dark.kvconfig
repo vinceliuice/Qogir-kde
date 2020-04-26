@@ -144,7 +144,7 @@ frame.expansion=6
 [PanelButtonTool]
 inherits=PanelButtonCommand
 text.normal.color=#5c616c
-text.focus.color=#32343D
+text.focus.color=#d3dae3
 text.press.color=white
 text.toggle.color=white
 text.bold=false
