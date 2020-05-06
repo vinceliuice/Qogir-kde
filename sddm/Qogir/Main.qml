@@ -37,6 +37,7 @@ PlasmaCore.ColorScope {
     readonly property bool softwareRendering: GraphicsInfo.api === GraphicsInfo.Software
 
     colorGroup: PlasmaCore.Theme.ComplementaryColorGroup
+    readonly property bool lightBackground: Math.max(PlasmaCore.ColorScope.backgroundColor.r, PlasmaCore.ColorScope.backgroundColor.g, PlasmaCore.ColorScope.backgroundColor.b) > 0.5
 
     width: 1600
     height: 900
@@ -130,7 +131,7 @@ PlasmaCore.ColorScope {
             radius: 6
             samples: 14
             spread: 0.3
-            color: "black" // matches Breeze window decoration and desktopcontainment
+            color: root.lightBackground ? PlasmaCore.ColorScope.backgroundColor : "black" // black matches Breeze window decoration and desktopcontainment
             Behavior on opacity {
                 OpacityAnimator {
                     duration: 1000
@@ -146,7 +147,6 @@ PlasmaCore.ColorScope {
             y: (userListComponent.userList.y + mainStack.y)/2 - height/2
             anchors.horizontalCenter: parent.horizontalCenter
         }
-
 
         StackView {
             id: mainStack
@@ -181,6 +181,8 @@ PlasmaCore.ColorScope {
                         return (userList.y + mainStack.y) > 0
 
                     if ( userListModel.count === 0 ) return false
+
+                    if ( userListModel.hasOwnProperty("containsAllUsers") && !userListModel.containsAllUsers ) return false
 
                     return userListModel.count <= userListModel.disableAvatarsThreshold && (userList.y + mainStack.y) > 0
                 }
@@ -383,7 +385,7 @@ PlasmaCore.ColorScope {
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel","Suspend to RAM","Sleep")
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
-                        iconSize: root.generalFontSize * 3
+                        visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/restart_primary.svgz"
@@ -406,6 +408,46 @@ PlasmaCore.ColorScope {
                         visible: !inputPanel.keyboardActive
                     }
                 ]
+            }
+        }
+
+        Image {
+            id: logo
+            visible: config.showlogo == "shown"
+            source: config.logo
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: footer.top
+            anchors.bottomMargin: units.largeSpacing
+            asynchronous: true
+            sourceSize.height: height
+            opacity: loginScreenRoot.uiVisible ? 0 : 1
+            fillMode: Image.PreserveAspectFit
+            height: Math.round(units.gridUnit * 3.5)
+            Behavior on opacity {
+                OpacityAnimator {
+                    duration: units.longDuration
+                    easing.type: Easing.InOutQuad
+                }
+            }
+        }
+
+        DropShadow {
+            id: logoShadow
+            anchors.fill: logo
+            source: logo
+            visible: !softwareRendering && config.showlogo == "shown"
+            horizontalOffset: 1
+            verticalOffset: 1
+            radius: 6
+            samples: 14
+            spread: 0.3
+            color: "black" // matches Breeze window decoration and desktopcontainment
+            opacity: loginScreenRoot.uiVisible ? 0 : 1
+            Behavior on opacity {
+                OpacityAnimator {
+                    duration: units.longDuration
+                    easing.type: Easing.InOutQuad
+                }
             }
         }
 

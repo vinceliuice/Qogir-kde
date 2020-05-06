@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=Qogir-manjaro-dark
+Name=Qogir-ubuntu-dark
 X-KDE-PluginInfo-Author=Vinceliuice
 X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
-X-KDE-PluginInfo-Name=Qogir-manjaro-dark
+X-KDE-PluginInfo-Name=Qogir-ubuntu-dark
 X-KDE-PluginInfo-Version=
 X-KDE-PluginInfo-Website=
 X-KDE-PluginInfo-Category=
@@ -16,3 +16,9 @@ contrast=0.2
 #intensity is disabled, in order to auto adjust to the chosen theme color
 #intensity=2.0
 saturation=1.7
+
+[Wallpaper]
+defaultWallpaperTheme=Qogir-ubuntu-dark
+defaultFileSuffix=.jpg
+defaultWidth=1920
+defaultHeight=1080

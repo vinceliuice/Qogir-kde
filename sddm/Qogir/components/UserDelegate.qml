@@ -41,7 +41,7 @@ Item {
     property int fontSize: config.fontSize
     signal clicked()
 
-    property real faceSize: Math.min(width, height - usernameDelegate.height - units.smallSpacing)
+    property real faceSize: units.gridUnit * 7
 
     opacity: isCurrent ? 1.0 : 0.5
 
@@ -118,7 +118,7 @@ Item {
 
         property var colorBorder: PlasmaCore.ColorScope.textColor
 
-        //draw a circle with an antialised border
+        //draw a circle with an antialiased border
         //innerRadius = size of the inner circle with contents
         //outerRadius = size of the border
         //blend = area to blend between two colours

@@ -49,7 +49,7 @@ install() {
 
   cp -r ${SRC_DIR}/aurorae/themes/*                                                  ${AURORAE_DIR}
   cp -r ${SRC_DIR}/color-schemes/*.colors                                            ${SCHEMES_DIR}
-  cp -r ${SRC_DIR}/wallpaper/${name}                                                 ${WALLPAPER_DIR}
+  cp -r ${SRC_DIR}/wallpaper/${name}${theme}${ELSE_DARK}                             ${WALLPAPER_DIR}
   cp -r ${SRC_DIR}/Kvantum/*                                                         ${KVANTUM_DIR}
   cp -r ${SRC_DIR}/plasma/desktoptheme/${name}${theme}${ELSE_DARK}                   ${PLASMA_DIR}
   cp -r ${SRC_DIR}/plasma/desktoptheme/icons${ELSE_DARK}                             ${PLASMA_DIR}/${name}${theme}${ELSE_DARK}/icons
