@@ -15,4 +15,4 @@ X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Qogir-kde
 X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults
-X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1298431,kns://plasma-themes.knsrc/api.kde-look.org/1298357,kns://aurorae.knsrc/api.kde-look.org/1298366,kns://icons.knsrc/api.kde-look.org/1296407,kns://wallpaper.knsrc/api.kde-look.org/1308425,kns://sddmtheme.knsrc/api.kde-look.org/1311077,kns://xcursor.knsrc/api.kde-look.org/1366182
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1298431,kns://plasma-themes.knsrc/api.kde-look.org/1298357,kns://aurorae.knsrc/api.kde-look.org/1298366,kns://icons.knsrc/api.kde-look.org/1296407,kns://wallpaper.knsrc/api.kde-look.org/1308425,kns://sddmtheme.knsrc/api.kde-look.org/1311077
