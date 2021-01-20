@@ -176,6 +176,13 @@
        r="8.5" />
   </defs>
   <rect
+    style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none"
+    id="hint-tile-center"
+    width="5"
+    height="5"
+    x="0"
+    y="904.36218" />
+  <rect
      style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
      id="decoration-center"
      width="50"
