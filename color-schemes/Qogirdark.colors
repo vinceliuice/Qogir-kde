@@ -2,25 +2,25 @@
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
+ContrastAmount=0.55
 ContrastEffect=1
-IntensityAmount=0.1
-IntensityEffect=2
+IntensityAmount=-0.1
+IntensityEffect=0
 
 [ColorEffects:Inactive]
-ChangeSelectionColor=true
+ChangeSelectionColor=false
 Color=112,111,110
 ColorAmount=0.025
 ColorEffect=2
-ContrastAmount=0.1
+ContrastAmount=0.25
 ContrastEffect=2
 Enable=false
-IntensityAmount=0
+IntensityAmount=-1
 IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=66,68,79
-BackgroundNormal=48,51,61
+BackgroundNormal=40,42,51
 DecorationFocus=82,148,226
 DecorationHover=82,148,226
 ForegroundActive=61,174,233
@@ -28,7 +28,7 @@ ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=211,218,227
+ForegroundNormal=224,229,235
 ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
@@ -44,11 +44,11 @@ BackgroundNormal=82,148,226
 DecorationFocus=82,148,226
 DecorationHover=82,148,226
 ForegroundActive=252,252,252
-ForegroundInactive=211,218,227
+ForegroundInactive=230,235,239
 ForegroundLink=253,188,75
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=211,218,227
+ForegroundNormal=254,253,253
 ForegroundPositive=39,174,96
 ForegroundVisited=189,195,199
 
@@ -76,12 +76,12 @@ ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=211,218,227
+ForegroundNormal=224,229,235
 ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
 [Colors:Window]
-BackgroundAlternate=47,52,63
+BackgroundAlternate=40,42,51
 BackgroundNormal=40,42,51
 DecorationFocus=82,148,226
 DecorationHover=82,148,226
@@ -90,13 +90,13 @@ ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=211,218,227
+ForegroundNormal=230,235,239
 ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
 [General]
 ColorScheme=Qogirdark
-Name=Qogirdark
+Name=Qogirdark-modified
 shadeSortColumn=true
 
 [KDE]
@@ -104,8 +104,8 @@ contrast=4
 
 [WM]
 activeBackground=40,42,51
-activeBlend=47,52,63
-activeForeground=211,218,227
+activeBlend=40,42,51
+activeForeground=177,178,183
 inactiveBackground=40,42,51
 inactiveBlend=47,52,63
 inactiveForeground=102,106,115
