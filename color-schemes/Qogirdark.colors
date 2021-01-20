@@ -2,10 +2,10 @@
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.55
+ContrastAmount=0.65
 ContrastEffect=1
-IntensityAmount=-0.1
-IntensityEffect=0
+IntensityAmount=0.1
+IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=false
