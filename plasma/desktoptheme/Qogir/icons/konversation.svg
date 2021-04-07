@@ -1,0 +1,43 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#5c616c;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#5c616c;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#5c616c;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }</style>
+ </defs>
+ <g transform="translate(-326 -534.36)">
+  <g id="konversation">
+   <path class="ColorScheme-Text" d="m344 538.36-12 3.418v1.043 4.5391 0.58203l1 0.28516v2.1328 0.30078l6 1.6992v-1-1.4238l5 1.4238v-1.043-10.914zm-1 1.3281v10.344l-10-2.8477v-4.6484zm-12 2.375-1 0.28515v0.0117 1 3 1 0.0117l1 0.28516v-0.29688-0.74609-3.5078-0.74609zm3 6.4492 4 1.1387v1.4258l-4-1.1328z" fill="currentColor"/>
+   <rect x="326" y="534.36" width="22" height="22" fill="none"/>
+  </g>
+ </g>
+</svg>

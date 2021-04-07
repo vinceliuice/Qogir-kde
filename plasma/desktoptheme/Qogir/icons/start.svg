@@ -1,0 +1,27 @@
+<svg version="1.1" viewBox="0 0 54 32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">
+    .ColorScheme-Text { color:#5c616c }
+    .ColorScheme-Highlight { color:#3498db }
+    .ColorScheme-NegativeText { color:#e74c3c }
+  </style>
+ </defs>
+ <g id="22-22-start-here-kde">
+  <rect y="10" width="22" height="22" fill="none"/>
+  <path d="m17.455 25h-7.9999l4.4444-7.111z" class="ColorScheme-Text" fill="currentColor" opacity=".5"/>
+  <path d="m14.454 25h-9.9999l4.5455-9.9999z" class="ColorScheme-Text" fill="currentColor"/>
+  <path d="m10.99 12a9 9 0 0 0-8.9902 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9 9 9 0 0 0-0.009766 0zm0.009766 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z" class="ColorScheme-Text" fill="currentColor"/>
+ </g>
+ <g id="start-here-kde">
+  <rect x="22" width="32" height="32" fill="none"/>
+  <path d="m47 21h-12l5.6-10.4z" class="ColorScheme-Text" fill="currentColor" opacity=".5"/>
+  <path d="m42.812 21h-13.812l6.4997-12.999z" class="ColorScheme-Text" fill="currentColor"/>
+  <path d="m37.893 3a13 13 0 0 0-12.893 13 13 13 0 0 0 13 13 13 13 0 0 0 13-13 13 13 0 0 0-13-13 13 13 0 0 0-0.10742 0zm0.10742 1a12 12 0 0 1 12 12 12 12 0 0 1-12 12 12 12 0 0 1-12-12 12 12 0 0 1 12-12z" class="ColorScheme-Text" fill="currentColor"/>
+ </g>
+ <g id="16-16-start-here-kde" transform="translate(4,4)">
+  <rect x="-25" y="10" width="16" height="16" fill="none"/>
+  <path d="m-12.461 21h-5.5385l3.077-4.9231z" class="ColorScheme-Text" fill="currentColor" opacity=".5"/>
+  <path d="m-14.539 21h-6.9231l3.1469-6.9231z" class="ColorScheme-Text" fill="currentColor"/>
+  <path d="m-17.094 11a7 7 0 0 0-6.9062 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7 7 7 0 0 0-0.09375 0zm0.09375 1a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6z" class="ColorScheme-Text" fill="currentColor"/>
+ </g>
+</svg>

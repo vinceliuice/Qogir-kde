@@ -1,0 +1,13 @@
+<svg version="1.1" viewBox="0 0 54 32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#5c616c}</style>
+ </defs>
+ <g id="nepomuk">
+  <path class="ColorScheme-Text" d="M35 4a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 5.994-2.299L49.293 28l.707-.707-8.3-8.3A9 9 0 0 0 44 13a9 9 0 0 0-9-9zm0 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z" fill="currentColor"/>
+  <path d="M22 0v32h32V0H22z" fill="none"/>
+ </g>
+ <g id="22-22-nepomuk">
+  <path class="ColorScheme-Text" d="m9 13c-3.324 0-6 2.676-6 6s2.676 6 6 6c1.4812 0 2.8306-0.53468 3.875-1.418l5.418 5.418 0.70703-0.70703-5.418-5.418c0.88329-1.0444 1.418-2.3938 1.418-3.875 0-3.324-2.676-6-6-6zm0 1c2.77 0 5 2.23 5 5s-2.23 5-5 5c-2.77 0-5-2.23-5-5s2.23-5 5-5z" fill="currentColor"/>
+  <path d="m0 10v22h22v-22z" fill="none"/>
+ </g>
+</svg>

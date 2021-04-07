@@ -1,0 +1,104 @@
+<svg width="128" height="128" version="1.0" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+        stop-color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }</style>
+ </defs>
+ <path id="groove-top" class="ColorScheme-Text" d="m10 7v3h3v-3h-3z" fill="currentColor" opacity=".3"/>
+ <path id="groove-topleft" class="ColorScheme-Text" d="m9 7c-1.6822 0-3 1.3178-3 3h3z" fill="currentColor" opacity=".3"/>
+ <rect id="hint-tile-center" x="2.26" y="4.6594" width="2.0329" height="2.0771" rx="0" ry="2.0771" fill="#4e9a06"/>
+ <path id="groove-topright" class="ColorScheme-Text" d="m17 10c0-1.6822-1.3178-3-3-3v3z" fill="currentColor" opacity=".3"/>
+ <path id="groove-bottom" class="ColorScheme-Text" d="m10 18v-3h3v3h-3z" fill="currentColor" opacity=".3"/>
+ <path id="groove-bottomleft" class="ColorScheme-Text" d="m9 18c-1.6822 0-3-1.3178-3-3h3z" fill="currentColor" opacity=".3"/>
+ <path id="groove-bottomright" class="ColorScheme-Text" d="m17 15c0 1.6822-1.3178 3-3 3v-3z" fill="currentColor" opacity=".3"/>
+ <path id="groove-center" class="ColorScheme-Text" d="m10 11v3h3v-3h-3z" fill="currentColor" opacity=".3"/>
+ <path id="groove-left" class="ColorScheme-Text" d="m6 11v3h3v-3h-3z" fill="currentColor" opacity=".3"/>
+ <path id="groove-right" class="ColorScheme-Text" d="m14 11v3h3v-3h-3z" fill="currentColor" opacity=".3"/>
+ <path id="groove-highlight-top" class="ColorScheme-ButtonHover" d="m28 7v3h3v-3h-3z" fill="currentColor"/>
+ <path id="groove-highlight-topleft" class="ColorScheme-ButtonHover" d="m27 7c-1.6822 0-3 1.3178-3 3h3z" fill="currentColor"/>
+ <path id="groove-highlight-topright" class="ColorScheme-ButtonHover" d="m35 10c0-1.6822-1.3178-3-3-3v3z" fill="currentColor"/>
+ <path id="groove-highlight-bottom" class="ColorScheme-ButtonHover" d="m28 18v-3h3v3h-3z" fill="currentColor"/>
+ <path id="groove-highlight-bottomleft" class="ColorScheme-ButtonHover" d="m27 18c-1.6822 0-3-1.3178-3-3h3z" fill="currentColor"/>
+ <path id="groove-highlight-bottomright" class="ColorScheme-ButtonHover" d="m35 15c0 1.6822-1.3178 3-3 3v-3z" fill="currentColor"/>
+ <path id="groove-highlight-center" class="ColorScheme-ButtonHover" d="m28 11v3h3v-3h-3z" fill="currentColor"/>
+ <path id="groove-highlight-left" class="ColorScheme-ButtonHover" d="m24 11v3h3v-3h-3z" fill="currentColor"/>
+ <path id="groove-highlight-right" class="ColorScheme-ButtonHover" d="m32 11v3h3v-3h-3z" fill="currentColor"/>
+ <g id="horizontal-slider-hover" transform="translate(24,2)">
+  <rect x="14" y="96" width="24" height="24" fill="#000000" fill-opacity=".0039216" opacity=".001"/>
+  <path class="ColorScheme-ButtonHover" d="m26 98c-5.5228 0-10 4.4771-10 10s4.4772 10 10 10 10-4.4772 10-10-4.4772-10-10-10zm0 1c4.9706 0 9 4.0294 9 9s-4.0294 9-9 9-9-4.0294-9-9 4.0294-9 9-9z" fill="currentColor"/>
+ </g>
+ <g id="horizontal-slider-focus" transform="translate(52,2)">
+  <rect x="14" y="96" width="24" height="24" fill="#000000" fill-opacity=".0039216" opacity=".001"/>
+  <path class="ColorScheme-ButtonFocus" d="m26 98c-5.5228 0-10 4.4771-10 10s4.4772 10 10 10 10-4.4772 10-10-4.4772-10-10-10zm0 1c4.9706 0 9 4.0294 9 9s-4.0294 9-9 9-9-4.0294-9-9 4.0294-9 9-9z" fill="currentColor"/>
+ </g>
+ <g id="horizontal-slider-handle" transform="matrix(1.2,0,0,1.2,-2.2,63.2)">
+  <rect transform="matrix(.83333 0 0 .83333 -5.6667 -6)" x="14" y="42" width="24" height="24" fill="#000000" fill-opacity=".0039216" opacity=".001"/>
+  <path class="ColorScheme-ButtonText" transform="matrix(2.0833 0 0 2.0833 -13.167 -44.333)" d="m18 40a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4 4 4 0 0 1 4 4z" fill="currentColor" opacity=".5"/>
+  <circle class="ColorScheme-ButtonBackground" transform="matrix(1.875,0,0,1.875,-10.25,-36)" cx="14" cy="40" r="4" fill="currentColor"/>
+ </g>
+ <g id="vertical-slider-hover" transform="translate(24,-34)">
+  <rect x="14" y="96" width="24" height="24" fill="#000000" fill-opacity=".0039216" opacity=".001"/>
+  <path class="ColorScheme-ButtonHover" d="m26 98c-5.5228 0-10 4.4771-10 10s4.4772 10 10 10 10-4.4772 10-10-4.4772-10-10-10zm0 1c4.9706 0 9 4.0294 9 9s-4.0294 9-9 9-9-4.0294-9-9 4.0294-9 9-9z" fill="currentColor"/>
+ </g>
+ <g id="vertical-slider-focus" transform="translate(52,-34)">
+  <rect x="14" y="96" width="24" height="24" fill="#000000" fill-opacity=".0039216" opacity=".001"/>
+  <path class="ColorScheme-ButtonFocus" d="m26 98c-5.5228 0-10 4.4771-10 10s4.4772 10 10 10 10-4.4772 10-10-4.4772-10-10-10zm0 1c4.9706 0 9 4.0294 9 9s-4.0294 9-9 9-9-4.0294-9-9 4.0294-9 9-9z" fill="currentColor"/>
+ </g>
+ <g id="vertical-slider-handle" transform="matrix(1.2,0,0,1.2,-2.2,27.2)">
+  <rect transform="matrix(.83333 0 0 .83333 -5.6667 -6)" x="14" y="42" width="24" height="24" fill="#000000" fill-opacity=".0039216" opacity=".001"/>
+  <path class="ColorScheme-ButtonText" transform="matrix(2.0833 0 0 2.0833 -13.167 -44.333)" d="m18 40a4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4 4 4 0 0 1 4 4z" fill="currentColor" opacity=".5"/>
+  <circle class="ColorScheme-ButtonBackground" transform="matrix(1.875,0,0,1.875,-10.25,-36)" cx="14" cy="40" r="4" fill="currentColor"/>
+ </g>
+ <g id="horizontal-slider-shadow" fill="#000000" opacity="0">
+  <rect x="96" y="98" width="24" height="24" fill-opacity=".0039216" opacity=".001"/>
+  <path d="m108 99c-6.0751 0-11 4.9249-11 11s4.9249 11 11 11 11-4.9249 11-11-4.9249-11-11-11zm0 1c5.5228 0 10 4.4772 10 10s-4.4772 10-10 10-10-4.4772-10-10 4.4772-10 10-10z" color="#3daee9" opacity=".05"/>
+  <path d="m115.72 103.62c1.4266 1.7286 2.2812 3.9588 2.2812 6.375 0 2.7696-1.1496 5.2516-2.9688 7.0625-1.8084 1.8002-4.278 2.9375-7.0312 2.9375-2.7614 0-5.2528-1.1279-7.0625-2.9375 1.8342 2.2225 4.6122 3.625 7.7188 3.625 5.5228 0 10-4.4772 10-10 0-2.7614-1.1279-5.2529-2.9375-7.0625z" color="#3daee9" opacity=".15"/>
+ </g>
+ <g id="vertical-slider-shadow" transform="translate(3,-36)" fill="#000000" opacity="0">
+  <rect x="96" y="98" width="24" height="24" fill-opacity=".0039216" opacity=".001"/>
+  <path d="m108 99c-6.0751 0-11 4.9249-11 11s4.9249 11 11 11 11-4.9249 11-11-4.9249-11-11-11zm0 1c5.5228 0 10 4.4772 10 10s-4.4772 10-10 10-10-4.4772-10-10 4.4772-10 10-10z" color="#3daee9" opacity=".05"/>
+  <path d="m115.72 103.62c1.4266 1.7286 2.2812 3.9588 2.2812 6.375 0 2.7696-1.1496 5.2516-2.9688 7.0625-1.8084 1.8002-4.278 2.9375-7.0312 2.9375-2.7614 0-5.2528-1.1279-7.0625-2.9375 1.8342 2.2225 4.6122 3.625 7.7188 3.625 5.5228 0 10-4.4772 10-10 0-2.7614-1.1279-5.2529-2.9375-7.0625z" color="#3daee9" opacity=".15"/>
+ </g>
+ <circle id="hint-handle-size" cx="52" cy="16" r="10" fill="#31363b"/>
+</svg>

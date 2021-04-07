@@ -1,0 +1,132 @@
+<svg width="128" height="128" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-Background{
+        color:#eff0f1;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground{
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground{
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }</style>
+  <linearGradient>
+   <stop stop-color="#888888" offset="0"/>
+   <stop stop-color="#232323" offset="1"/>
+  </linearGradient>
+  <linearGradient>
+   <stop stop-color="#ffffff" stop-opacity=".78431" offset="0"/>
+   <stop stop-color="#ffffff" stop-opacity=".19608" offset="1"/>
+  </linearGradient>
+  <linearGradient>
+   <stop stop-color="#ffffff" offset="0"/>
+   <stop stop-color="#b4b4b4" offset="1"/>
+  </linearGradient>
+  <linearGradient osb:paint="solid">
+   <stop stop-color="#ffffff" offset="0"/>
+  </linearGradient>
+  <linearGradient>
+   <stop stop-color="#000000" stop-opacity=".078431" offset="0"/>
+   <stop stop-color="#000000" stop-opacity=".31373" offset="1"/>
+  </linearGradient>
+  <linearGradient>
+   <stop stop-color="#fafafa" offset="0"/>
+   <stop stop-color="#e2e2e2" stop-opacity=".70588" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect id="hint-tile-center" x="-10" width="5.2208" height="5.4026" fill="#023812" opacity=".65"/>
+ <g id="vertical-centerindicator" transform="translate(1,-28)">
+  <rect class="ColorScheme-Background" x="11" y="32" width="42" height="1" fill="currentColor" opacity=".4"/>
+ </g>
+ <g id="horizontal-centerindicator" transform="translate(-4,17)">
+  <path class="ColorScheme-Background" transform="rotate(-90)" d="m-31 8h42v1h-42z" fill="currentColor" opacity=".4"/>
+ </g>
+ <g id="south-maxslider" transform="matrix(.73969 0 0 .73969 161.53 126.21)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" x="8" y="57" width="36" height="15" rx="3" ry="3" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <rect class="ColorScheme-Background" x="-73.716" y="-101.67" width="2.7039" height="14.871" fill="currentColor"/>
+  <path class="ColorScheme-Background" transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" d="m19.688 59.156-0.75 0.6875 4.1562 4.1562h-12.094v1h12.094l-4.1562 4.1562 0.6875 0.6875 5-5 0.375-0.34375-0.375-0.34375z" fill="currentColor"/>
+ </g>
+ <g id="south-offsetslider" transform="matrix(.73969 0 0 .73969 129.53 125.2)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -37.218 -180.08)" x="-40" y="56" width="28" height="19" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <path class="ColorScheme-Background" d="m-72.266-88.185 9.733-13.48h-19.466z" fill="currentColor"/>
+ </g>
+ <rect id="south-center" class="ColorScheme-ButtonFocus" x="71" y="66" width="10" height="12" fill="currentColor" opacity=".8"/>
+ <rect id="south-bottom" class="ColorScheme-ButtonFocus" x="71" y="78" width="10" height="1" fill="currentColor" opacity=".8"/>
+ <rect id="south-top" class="ColorScheme-ButtonFocus" x="71" y="65" width="10" height="1" fill="currentColor" opacity=".8"/>
+ <rect id="north-center" class="ColorScheme-ButtonFocus" x="70" y="29" width="10" height="12" fill="currentColor" opacity=".8"/>
+ <rect id="north-bottom" class="ColorScheme-ButtonFocus" x="70" y="41" width="10" height="1" fill="currentColor" opacity=".8"/>
+ <rect id="north-top" class="ColorScheme-ButtonFocus" x="70" y="28" width="10" height="1" fill="currentColor" opacity=".8"/>
+ <rect id="west-center" class="ColorScheme-ButtonFocus" transform="rotate(90)" x="113" y="-18" width="10" height="12" fill="currentColor" opacity=".8"/>
+ <rect id="west-left" class="ColorScheme-ButtonFocus" transform="rotate(90)" x="113" y="-6" width="10" height="1" fill="currentColor" opacity=".8"/>
+ <rect id="west-right" class="ColorScheme-ButtonFocus" transform="rotate(90)" x="113" y="-19" width="10" height="1" fill="currentColor" opacity=".8"/>
+ <rect id="east-center" class="ColorScheme-ButtonFocus" transform="rotate(90)" x="112" y="-90" width="10" height="12" fill="currentColor" opacity=".8"/>
+ <rect id="east-left" class="ColorScheme-ButtonFocus" transform="rotate(90)" x="112" y="-78" width="10" height="1" fill="currentColor" opacity=".8"/>
+ <rect id="east-right" class="ColorScheme-ButtonFocus" transform="rotate(90)" x="112" y="-91" width="10" height="1" fill="currentColor" opacity=".8"/>
+ <g id="south-minslider" transform="matrix(-.73969 0 0 .73969 54.474 141.21)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" x="8" y="57" width="36" height="15" rx="3" ry="3" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <rect class="ColorScheme-Background" x="-73.716" y="-101.67" width="2.7039" height="14.871" fill="currentColor"/>
+  <path class="ColorScheme-Background" transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" d="m19.625 59.156-0.6875 0.6875 4.1562 4.1562h-12.094v1h12.094l-4.1562 4.1562 0.6875 0.6875 5-5 0.375-0.34375-0.375-0.34375z" fill="currentColor"/>
+ </g>
+ <g id="north-maxslider" transform="matrix(.73969 0 0 .73969 161.53 84.707)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" x="8" y="57" width="36" height="15" rx="3" ry="3" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <rect class="ColorScheme-Background" x="-73.716" y="-101.67" width="2.7039" height="14.871" fill="currentColor"/>
+  <path class="ColorScheme-Background" transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" d="m19.688 59.156-0.75 0.6875 4.1562 4.1562h-12.094v1h12.094l-4.1562 4.1562 0.6875 0.6875 5-5 0.375-0.34375-0.375-0.34375z" fill="currentColor"/>
+ </g>
+ <g id="north-offsetslider" transform="matrix(.73969 0 0 -.73969 127.53 -57.2)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -37.218 -180.08)" x="-40" y="56" width="28" height="19" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <path class="ColorScheme-Background" d="m-72.266-88.185 9.733-13.48h-19.466z" fill="currentColor"/>
+ </g>
+ <g id="north-minslider" transform="matrix(-.73969 0 0 .73969 54.474 99.707)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" x="8" y="57" width="36" height="15" rx="3" ry="3" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <rect class="ColorScheme-Background" x="-73.716" y="-101.67" width="2.7039" height="14.871" fill="currentColor"/>
+  <path class="ColorScheme-Background" transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" d="m19.625 59.156-0.6875 0.6875 4.1562 4.1562h-12.094v1h12.094l-4.1562 4.1562 0.6875 0.6875 5-5 0.375-0.34375-0.375-0.34375z" fill="currentColor"/>
+ </g>
+ <g id="east-maxslider" transform="matrix(0 .73969 -.73969 0 33.793 153.53)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" x="8" y="57" width="36" height="15" rx="3" ry="3" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <rect class="ColorScheme-Background" x="-73.716" y="-101.67" width="2.7039" height="14.871" fill="currentColor"/>
+  <path class="ColorScheme-Background" transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" d="m19.688 59.156-0.75 0.6875 4.1562 4.1562h-12.094v1h12.094l-4.1562 4.1562 0.6875 0.6875 5-5 0.375-0.34375-0.375-0.34375z" fill="currentColor"/>
+ </g>
+ <g id="east-offsetslider" transform="matrix(0 .73969 .73969 0 153.2 149.53)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -37.218 -180.08)" x="-40" y="56" width="28" height="19" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <path class="ColorScheme-Background" d="m-72.266-88.185 9.733-13.48h-19.466z" fill="currentColor"/>
+ </g>
+ <g id="east-minslider" transform="matrix(0 -.73969 -.73969 0 49.793 46.474)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" x="8" y="57" width="36" height="15" rx="3" ry="3" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <rect class="ColorScheme-Background" x="-73.716" y="-101.67" width="2.7039" height="14.871" fill="currentColor"/>
+  <path class="ColorScheme-Background" transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" d="m19.625 59.156-0.6875 0.6875 4.1562 4.1562h-12.094v1h12.094l-4.1562 4.1562 0.6875 0.6875 5-5 0.375-0.34375-0.375-0.34375z" fill="currentColor"/>
+ </g>
+ <g id="west-maxslider" transform="matrix(0 .73969 -.73969 0 -38.207 153.53)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" x="8" y="57" width="36" height="15" rx="3" ry="3" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <rect class="ColorScheme-Background" x="-73.716" y="-101.67" width="2.7039" height="14.871" fill="currentColor"/>
+  <path class="ColorScheme-Background" transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" d="m19.688 59.156-0.75 0.6875 4.1562 4.1562h-12.094v1h12.094l-4.1562 4.1562 0.6875 0.6875 5-5 0.375-0.34375-0.375-0.34375z" fill="currentColor"/>
+ </g>
+ <g id="west-offsetslider" transform="matrix(0 .73969 -.73969 0 -57.2 149.53)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -37.218 -180.08)" x="-40" y="56" width="28" height="19" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <path class="ColorScheme-Background" d="m-72.266-88.185 9.733-13.48h-19.466z" fill="currentColor"/>
+ </g>
+ <g id="west-minslider" transform="matrix(0 -.73969 -.73969 0 -18.707 46.474)">
+  <rect transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" x="8" y="57" width="36" height="15" rx="3" ry="3" fill="#fcfcfc" fill-opacity=".0039216" opacity=".01"/>
+  <rect class="ColorScheme-Background" x="-73.716" y="-101.67" width="2.7039" height="14.871" fill="currentColor"/>
+  <path class="ColorScheme-Background" transform="matrix(1.3519 0 0 1.3519 -107.51 -181.44)" d="m19.625 59.156-0.6875 0.6875 4.1562 4.1562h-12.094v1h12.094l-4.1562 4.1562 0.6875 0.6875 5-5 0.375-0.34375-0.375-0.34375z" fill="currentColor"/>
+ </g>
+</svg>

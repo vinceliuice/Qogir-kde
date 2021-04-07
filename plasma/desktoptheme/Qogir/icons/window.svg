@@ -1,0 +1,33 @@
+<svg id="window" version="1.1" viewBox="0 0 32 16" xmlns="http://www.w3.org/2000/svg">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+            color:#5c616c;
+        }
+        .ColorScheme-ButtonFocus{
+            color:#3daee9;
+        }</style>
+ <g id="window-list" transform="translate(-286 -545.36)">
+  <path d="m286 561.36h32v32h-32z" fill="#333" opacity="0"/>
+  <path class="ColorScheme-Text" d="m290 565.36v10h10v-10zm1 1h8v8h-8z" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m304 565.36v10h10v-10zm1 1h8v8h-8z" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m290 579.36v10h10v-10zm1 1h8v8h-8z" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m304 579.36v10h10v-10zm1 1h8v8h-8z" fill="currentColor"/>
+ </g>
+ <g id="16-16-window-pin">
+  <path d="m0 0h16v16h-16z" fill="none"/>
+  <path class="ColorScheme-Text" d="m10.5 1.793-0.70703 0.70703 0.20703 0.79297-3.3379 3.3379c-0.82695-0.41249-1.738-0.62839-2.6621-0.63086l-0.35352 0.35352 2.6465 2.6465-3.293 3.293v0.70703h0.70703l3.293-3.293 2.6465 2.6465 0.35352-0.35352c-0.0024726-0.92411-0.21837-1.8352-0.63086-2.6621l3.3379-3.3379 0.79297 0.20703 0.70703-0.70703z" fill="currentColor"/>
+ </g>
+ <g id="window-pin" transform="translate(-22 -6)">
+  <path class="ColorScheme-Text" d="m14.5 2.793-0.70703 0.70703 0.5 1.5-4.7051 4.7051c-0.8904-0.46119-1.8781-0.70293-2.8809-0.70508h-0.70703l-0.35352 0.35352 3.1465 3.1465-5.793 5.793v0.70703h0.70703l5.793-5.793 3.1465 3.1465 0.35352-0.35352v-0.70703c-0.0021-1.0027-0.24388-1.9905-0.70508-2.8809l4.7051-4.7051 1.5 0.5 0.70703-0.70703z" fill="currentColor" stroke-linecap="square" stroke-miterlimit="0"/>
+  <path d="m0 0h22v22h-22z" fill="none"/>
+ </g>
+ <g id="16-16-window-unpin" transform="translate(16)">
+  <path d="m0 0h16v16h-16z" fill="none"/>
+  <path class="ColorScheme-ButtonFocus" d="m10.5 1.793-0.70703 0.70703 0.20703 0.79297-3.3379 3.3379c-0.82695-0.41249-1.738-0.62839-2.6621-0.63086l-0.35352 0.35352 2.6465 2.6465-3.293 3.293v0.70703h0.70703l3.293-3.293 2.6465 2.6465 0.35352-0.35352c-0.0024726-0.92411-0.21837-1.8352-0.63086-2.6621l3.3379-3.3379 0.79297 0.20703 0.70703-0.70703z" fill="currentColor"/>
+ </g>
+ <g id="window-unpin" transform="translate(32 -6)">
+  <path class="ColorScheme-ButtonFocus" d="m14.5 2.793-0.70703 0.70703 0.5 1.5-4.7051 4.7051c-0.8904-0.46119-1.8781-0.70293-2.8809-0.70508h-0.70703l-0.35352 0.35352 3.1465 3.1465-5.793 5.793v0.70703h0.70703l5.793-5.793 3.1465 3.1465 0.35352-0.35352v-0.70703c-0.0021-1.0027-0.24388-1.9905-0.70508-2.8809l4.7051-4.7051 1.5 0.5 0.70703-0.70703z" fill="currentColor" stroke-linecap="square" stroke-miterlimit="0"/>
+  <path d="m0 0h22v22h-22z" fill="none"/>
+ </g>
+ <path id="8-8-window-pin" class="ColorScheme-Text" d="m5.293-8-0.29297 0.29297 0.29297 0.70703-2 2-1.5859-1-0.70703 0.70703 1.793 1.793-2.793 2.793v0.70703h0.70703l2.793-2.793 1.793 1.793 0.70703-0.70703-1-1.5859 2-2 0.70703 0.29297 0.29297-0.29297v-0.41406l-2.293-2.293z" fill="currentColor" stroke-miterlimit="0"/>
+ <path id="8-8-window-unpin" class="ColorScheme-ButtonFocus" d="m24.293-8-0.29297 0.29297 0.29297 0.70703-2 2-1.5859-1-0.70703 0.70703 1.793 1.793-2.793 2.793v0.70703h0.70703l2.793-2.793 1.793 1.793 0.70703-0.70703-1-1.5859 2-2 0.70703 0.29297 0.29297-0.29297v-0.41406l-2.293-2.293z" fill="currentColor" stroke-miterlimit="0"/>
+</svg>

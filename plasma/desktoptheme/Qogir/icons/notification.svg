@@ -1,0 +1,91 @@
+<svg id="svg" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#5c616c;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#5c616c;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#5c616c;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }</style>
+ </defs>
+ <g id="22-22-notification-progress-active" transform="translate(39 -1)">
+  <path d="M1 1h22v22H1z" fill="#fff" fill-opacity="0"/>
+  <rect class="ColorScheme-ButtonFocus" x="4" y="4" width="16" height="16" ry="8" fill="currentColor"/>
+ </g>
+ <g id="22-22-notification-inactive" transform="translate(-1 -1)">
+  <path d="M1 1h22v22H1z" fill="#fff" fill-opacity="0"/>
+  <path class="ColorScheme-Text" transform="translate(1 1)" d="M11 3c-4.432 0-8 3.568-8 8s3.568 8 8 8 8-3.568 8-8-3.568-8-8-8zm-.156 1h.312A6.827 6.827 0 0 1 18 10.844v.312A6.827 6.827 0 0 1 11.156 18h-.312A6.827 6.827 0 0 1 4 11.156v-.312A6.827 6.827 0 0 1 10.844 4zm-.656 3v5.594h1.624V7h-1.624zM11 13.406c-.368 0-.813.413-.813.781 0 .369.445.813.813.813.368 0 .813-.444.813-.813 0-.368-.445-.78-.813-.78z" fill="currentColor"/>
+ </g>
+ <g id="22-22-notification-progress-inactive" transform="translate(39 39)">
+  <path d="M1 1h22v22H1z" fill="#fff" fill-opacity="0"/>
+  <rect class="ColorScheme-Text" x="4" y="4" width="16" height="16" ry="8" fill="currentColor" opacity=".4"/>
+ </g>
+ <g id="22-22-notification-active" transform="translate(-1 39)">
+  <path d="M1 1h22v22H1z" fill="#fff" fill-opacity="0"/>
+  <rect class="ColorScheme-ButtonFocus" x="4" y="4" width="16" height="16" ry="8" fill="currentColor"/>
+  <path d="M11.203 7.2l-.003 7.2h1.6l.003-7.2zm.8 8a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6z" fill="#ffffff"/>
+ </g>
+ <path id="expander-bottom" class="ColorScheme-Text" d="m-18 23 2-2 2 2z" fill="currentColor"/>
+ <path id="expander-top" class="ColorScheme-Text" d="m-18 17 2 2 2-2z" fill="currentColor"/>
+ <path id="expander-right" class="ColorScheme-Text" d="m-13 18-2 2 2 2z" fill="currentColor"/>
+ <path id="expander-left" class="ColorScheme-Text" d="m-19 18 2 2-2 2z" fill="currentColor"/>
+ <g id="22-22-notification-disabled" transform="translate(-1 -41)">
+  <path d="M1 1h22v22H1z" fill="#fff" fill-opacity="0"/>
+  <path class="ColorScheme-Text" transform="translate(1 1)" d="M11 3c-4.432 0-8 3.568-8 8s3.568 8 8 8 8-3.568 8-8-3.568-8-8-8zm-.156 1h.312A6.827 6.827 0 0 1 18 10.844v.312A6.827 6.827 0 0 1 11.156 18h-.312A6.827 6.827 0 0 1 4 11.156v-.312A6.827 6.827 0 0 1 10.844 4zm-.656 3v5.594h1.624V7h-1.624zM11 13.406c-.368 0-.813.413-.813.781 0 .369.445.813.813.813.368 0 .813-.444.813-.813 0-.368-.445-.78-.813-.78z" fill="currentColor" opacity=".4"/>
+ </g>
+ <g id="22-22-notification-empty" transform="translate(39 -41)">
+  <path d="M1 1h22v22H1z" fill="#fff" fill-opacity="0"/>
+  <path class="ColorScheme-Text" transform="translate(1 1)" d="M11 3c-4.432 0-8 3.568-8 8s3.568 8 8 8 8-3.568 8-8-3.568-8-8-8zm-.156 1h.312A6.827 6.827 0 0 1 18 10.844v.312A6.827 6.827 0 0 1 11.156 18h-.312A6.827 6.827 0 0 1 4 11.156v-.312A6.827 6.827 0 0 1 10.844 4z" fill="currentColor"/>
+ </g>
+ <g id="notification-progress-active" transform="matrix(1.4545 0 0 1.4545 121.55 -1.4545)">
+  <path d="m1 1h22v22h-22z" fill="#ffffff" fill-opacity="0"/>
+  <rect class="ColorScheme-ButtonFocus" x="3.75" y="3.75" width="16.5" height="16.5" ry="8.25" fill="currentColor"/>
+ </g>
+ <g id="notification-progress-inactive" transform="matrix(1.4545 0 0 1.4545 121.55 38.545)">
+  <path d="m1 1h22v22h-22z" fill="#ffffff" fill-opacity="0"/>
+  <rect class="ColorScheme-Text" x="3.75" y="3.75" width="16.5" height="16.5" ry="8.25" fill="currentColor" opacity=".4"/>
+ </g>
+ <g id="notification-active" transform="matrix(1.4545 0 0 1.4545 81.545 38.545)">
+  <path d="m1 1h22v22h-22z" fill="#ffffff" fill-opacity="0"/>
+  <rect class="ColorScheme-ButtonFocus" x="3.75" y="3.75" width="16.5" height="16.5" ry="8.25" fill="currentColor"/>
+  <path d="m11.315 7.1875-0.0026 6.1759h1.3724l0.0026-6.1759zm0.68621 7.5625c-0.91495 0-0.91495 1.3724 0 1.3724s0.91495-1.3724 0-1.3724z" fill="#fcfcfc" stroke-width=".85777"/>
+ </g>
+ <g id="notification-disabled" opacity=".35">
+  <path d="m84-40h32v32h-32z" fill="#ffffff" fill-opacity="0"/>
+  <path class="ColorScheme-Text" d="m100-36c-6.648 0-12 5.352-12 12s5.352 12 12 12c6.648 0 12-5.352 12-12s-5.352-12-12-12zm0 1a11 11 0 0 1 11 11 11 11 0 0 1-11 11 11 11 0 0 1-11-11 11 11 0 0 1 11-11zm-1 5v8h2v-8h-2zm1 10a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" fill="currentColor"/>
+ </g>
+ <g id="notification-empty">
+  <path d="m123-40h32v32h-32z" fill="#ffffff" fill-opacity="0"/>
+  <path class="ColorScheme-Text" d="m139-36c-6.648 0-12 5.352-12 12s5.352 12 12 12 12-5.352 12-12-5.352-12-12-12zm0 1c6.0751 0 11 4.9249 11 11s-4.9249 11-11 11-11-4.9249-11-11 4.9249-11 11-11z" fill="currentColor"/>
+ </g>
+ <g id="notification-inactive" transform="translate(0,40)">
+  <path d="m84-40h32v32h-32z" fill="#ffffff" fill-opacity="0"/>
+  <path class="ColorScheme-Text" d="m100-36c-6.648 0-12 5.352-12 12s5.352 12 12 12c6.648 0 12-5.352 12-12s-5.352-12-12-12zm0 1a11 11 0 0 1 11 11 11 11 0 0 1-11 11 11 11 0 0 1-11-11 11 11 0 0 1 11-11zm-1 5v8h2v-8zm1 10a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" fill="currentColor"/>
+ </g>
+</svg>

@@ -1,0 +1,210 @@
+<svg width="173" height="56" version="1.1" viewBox="0 0 173 56" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+        stop-color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }</style>
+ <defs>
+  <linearGradient id="linearGradient4270">
+   <stop stop-color="#000000" stop-opacity=".66" offset="0"/>
+   <stop stop-color="#000000" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <style type="text/css">.ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }</style>
+  <mask maskUnits="userSpaceOnUse">
+   <g>
+    <path d="m127-31-33.474 33.561-19.526 19.439h106l-19.526-19.439z" fill="#ffffff"/>
+    <path d="m127-14-12 12.031-7 6.9688h38l-7-6.9688z" fill="#000000"/>
+   </g>
+  </mask>
+  <radialGradient id="radialGradient1433" cx="22.2" cy="913.97" r="6" gradientTransform="matrix(2.5385e-6 -2.1667 2.1667 2.5385e-6 -1907.3 56.098)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4270"/>
+  <linearGradient id="linearGradient1537" x1="19" x2="19" y1="8" y2="-5" gradientTransform="translate(58)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4270"/>
+  <linearGradient id="linearGradient1637" x1="15" x2="2" y1="12" y2="12" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4270"/>
+  <linearGradient id="linearGradient1729" x1="-912.36" x2="-899.36" y1="-35" y2="-35" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4270"/>
+ </defs>
+ <g transform="translate(0 -904.36)">
+  <use id="shadow-bottom" transform="rotate(180 93 932.36)" width="100%" height="100%" xlink:href="#shadow-top"/>
+  <use id="shadow-left" transform="rotate(-90 93 932.36)" width="100%" height="100%" xlink:href="#shadow-top"/>
+  <use id="shadow-right" transform="rotate(90 93 932.36)" width="100%" height="100%" xlink:href="#shadow-top"/>
+  <rect id="hint-tile-center" y="904.36" width="5" height="5" fill="#ff6600"/>
+  <g id="top">
+   <rect class="ColorScheme-Background" transform="matrix(0,-1,-1,0,0,0)" x="-916.36" y="-51" width="6.0001" height="32" fill="currentColor" opacity=".8"/>
+  </g>
+  <g id="topleft">
+   <path class="ColorScheme-Background" d="m16 910.36c-2 0-3 1-3 3v3h6v-6z" fill="currentColor" opacity=".8"/>
+  </g>
+  <g id="center">
+   <rect x="19" y="916.36" width="32" height="32" fill="none"/>
+   <rect class="ColorScheme-Background" x="19" y="916.36" width="32" height="32" fill="currentColor" opacity=".8"/>
+  </g>
+  <rect id="hint-top-margin" x="33" y="916.36" width="4" height="6" fill="#ff00ff"/>
+  <rect id="hint-bottom-margin" x="33" y="942.36" width="4" height="6" fill="#ff00ff"/>
+  <rect id="hint-right-margin" transform="rotate(90)" x="930.36" y="-51" width="4" height="6" fill="#ff00ff"/>
+  <rect id="hint-left-margin" transform="rotate(90)" x="930.36" y="-25" width="4" height="6" fill="#ff00ff"/>
+  <g id="shadow-top" transform="translate(58)">
+   <rect transform="matrix(0,-1,-1,0,0,0)" x="-916.36" y="-51" width="6" height="32" fill="none"/>
+   <rect transform="matrix(0,-1,-1,0,0,0)" x="-910.36" y="-51" width="13" height="32" fill="url(#linearGradient1729)" opacity=".15"/>
+   <rect transform="matrix(0,-1,-1,0,0,0)" x="-911.36" y="-51" width=".99998" height="32" fill="none"/>
+   <path transform="translate(-58 904.36)" d="m77 6h32v-1h-32z" fill="#000000" opacity=".15"/>
+  </g>
+  <g id="shadow-topleft" transform="translate(58)">
+   <path transform="translate(0 904.36)" d="m0 9v3l13 2e-5v-3z" fill="url(#linearGradient1637)" fill-rule="evenodd" opacity=".15"/>
+   <path transform="translate(-58 904.36)" d="m58-7v16l13 2.02e-5c0-1.662 1.338-3 3-3v-13z" fill="url(#radialGradient1433)" fill-rule="evenodd" opacity=".15"/>
+   <path transform="translate(-58 904.36)" d="m74-7v13h3v-13z" fill="url(#linearGradient1537)" fill-rule="evenodd" opacity=".15"/>
+   <rect transform="scale(-1,1)" x="-19" y="910.36" width="6" height="6" ry=".99998" fill="none"/>
+   <rect transform="scale(-1,1)" x="-19" y="910.36" width="2" height="6" ry="0" fill="none"/>
+   <rect transform="scale(-1,1)" x="-18" y="914.36" width="5" height="2" fill="none"/>
+   <path d="m12 913.36v3h1v-3z" fill="#000000" fill-rule="evenodd" opacity=".15"/>
+   <path transform="translate(-58 904.36)" d="m74 5c-2.216 0-4 1.784-4 4h1c0-1.662 1.338-3 3-3v-1z" fill="#000000" fill-rule="evenodd" opacity=".15"/>
+   <path d="m19 909.36h-3v1h3z" fill="#000000" fill-rule="evenodd" opacity=".15"/>
+  </g>
+  <g id="shadow-center" transform="translate(58)" fill="none">
+   <rect x="19" y="916.36" width="32" height="32"/>
+   <rect x="19" y="916.36" width="32" height="32"/>
+  </g>
+  <rect id="shadow-hint-top-margin" x="91" y="897.36" width="4" height="13" fill="#ff00ff"/>
+  <rect id="shadow-hint-bottom-margin" x="91" y="954.36" width="4" height="13" fill="#ff00ff"/>
+  <rect id="shadow-hint-right-margin" transform="rotate(90)" x="930.36" y="-128" width="4" height="13" fill="#ff00ff"/>
+  <rect id="shadow-hint-left-margin" transform="rotate(90)" x="930.36" y="-71" width="4" height="13" fill="#ff00ff"/>
+  <g id="mask-top" transform="translate(116)">
+   <rect transform="matrix(0,-1,-1,0,0,0)" x="-915.36" y="-51" width="5" height="32" fill="#000000" opacity=".97"/>
+  </g>
+  <g id="mask-topleft" transform="translate(116)">
+   <path transform="translate(-116 904.36)" d="m132 6c-2 0-3 1-3 3v2h5v-5h-1z" fill="#000000" opacity=".97"/>
+  </g>
+  <g id="mask-topright" transform="translate(116)">
+   <path transform="translate(-116 904.36)" d="m168 6v5h5v-2c0-2-1-3-3-3h-1z" fill="#000000" opacity=".97"/>
+  </g>
+  <g id="mask-bottom" transform="translate(116)">
+   <rect transform="rotate(90)" x="949.36" y="-51" width="5" height="32" fill="#000000" opacity=".97"/>
+  </g>
+  <g id="mask-bottomleft" transform="translate(116)">
+   <path transform="translate(-116 904.36)" d="m129 45v2c0 2 1 3 3 3h2v-5z" fill="#000000" opacity=".97"/>
+  </g>
+  <g id="mask-bottomright" transform="translate(116)">
+   <path transform="translate(-116 904.36)" d="m168 45v5h2c2 0 3-1 3-3v-2z" fill="#000000" opacity=".97"/>
+  </g>
+  <g id="mask-left" transform="translate(116)">
+   <rect transform="scale(-1,1)" x="-18" y="916.36" width="5" height="32" fill="#000000" opacity=".97"/>
+  </g>
+  <g id="mask-right" transform="translate(116)">
+   <rect x="52" y="916.36" width="5" height="32" fill="#000000" opacity=".97"/>
+  </g>
+  <g id="mask-center" transform="translate(116)">
+   <rect x="19" y="916.36" width="32" height="32" fill="none"/>
+   <rect x="19" y="916.36" width="32" height="32" fill="#000000" opacity=".97"/>
+  </g>
+  <text x="195.14162" y="134.59453" fill="#000000" font-family="'Gill Sans'" font-size="14px" font-weight="bold" text-align="justify" style="line-height:125%" xml:space="preserve"/>
+  <g id="balloon-tip-bottom" transform="matrix(-1 0 0 -1 586 961.78)">
+   <image x="197" y="-15" width="58" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAWCAYAAACR1Y9lAAAABHNCSVQICAgIfAhkiAAAAkhJREFU WIXl10tu2zAQgOFfdmo3Dz+SHtRnmTMlCLooEMOLIMgq2fUUdReeKccj0pJCaVUChAyZpvh5hg81 IsL/UK6mfsBut2v6tBOR45TjaKaIaAFXAreAU6BHhWaATeFq5Vi4AuOCZ2N1FJCN9m3XGTAv1Flo 2xT6rCpTzNGGNrSF0HIE/mSu9t1oZZSIun/eR3DG6Y+8AhauLrX6e9bO/7YJfVeVaqgbSAR+02q4 78A1cKP1Wu8Z2tpH8CjYKmiIpEVzToIuSbhb4C7UWxJ6SYLa3LV+q7FfhmbS1QMXpAgacAWsgY3W td4zsEXYohvBVdgvQQtz0qAeacANcA88AL+1Pui9DQnssR5ajR0MLSB9ql5CforIh4h8AJ9cxvpU rsYOgvZI1yWnOZdDvovIm/Wln98L2BvOF6nqNO4NzayutuH7OWmLzgrYKuAH8Coih9in3nvVNvf6 mxVpkfJzNh4wBmF7QbVDv+nnkLbwWCS3nKJ1EJFfpb71u4O23ZIim1ug7Ln/xtIX2wl1SKsl5B1p VbV03YvIz65naJs952m8pr1ARWzTF3sROhBp24el7IuIPHcNwGGfgRdSCvvtpxpbhA5AWrpG5FNf pMM+FbBdadyJzUIzJ56ItBNPCfk4FOmwjx1YvxpHbHGBakELxzq/Vy5Ix7p44qlCZrDxBGXHRb/t +D22iC2lrk/Z+BYSj3aG3I+BtKJ97TlfmGIK+7ceP+ZWOYNeOKTPSa9Ucb9ccdpCBs/JrqJ9Htxz 4v664Hx/LUb1Lw6DnOovEs1hAAAAAElFTkSuQmCC "/>
+   <g transform="translate(200 -11)">
+    <path class="ColorScheme-Background" d="m15 19h23l-12-12z" fill="currentColor" fill-opacity=".8"/>
+   </g>
+   <path d="m214 8 1.6066 8.429e-4 10.393-10.587 10.393 10.586h1.6074l-12-12z" fill="#ffffff"/>
+   <path d="m213.61 7.0001 1.3941-1.054e-4 11.001-10.938 10.982 10.938h1.3926l-12.375-12.352z" fill="#000000" opacity=".35"/>
+  </g>
+  <g id="balloon-tip-right" transform="matrix(0 1 -1 0 397 698.79)">
+   <image x="197" y="-15" width="58" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAWCAYAAACR1Y9lAAAABHNCSVQICAgIfAhkiAAAAkhJREFU WIXl10tu2zAQgOFfdmo3Dz+SHtRnmTMlCLooEMOLIMgq2fUUdReeKccj0pJCaVUChAyZpvh5hg81 IsL/UK6mfsBut2v6tBOR45TjaKaIaAFXAreAU6BHhWaATeFq5Vi4AuOCZ2N1FJCN9m3XGTAv1Flo 2xT6rCpTzNGGNrSF0HIE/mSu9t1oZZSIun/eR3DG6Y+8AhauLrX6e9bO/7YJfVeVaqgbSAR+02q4 78A1cKP1Wu8Z2tpH8CjYKmiIpEVzToIuSbhb4C7UWxJ6SYLa3LV+q7FfhmbS1QMXpAgacAWsgY3W td4zsEXYohvBVdgvQQtz0qAeacANcA88AL+1Pui9DQnssR5ajR0MLSB9ql5CforIh4h8AJ9cxvpU rsYOgvZI1yWnOZdDvovIm/Wln98L2BvOF6nqNO4NzayutuH7OWmLzgrYKuAH8Coih9in3nvVNvf6 mxVpkfJzNh4wBmF7QbVDv+nnkLbwWCS3nKJ1EJFfpb71u4O23ZIim1ug7Ln/xtIX2wl1SKsl5B1p VbV03YvIz65naJs952m8pr1ARWzTF3sROhBp24el7IuIPHcNwGGfgRdSCvvtpxpbhA5AWrpG5FNf pMM+FbBdadyJzUIzJ56ItBNPCfk4FOmwjx1YvxpHbHGBakELxzq/Vy5Ix7p44qlCZrDxBGXHRb/t +D22iC2lrk/Z+BYSj3aG3I+BtKJ97TlfmGIK+7ceP+ZWOYNeOKTPSa9Ucb9ccdpCBs/JrqJ9Htxz 4v664Hx/LUb1Lw6DnOovEs1hAAAAAElFTkSuQmCC "/>
+   <g transform="translate(200 -11)">
+    <path class="ColorScheme-Background" d="m15 19h23l-12-12z" fill="currentColor" fill-opacity=".8"/>
+   </g>
+   <path d="m214 8 1.6066 8.429e-4 10.393-10.587 10.393 10.586h1.6074l-12-12z" fill="#ffffff"/>
+   <path d="m213.61 7.0001 1.3941-1.054e-4 11.001-10.938 10.982 10.938h1.3926l-12.375-12.352z" fill="#000000" opacity=".35"/>
+  </g>
+  <g id="balloon-tip-top" transform="translate(134 887.78)">
+   <image x="197" y="-15" width="58" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAWCAYAAACR1Y9lAAAABHNCSVQICAgIfAhkiAAAAkhJREFU WIXl10tu2zAQgOFfdmo3Dz+SHtRnmTMlCLooEMOLIMgq2fUUdReeKccj0pJCaVUChAyZpvh5hg81 IsL/UK6mfsBut2v6tBOR45TjaKaIaAFXAreAU6BHhWaATeFq5Vi4AuOCZ2N1FJCN9m3XGTAv1Flo 2xT6rCpTzNGGNrSF0HIE/mSu9t1oZZSIun/eR3DG6Y+8AhauLrX6e9bO/7YJfVeVaqgbSAR+02q4 78A1cKP1Wu8Z2tpH8CjYKmiIpEVzToIuSbhb4C7UWxJ6SYLa3LV+q7FfhmbS1QMXpAgacAWsgY3W td4zsEXYohvBVdgvQQtz0qAeacANcA88AL+1Pui9DQnssR5ajR0MLSB9ql5CforIh4h8AJ9cxvpU rsYOgvZI1yWnOZdDvovIm/Wln98L2BvOF6nqNO4NzayutuH7OWmLzgrYKuAH8Coih9in3nvVNvf6 mxVpkfJzNh4wBmF7QbVDv+nnkLbwWCS3nKJ1EJFfpb71u4O23ZIim1ug7Ln/xtIX2wl1SKsl5B1p VbV03YvIz65naJs952m8pr1ARWzTF3sROhBp24el7IuIPHcNwGGfgRdSCvvtpxpbhA5AWrpG5FNf pMM+FbBdadyJzUIzJ56ItBNPCfk4FOmwjx1YvxpHbHGBakELxzq/Vy5Ix7p44qlCZrDxBGXHRb/t +D22iC2lrk/Z+BYSj3aG3I+BtKJ97TlfmGIK+7ceP+ZWOYNeOKTPSa9Ucb9ccdpCBs/JrqJ9Htxz 4v664Hx/LUb1Lw6DnOovEs1hAAAAAElFTkSuQmCC "/>
+   <g transform="translate(200 -11)">
+    <path class="ColorScheme-Background" d="m15 19h23l-12-12z" fill="currentColor" fill-opacity=".8"/>
+   </g>
+   <path d="m214 8 1.6066 8.429e-4 10.393-10.587 10.393 10.586h1.6074l-12-12z" fill="#ffffff"/>
+   <path d="m213.61 7.0001 1.3941-1.054e-4 11.001-10.938 10.982 10.938h1.3926l-12.375-12.352z" fill="#000000" opacity=".35"/>
+  </g>
+  <g id="balloon-tip-left" transform="matrix(0 -1 1 0 323 1150.8)">
+   <image x="197" y="-15" width="58" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAWCAYAAACR1Y9lAAAABHNCSVQICAgIfAhkiAAAAkhJREFU WIXl10tu2zAQgOFfdmo3Dz+SHtRnmTMlCLooEMOLIMgq2fUUdReeKccj0pJCaVUChAyZpvh5hg81 IsL/UK6mfsBut2v6tBOR45TjaKaIaAFXAreAU6BHhWaATeFq5Vi4AuOCZ2N1FJCN9m3XGTAv1Flo 2xT6rCpTzNGGNrSF0HIE/mSu9t1oZZSIun/eR3DG6Y+8AhauLrX6e9bO/7YJfVeVaqgbSAR+02q4 78A1cKP1Wu8Z2tpH8CjYKmiIpEVzToIuSbhb4C7UWxJ6SYLa3LV+q7FfhmbS1QMXpAgacAWsgY3W td4zsEXYohvBVdgvQQtz0qAeacANcA88AL+1Pui9DQnssR5ajR0MLSB9ql5CforIh4h8AJ9cxvpU rsYOgvZI1yWnOZdDvovIm/Wln98L2BvOF6nqNO4NzayutuH7OWmLzgrYKuAH8Coih9in3nvVNvf6 mxVpkfJzNh4wBmF7QbVDv+nnkLbwWCS3nKJ1EJFfpb71u4O23ZIim1ug7Ln/xtIX2wl1SKsl5B1p VbV03YvIz65naJs952m8pr1ARWzTF3sROhBp24el7IuIPHcNwGGfgRdSCvvtpxpbhA5AWrpG5FNf pMM+FbBdadyJzUIzJ56ItBNPCfk4FOmwjx1YvxpHbHGBakELxzq/Vy5Ix7p44qlCZrDxBGXHRb/t +D22iC2lrk/Z+BYSj3aG3I+BtKJ97TlfmGIK+7ceP+ZWOYNeOKTPSa9Ucb9ccdpCBs/JrqJ9Htxz 4v664Hx/LUb1Lw6DnOovEs1hAAAAAElFTkSuQmCC "/>
+   <g transform="translate(200 -11)">
+    <path class="ColorScheme-Background" d="m15 19h23l-12-12z" fill="currentColor" fill-opacity=".8"/>
+   </g>
+   <path d="m214 8 1.6066 8.429e-4 10.393-10.587 10.393 10.586h1.6074l-12-12z" fill="#ffffff"/>
+   <path d="m213.61 7.0001 1.3941-1.054e-4 11.001-10.938 10.982 10.938h1.3926l-12.375-12.352z" fill="#000000" opacity=".35"/>
+  </g>
+  <use id="topright" transform="matrix(-1 0 0 1 70 -2.0185e-5)" width="100%" height="100%" xlink:href="#topleft"/>
+  <use id="left" transform="rotate(-90 35 932.36)" width="100%" height="100%" xlink:href="#top"/>
+  <use id="right" transform="matrix(0 -1 -1 0 967.36 967.36)" width="100%" height="100%" xlink:href="#top"/>
+  <use id="bottom" transform="matrix(1 0 0 -1 1.5259e-5 1864.7)" width="100%" height="100%" xlink:href="#top"/>
+  <use id="bottomleft" transform="matrix(1 0 0 -1 0 1864.7)" width="100%" height="100%" xlink:href="#topleft"/>
+  <use id="bottomright" transform="rotate(180 35 932.36)" width="100%" height="100%" xlink:href="#topleft"/>
+  <use id="shadow-topright" transform="rotate(90 93 932.36)" width="100%" height="100%" xlink:href="#shadow-topleft"/>
+  <use id="shadow-bottomright" transform="rotate(180 93 932.36)" width="100%" height="100%" xlink:href="#shadow-topleft"/>
+  <use id="shadow-bottomleft" transform="rotate(-90 93 932.36)" width="100%" height="100%" xlink:href="#shadow-topleft"/>
+ </g>
+</svg>

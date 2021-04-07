@@ -12,7 +12,7 @@
    version="1.1"
    id="svg64"
    sodipodi:docname="shade.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
   <metadata
      id="metadata70">
     <rdf:RDF>
@@ -37,16 +37,19 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="692"
+     inkscape:window-height="701"
      id="namedview66"
      showgrid="true"
-     inkscape:zoom="2"
-     inkscape:cx="35.78305"
-     inkscape:cy="55.59261"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-27.091283"
+     inkscape:cy="50.158383"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg64">
+     inkscape:current-layer="svg64"
+     inkscape:document-rotation="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid47" />
@@ -100,11 +103,11 @@
        y="28"
        ry="0.85714287" />
     <circle
-       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19854;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle67"
        cx="-30"
        cy="43"
-       r="12" />
+       r="11" />
     <g
        id="g911"
        transform="translate(-16.112147,31.067415)"
@@ -135,11 +138,11 @@
        id="rect75"
        style="opacity:0;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.61422253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <circle
-       r="12"
+       r="11"
        cy="75"
        cx="-30"
        id="circle77"
-       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <g
        style="fill:#d4dbe4;fill-opacity:0.82352941"
        transform="translate(-16.112147,63.067415)"
@@ -170,11 +173,11 @@
        y="92"
        ry="0.85714287" />
     <circle
-       style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle87"
        cx="-30"
        cy="107"
-       r="12" />
+       r="11" />
     <g
        id="g941"
        transform="translate(-16.112147,95.067415)"
@@ -240,11 +243,11 @@
        id="rect976"
        style="opacity:0;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.61422253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <circle
-       r="12"
+       r="11"
        cy="43"
        cx="-30"
        id="circle978"
-       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <g
        style="fill:#d4dbe4;fill-opacity:0.82352941"
        transform="translate(-16.112147,31.067415)"
@@ -275,11 +278,11 @@
        y="60"
        ry="0.85714287" />
     <circle
-       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle990"
        cx="-30"
        cy="75"
-       r="12" />
+       r="11" />
     <g
        id="g996"
        transform="translate(-16.112147,63.067415)"
@@ -310,11 +313,11 @@
        id="rect1000"
        style="opacity:0;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.61422253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <circle
-       r="12"
+       r="11"
        cy="107"
        cx="-30"
        id="circle1002"
-       style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <g
        style="fill:#d4dbe4;fill-opacity:0.82352941"
        transform="translate(-16.112147,95.067415)"

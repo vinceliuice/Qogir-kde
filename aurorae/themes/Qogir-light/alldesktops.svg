@@ -12,7 +12,7 @@
    version="1.1"
    id="svg56"
    sodipodi:docname="alldesktops.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
   <metadata
      id="metadata62">
     <rdf:RDF>
@@ -37,19 +37,20 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="692"
+     inkscape:window-height="701"
      id="namedview58"
      showgrid="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:zoom="2.6222222"
-     inkscape:cx="-32.678993"
-     inkscape:cy="41.879107"
+     inkscape:zoom="0.92709555"
+     inkscape:cx="-42.852604"
+     inkscape:cy="75.362369"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg56">
+     inkscape:current-layer="svg56"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid869" />
@@ -91,11 +92,11 @@
        y="-7.9936058e-15"
        ry="0.85714287" />
     <circle
-       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle67"
        cx="-29"
        cy="15"
-       r="12" />
+       r="11" />
     <path
        style="opacity:1;fill:#5c616c;fill-opacity:1;stroke:none;stroke-width:1.59894311;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        d="m -29,7 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z m 0,1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"
@@ -114,11 +115,11 @@
        id="rect75"
        style="opacity:0;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.61422253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <circle
-       r="12"
+       r="11"
        cy="15"
        cx="-29"
        id="circle77"
-       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <path
        inkscape:connector-curvature="0"
        id="path79"
@@ -143,11 +144,11 @@
        y="-7.9936058e-15"
        ry="0.85714287" />
     <circle
-       style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle87"
        cx="-29"
        cy="15"
-       r="12" />
+       r="11" />
     <path
        style="opacity:1;fill:#5c616c;fill-opacity:1;stroke:none;stroke-width:1.59894311;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        d="m -29,7 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z m 0,1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"
@@ -195,11 +196,11 @@
        id="rect103"
        style="opacity:0;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.61422253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <circle
-       r="12"
+       r="11"
        cy="15"
        cx="-29"
        id="circle105"
-       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <path
        inkscape:connector-curvature="0"
        id="path107"
@@ -218,11 +219,11 @@
        y="-7.9936058e-15"
        ry="0.85714287" />
     <circle
-       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle113"
        cx="-29"
        cy="15"
-       r="12" />
+       r="11" />
     <path
        style="opacity:0.5;fill:#5c616c;fill-opacity:1;stroke:none;stroke-width:1.59894311;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        d="m -29,7 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z m 0,1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"
@@ -247,11 +248,11 @@
        id="rect121"
        style="opacity:0;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.61422253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <circle
-       r="12"
+       r="11"
        cy="15"
        cx="-29"
        id="circle123"
-       style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.39841461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.19855;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <path
        inkscape:connector-curvature="0"
        id="path125"

@@ -1,0 +1,119 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#5c616c}</style>
+ </defs>
+ <g id="22-22-disk-quota" transform="translate(-326,-534.36)">
+  <g class="ColorScheme-Text" transform="translate(329,537.36)" fill="currentColor">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5"/>
+  </g>
+  <rect x="326" y="534.36" width="22" height="22" fill="none"/>
+  <path class="ColorScheme-Text" d="m337 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="currentColor" opacity=".3"/>
+  <circle class="ColorScheme-Text" cx="337" cy="545.36" r="2" fill="currentColor"/>
+ </g>
+ <g id="22-22-disk-quota-missing" transform="translate(-326,-534.36)">
+  <g class="ColorScheme-Text" transform="translate(353,537.36)" fill="currentColor">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5"/>
+  </g>
+  <rect x="350" y="534.36" width="22" height="22" fill="none"/>
+  <path class="ColorScheme-Text" d="m361 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="currentColor" opacity=".3"/>
+  <circle class="ColorScheme-Text" cx="361" cy="545.36" r="2" fill="currentColor"/>
+  <path d="m370 545.36c-0.55228 0-1 0.44772-1 1s0.44772 4 1 4 1-3.4477 1-4-0.44772-1-1-1zm0 6a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" fill="#f47750"/>
+ </g>
+ <g id="22-22-disk-quota-critical" transform="translate(-255,-534.36)">
+  <g class="ColorScheme-Text" transform="translate(353,537.36)" fill="currentColor">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5"/>
+  </g>
+  <rect x="350" y="534.36" width="22" height="22" fill="none"/>
+  <path d="m361 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="#e74c3c" opacity=".3"/>
+  <circle cx="361" cy="545.36" r="2" fill="#e74c3c"/>
+  <path d="m370 545.36c-0.55228 0-1 0.44772-1 1s0.44772 4 1 4 1-3.4477 1-4-0.44772-1-1-1zm0 6a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" fill="#e74c3c"/>
+ </g>
+ <g id="22-22-disk-quota-low" transform="translate(-278,-534.36)">
+  <g class="ColorScheme-Text" transform="translate(329,537.36)" fill="currentColor">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5"/>
+  </g>
+  <rect x="326" y="534.36" width="22" height="22" fill="none"/>
+  <path d="m337 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="#fdbc4b" opacity=".3"/>
+  <circle cx="337" cy="545.36" r="2" fill="#fdbc4b"/>
+ </g>
+ <g id="22-22-disk-quota-high" transform="translate(-255,-534.36)">
+  <g class="ColorScheme-Text" transform="translate(329,537.36)" fill="currentColor">
+   <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z"/>
+   <rect x="3" y="2" width="1" height="1" ry=".5"/>
+   <rect x="12" y="2" width="1" height="1" ry=".5"/>
+   <rect x="3" y="13" width="1" height="1" ry=".5"/>
+   <rect x="12" y="13" width="1" height="1" ry=".5"/>
+  </g>
+  <rect x="326" y="534.36" width="22" height="22" fill="none"/>
+  <path d="m337 540.36a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5h-5z" fill="#e74c3c" opacity=".3"/>
+  <circle cx="337" cy="545.36" r="2" fill="#e74c3c"/>
+ </g>
+ <g id="disk-quota">
+  <path d="m-5 25v32h32v-32z" fill="none"/>
+  <rect class="ColorScheme-Text" x="2" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="19" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m2 29c-1.108 0-2 0.892-2 2v20c0 1.108 0.892 2 2 2h18c1.108 0 2-0.892 2-2v-20c0-1.108-0.892-2-2-2zm0 1h18c0.554 0 1 0.446 1 1v20c0 0.554-0.446 1-1 1h-18c-0.554 0-1-0.446-1-1v-20c0-0.554 0.446-1 1-1z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="2" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="19" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m11 34a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7h-7z" fill="currentColor" opacity=".3"/>
+  <circle class="ColorScheme-Text" cx="11" cy="41" r="3" fill="currentColor"/>
+ </g>
+ <g id="disk-quota-missing">
+  <path d="m60.5 35c-0.82842 0-1.5 0.67158-1.5 1.5s0.67158 6 1.5 6 1.5-5.1716 1.5-6-0.67158-1.5-1.5-1.5zm0 9a1.5 1.5 0 0 0-1.5 1.5 1.5 1.5 0 0 0 1.5 1.5 1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0-1.5-1.5z" fill="#f47750"/>
+  <path d="m31 25v32h32v-32z" fill="none"/>
+  <rect class="ColorScheme-Text" x="38" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="55" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m38 29c-1.108 0-2 0.892-2 2v20c0 1.108 0.892 2 2 2h18c1.108 0 2-0.892 2-2v-20c0-1.108-0.892-2-2-2zm0 1h18c0.554 0 1 0.446 1 1v20c0 0.554-0.446 1-1 1h-18c-0.554 0-1-0.446-1-1v-20c0-0.554 0.446-1 1-1z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="38" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="55" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m47 34a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7h-7z" fill="currentColor" opacity=".3"/>
+  <circle class="ColorScheme-Text" cx="47" cy="41" r="3" fill="currentColor"/>
+ </g>
+ <g id="disk-quota-low">
+  <path d="m69 25v32h32v-32z" fill="none"/>
+  <rect class="ColorScheme-Text" x="76" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="93" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m76 29c-1.108 0-2 0.892-2 2v20c0 1.108 0.892 2 2 2h18c1.108 0 2-0.892 2-2v-20c0-1.108-0.892-2-2-2zm0 1h18c0.554 0 1 0.446 1 1v20c0 0.554-0.446 1-1 1h-18c-0.554 0-1-0.446-1-1v-20c0-0.554 0.446-1 1-1z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="76" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="93" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m85 34a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7h-7z" fill="#fdbc4b" opacity=".3"/>
+  <circle class="ColorScheme-Text" cx="85" cy="41" r="3" fill="#fdbc4b"/>
+ </g>
+ <g id="disk-quota-high">
+  <path d="m107 25v32h32v-32z" fill="none"/>
+  <rect class="ColorScheme-Text" x="114" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="131" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m114 29c-1.108 0-2 0.892-2 2v20c0 1.108 0.892 2 2 2h18c1.108 0 2-0.892 2-2v-20c0-1.108-0.892-2-2-2zm0 1h18c0.554 0 1 0.446 1 1v20c0 0.554-0.446 1-1 1h-18c-0.554 0-1-0.446-1-1v-20c0-0.554 0.446-1 1-1z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="114" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="131" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m123 34a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7h-7z" fill="#e74c3c" opacity=".3"/>
+  <circle class="ColorScheme-Text" cx="123" cy="41" r="3" fill="#e74c3c"/>
+ </g>
+ <g id="disk-quota-critical">
+  <path d="m144 25v32h32v-32z" fill="none"/>
+  <rect class="ColorScheme-Text" x="151" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="168" y="50" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m151 29c-1.108 0-2 0.892-2 2v20c0 1.108 0.892 2 2 2h18c1.108 0 2-0.892 2-2v-20c0-1.108-0.892-2-2-2zm0 1h18c0.554 0 1 0.446 1 1v20c0 0.554-0.446 1-1 1h-18c-0.554 0-1-0.446-1-1v-20c0-0.554 0.446-1 1-1z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="151" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="168" y="31" width="1" height="1" ry=".5" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m160 34a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7h-7z" fill="#e74c3c" opacity=".3"/>
+  <circle class="ColorScheme-Text" cx="160" cy="41" r="3" fill="#e74c3c"/>
+  <path d="m173.5 35c-0.82842 0-1.5 0.67158-1.5 1.5s0.67158 6 1.5 6 1.5-5.1716 1.5-6-0.67158-1.5-1.5-1.5zm0 9a1.5 1.5 0 0 0-1.5 1.5 1.5 1.5 0 0 0 1.5 1.5 1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0-1.5-1.5z" fill="#e74c3c"/>
+ </g>
+</svg>

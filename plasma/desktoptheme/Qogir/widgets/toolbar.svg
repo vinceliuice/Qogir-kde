@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" height="40" width="40" version="1.1" sodipodi:docname="toolbar.svg" inkscape:version="1.1-dev (14859467fb, 2020-11-03)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs20" />
+    <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="640" inkscape:window-height="480" id="namedview18" showgrid="false" inkscape:current-layer="svg2" />
+    <style id="current-color-scheme" type="text/css">
+        .ColorScheme-Text {
+            color:#31363b;
+            stop-color:#31363b;
+        }
+        .ColorScheme-Background {
+            color:#eff0f1;
+            stop-color:#eff0f1;
+        }
+    </style>
+    <rect id="hint-tile-center" fill="#4e9a06" height="2" rx="0" ry="2" width="2" x="-2" y="-2" />
+    <rect id="center" height="32" width="32" x="4" y="4" class="ColorScheme-Background" fill="currentColor"/>
+    <rect id="right" height="32" width="4" x="36" y="4" class="ColorScheme-Background" fill="currentColor"/>
+    <rect id="top" height="4" width="32" x="4" y="0" class="ColorScheme-Background" fill="currentColor"/>
+    <rect id="left" height="32" width="4" x="0" y="4" class="ColorScheme-Background" fill="currentColor"/>
+    <rect id="bottom" height="4" width="32" x="4" y="36" class="ColorScheme-Background" fill="currentColor"/>
+    <rect id="topleft" height="4" width="4" x="0" y="0" class="ColorScheme-Background" fill="currentColor"/>
+    <rect id="topright" height="4" width="4" x="36" y="0" class="ColorScheme-Background" fill="currentColor"/>
+    <rect id="bottomright" height="4" width="4" x="36" y="36" class="ColorScheme-Background" fill="currentColor"/>
+    <rect id="bottomleft" height="4" width="4" x="0" y="36" class="ColorScheme-Background" fill="currentColor"/>
+    <path id="hint-top-margin" d="m20 0h2v4h-2z" fill="#00f" fill-rule="evenodd" />
+    <path id="hint-left-margin" d="m0 18h4v2h-4z" fill="#00f" fill-rule="evenodd" />
+    <path id="hint-bottom-margin" d="m20 36h2v4h-2z" fill="#00f" fill-rule="evenodd" />
+    <path id="hint-right-margin" d="m36 18h4v2h-4z" fill="#00f" fill-rule="evenodd" />
+</svg>

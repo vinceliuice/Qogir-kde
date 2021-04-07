@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   version="1.1"
+   id="svg406"
+   sodipodi:docname="button.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="700"
+     id="namedview253"
+     showgrid="false"
+     inkscape:zoom="1.6833333"
+     inkscape:cx="91.111212"
+     inkscape:cy="130.26314"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg406"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1078" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata410">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+        stop-color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus {
+        color:#3daee9;
+        stop-color:#3daee9;
+      }</style>
+  </defs>
+  <g
+     id="toolbutton-pressed-left"
+     transform="matrix(1,0,0,1.5238,854.81,-1011.1618)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-721.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect5" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect7" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.35"
+       id="rect9" />
+  </g>
+  <g
+     id="toolbutton-pressed-top"
+     transform="matrix(.58182 0 0 1 553.8 -587.58)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="777.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect12" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect14" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="778.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity=".35"
+       id="rect16" />
+  </g>
+  <g
+     id="toolbutton-pressed-bottom"
+     transform="matrix(0.58182,0,0,1,553.80346,-586.57578)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="811.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect19" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect21" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.35"
+       id="rect23" />
+  </g>
+  <g
+     id="toolbutton-pressed-right"
+     transform="matrix(1,0,0,1.5238,831.8134,-1011.158)">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-664.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect26" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="662.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect28" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="663.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.35"
+       id="rect30" />
+  </g>
+  <g
+     id="toolbutton-pressed-center"
+     transform="matrix(0.30476,0,0,0.91429,101.4766,235.88592)">
+    <rect
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="none"
+       id="rect33" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       id="rect35"
+       style="opacity:0.35" />
+  </g>
+  <rect
+     id="toolbutton-pressed-hint-bottom-margin"
+     x="150"
+     y="222"
+     width="2"
+     height="4"
+     fill="currentColor"
+     style="fill:#ff00ff;stroke-width:0.816497" />
+  <rect
+     id="toolbutton-pressed-hint-top-margin"
+     x="150"
+     y="190"
+     width="2"
+     height="4"
+     fill="currentColor"
+     style="fill:#ff00ff;stroke-width:0.816497" />
+  <rect
+     id="toolbutton-pressed-hint-left-margin"
+     transform="rotate(-90)"
+     x="-209"
+     y="133"
+     width="2"
+     height="4"
+     fill="currentColor"
+     style="fill:#ff00ff;stroke-width:0.816497" />
+  <rect
+     id="toolbutton-pressed-hint-right-margin"
+     transform="rotate(-90)"
+     x="-209"
+     y="165"
+     width="2"
+     height="4"
+     fill="currentColor"
+     style="fill:#ff00ff;stroke-width:0.816497" />
+  <g
+     id="toolbutton-pressed-topleft"
+     transform="translate(854.81 -587.58)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       id="path42"
+       fill="currentColor" />
+    <path
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       opacity=".35"
+       id="path44"
+       class="ColorScheme-ButtonFocus"
+       fill="currentColor" />
+  </g>
+  <g
+     id="toolbutton-pressed-topright"
+     transform="rotate(90,17.385,929.195)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       id="path47"
+       fill="currentColor" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.35"
+       id="path49"
+       class="ColorScheme-ButtonFocus"
+       fill="currentColor" />
+  </g>
+  <g
+     id="toolbutton-pressed-bottomright"
+     transform="rotate(180,-276.40315,501.79212)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       id="path52"
+       fill="currentColor" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.35"
+       id="path54"
+       class="ColorScheme-ButtonFocus"
+       fill="currentColor" />
+  </g>
+  <g
+     id="toolbutton-pressed-bottomleft"
+     transform="rotate(-90,-570.19108,74.385315)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       id="path57"
+       fill="currentColor" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.35"
+       id="path59"
+       class="ColorScheme-ButtonFocus"
+       fill="currentColor" />
+  </g>
+  <g
+     id="hover-center"
+     transform="matrix(.95238 0 0 .91429 -95.762 109.89)">
+    <rect
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       id="rect64"
+       style="fill:none" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       id="rect62"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="hover-topleft"
+     transform="translate(728.80896,-713.58)">
+    <path
+       class="ColorScheme-ButtonHover"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       fill="currentColor"
+       opacity=".3"
+       id="path67"
+       style="opacity:1" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       fill="currentColor"
+       id="path69"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="hover-topright"
+     transform="rotate(90 51.385 837.2)">
+    <path
+       class="ColorScheme-ButtonHover"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path72"
+       style="opacity:1" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path74"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="hover-bottomright"
+     transform="rotate(180 -305.4 438.79)">
+    <path
+       class="ColorScheme-ButtonHover"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path77"
+       style="opacity:1" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path79"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="hover-bottomleft"
+     transform="rotate(-90 -696.19 74.385)">
+    <path
+       class="ColorScheme-ButtonHover"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path82"
+       style="opacity:1" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path84"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="normal-left"
+     transform="matrix(1,0,0,1.5238,728.81,-1195.1618)">
+    <rect
+       class="ColorScheme-Text"
+       x="-721.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect87" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect89" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect91" />
+  </g>
+  <g
+     id="normal-top"
+     transform="matrix(1.8181818,0,0,1,1317.7444,-771.58002)">
+    <rect
+       class="ColorScheme-Text"
+       x="-719.81"
+       y="777.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect94" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect96" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect98" />
+  </g>
+  <g
+     id="normal-bottom"
+     transform="matrix(1.8182,0,0,1,1317.7572,-770.57979)">
+    <rect
+       class="ColorScheme-Text"
+       x="-719.81"
+       y="811.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect101" />
+    <rect
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect103" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect105" />
+  </g>
+  <g
+     id="normal-right"
+     transform="matrix(1,0,0,1.5238,773.81,-1195.162)">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-664.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect108" />
+    <rect
+       class="ColorScheme-Text"
+       transform="scale(-1,1)"
+       x="662.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect110" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       transform="scale(-1,1)"
+       x="663.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect112" />
+  </g>
+  <g
+     id="normal-center"
+     transform="matrix(.95238 0 0 .91429 -95.762 51.886)">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       id="rect115" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       id="rect117" />
+  </g>
+  <rect
+     id="normal-hint-bottom-margin"
+     x="58"
+     y="36"
+     width="2"
+     height="6"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="normal-hint-top-margin"
+     x="58"
+     y="6"
+     width="2"
+     height="6"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="normal-hint-left-margin"
+     transform="rotate(-90)"
+     x="-25"
+     y="7"
+     width="2"
+     height="6"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="normal-hint-compose-over-border"
+     y="23"
+     width="2"
+     height="2"
+     ry="0"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="normal-hint-right-margin"
+     transform="rotate(-90)"
+     x="-25"
+     y="105"
+     width="2"
+     height="6"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="pressed-hint-compose-over-border"
+     y="207"
+     width="2"
+     height="2"
+     ry="0"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <g
+     id="normal-topleft"
+     transform="translate(728.81,-771.58)">
+    <path
+       class="ColorScheme-Text"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path126" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path128" />
+  </g>
+  <g
+     id="normal-topright"
+     transform="rotate(90 80.385 808.2)">
+    <path
+       class="ColorScheme-Text"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path131" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path133" />
+  </g>
+  <g
+     id="normal-bottomright"
+     transform="rotate(180,-305.40517,409.79011)">
+    <path
+       class="ColorScheme-Text"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       fill="currentColor"
+       opacity="0.3"
+       id="path136" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       fill="currentColor"
+       id="path138" />
+  </g>
+  <g
+     id="normal-bottomleft"
+     transform="rotate(-90,-725.195,45.385)">
+    <path
+       class="ColorScheme-Text"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       fill="currentColor"
+       opacity="0.3"
+       id="path141" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       fill="currentColor"
+       id="path143" />
+  </g>
+  <g
+     id="hover-left"
+     transform="matrix(1,0,0,1.5238,728.81,-1137.162)">
+    <rect
+       class="ColorScheme-ButtonHover"
+       x="-721.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect146"
+       style="opacity:1" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect148" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect150"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="hover-top"
+     transform="matrix(1.8181818,0,0,1,1317.7454,-713.58002)">
+    <rect
+       class="ColorScheme-ButtonHover"
+       x="-719.81"
+       y="777.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect153"
+       style="opacity:1" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect155" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect157"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="hover-bottom"
+     transform="matrix(1.8181818,0,0,1,1317.7504,-712.57502)">
+    <rect
+       class="ColorScheme-ButtonHover"
+       x="-719.81"
+       y="811.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect160"
+       style="opacity:1" />
+    <rect
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect162" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect164"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="hover-right"
+     transform="matrix(1,0,0,1.5238,773.81,-1137.162)">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-664.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect167" />
+    <rect
+       class="ColorScheme-ButtonHover"
+       transform="scale(-1,1)"
+       x="662.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect169"
+       style="opacity:1" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       transform="scale(-1,1)"
+       x="663.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect171"
+       style="opacity:0.01" />
+  </g>
+  <rect
+     id="hover-hint-bottom-margin"
+     x="58"
+     y="99.8"
+     width="2"
+     height=".2"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="hover-hint-top-margin"
+     x="58"
+     y="64"
+     width="2"
+     height=".2"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="hover-hint-left-margin"
+     transform="rotate(-90)"
+     x="-83"
+     y="7"
+     width="2"
+     height=".2"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="hover-hint-right-margin"
+     transform="rotate(-90)"
+     x="-83"
+     y="110.8"
+     width="2"
+     height=".2"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <g
+     id="focus-left"
+     transform="matrix(1,0,0,1.5238,728.81,-1078.162)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-721.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect178" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect180" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect182"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="focus-top"
+     transform="matrix(1.8181818,0,0,1,1317.7454,-654.58002)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="777.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect185" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect187" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect189"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="focus-bottom"
+     transform="matrix(1.8182,0,0,1,1317.7575,-653.58002)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="811.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect192" />
+    <rect
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect194" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect196"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="focus-right"
+     transform="matrix(1,0,0,1.5238,773.81,-1078.162)">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-664.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect199" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="662.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.3"
+       id="rect201" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       transform="scale(-1,1)"
+       x="663.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect203"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="focus-center"
+     transform="matrix(.95238 0 0 .91429 -95.762 168.89)">
+    <rect
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       id="rect208"
+       style="fill:none" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       id="rect206"
+       style="opacity:0.01" />
+  </g>
+  <rect
+     id="focus-hint-bottom-margin"
+     x="58"
+     y="158.8"
+     width="2"
+     height=".2"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="focus-hint-top-margin"
+     x="58"
+     y="123"
+     width="2"
+     height=".2"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="focus-hint-left-margin"
+     transform="rotate(-90)"
+     x="-142"
+     y="7"
+     width="2"
+     height=".2"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="focus-hint-right-margin"
+     transform="rotate(-90)"
+     x="-142"
+     y="110.8"
+     width="2"
+     height=".2"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <g
+     id="focus-topleft"
+     transform="translate(728.81 -654.58)">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path215" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path217"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="focus-topright"
+     transform="rotate(90 21.885 866.69)">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path220" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path222"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="focus-bottomright"
+     transform="rotate(180,-305.405,468.28992)">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       fill="currentColor"
+       opacity="0.3"
+       id="path225" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       fill="currentColor"
+       id="path227"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="focus-bottomleft"
+     transform="rotate(-90,-666.695,103.885)">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       fill="currentColor"
+       opacity="0.3"
+       id="path230" />
+    <path
+       class="ColorScheme-ButtonBackground"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       fill="currentColor"
+       id="path232"
+       style="opacity:0.01" />
+  </g>
+  <g
+     id="pressed-left"
+     transform="matrix(1,0,0,1.5238,728.81,-1011.162)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-721.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect235" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect237" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.35"
+       id="rect239" />
+  </g>
+  <g
+     id="pressed-top"
+     transform="matrix(1.8181818,0,0,1,1317.7454,-587.58002)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="777.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect242" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect244" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="778.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.35"
+       id="rect246" />
+  </g>
+  <g
+     id="pressed-bottom"
+     transform="matrix(1.8181818,0,0,1,1317.7454,-586.58002)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="811.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect249" />
+    <rect
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect251" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="810.58002"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity="0.35"
+       id="rect253" />
+  </g>
+  <g
+     id="pressed-right"
+     transform="matrix(1,0,0,1.5238,773.81,-1011.162)">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-664.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect256" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="662.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect258" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="663.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.35"
+       id="rect260" />
+  </g>
+  <g
+     id="pressed-center"
+     transform="matrix(0.95238,0,0,0.91429,-95.7617,235.88592)">
+    <rect
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="none"
+       id="rect263" />
+    <rect
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       opacity="0.35"
+       id="rect265"
+       class="ColorScheme-ButtonFocus" />
+  </g>
+  <rect
+     id="pressed-hint-bottom-margin"
+     x="58"
+     y="220"
+     width="2"
+     height="6"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="pressed-hint-top-margin"
+     x="58"
+     y="190"
+     width="2"
+     height="6"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="pressed-hint-left-margin"
+     transform="rotate(-90)"
+     x="-209"
+     y="7"
+     width="2"
+     height="6"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="pressed-hint-right-margin"
+     transform="rotate(-90)"
+     x="-209"
+     y="105"
+     width="2"
+     height="6"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <g
+     id="pressed-topleft"
+     transform="translate(728.81 -587.58)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       id="path272"
+       fill="currentColor" />
+    <path
+       class="ColorScheme-ButtonFocus"
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       opacity=".35"
+       id="path274"
+       fill="currentColor" />
+  </g>
+  <g
+     id="pressed-topright"
+     transform="rotate(90,-11.615,900.195)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       id="path277"
+       fill="currentColor" />
+    <path
+       class="ColorScheme-ButtonFocus"
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.35"
+       id="path279"
+       fill="currentColor" />
+  </g>
+  <g
+     id="pressed-bottomright"
+     transform="rotate(180,-305.405,501.79)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       id="path282"
+       fill="currentColor" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.35"
+       id="path284"
+       fill="currentColor"
+       class="ColorScheme-ButtonFocus" />
+  </g>
+  <g
+     id="pressed-bottomleft"
+     transform="rotate(-90,-633.19508,137.38491)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       id="path287"
+       fill="currentColor" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.35"
+       id="path289"
+       fill="currentColor"
+       class="ColorScheme-ButtonFocus" />
+  </g>
+  <g
+     id="shadow-left"
+     transform="matrix(1 0 0 1.5238 728.81 -1258.2)"
+     opacity="0">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-721.81"
+       y="789.58"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity=".3"
+       id="rect292" />
+    <rect
+       x="-720.81"
+       y="789.58"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect294" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-720.81"
+       y="789.58"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect296" />
+  </g>
+  <g
+     id="shadow-top"
+     transform="matrix(1.8182 0 0 1 1317.7 -834.58)"
+     opacity="0">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="777.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity=".3"
+       id="rect299" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect301" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="778.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect303" />
+  </g>
+  <g
+     id="shadow-bottom"
+     transform="matrix(1.8182 0 0 1 1317.7 -833.58)"
+     opacity="0">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="811.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity=".3"
+       id="rect306" />
+    <rect
+       x="-719.81"
+       y="810.58"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect308" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="810.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       id="rect310" />
+  </g>
+  <g
+     id="shadow-right"
+     transform="matrix(1 0 0 1.5238 773.81 -1258.2)"
+     opacity="0">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-664.81"
+       y="789.58"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect313" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="662.81"
+       y="789.58"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity=".3"
+       id="rect315" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="663.81"
+       y="789.58"
+       width="1"
+       height="21"
+       fill="currentColor"
+       id="rect317" />
+  </g>
+  <g
+     id="shadow-center"
+     transform="matrix(.95238 0 0 .91429 -95.762 -11.114)"
+     opacity="0">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       id="rect320" />
+    <rect
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       id="rect322" />
+  </g>
+  <rect
+     id="shadow-hint-bottom-margin"
+     x="58"
+     y="-22"
+     width="2"
+     height="1"
+     fill="currentColor"
+     stroke-width="1.543"
+     style="fill:#ff00ff" />
+  <rect
+     id="shadow-hint-top-margin"
+     x="58"
+     y="-57"
+     width="2"
+     height="1"
+     fill="currentColor"
+     stroke-width="1.543"
+     style="fill:#ff00ff" />
+  <rect
+     id="shadow-hint-left-margin"
+     transform="rotate(-90)"
+     x="38"
+     y="7"
+     width="2"
+     height="1"
+     fill="currentColor"
+     stroke-width="1.543"
+     style="fill:#ff00ff" />
+  <rect
+     id="shadow-hint-right-margin"
+     transform="rotate(-90)"
+     x="38"
+     y="110"
+     width="2"
+     height="1"
+     fill="currentColor"
+     stroke-width="1.543"
+     style="fill:#ff00ff" />
+  <g
+     id="shadow-topleft"
+     transform="translate(728.81 -834.58)"
+     opacity="0">
+    <path
+       class="ColorScheme-Buttonshadow"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path329" />
+    <path
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path331" />
+  </g>
+  <g
+     id="shadow-topright"
+     transform="rotate(90 111.88 776.7)"
+     opacity="0">
+    <path
+       class="ColorScheme-Buttonshadow"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path334" />
+    <path
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path336" />
+  </g>
+  <g
+     id="shadow-bottomright"
+     transform="rotate(180 -305.4 378.29)"
+     opacity="0">
+    <path
+       class="ColorScheme-Buttonshadow"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path339" />
+    <path
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path341" />
+  </g>
+  <g
+     id="shadow-bottomleft"
+     transform="rotate(-90 -756.7 13.885)"
+     opacity="0">
+    <path
+       class="ColorScheme-Buttonshadow"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       fill="currentColor"
+       opacity=".3"
+       id="path344" />
+    <path
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       fill="currentColor"
+       id="path346" />
+  </g>
+  <g
+     id="toolbutton-hover-left"
+     transform="matrix(1,0,0,1.5238,854.81,-1137.1618)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-721.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.5"
+       id="rect349" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect351" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-720.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.15"
+       id="rect353" />
+  </g>
+  <g
+     id="toolbutton-hover-top"
+     transform="matrix(.58182 0 0 1 553.8 -713.58)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="777.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity=".5"
+       id="rect356" />
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-719.81"
+       y="778.58"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect358" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="778.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity=".15"
+       id="rect360" />
+  </g>
+  <g
+     id="toolbutton-hover-bottom"
+     transform="matrix(.58182 0 0 1 553.8 -712.58)">
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="811.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity=".5"
+       id="rect363" />
+    <rect
+       x="-719.81"
+       y="810.58"
+       width="55"
+       height="1"
+       opacity="0"
+       id="rect365" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="-719.81"
+       y="810.58"
+       width="55"
+       height="1"
+       fill="currentColor"
+       opacity=".15"
+       id="rect367" />
+  </g>
+  <g
+     id="toolbutton-hover-right"
+     transform="matrix(1,0,0,1.5238,831.8134,-1137.158)">
+    <rect
+       class="ColorScheme-ButtonBackground"
+       x="-664.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       opacity="0"
+       id="rect370" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="662.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.5"
+       id="rect372" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       transform="scale(-1,1)"
+       x="663.81"
+       y="789.58002"
+       width="1"
+       height="21"
+       fill="currentColor"
+       opacity="0.15"
+       id="rect374" />
+  </g>
+  <g
+     id="toolbutton-hover-center"
+     transform="matrix(.30476 0 0 .91429 101.48 109.89)">
+    <rect
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="none"
+       id="rect377" />
+    <rect
+       class="ColorScheme-ButtonFocus"
+       x="110"
+       y="-48"
+       width="105"
+       height="35"
+       fill="currentColor"
+       id="rect379"
+       style="opacity:0.15" />
+  </g>
+  <rect
+     id="toolbutton-hover-hint-bottom-margin"
+     x="150"
+     y="96"
+     width="2"
+     height="4"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="toolbutton-hover-hint-top-margin"
+     x="150"
+     y="64"
+     width="2"
+     height="4"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="toolbutton-hover-hint-left-margin"
+     transform="rotate(-90)"
+     x="-83"
+     y="133"
+     width="2"
+     height="4"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <rect
+     id="toolbutton-hover-hint-right-margin"
+     transform="rotate(-90)"
+     x="-83"
+     y="165"
+     width="2"
+     height="4"
+     fill="currentColor"
+     style="fill:#ff00ff" />
+  <g
+     id="toolbutton-hover-topleft"
+     transform="translate(854.81 -713.58)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m-719.81 777.58c-1.1046 0-2 0.89543-2 2h1c0-0.55228 0.44772-1 1-1z"
+       opacity=".5"
+       id="path386"
+       fill="currentColor" />
+    <path
+       transform="matrix(-.5 0 0 -.5 -639.81 700.08)"
+       d="m162-159a2 2 0 0 1-2 2v-2z"
+       opacity=".15"
+       id="path388"
+       fill="currentColor"
+       class="ColorScheme-ButtonFocus" />
+  </g>
+  <g
+     id="toolbutton-hover-topright"
+     transform="rotate(90,80.38466,866.19874)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       opacity="0.5"
+       id="path391"
+       fill="currentColor" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.15"
+       id="path393"
+       fill="currentColor"
+       class="ColorScheme-ButtonFocus" />
+  </g>
+  <g
+     id="toolbutton-hover-bottomright"
+     transform="rotate(180,-276.405,438.79)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       opacity="0.5"
+       id="path396"
+       fill="currentColor" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.15"
+       id="path398"
+       class="ColorScheme-ButtonFocus"
+       fill="currentColor" />
+  </g>
+  <g
+     id="toolbutton-hover-bottomleft"
+     transform="rotate(-90,-633.195,11.385)"
+     fill="currentColor">
+    <path
+       class="ColorScheme-ButtonFocus"
+       d="m -719.81,777.58 c -1.1046,0 -2,0.89543 -2,2 h 1 c 0,-0.55228 0.44772,-1 1,-1 z"
+       opacity="0.5"
+       id="path401"
+       fill="currentColor" />
+    <path
+       transform="matrix(-0.5,0,0,-0.5,-639.81,700.08)"
+       d="m 162,-159 a 2,2 0 0 1 -2,2 v -2 z"
+       opacity="0.15"
+       id="path403"
+       fill="currentColor"
+       class="ColorScheme-ButtonFocus" />
+  </g>
+</svg>

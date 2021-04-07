@@ -24,7 +24,7 @@ slider_handle_length=16
 center_toolbar_handle=true
 check_size=16
 textless_progressbar=false
-progressbar_thickness=3font
+progressbar_thickness=10
 menubar_mouse_tracking=true
 toolbutton_style=1
 double_click=false
@@ -280,7 +280,7 @@ text.bold=true
 text.normal.color=#5c616c
 text.focus.color=#4c85cb
 text.toggle.color=#32343D
-indicator.element=harrow
+indicator.element=tarrow
 frame.expansion=0
 
 [SizeGrip]
@@ -384,10 +384,10 @@ text.normal.color=#5c616c
 text.focus.color=white
 text.margin.top=1
 text.margin.bottom=1
-text.margin.left=15
-text.margin.right=5
-frame.top=3
-frame.bottom=3
+text.margin.left=8
+text.margin.right=8
+frame.top=0
+frame.bottom=0
 frame.left=3
 frame.right=3
 frame.expansion=0
@@ -437,10 +437,10 @@ indicator.element=carrow
 
 [Menu]
 inherits=PanelButtonCommand
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
+frame.top=8
+frame.bottom=8
+frame.left=8
+frame.right=8
 frame.element=menu
 interior.element=menu
 text.normal.color=#5c616c

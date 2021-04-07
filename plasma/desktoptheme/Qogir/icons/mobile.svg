@@ -1,0 +1,13 @@
+<svg version="1.1" viewBox="0 0 32 16" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+            color:#5c616c;
+        }</style>
+ </defs>
+ <g id="mobile-task-switcher" class="ColorScheme-Text" transform="matrix(3.7803 0 0 3.7803 -.0028988 -.0025493)" fill="currentColor">
+  <path class="ColorScheme-Text" d="m1.0815 0.52973c-0.30537 0-0.55113 0.24576-0.55113 0.55113v2.0727c0 0.30537 0.24576 0.55113 0.55113 0.55113h2.0727c0.30537 0 0.55113-0.24576 0.55113-0.55113v-2.0727c0-0.30537-0.24576-0.55113-0.55113-0.55113zm0.064595 0.32995h1.9467c0.15712 0 0.28345 0.12658 0.28345 0.2837v1.9498c0 0.15712-0.12632 0.2837-0.28345 0.2837h-1.9467c-0.15712 0-0.2837-0.12658-0.2837-0.2837v-1.9498c0-0.15712 0.12658-0.2837 0.2837-0.2837z" stroke-opacity="0" stroke-width=".13229"/>
+ </g>
+ <g id="mobile-close-app" transform="matrix(3.7734 0 0 3.7734 .05467 .0085211)" fill="currentColor">
+  <path class="ColorScheme-Text" d="m4.9144 0.68618 2.8626 2.8626m-2.8626 0 2.8626-2.8626" stroke="currentColor" stroke-linecap="round" stroke-width=".3175"/>
+ </g>
+</svg>
