@@ -39,5 +39,4 @@ GNU GPL v3
 
 ![1](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview1.png?raw=true)
 ![2](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview2.png?raw=true)
-![3](https://github.com/vinceliuice/Qogir-kde/blob/master/images/preview3.png?raw=true)
 
