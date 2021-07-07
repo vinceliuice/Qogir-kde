@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 SRC_DIR=$(cd $(dirname $0) && pwd)
 ROOT_UID=0
