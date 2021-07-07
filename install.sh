@@ -86,6 +86,7 @@ install() {
 
   if [[ ${color} == '-dark' ]]; then
     cp -r ${SRC_DIR}/color-schemes/${name}${a_theme}Dark.colors                      ${PLASMA_DIR}/${name}${theme}-dark/colors
+    cp -r ${SRC_DIR}/plasma/desktoptheme/Qogir-dark/*                                ${PLASMA_DIR}/${name}${theme}-dark
   else
     cp -r ${SRC_DIR}/color-schemes/${name}${a_theme}Light.colors                     ${PLASMA_DIR}/${name}${theme}/colors
   fi

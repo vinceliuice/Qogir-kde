@@ -20,9 +20,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="44.470068"
-     inkscape:cx="97.200211"
-     inkscape:cy="6.2513959"
+     inkscape:zoom="2.7793793"
+     inkscape:cx="44.794174"
+     inkscape:cy="-27.344235"
      inkscape:window-width="1920"
      inkscape:window-height="1012"
      inkscape:window-x="0"
@@ -74,9 +74,8 @@
        class="ColorScheme-Text"
        transform="rotate(90)"
        d="m49-51h1v32h-1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.12" />
   </g>
   <path
      id="header-left"
@@ -98,9 +97,8 @@
        id="border-bottomright"
        class="ColorScheme-Text"
        d="m57 49h-6v1h6c0-1-2e-5 0 0-1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.12" />
   </g>
   <g
      id="header-bottomleft"
@@ -115,9 +113,8 @@
        id="border-bottomleft"
        class="ColorScheme-Text"
        d="m19 50v-1h-4l-2-2e-5v1l2 2e-5h1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.12" />
   </g>
   <path
      id="header-topleft"
@@ -166,9 +163,8 @@
        class="ColorScheme-Text"
        transform="matrix(0 -1 -1 0 0 0)"
        d="m-7-99h1v32h-1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.12" />
   </g>
   <path
      id="footer-left"
@@ -190,9 +186,8 @@
        id="border-topright"
        class="ColorScheme-Text"
        d="m105 7h-6v-1h6c0 1-2e-5 0 0 1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.12" />
   </g>
   <g
      id="footer-topleft"
@@ -207,9 +202,8 @@
        id="border-topleft"
        class="ColorScheme-Text"
        d="m67 6v1h-4l-2 2e-5v-1l2-2e-5h1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.12" />
   </g>
   <path
      id="footer-bottomleft"
