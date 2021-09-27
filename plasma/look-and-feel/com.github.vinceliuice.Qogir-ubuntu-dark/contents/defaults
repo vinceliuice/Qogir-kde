@@ -8,7 +8,7 @@ ColorScheme=QogirUbuntuDark
 Theme=Qogir-ubuntu-dark
 
 [kdeglobals][KDE]
-widgetStyle=kvantum
+widgetStyle=kvantum-dark
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
