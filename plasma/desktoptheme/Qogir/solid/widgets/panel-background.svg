@@ -6,7 +6,7 @@
    viewBox="0 0 173 56"
    id="svg139"
    sodipodi:docname="panel-background.svg"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,18 +35,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1368"
-     inkscape:window-height="696"
+     inkscape:window-width="1447"
+     inkscape:window-height="894"
      id="namedview141"
      showgrid="false"
-     inkscape:zoom="3.5780347"
-     inkscape:cx="51.704362"
-     inkscape:cy="30.463651"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:zoom="7.1560691"
+     inkscape:cx="33.887319"
+     inkscape:cy="21.380453"
+     inkscape:window-x="471"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg139"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1069" />
+  </sodipodi:namedview>
   <defs
      id="defs13">
     <style
@@ -270,32 +274,32 @@
        id="rect42" />
   </g>
   <rect
-     id="hint-top-margin"
+     id="hint-top-inset"
      x="33"
-     y="5.9999852"
+     y="3"
      width="4"
      height="0.1"
      fill="#ff00ff" />
   <rect
-     id="hint-bottom-margin"
+     id="hint-bottom-inset"
      x="33"
-     y="47.999985"
+     y="53"
      width="4"
      height="0.1"
      fill="#ff00ff" />
   <rect
-     id="hint-right-margin"
+     id="hint-right-inset"
      transform="rotate(90)"
-     x="25.999985"
-     y="-55.099998"
+     x="21"
+     y="-60"
      width="4"
      height="0.1"
      fill="#ff00ff" />
   <rect
-     id="hint-left-margin"
+     id="hint-left-inset"
      transform="rotate(90)"
-     x="25.999985"
-     y="-13.1"
+     x="26"
+     y="-10.1"
      width="4"
      height="0.1"
      fill="#ff00ff" />
@@ -624,21 +628,21 @@
        id="rect127" />
   </g>
   <rect
-     id="shadow-hint-top-margin"
+     id="shadow-hint-top-inset"
      x="91"
      y="-8.0000143"
      width="4"
      height="14"
      fill="#ff00ff" />
   <rect
-     id="shadow-hint-bottom-margin"
+     id="shadow-hint-bottom-inset"
      x="91"
      y="49.999985"
      width="4"
      height="14"
      fill="#ff00ff" />
   <rect
-     id="shadow-hint-right-margin"
+     id="shadow-hint-right-inset"
      transform="rotate(90)"
      x="25.999985"
      y="-129"
@@ -646,13 +650,47 @@
      height="14"
      fill="#ff00ff" />
   <rect
-     id="shadow-hint-left-margin"
+     id="shadow-hint-left-inset"
      transform="rotate(90)"
      x="25.999985"
      y="-71"
      width="4"
      height="14"
      fill="#ff00ff" />
+  <rect
+     id="shadow-hint-top-margin"
+     x="86"
+     y="-8"
+     width="3.9999998"
+     height="14"
+     fill="#ff00ff"
+     style="fill:#00ff00;stroke-width:1.52753" />
+  <rect
+     id="shadow-hint-bottom-margin"
+     x="96"
+     y="50"
+     width="3.9999998"
+     height="14"
+     fill="#ff00ff"
+     style="fill:#00ff00;stroke-width:1.52752" />
+  <rect
+     id="shadow-hint-right-margin"
+     transform="rotate(90)"
+     x="21"
+     y="-129"
+     width="3.9999769"
+     height="14"
+     fill="#ff00ff"
+     style="fill:#00ff00;stroke-width:1.52753" />
+  <rect
+     id="shadow-hint-left-margin"
+     transform="rotate(90)"
+     x="31"
+     y="-71"
+     width="4.0000229"
+     height="14"
+     fill="#ff00ff"
+     style="fill:#00ff00;stroke-width:1.52753" />
   <use
      id="shadow-topright"
      transform="rotate(90,93,28)"
@@ -677,4 +715,64 @@
      xlink:href="#shadow-topleft"
      x="0"
      y="0" />
+  <rect
+     id="thick-hint-top-margin"
+     x="34"
+     y="6"
+     width="4"
+     height="6"
+     fill="#ff00ff" />
+  <rect
+     id="thick-hint-bottom-margin"
+     x="30"
+     y="44"
+     width="4"
+     height="6"
+     fill="#ff00ff" />
+  <rect
+     id="thick-right-margin"
+     transform="rotate(90)"
+     x="28"
+     y="-57"
+     width="4"
+     height="6"
+     fill="#ff00ff" />
+  <rect
+     id="thick-hint-left-margin"
+     transform="rotate(90)"
+     x="24"
+     y="-19"
+     width="4"
+     height="6"
+     fill="#ff00ff" />
+  <rect
+     id="hint-bottom-margin"
+     x="34"
+     y="44"
+     height="6"
+     fill="#800080"
+     width="4" />
+  <rect
+     id="hint-left-margin"
+     transform="rotate(90)"
+     x="28"
+     y="-19"
+     width="4"
+     height="6"
+     fill="#800080" />
+  <rect
+     id="hint-top-margin"
+     x="30"
+     y="6"
+     width="4"
+     height="6"
+     fill="#800080" />
+  <rect
+     id="hint-right-margin"
+     transform="rotate(90)"
+     x="24"
+     y="-57"
+     width="4"
+     height="6"
+     fill="#800080" />
 </svg>

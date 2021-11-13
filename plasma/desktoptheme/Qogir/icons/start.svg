@@ -1,27 +1,122 @@
-<svg version="1.1" viewBox="0 0 54 32" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#5c616c }
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 54 32"
+   id="svg34"
+   sodipodi:docname="start.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:zoom="10"
+     inkscape:cx="-2.5"
+     inkscape:cy="22.1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34">
+    <inkscape:grid
+       type="xygrid"
+       id="grid872" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text { color:#5c616c }
     .ColorScheme-Highlight { color:#3498db }
     .ColorScheme-NegativeText { color:#e74c3c }</style>
- </defs>
- <g id="22-22-start-here-kde">
-  <rect y="10" width="22" height="22" fill="none"/>
-  <path class="ColorScheme-Text" d="m17.455 25h-7.9999l4.4444-7.111z" fill="currentColor" opacity=".5"/>
-  <path class="ColorScheme-Text" d="m14.454 25h-9.9999l4.5455-9.9999z" fill="currentColor"/>
-  <path class="ColorScheme-Text" d="m10.99 12a9 9 0 0 0-8.9902 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9 9 9 0 0 0-0.009766 0zm0.009766 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z" fill="currentColor"/>
- </g>
- <g id="16-16-start-here-kde" transform="translate(4,4)">
-  <rect x="-25" y="10" width="16" height="16" fill="none"/>
-  <path class="ColorScheme-Text" d="m-12.461 21h-5.5385l3.077-4.9231z" fill="currentColor" opacity=".5"/>
-  <path class="ColorScheme-Text" d="m-14.539 21h-6.9231l3.1469-6.9231z" fill="currentColor"/>
-  <path class="ColorScheme-Text" d="m-17.094 11a7 7 0 0 0-6.9062 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7 7 7 0 0 0-0.09375 0zm0.09375 1a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6z" fill="currentColor"/>
- </g>
- <g id="start-here-kde">
-  <rect x="22" width="32" height="32" fill="none"/>
-  <g class="ColorScheme-Text" transform="translate(-.5 -1)" fill="currentColor">
-   <path class="ColorScheme-Text" d="m46 21h-10l4.6667-8.6667z" opacity=".5"/>
-   <path class="ColorScheme-Text" d="m42.51 21h-11.51l5.4164-10.832z"/>
+  </defs>
+  <g
+     id="22-22-start-here-kde">
+    <rect
+       y="10"
+       width="22"
+       height="22"
+       fill="none"
+       id="rect5" />
+    <path
+       class="ColorScheme-Text"
+       d="m17.455 25h-7.9999l4.4444-7.111z"
+       fill="currentColor"
+       id="path7"
+       style="opacity:0.5" />
+    <path
+       class="ColorScheme-Text"
+       d="m14.454 25h-9.9999l4.5455-9.9999z"
+       fill="currentColor"
+       id="path9" />
+    <path
+       class="ColorScheme-Text"
+       d="m10.99 12a9 9 0 0 0-8.9902 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9 9 9 0 0 0-0.009766 0zm0.009766 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z"
+       fill="currentColor"
+       id="path11" />
   </g>
-  <path class="ColorScheme-Text" d="m38 5a11 11 0 0 0-11 11 11 11 0 0 0 11 11 11 11 0 0 0 11-11 11 11 0 0 0-11-11zm0 1a10 10 0 0 1 10 10 10 10 0 0 1-10 10 10 10 0 0 1-10-10 10 10 0 0 1 10-10z" fill="currentColor"/>
- </g>
+  <g
+     id="16-16-start-here-kde"
+     transform="translate(4,4)">
+    <rect
+       x="-25"
+       y="10"
+       width="16"
+       height="16"
+       fill="none"
+       id="rect14" />
+    <path
+       class="ColorScheme-Text"
+       d="m-12.461 21h-5.5385l3.077-4.9231z"
+       fill="currentColor"
+       id="path16"
+       style="opacity:0.5" />
+    <path
+       class="ColorScheme-Text"
+       d="m-14.539 21h-6.9231l3.1469-6.9231z"
+       fill="currentColor"
+       id="path18" />
+    <path
+       class="ColorScheme-Text"
+       d="m-17.094 11a7 7 0 0 0-6.9062 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7 7 7 0 0 0-0.09375 0zm0.09375 1a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6z"
+       fill="currentColor"
+       id="path20" />
+  </g>
+  <g
+     id="start-here-kde">
+    <path
+       id="path896"
+       d="M 38 1 A 15 15 0 0 0 23 16 A 15 15 0 0 0 38 31 A 15 15 0 0 0 53 16 A 15 15 0 0 0 38 1 z M 38 3 A 13 13 0 0 1 51 16 A 13 13 0 0 1 38 29 A 13 13 0 0 1 25 16 A 13 13 0 0 1 38 3 z "
+       fill="currentColor"
+       class="ColorScheme-Text" />
+    <rect
+       x="22"
+       width="32"
+       height="32"
+       fill="none"
+       id="rect23"
+       y="0" />
+    <path
+       class="ColorScheme-Text"
+       d="M 48,22 H 34.363636 l 6.363682,-11.818227 z"
+       id="path25"
+       style="opacity:0.5"
+       fill="currentColor" />
+    <path
+       class="ColorScheme-Text"
+       d="M 43.695455,22 H 28 L 35.386001,7.2290913 Z"
+       id="path27"
+       fill="currentColor" />
+  </g>
 </svg>
