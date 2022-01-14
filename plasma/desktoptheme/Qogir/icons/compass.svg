@@ -1,20 +1,107 @@
-<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }</style>
- </defs>
- <g id="16-16-compass">
-  <rect x="25" width="16" height="16" fill="none"/>
-  <path class="ColorScheme-Text" d="m33 1.0273c-3.866 0-7 3.1182-7 7s3.134 7 7 7 7-3.1182 7-7-3.134-7-7-7zm0 1.9727c2.7614 0 5 2.2909 5 5.0273s-2.2386 5.0273-5 5.0273-5-2.2909-5-5.0273 2.2386-5.0273 5-5.0273zm3.5 1.5273-3.5 1.1455c-1.2217 0-2.334 1.1455-2.334 2.3545l-1.166 3.5 3.5-1.1455c1.2217 0 2.334-1.1455 2.334-2.3545zm-3.5 2.3545c0.61088 0 1.166 0.50909 1.166 1.1455-1.9e-5 0.63636-0.55518 1.1455-1.166 1.1455-0.61085 0-1.166-0.50909-1.166-1.1455-3e-5 -0.63636 0.55514-1.1455 1.166-1.1455z" fill="currentColor"/>
- </g>
- <g id="22-22-compass">
-  <circle cx="11" cy="11" r="11" fill="none"/>
-  <path class="ColorScheme-Text" d="m16.657 5.3431a8 8 0 0 0-11.314 0 8 8 0 0 0 0 11.314 8 8 0 0 0 11.314 0 8 8 0 0 0 0-11.314zm-1.4142 1.4142a6 6 0 0 1 0 8.4853 6 6 0 0 1-8.4853 0 6 6 0 0 1 0-8.4853 6 6 0 0 1 8.4853 0zm0 0-3.2731 1.4032a3 3 0 0 0-3.0908 0.71816 3 3 0 0 0-0.71816 3.0881l-1.4032 3.2759 3.2731-1.4032a3 3 0 0 0 3.0908-0.71816 3 3 0 0 0 0.71816-3.0881zm-3.5355 3.5355a1 1 0 0 1 0 1.4142 1 1 0 0 1-1.4142 0 1 1 0 0 1 0-1.4142 1 1 0 0 1 1.4142 0z" fill="currentColor"/>
- </g>
- <rect x="54" width="16" height="16" fill="none"/>
- <g id="compass">
-  <rect x="36" y="-38" width="32" height="32" opacity="0" stroke-width=".91829"/>
-  <rect x="38.072" y="-35.928" width="27.855" height="27.855" rx="13.928" ry="13.928" fill="none"/>
-  <rect x="38.001" y="-35.999" width="27.998" height="27.998" rx="13.999" ry="13.999" fill="#f3b12b"/>
-  <path d="m52-31a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm0 2a7 7 0 0 1 4.9336 2.0371l-3.8555 2.1641a3 3 0 0 0-1.0781-0.20117 3 3 0 0 0-3 3 3 3 0 0 0 0.21289 1.0898l-2.1758 3.8438a7 7 0 0 1-2.0371-4.9336 7 7 0 0 1 7-7zm4.9629 2.0645a7 7 0 0 1 2.0371 4.9355 7 7 0 0 1-7 7 7 7 0 0 1-4.9336-2.0371l3.8652-2.168a3 3 0 0 0 1.0684 0.20508 3 3 0 0 0 3-3 3 3 0 0 0-0.20898-1.0977l2.1719-3.8379zm-4.9629 3.9355a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z" fill="#ffffff"/>
- </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   viewBox="0 0 22 22"
+   id="svg26"
+   sodipodi:docname="compass.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview28"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:zoom="2.9488636"
+     inkscape:cx="35.606936"
+     inkscape:cy="-5.256262"
+     inkscape:window-width="1368"
+     inkscape:window-height="707"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg26">
+    <inkscape:grid
+       type="xygrid"
+       id="grid30" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }</style>
+  </defs>
+  <g
+     id="compass">
+    <rect
+       x="36"
+       y="-38"
+       width="32"
+       height="32"
+       opacity="0"
+       stroke-width=".91829"
+       id="rect17" />
+    <rect
+       x="38.072"
+       y="-35.928"
+       width="27.855"
+       height="27.855"
+       rx="13.928"
+       ry="13.928"
+       fill="none"
+       id="rect19" />
+    <rect
+       x="38.001"
+       y="-35.999"
+       width="27.998"
+       height="27.998"
+       rx="13.999"
+       ry="13.999"
+       fill="#f3b12b"
+       id="rect21" />
+    <path
+       d="m52-31a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm0 2a7 7 0 0 1 4.9336 2.0371l-3.8555 2.1641a3 3 0 0 0-1.0781-0.20117 3 3 0 0 0-3 3 3 3 0 0 0 0.21289 1.0898l-2.1758 3.8438a7 7 0 0 1-2.0371-4.9336 7 7 0 0 1 7-7zm4.9629 2.0645a7 7 0 0 1 2.0371 4.9355 7 7 0 0 1-7 7 7 7 0 0 1-4.9336-2.0371l3.8652-2.168a3 3 0 0 0 1.0684 0.20508 3 3 0 0 0 3-3 3 3 0 0 0-0.20898-1.0977l2.1719-3.8379zm-4.9629 3.9355a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z"
+       fill="#ffffff"
+       id="path23" />
+  </g>
+  <g
+     id="22-22-compass">
+    <circle
+       cx="11"
+       cy="11"
+       r="11"
+       fill="none"
+       id="circle10" />
+    <path
+       id="path54"
+       d="M 11 3 A 8 8 0 0 0 3 11 A 8 8 0 0 0 11 19 A 8 8 0 0 0 19 11 A 8 8 0 0 0 11 3 z M 11 4 A 7 7 0 0 1 18 11 A 7 7 0 0 1 11 18 A 7 7 0 0 1 4 11 A 7 7 0 0 1 11 4 z M 15 7 L 9 9 L 7 15 L 13 13 L 15 7 z M 13.417969 8.5820312 L 12.208984 12.208984 L 8.5820312 13.417969 L 9.7910156 9.7910156 L 13.417969 8.5820312 z "
+       class="ColorScheme-Text"
+       fill="currentColor" />
+  </g>
+  <g
+     id="16-16-compass">
+    <rect
+       x="26"
+       width="16"
+       height="16"
+       fill="none"
+       id="rect5"
+       y="0" />
+    <path
+       id="path1735"
+       d="m 34,0 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z m 0,1 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z m 4,3 -6,2 -2,6 6,-2 z m -1.582031,1.582031 -1.208985,3.626953 -3.626953,1.208985 1.208985,-3.626953 z"
+       class="ColorScheme-Text"
+       fill="currentColor" />
+  </g>
 </svg>
