@@ -14,21 +14,21 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview122"
-     pagecolor="#ffffff"
+     pagecolor="#606060"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      showgrid="true"
-     inkscape:zoom="3.2703689"
-     inkscape:cx="45.254834"
-     inkscape:cy="75.832425"
-     inkscape:window-width="1083"
-     inkscape:window-height="462"
-     inkscape:window-x="144"
-     inkscape:window-y="155"
-     inkscape:window-maximized="0"
+     inkscape:zoom="11.313709"
+     inkscape:cx="13.567611"
+     inkscape:cy="23.246135"
+     inkscape:window-width="1440"
+     inkscape:window-height="710"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg120">
     <inkscape:grid
        type="xygrid"
@@ -291,8 +291,8 @@
        width="58"
        height="0.5"
        x="4"
-       y="126.5003"
-       style="opacity:0.15;fill:#000000" />
+       y="126.50031"
+       style="opacity:0.65;fill:#000000;stroke-width:1" />
   </g>
   <g
      transform="matrix(0.744186,0,0,2.4635078,-31.650717,48.656246)"
@@ -312,9 +312,9 @@
        id="path3555" />
     <path
        id="path2128-3"
-       d="m 13,26 c -2.770003,0 -5,2.229997 -5,5 h 1 c 0,-2.20914 1.790862,-4 4,-4 z"
-       transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)"
-       style="opacity:0.15;fill:#000000" />
+       style="opacity:0.65;fill:#000000;stroke-width:1"
+       d="M 13 88 C 10.229997 88 8 90.22998 8 93 L 9 93 C 9 90.784 10.784 89 13 89 L 13 88 z "
+       transform="matrix(0.5,0,0,0.5,-2.5002289,82.50031)" />
     <path
        id="path4234-6"
        style="opacity:0.75;fill:currentColor"
@@ -422,7 +422,7 @@
        height="0.5"
        x="4"
        y="126.5003"
-       style="fill:#000000;opacity:0.15" />
+       style="opacity:0.65;fill:#000000;stroke-width:1" />
   </g>
   <g
      transform="matrix(0.744186,0,0,2.4635078,-31.650704,-13.343751)"
@@ -463,9 +463,9 @@
        id="path5032" />
     <path
        id="path2128"
-       d="M 13 26 C 10.229997 26 8 28.229997 8 31 L 9 31 C 9 28.79086 10.790862 27 13 27 L 13 26 z "
-       transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)"
-       style="fill:#000000;opacity:0.15" />
+       style="opacity:0.65;fill:#000000;stroke-width:1"
+       d="M 13 26 C 10.229997 26 8 28.23 8 31 L 9 31 C 9 28.784 10.784 27 13 27 L 13 26 z "
+       transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)" />
     <path
        id="path4234"
        style="fill:currentColor;opacity:0.9"
