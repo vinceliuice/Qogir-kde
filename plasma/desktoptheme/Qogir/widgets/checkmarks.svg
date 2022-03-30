@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="34"
    height="16"
    version="1.1"
    viewBox="0 0 34 16"
    id="svg89"
    sodipodi:docname="checkmarks.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata93">
     <rdf:RDF>
@@ -34,17 +34,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="697"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      id="namedview91"
-     showgrid="false"
-     inkscape:zoom="3.9453125"
-     inkscape:cx="97.14924"
-     inkscape:cy="-2.4334685"
+     showgrid="true"
+     inkscape:zoom="4"
+     inkscape:cx="45"
+     inkscape:cy="-14.75"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg89">
+     inkscape:current-layer="svg89"
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid963" />
@@ -100,7 +104,7 @@
   </defs>
   <g
      id="16-16-radiobutton"
-     transform="translate(0,-904.36)">
+     transform="translate(0,-904.35999)">
     <rect
        y="904.35999"
        width="16"
@@ -112,15 +116,16 @@
        class="ColorScheme-Text"
        cx="8"
        cy="912.35999"
-       r="8"
+       r="7"
        fill="currentColor"
        opacity="0.35"
-       id="circle7" />
+       id="circle7"
+       style="stroke-width:0.875" />
     <circle
        class="ColorScheme-Background"
        cx="8"
        cy="912.35999"
-       r="7"
+       r="6"
        fill="currentColor"
        id="circle9" />
     <circle
@@ -151,23 +156,27 @@
        id="rect16" />
     <rect
        class="ColorScheme-Text"
-       x="18"
-       y="904.35999"
-       width="16"
-       height="16"
-       rx="1"
-       ry="1"
+       x="19.000015"
+       y="905.35999"
+       width="13.99997"
+       height="13.99997"
+       rx="1.9999847"
+       ry="1.9999847"
        fill="currentColor"
        opacity="0.35"
-       id="rect18" />
+       id="rect18"
+       style="stroke-width:0.874998" />
     <rect
        class="ColorScheme-Background"
-       x="19"
-       y="905.35999"
-       width="14"
-       height="14"
+       x="20.000015"
+       y="906.35999"
+       width="11.99997"
+       height="11.99997"
        fill="currentColor"
-       id="rect20" />
+       id="rect20"
+       style="stroke-width:0.857141"
+       rx="1.0000147"
+       ry="1.0000147" />
     <rect
        class="ColorScheme-Highlight"
        transform="rotate(-45)"
@@ -203,17 +212,19 @@
        class="ColorScheme-Text"
        cx="8"
        cy="912.35999"
-       r="8"
+       r="7.2690763"
        fill="currentColor"
        opacity="0.35"
-       id="circle29" />
+       id="circle29"
+       style="stroke-width:0.908635" />
     <circle
        class="ColorScheme-Background"
        cx="8"
        cy="912.35999"
-       r="7.2726998"
+       r="6.5418034"
        fill="currentColor"
-       id="circle31" />
+       id="circle31"
+       style="stroke-width:0.899501" />
     <circle
        class="ColorScheme-Highlight"
        cx="8"
@@ -235,23 +246,27 @@
        id="rect36" />
     <rect
        class="ColorScheme-Text"
-       x="18"
-       y="877.35999"
-       width="22"
-       height="22"
-       rx="1"
-       ry="1"
+       x="19.000015"
+       y="878.35999"
+       width="19.999971"
+       height="19.999971"
+       rx="1.9999847"
+       ry="1.9999847"
        fill="currentColor"
        opacity="0.35"
-       id="rect38" />
+       id="rect38"
+       style="stroke-width:0.90909" />
     <rect
        class="ColorScheme-Background"
-       x="19"
-       y="878.35999"
-       width="20"
-       height="20"
+       x="20.000015"
+       y="879.35999"
+       width="17.999971"
+       height="17.999971"
        fill="currentColor"
-       id="rect40" />
+       id="rect40"
+       style="stroke-width:0.899999"
+       rx="1.0000147"
+       ry="1.0000147" />
     <rect
        class="ColorScheme-Highlight"
        transform="rotate(-45)"
@@ -286,23 +301,27 @@
        id="rect47" />
     <rect
        class="ColorScheme-Text"
-       x="43"
-       y="877.35999"
-       width="24"
-       height="24"
-       rx="1"
-       ry="1"
+       x="44.000015"
+       y="878.35999"
+       width="21.999971"
+       height="21.999971"
+       rx="1.9999847"
+       ry="1.9999847"
        fill="currentColor"
        opacity="0.35"
-       id="rect49" />
+       id="rect49"
+       style="stroke-width:0.916665" />
     <rect
        class="ColorScheme-Background"
-       x="44"
-       y="878.35999"
-       width="22"
-       height="22"
+       x="45.000015"
+       y="879.35999"
+       width="19.999971"
+       height="19.999971"
        fill="currentColor"
-       id="rect51" />
+       id="rect51"
+       style="stroke-width:0.90909"
+       rx="1.0000147"
+       ry="1.0000147" />
     <rect
        class="ColorScheme-Highlight"
        transform="rotate(-45)"
@@ -337,25 +356,27 @@
        id="rect58" />
     <rect
        class="ColorScheme-Text"
-       x="73"
-       y="877.35999"
-       width="32"
-       height="32"
-       rx="2"
-       ry="2"
+       x="74.000015"
+       y="878.35999"
+       width="29.999971"
+       height="29.999971"
+       rx="2.9999847"
+       ry="2.9999847"
        fill="currentColor"
        opacity="0.35"
-       id="rect60" />
+       id="rect60"
+       style="stroke-width:0.937499" />
     <rect
        class="ColorScheme-Background"
-       x="74"
-       y="878.35999"
-       width="30"
-       height="30"
-       rx="1"
-       ry="1"
+       x="75.000015"
+       y="879.35999"
+       width="27.999971"
+       height="27.999971"
+       rx="1.9999847"
+       ry="1.9999847"
        fill="currentColor"
-       id="rect62" />
+       id="rect62"
+       style="stroke-width:0.933332" />
     <rect
        class="ColorScheme-Highlight"
        transform="rotate(-45)"
@@ -391,17 +412,19 @@
        class="ColorScheme-Text"
        cx="8"
        cy="912.35999"
-       r="8"
+       r="7.3333335"
        fill="currentColor"
        opacity="0.35"
-       id="circle71" />
+       id="circle71"
+       style="stroke-width:0.916667" />
     <circle
        class="ColorScheme-Background"
        cx="8"
        cy="912.35999"
-       r="7.3333001"
+       r="6.6666665"
        fill="currentColor"
-       id="circle73" />
+       id="circle73"
+       style="stroke-width:0.909095" />
     <circle
        class="ColorScheme-Highlight"
        cx="8"
@@ -412,7 +435,7 @@
   </g>
   <g
      id="radiobutton"
-     transform="matrix(2,0,0,2,-72,-1832.72)">
+     transform="matrix(2,0,0,2,-72,-1833.72)">
     <rect
        y="904.35999"
        width="16"
@@ -424,21 +447,23 @@
        class="ColorScheme-Text"
        cx="8"
        cy="912.35999"
-       r="8"
+       r="7.4999852"
        fill="currentColor"
        opacity="0.35"
-       id="circle80" />
+       id="circle80"
+       style="stroke-width:0.937498" />
     <circle
        class="ColorScheme-Background"
        cx="8"
        cy="912.35999"
-       r="7.5"
+       r="7"
        fill="currentColor"
-       id="circle82" />
+       id="circle82"
+       style="stroke-width:0.933333" />
     <circle
        class="ColorScheme-Highlight"
        cx="8"
-       cy="912.35999"
+       cy="912.36"
        r="2"
        fill="currentColor"
        id="circle84" />

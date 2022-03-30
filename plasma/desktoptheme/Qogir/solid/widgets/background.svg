@@ -22,8 +22,8 @@
      inkscape:pagecheckerboard="0"
      showgrid="true"
      inkscape:zoom="4.6250001"
-     inkscape:cx="51.891891"
-     inkscape:cy="71.135134"
+     inkscape:cx="18.378378"
+     inkscape:cy="85.189187"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -273,7 +273,7 @@
     <path
        id="path2667-9"
        d="M 4,127.0003 V 129 h 58 v -1.9997 c -0.02169,-6.7e-4 -0.04064,0 -0.0625,0 H 4.0625 c -0.021861,0 -0.040806,-6.7e-4 -0.0625,0 z"
-       style="opacity:0.75;fill:currentColor"
+       style="opacity:1;fill:currentColor"
        class="ColorScheme-Background" />
     <path
        d="M 4,127.00007 V 127.5 h 58 v -0.49993 c -0.02169,-1.6e-4 -0.04064,0 -0.0625,0 H 4.0625 c -0.021861,0 -0.040806,-1.6e-4 -0.0625,0 z"
@@ -294,7 +294,7 @@
        y="126.5"
        class="ColorScheme-Text"
        fill="currentColor"
-       style="opacity:0.1" />
+       style="opacity:0.15" />
   </g>
   <g
      transform="matrix(0.744186,0,0,2.4635078,-31.650717,48.656246)"
@@ -302,7 +302,7 @@
     <path
        id="path11378-9"
        d="m 60,17.999997 v 12.989608 h 43 V 17.999997 Z"
-       style="opacity:0.75;fill:currentColor;stroke-width:0.528466"
+       style="opacity:1;fill:currentColor;stroke-width:0.528466"
        class="ColorScheme-Background" />
   </g>
   <g
@@ -318,10 +318,10 @@
        transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)"
        class="ColorScheme-Text"
        fill="currentColor"
-       style="opacity:0.1" />
+       style="opacity:0.15" />
     <path
        id="path4234-6"
-       style="opacity:0.75;fill:currentColor"
+       style="opacity:1;fill:currentColor"
        class="ColorScheme-Background"
        d="m 13,27 c -2.216,0 -4,1.784 -4,4 h 4 z"
        transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)" />
@@ -407,7 +407,7 @@
     <path
        id="path2667"
        d="M 4,127.0003 V 129 h 58 v -1.9997 c -0.02169,-6.7e-4 -0.04064,0 -0.0625,0 H 4.0625 c -0.021861,0 -0.040806,-6.7e-4 -0.0625,0 z"
-       style="opacity:0.9;fill:currentColor"
+       style="opacity:1;fill:currentColor"
        class="ColorScheme-Background" />
     <path
        d="M 4,127.00007 V 127.5 h 58 v -0.49993 c -0.02169,-1.6e-4 -0.04064,0 -0.0625,0 H 4.0625 c -0.021861,0 -0.040806,-1.6e-4 -0.0625,0 z"
@@ -428,7 +428,7 @@
        y="126.5"
        class="ColorScheme-Text"
        fill="currentColor"
-       style="opacity:0.1" />
+       style="opacity:0.15" />
   </g>
   <g
      transform="matrix(0.744186,0,0,2.4635078,-31.650704,-13.343751)"
@@ -436,7 +436,7 @@
     <path
        id="path11378"
        d="m 60,17.999997 v 12.989608 h 43 V 17.999997 Z"
-       style="opacity:0.9;fill:currentColor;stroke-width:0.528466"
+       style="opacity:1;fill:currentColor;stroke-width:0.528466"
        class="ColorScheme-Background" />
   </g>
   <rect
@@ -473,10 +473,10 @@
        transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)"
        fill="currentColor"
        class="ColorScheme-Text"
-       style="opacity:0.1" />
+       style="opacity:0.15" />
     <path
        id="path4234"
-       style="fill:currentColor;opacity:0.9"
+       style="fill:currentColor;opacity:1"
        class="ColorScheme-Background"
        d="M 13 27 C 10.784 27 9 28.784 9 31 L 13 31 L 13 27 z "
        transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)" />

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="17"
    height="57"
    version="1.0"
    id="svg176"
    sodipodi:docname="lineedit.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -19,17 +19,18 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="697"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      id="namedview178"
      showgrid="false"
-     inkscape:zoom="4.4298246"
-     inkscape:cx="90.403733"
-     inkscape:cy="40.090797"
+     inkscape:zoom="25.058872"
+     inkscape:cx="28.133748"
+     inkscape:cy="-35.396645"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg176" />
+     inkscape:current-layer="svg176"
+     inkscape:pagecheckerboard="0" />
   <defs
      id="defs3">
     <style
@@ -91,9 +92,9 @@
        y="-36"
        width="80"
        height="1"
-       opacity=".25"
        id="rect8"
-       fill="currentColor" />
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="base-topleft">
@@ -109,9 +110,8 @@
        class="ColorScheme-Text"
        d="m 33,-36 a 2,2 0 0 1 2,-2 v 2 z"
        fill="currentColor"
-       opacity="0.25"
        id="path13"
-       style="stroke-width:2" />
+       style="stroke-width:2;opacity:0.15" />
     <path
        class="ColorScheme-ViewBackground"
        d="m 34,-36 a 1,1 0 0 1 1,-1 v 1 z"
@@ -124,8 +124,8 @@
        width="1"
        height="1"
        fill="currentColor"
-       opacity="0.25"
-       id="rect17" />
+       id="rect17"
+       style="opacity:0.15" />
   </g>
   <rect
      id="focus-center"
@@ -343,8 +343,8 @@
        y="-35"
        width="1"
        height="20"
-       opacity=".25"
-       id="rect65" />
+       id="rect65"
+       style="opacity:0.15" />
   </g>
   <rect
      id="base-hint-left-margin"
@@ -368,9 +368,8 @@
        class="ColorScheme-Text"
        fill="currentColor"
        d="m 117,-36 a 2,2 0 0 0 -2,-2 v 2 z"
-       opacity="0.25"
        id="path71"
-       style="stroke-width:2" />
+       style="stroke-width:2;opacity:0.15" />
     <path
        class="ColorScheme-ViewBackground"
        fill="currentColor"
@@ -384,8 +383,8 @@
        y="-36"
        width="1"
        height="1"
-       opacity="0.25"
-       id="rect75" />
+       id="rect75"
+       style="opacity:0.15" />
   </g>
   <g
      id="base-bottomright"
@@ -395,8 +394,8 @@
        fill="currentColor"
        transform="matrix(2,0,0,-2,-150,-83)"
        d="m149-35a1 1 0 0 1 1-1v1z"
-       opacity=".25"
-       id="path78" />
+       id="path78"
+       style="opacity:0.15" />
     <path
        class="ColorScheme-ViewBackground"
        fill="currentColor"
@@ -422,8 +421,8 @@
        y="-35"
        width="1"
        height="20"
-       opacity=".25"
-       id="rect85" />
+       id="rect85"
+       style="opacity:0.15" />
   </g>
   <rect
      id="base-hint-right-margin"
@@ -450,8 +449,8 @@
        y="-36"
        width="80"
        height="1"
-       opacity=".25"
-       id="rect91" />
+       id="rect91"
+       style="opacity:0.15" />
   </g>
   <rect
      id="base-hint-bottom-margin"
@@ -466,9 +465,8 @@
        class="ColorScheme-Text"
        fill="currentColor"
        d="m 33,-15 a 2,2 0 0 0 2,2 v -2 z"
-       opacity="0.25"
        id="path95"
-       style="stroke-width:2" />
+       style="stroke-width:2;opacity:0.15" />
     <path
        class="ColorScheme-ViewBackground"
        fill="currentColor"

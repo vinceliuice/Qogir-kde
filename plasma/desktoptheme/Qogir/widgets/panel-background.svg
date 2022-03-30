@@ -6,7 +6,7 @@
    viewBox="0 0 173 56"
    id="svg139"
    sodipodi:docname="panel-background.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,15 +35,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="720"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      id="namedview141"
      showgrid="true"
-     inkscape:zoom="7.1560696"
-     inkscape:cx="36.472535"
-     inkscape:cy="35.07512"
+     inkscape:zoom="1.2650263"
+     inkscape:cx="83.792722"
+     inkscape:cy="-0.79049738"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg139"
      inkscape:pagecheckerboard="0">
@@ -174,8 +174,8 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect16" />
+       id="rect16"
+       style="opacity:0.8" />
   </g>
   <g
      id="topleft"
@@ -210,8 +210,8 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect25" />
+       id="rect25"
+       style="opacity:0.8" />
   </g>
   <g
      id="bottomleft"
@@ -246,8 +246,8 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect34" />
+       id="rect34"
+       style="opacity:0.8" />
   </g>
   <g
      id="right"
@@ -259,8 +259,8 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect37" />
+       id="rect37"
+       style="opacity:0.8" />
   </g>
   <g
      id="center"
@@ -279,8 +279,8 @@
        width="32"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect42" />
+       id="rect42"
+       style="opacity:0.8" />
   </g>
   <rect
      id="hint-top-inset"
@@ -457,9 +457,10 @@
        y="-51"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect84" />
+       id="rect84"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-topleft"
@@ -501,10 +502,10 @@
     <path
        transform="translate(-58,904.36)"
        d="m 76,5 c -3.324,0 -6,2.676 -6,6 v 1 h 1 v -1 c 0,-2.77 2.23,-5 5,-5 h 1 V 5 Z"
-       fill="#000000"
-       opacity="0.15"
        id="path95"
-       fill-rule="evenodd" />
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-bottom"
@@ -539,11 +540,12 @@
        transform="rotate(90)"
        x="954.35999"
        y="-51"
-       width="0.99997997"
+       width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect104" />
+       id="rect104"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-left"
@@ -580,9 +582,10 @@
        y="916.35999"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect113" />
+       id="rect113"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-right"
@@ -615,9 +618,10 @@
        y="916.35999"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect122" />
+       id="rect122"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-center"

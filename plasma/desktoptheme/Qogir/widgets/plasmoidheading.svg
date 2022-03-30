@@ -4,7 +4,7 @@
    viewBox="0 0 173 56"
    id="svg44"
    sodipodi:docname="plasmoidheading.svg"
-   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -20,11 +20,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="44.470068"
-     inkscape:cx="97.200211"
-     inkscape:cy="6.2513959"
+     inkscape:zoom="31.445087"
+     inkscape:cx="29.320956"
+     inkscape:cy="45.603309"
      inkscape:window-width="1920"
-     inkscape:window-height="1012"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -74,9 +74,8 @@
        class="ColorScheme-Text"
        transform="rotate(90)"
        d="m49-51h1v32h-1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.15" />
   </g>
   <path
      id="header-left"
@@ -98,9 +97,8 @@
        id="border-bottomright"
        class="ColorScheme-Text"
        d="m57 49h-6v1h6c0-1-2e-5 0 0-1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.15" />
   </g>
   <g
      id="header-bottomleft"
@@ -115,9 +113,8 @@
        id="border-bottomleft"
        class="ColorScheme-Text"
        d="m19 50v-1h-4l-2-2e-5v1l2 2e-5h1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.15" />
   </g>
   <path
      id="header-topleft"
@@ -166,9 +163,8 @@
        class="ColorScheme-Text"
        transform="matrix(0 -1 -1 0 0 0)"
        d="m-7-99h1v32h-1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.15" />
   </g>
   <path
      id="footer-left"
@@ -190,9 +186,8 @@
        id="border-topright"
        class="ColorScheme-Text"
        d="m105 7h-6v-1h6c0 1-2e-5 0 0 1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.15" />
   </g>
   <g
      id="footer-topleft"
@@ -207,9 +202,8 @@
        id="border-topleft"
        class="ColorScheme-Text"
        d="m67 6v1h-4l-2 2e-5v-1l2-2e-5h1z"
-       opacity=".25"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.15" />
   </g>
   <path
      id="footer-bottomleft"

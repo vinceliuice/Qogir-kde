@@ -6,7 +6,7 @@
    viewBox="0 0 173 56"
    id="svg139"
    sodipodi:docname="panel-background.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,15 +35,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="720"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      id="namedview141"
      showgrid="true"
-     inkscape:zoom="7.1560696"
-     inkscape:cx="36.472535"
-     inkscape:cy="35.07512"
+     inkscape:zoom="7.1560694"
+     inkscape:cx="86.919224"
+     inkscape:cy="29.345719"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg139"
      inkscape:pagecheckerboard="0">
@@ -106,7 +106,8 @@
        y1="932.36"
        y2="932.36"
        gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient4270" />
+       xlink:href="#linearGradient4270"
+       gradientTransform="translate(8e-7,2.9296876e-5)" />
     <linearGradient
        id="linearGradient4270">
       <stop
@@ -174,8 +175,8 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect16" />
+       id="rect16"
+       style="opacity:0.8" />
   </g>
   <g
      id="topleft"
@@ -210,8 +211,8 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect25" />
+       id="rect25"
+       style="opacity:0.8" />
   </g>
   <g
      id="bottomleft"
@@ -246,8 +247,8 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect34" />
+       id="rect34"
+       style="opacity:0.8" />
   </g>
   <g
      id="right"
@@ -259,8 +260,8 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect37" />
+       id="rect37"
+       style="opacity:0.8" />
   </g>
   <g
      id="center"
@@ -279,8 +280,8 @@
        width="32"
        height="32"
        fill="currentColor"
-       opacity="0.8"
-       id="rect42" />
+       id="rect42"
+       style="opacity:0.8" />
   </g>
   <rect
      id="hint-top-inset"
@@ -435,14 +436,12 @@
        id="rect78" />
     <rect
        transform="matrix(0,-1,-1,0,0,0)"
-       x="-910.35999"
+       x="-909.35999"
        y="-51"
-       width="14"
+       width="13.000014"
        height="32"
-       fill="url(#linearGradient4920)"
-       opacity="0.15"
        id="rect80"
-       style="fill:url(#linearGradient4920)" />
+       style="fill:url(#linearGradient4920);stroke-width:1;opacity:0.15" />
     <rect
        transform="matrix(0,-1,-1,0,0,0)"
        x="-911.35999"
@@ -457,21 +456,19 @@
        y="-51"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect84" />
+       id="rect84"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.35" />
   </g>
   <g
      id="shadow-topleft"
      transform="translate(58,-904.36)">
     <path
-       transform="translate(-58,904.36)"
-       d="m 57,-8 v 20 c 4.6667,6e-6 9.3333,9e-6 14,0 v -1 c 0,-2.77 2.23,-5 5,-5 h 1 V -8 Z"
-       fill="url(#radialGradient1805)"
-       fill-rule="evenodd"
-       opacity="0.15"
        id="path87"
-       style="fill:url(#radialGradient1805)" />
+       style="fill:url(#radialGradient1805);opacity:0.15"
+       d="M 57 -8 L 57 12 C 61.333364 12.000006 65.666648 12.000007 70 12 L 70 11 C 70 7.676 72.676 5 76 5 L 77 5 L 77 -8 L 57 -8 z "
+       transform="translate(-58,904.36)" />
     <rect
        transform="scale(-1,1)"
        x="-19"
@@ -501,10 +498,10 @@
     <path
        transform="translate(-58,904.36)"
        d="m 76,5 c -3.324,0 -6,2.676 -6,6 v 1 h 1 v -1 c 0,-2.77 2.23,-5 5,-5 h 1 V 5 Z"
-       fill="#000000"
-       opacity="0.15"
        id="path95"
-       fill-rule="evenodd" />
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.35" />
   </g>
   <g
      id="shadow-bottom"
@@ -519,14 +516,13 @@
        id="rect98" />
     <rect
        transform="rotate(90)"
-       x="954.35999"
+       x="955.35999"
        y="-51"
-       width="14"
+       width="12.999986"
        height="32"
        fill="url(#linearGradient4934)"
-       opacity="0.15"
        id="rect100"
-       style="fill:url(#linearGradient4934)" />
+       style="fill:url(#linearGradient4934);opacity:0.15" />
     <rect
        transform="rotate(90)"
        x="953.35999"
@@ -539,11 +535,12 @@
        transform="rotate(90)"
        x="954.35999"
        y="-51"
-       width="0.99997997"
+       width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect104" />
+       id="rect104"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.35" />
   </g>
   <g
      id="shadow-left"
@@ -558,14 +555,12 @@
        id="rect107" />
     <rect
        transform="scale(-1,1)"
-       x="-13"
+       x="-12"
        y="916.35999"
-       width="14"
-       height="32"
-       fill="url(#linearGradient4948)"
-       opacity="0.15"
+       width="13"
+       height="31.999985"
        id="rect109"
-       style="fill:url(#linearGradient4948)" />
+       style="fill:url(#linearGradient4948);stroke-width:1;opacity:0.15" />
     <rect
        transform="scale(-1,1)"
        x="-14"
@@ -580,9 +575,10 @@
        y="916.35999"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect113" />
+       id="rect113"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.35" />
   </g>
   <g
      id="shadow-right"
@@ -595,14 +591,12 @@
        fill="none"
        id="rect116" />
     <rect
-       x="57"
+       x="58"
        y="916.35999"
-       width="14"
-       height="32"
-       fill="url(#linearGradient4950)"
-       opacity="0.15"
+       width="13"
+       height="31.999985"
        id="rect118"
-       style="fill:url(#linearGradient4950)" />
+       style="fill:url(#linearGradient4950);stroke-width:1;opacity:0.15" />
     <rect
        x="56"
        y="916.35999"
@@ -615,9 +609,10 @@
        y="916.35999"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect122" />
+       id="rect122"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.35" />
   </g>
   <g
      id="shadow-center"

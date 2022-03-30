@@ -1,17 +1,78 @@
-<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#5c616c}</style>
- </defs>
- <g id="klipper">
-  <path class="ColorScheme-Text" d="m16 4c-1.662 0-3 1.338-3 3h-7v21h20v-21h-7c0-1.662-1.338-3-3-3zm0 2c0.55228 0 1 0.44772 1 1s-0.44772 1-1 1-1-0.44772-1-1 0.44772-1 1-1zm-9 2h6v1h-1c-1.108 0-2 0.892-2 2h12c0-1.108-0.892-2-2-2h-1v-1h6v19h-18zm3 6v1h12v-1zm0 4v1h12v-1zm0 4v1h12v-1z" fill="currentColor"/>
-  <path d="M0 0h32v32H0z" fill="none"/>
- </g>
- <g id="22-22-klipper">
-  <path d="m49 5h22v22h-22z" fill="none"/>
-  <path class="ColorScheme-Text" d="m60 8a2 2 0 0 0-2 2h-4v13h12v-13h-4c0-0.138-5e-3 -0.276-0.031-0.406a2.008 2.008 0 0 0-1.969-1.594zm0 1c0.414 0 0.754 0.266 0.906 0.625a0.94 0.94 0 0 1 0.094 0.375 1 1 0 1 1-1-1zm-5 2h3v1s-1 0-1 1h6c0-0.75-0.563-0.953-0.844-1h-0.156v-1h3v11h-10v-10.5z" fill="currentColor"/>
- </g>
- <g id="16-16-klipper" transform="translate(0 -2.5)">
-  <path d="m81 10.5h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m89 10.5a2 2 0 0 0-2 2h-4v13h12v-13h-4c0-0.138-5e-3 -0.276-0.031-0.406a2.008 2.008 0 0 0-1.969-1.594zm0 1c0.414 0 0.754 0.266 0.906 0.625a0.94 0.94 0 0 1 0.094 0.375 1 1 0 1 1-1-1zm-5 2h3v1s-1 0-1 1h6c0-0.75-0.563-0.953-0.844-1h-0.156v-1h3v11h-10v-10.5z" fill="currentColor"/>
- </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="klipper.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:zoom="5.78125"
+     inkscape:cx="11.589189"
+     inkscape:cy="31.135135"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20">
+    <inkscape:grid
+       type="xygrid"
+       id="grid858" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text{color:#5c616c}</style>
+  </defs>
+  <g
+     id="klipper">
+    <path
+       id="rect1213"
+       d="M 16 4 C 14.338 4 13 5.338 13 7 L 8 7 C 6.892 7 6 7.892 6 9 L 6 26 C 6 27.108 6.892 28 8 28 L 24 28 C 25.108 28 26 27.108 26 26 L 26 9 C 26 7.892 25.108 7 24 7 L 19 7 C 19 5.338 17.662 4 16 4 z M 16 6 A 1 1 0 0 1 17 7 A 1 1 0 0 1 16 8 A 1 1 0 0 1 15 7 A 1 1 0 0 1 16 6 z M 8 8 L 13 8 L 13 9 L 12 9 C 10.892 9 10 9.892 10 11 L 15 11 L 17 11 L 22 11 C 22 9.892 21.108 9 20 9 L 19 9 L 19 8 L 24 8 C 24.554 8 25 8.446 25 9 L 25 26 C 25 26.554 24.554 27 24 27 L 8 27 C 7.446 27 7 26.554 7 26 L 7 9 C 7 8.446 7.446 8 8 8 z "
+       class="ColorScheme-Text"
+       fill="currentColor" />
+    <path
+       d="M 0,0 H 32 V 32 H 0 Z"
+       fill="none"
+       id="path7" />
+  </g>
+  <g
+     id="22-22-klipper">
+    <path
+       d="m49 5h22v22h-22z"
+       fill="none"
+       id="path10" />
+    <path
+       class="ColorScheme-Text"
+       d="m60 8a2 2 0 0 0-2 2h-4v13h12v-13h-4c0-0.138-5e-3 -0.276-0.031-0.406a2.008 2.008 0 0 0-1.969-1.594zm0 1c0.414 0 0.754 0.266 0.906 0.625a0.94 0.94 0 0 1 0.094 0.375 1 1 0 1 1-1-1zm-5 2h3v1s-1 0-1 1h6c0-0.75-0.563-0.953-0.844-1h-0.156v-1h3v11h-10v-10.5z"
+       fill="currentColor"
+       id="path12" />
+  </g>
+  <g
+     id="16-16-klipper"
+     transform="translate(0 -2.5)">
+    <path
+       d="m81 10.5h16v16h-16z"
+       fill="none"
+       id="path15" />
+    <path
+       class="ColorScheme-Text"
+       d="m89 10.5a2 2 0 0 0-2 2h-4v13h12v-13h-4c0-0.138-5e-3 -0.276-0.031-0.406a2.008 2.008 0 0 0-1.969-1.594zm0 1c0.414 0 0.754 0.266 0.906 0.625a0.94 0.94 0 0 1 0.094 0.375 1 1 0 1 1-1-1zm-5 2h3v1s-1 0-1 1h6c0-0.75-0.563-0.953-0.844-1h-0.156v-1h3v11h-10v-10.5z"
+       fill="currentColor"
+       id="path17" />
+  </g>
 </svg>

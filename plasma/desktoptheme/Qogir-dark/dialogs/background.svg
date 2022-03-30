@@ -21,9 +21,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="true"
-     inkscape:zoom="10.708785"
-     inkscape:cx="36.231936"
-     inkscape:cy="16.341724"
+     inkscape:zoom="42.835139"
+     inkscape:cx="75.405381"
+     inkscape:cy="6.7701426"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -256,7 +256,7 @@
        height="32"
        fill="currentColor"
        id="rect28"
-       style="opacity:1" />
+       style="opacity:0.8" />
   </g>
   <g
      id="topleft"
@@ -266,7 +266,7 @@
        d="m 16,910.36 c -2,0 -3,1 -3,3 v 3 h 6 v -6 z"
        fill="currentColor"
        id="path31"
-       style="opacity:1" />
+       style="opacity:0.8" />
   </g>
   <g
      id="center"
@@ -286,7 +286,7 @@
        height="32"
        fill="currentColor"
        id="rect36"
-       style="opacity:1" />
+       style="opacity:0.8" />
   </g>
   <rect
      id="hint-top-margin"
@@ -352,7 +352,7 @@
        id="path49"
        class="ColorScheme-Text"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.35" />
   </g>
   <g
      id="shadow-topleft"
@@ -403,20 +403,20 @@
        id="path64"
        class="ColorScheme-Text"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.35" />
     <path
        transform="translate(-58,904.36)"
        d="m 74,5 c -2.216,0 -4,1.784 -4,4 h 1 c 0,-1.662 1.338,-3 3,-3 z"
        id="path66"
        class="ColorScheme-Text"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.35" />
     <path
        d="m 19,909.36 h -3 v 1 h 3 z"
        id="path68"
        class="ColorScheme-Text"
        fill="currentColor"
-       style="opacity:0.2" />
+       style="opacity:0.35" />
   </g>
   <g
      id="shadow-center"

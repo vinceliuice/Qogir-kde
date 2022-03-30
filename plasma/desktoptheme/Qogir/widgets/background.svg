@@ -6,7 +6,7 @@
    viewBox="0 0 150 150"
    id="svg120"
    sodipodi:docname="background.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -21,14 +21,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="true"
-     inkscape:zoom="3.2703689"
-     inkscape:cx="45.254834"
-     inkscape:cy="75.832425"
-     inkscape:window-width="1083"
-     inkscape:window-height="462"
-     inkscape:window-x="144"
-     inkscape:window-y="155"
-     inkscape:window-maximized="0"
+     inkscape:zoom="4.6250001"
+     inkscape:cx="52.54054"
+     inkscape:cy="70.918918"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg120">
     <inkscape:grid
        type="xygrid"
@@ -291,8 +291,10 @@
        width="58"
        height="0.5"
        x="4"
-       y="126.5003"
-       style="opacity:0.15;fill:#000000" />
+       y="126.5"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      transform="matrix(0.744186,0,0,2.4635078,-31.650717,48.656246)"
@@ -314,7 +316,9 @@
        id="path2128-3"
        d="m 13,26 c -2.770003,0 -5,2.229997 -5,5 h 1 c 0,-2.20914 1.790862,-4 4,-4 z"
        transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)"
-       style="opacity:0.15;fill:#000000" />
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
     <path
        id="path4234-6"
        style="opacity:0.75;fill:currentColor"
@@ -421,8 +425,10 @@
        width="58"
        height="0.5"
        x="4"
-       y="126.5003"
-       style="fill:#000000;opacity:0.15" />
+       y="126.5"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      transform="matrix(0.744186,0,0,2.4635078,-31.650704,-13.343751)"
@@ -465,7 +471,9 @@
        id="path2128"
        d="M 13 26 C 10.229997 26 8 28.229997 8 31 L 9 31 C 9 28.79086 10.790862 27 13 27 L 13 26 z "
        transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)"
-       style="fill:#000000;opacity:0.15" />
+       fill="currentColor"
+       class="ColorScheme-Text"
+       style="opacity:0.15" />
     <path
        id="path4234"
        style="fill:currentColor;opacity:0.9"

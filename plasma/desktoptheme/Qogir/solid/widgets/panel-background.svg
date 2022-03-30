@@ -6,7 +6,7 @@
    viewBox="0 0 173 56"
    id="svg139"
    sodipodi:docname="panel-background.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,15 +35,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="720"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      id="namedview141"
      showgrid="true"
-     inkscape:zoom="3.5780348"
-     inkscape:cx="46.1147"
-     inkscape:cy="5.3101775"
+     inkscape:zoom="7.1560694"
+     inkscape:cx="38.428917"
+     inkscape:cy="14.533118"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg139"
      inkscape:pagecheckerboard="0">
@@ -174,7 +174,6 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
        id="rect16"
        style="opacity:1" />
   </g>
@@ -186,7 +185,8 @@
        class="ColorScheme-Background"
        d="M 19 6 C 15.676 6 13 8.676 13 12 L 17 12 L 18 12 L 19 12 L 19 11 L 19 7 L 19 6 z "
        transform="translate(0,904.36)"
-       fill="currentColor" />
+       fill="currentColor"
+       style="opacity:1" />
   </g>
   <g
      id="topright"
@@ -196,7 +196,8 @@
        class="ColorScheme-Background"
        d="M 51 6 L 51 7 L 51 11 L 51 12 L 52 12 L 53 12 L 56 12 L 57 12 C 57 8.676 54.324 6 51 6 z "
        transform="translate(0,904.36)"
-       fill="currentColor" />
+       fill="currentColor"
+       style="opacity:1" />
   </g>
   <g
      id="bottom"
@@ -209,7 +210,6 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
        id="rect25"
        style="opacity:1" />
   </g>
@@ -221,7 +221,8 @@
        class="ColorScheme-Background"
        d="M 13 44 C 13 47.324 15.676 50 19 50 L 19 49 L 19 45 L 19 44 L 18 44 L 17 44 L 14 44 L 13 44 z "
        transform="translate(0,904.36)"
-       fill="currentColor" />
+       fill="currentColor"
+       style="opacity:1" />
   </g>
   <g
      id="bottomright"
@@ -231,7 +232,8 @@
        class="ColorScheme-Background"
        d="M 51 44 L 51 45 L 51 49 L 51 50 C 54.324 50 57 47.324 57 44 L 56 44 L 53 44 L 52 44 L 51 44 z "
        transform="translate(0,904.36)"
-       fill="currentColor" />
+       fill="currentColor"
+       style="opacity:1" />
   </g>
   <g
      id="left"
@@ -244,7 +246,6 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
        id="rect34"
        style="opacity:1" />
   </g>
@@ -258,7 +259,6 @@
        width="6"
        height="32"
        fill="currentColor"
-       opacity="0.8"
        id="rect37"
        style="opacity:1" />
   </g>
@@ -279,7 +279,6 @@
        width="32"
        height="32"
        fill="currentColor"
-       opacity="0.8"
        id="rect42"
        style="opacity:1" />
   </g>
@@ -458,9 +457,10 @@
        y="-51"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect84" />
+       id="rect84"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-topleft"
@@ -502,10 +502,10 @@
     <path
        transform="translate(-58,904.36)"
        d="m 76,5 c -3.324,0 -6,2.676 -6,6 v 1 h 1 v -1 c 0,-2.77 2.23,-5 5,-5 h 1 V 5 Z"
-       fill="#000000"
-       opacity="0.15"
        id="path95"
-       fill-rule="evenodd" />
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-bottom"
@@ -540,11 +540,12 @@
        transform="rotate(90)"
        x="954.35999"
        y="-51"
-       width="0.99997997"
+       width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect104" />
+       id="rect104"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-left"
@@ -581,9 +582,10 @@
        y="916.35999"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect113" />
+       id="rect113"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-right"
@@ -616,9 +618,10 @@
        y="916.35999"
        width="1"
        height="32"
-       fill="#000000"
-       opacity="0.15"
-       id="rect122" />
+       id="rect122"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.15" />
   </g>
   <g
      id="shadow-center"
