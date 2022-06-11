@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
    width="500"
    height="500"
    version="1.1"
-   id="svg84">
+   id="svg84"
+   sodipodi:docname="tabbar.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview72"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.944"
+     inkscape:cx="182.73305"
+     inkscape:cy="271.7161"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg84" />
   <metadata
      id="metadata88">
     <rdf:RDF>
@@ -17,7 +40,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,13 +79,6 @@
         color:#5294e2;
       }</style>
   </defs>
-  <rect
-     id="hint-tile-center"
-     x="68.637"
-     y="438.88"
-     width="41.363"
-     height="41.121"
-     fill="#008000" />
   <g
      id="south-active-tab-top"
      transform="translate(236,72.638)">
@@ -154,34 +170,6 @@
      class="ColorScheme-ButtonFocus"
      fill="currentColor" />
   <rect
-     id="south-active-tab-hint-left-margin"
-     x="266"
-     y="438"
-     width="6"
-     height="5"
-     fill="#4e9a06" />
-  <rect
-     id="south-active-tab-hint-right-margin"
-     x="360"
-     y="438"
-     width="6"
-     height="5"
-     fill="#4e9a06" />
-  <rect
-     id="south-active-tab-hint-top-margin"
-     x="320.24"
-     y="431"
-     width="5"
-     height="6"
-     fill="#4e9a06" />
-  <rect
-     id="south-active-tab-hint-bottom-margin"
-     x="320.24"
-     y="447"
-     width="5"
-     height="6"
-     fill="#4e9a06" />
-  <rect
      id="east-active-tab-bottom"
      class="ColorScheme-Text"
      transform="rotate(-90)"
@@ -238,22 +226,6 @@
      height="2"
      class="ColorScheme-ButtonFocus"
      fill="currentColor" />
-  <rect
-     id="east-active-tab-hint-bottom-margin"
-     transform="rotate(-90)"
-     x="-366"
-     y="411"
-     width="6"
-     height="5"
-     fill="#4e9a06" />
-  <rect
-     id="east-active-tab-hint-top-margin"
-     transform="rotate(-90)"
-     x="-272"
-     y="411"
-     width="6"
-     height="5"
-     fill="#4e9a06" />
   <g
      id="east-active-tab-left"
      transform="rotate(90,265.18,501.18)">
@@ -267,22 +239,6 @@
        opacity=".1"
        id="rect33" />
   </g>
-  <rect
-     id="east-active-tab-hint-left-margin"
-     transform="rotate(-90)"
-     x="-311.46"
-     y="404"
-     width="5"
-     height="6"
-     fill="#4e9a06" />
-  <rect
-     id="east-active-tab-hint-right-margin"
-     transform="rotate(-90)"
-     x="-311.76"
-     y="420"
-     width="5"
-     height="6"
-     fill="#4e9a06" />
   <rect
      id="west-active-tab-top"
      class="ColorScheme-Text"
@@ -340,22 +296,6 @@
      height="2"
      class="ColorScheme-ButtonFocus"
      fill="currentColor" />
-  <rect
-     id="west-active-tab-hint-top-margin"
-     transform="rotate(90)"
-     x="266"
-     y="-213"
-     width="6"
-     height="5"
-     fill="#4e9a06" />
-  <rect
-     id="west-active-tab-hint-bottom-margin"
-     transform="rotate(90)"
-     x="360"
-     y="-213"
-     width="6"
-     height="5"
-     fill="#4e9a06" />
   <g
      id="west-active-tab-right"
      transform="rotate(90,171.68,407.68)">
@@ -395,22 +335,6 @@
        opacity=".1"
        id="rect52" />
   </g>
-  <rect
-     id="west-active-tab-hint-right-margin"
-     transform="rotate(90)"
-     x="320.24"
-     y="-218"
-     width="5"
-     height="6"
-     fill="#4e9a06" />
-  <rect
-     id="west-active-tab-hint-left-margin"
-     transform="rotate(90)"
-     x="320.24"
-     y="-206"
-     width="5"
-     height="6"
-     fill="#4e9a06" />
   <rect
      id="north-active-tab-right"
      class="ColorScheme-Text"
@@ -471,22 +395,6 @@
      height="4"
      fill="currentColor"
      opacity=".1" />
-  <rect
-     id="north-focus-hint-right-margin"
-     transform="scale(-1)"
-     x="-373"
-     y="-223"
-     width="6"
-     height="5"
-     fill="#4e9a06" />
-  <rect
-     id="north-focus-hint-left-margin"
-     transform="scale(-1)"
-     x="-279"
-     y="-223"
-     width="6"
-     height="5"
-     fill="#4e9a06" />
   <g
      id="north-active-tab-bottom"
      transform="matrix(1 0 0 .66667 243 -12.573)">
@@ -499,22 +407,6 @@
        fill="currentColor"
        id="rect65" />
   </g>
-  <rect
-     id="north-focus-hint-bottom-margin"
-     transform="scale(-1)"
-     x="-318.76"
-     y="-228"
-     width="5"
-     height="6"
-     fill="#4e9a06" />
-  <rect
-     id="north-focus-hint-top-margin"
-     transform="scale(-1)"
-     x="-318.76"
-     y="-216"
-     width="5"
-     height="6"
-     fill="#4e9a06" />
   <g
      id="north-active-tab-bottomleft"
      transform="matrix(1 0 0 .66667 243 -12.573)">
@@ -574,4 +466,135 @@
        opacity=".1"
        id="rect81" />
   </g>
+  <rect
+     y="465.7644"
+     x="-229.58237"
+     height="41.12067"
+     width="41.362885"
+     id="hint-tile-center"
+     style="opacity:0.875;fill:#008000;fill-opacity:1;stroke:none" />
+  <rect
+     y="435.99994"
+     x="270.24124"
+     height="5"
+     width="6"
+     id="south-active-tab-hint-left-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="south-active-tab-hint-right-margin"
+     width="6"
+     height="5"
+     x="364.24127"
+     y="435.99994" />
+  <rect
+     y="429.99994"
+     x="324.48248"
+     height="10"
+     width="5"
+     id="south-active-tab-hint-top-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1"
+     id="south-active-tab-hint-bottom-margin"
+     width="5"
+     height="10"
+     x="324.48248"
+     y="444.99994" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="east-active-tab-hint-bottom-margin"
+     width="6"
+     height="5"
+     x="-364.69861"
+     y="415.65656"
+     transform="rotate(-90)" />
+  <rect
+     y="415.65656"
+     x="-270.69861"
+     height="5"
+     width="6"
+     id="east-active-tab-hint-top-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="east-active-tab-hint-left-margin"
+     width="5"
+     height="8"
+     x="-310.4574"
+     y="408.65656"
+     transform="rotate(-90)" />
+  <rect
+     y="424.65656"
+     x="-310.4574"
+     height="4"
+     width="5"
+     id="east-active-tab-hint-right-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="west-active-tab-hint-top-margin"
+     width="6"
+     height="5"
+     x="265"
+     y="-217.24127"
+     transform="rotate(90)" />
+  <rect
+     y="-217.24127"
+     x="359"
+     height="5"
+     width="6"
+     id="west-active-tab-hint-bottom-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="rotate(90)" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="west-active-tab-hint-right-margin"
+     width="5"
+     height="8"
+     x="319.24121"
+     y="-224.24127"
+     transform="rotate(90)" />
+  <rect
+     y="-208.24127"
+     x="319.24121"
+     height="4"
+     width="5"
+     id="west-active-tab-hint-left-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="rotate(90)" />
+  <rect
+     y="-222"
+     x="-377.24127"
+     height="5"
+     width="6"
+     id="north-active-tab-hint-right-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="scale(-1)" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="north-active-tab-hint-left-margin"
+     width="6"
+     height="5"
+     x="-283.24124"
+     y="-222"
+     transform="scale(-1)" />
+  <rect
+     y="-229"
+     x="-323"
+     height="10"
+     width="5"
+     id="north-active-tab-hint-bottom-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1"
+     transform="scale(-1)" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1"
+     id="north-active-tab-hint-top-margin"
+     width="5"
+     height="10"
+     x="-323"
+     y="-219"
+     transform="scale(-1)" />
 </svg>
