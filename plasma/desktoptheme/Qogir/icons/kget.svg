@@ -1,1 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" id="svg3869" version="1.1"><defs id="defs3871"><style type="text/css" id="current-color-scheme"></style></defs><g id="layer1" transform="translate(-326 -534.362)"><g id="kget" fill-opacity="1" stroke="none" stroke-miterlimit="4" stroke-dasharray="none"><path id="rect4148" opacity="1" fill="none" stroke-width=".1" stroke-linecap="square" stroke-linejoin="miter" stroke-dashoffset="0" stroke-opacity="1" d="M326 534.362h22v22h-22z"/><path id="rect4170" transform="translate(326 534.362)" d="M9 3v8h1V4h2v7h1V3H9zm-2.242 7.344l-.707.707L11 16l4.95-4.95-.708-.706L11 14.586l-4.242-4.242zM5 17v2h12v-2h-1v1H6v-1H5z" opacity="1" fill="currentColor" stroke-width="2.8" stroke-opacity=".55" color="#5c616c"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22"
+   height="22"
+   id="svg3869"
+   version="1.1"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="kget.svg"
+   viewBox="0 0 22 22"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3871">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#5c616c;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#5c616c;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#5c616c;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313709"
+     inkscape:cx="-2.2980969"
+     inkscape:cy="13.700193"
+     inkscape:document-units="px"
+     inkscape:current-layer="kget"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1368"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     viewbox-height="32"
+     borderlayer="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4132"
+       originx="0"
+       originy="-1.4782812e-05" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-326,-534.36218)">
+    <g
+       id="kget">
+      <path
+         id="rect867"
+         d="M 10,3 C 9.446,3 9,3.446 9,4 v 8.585938 L 6.4042969,9.9902344 c -0.1958686,-0.1958686 -0.5111627,-0.1958686 -0.7070313,0 -0.1958686,0.1958686 -0.1958686,0.5111626 0,0.7070316 l 4.9492184,4.949218 c 0.110176,0.110176 0.259084,0.158304 0.402344,0.144532 0.111425,-0.01071 0.218995,-0.05884 0.304688,-0.144532 l 4.949218,-4.949218 c 0.195869,-0.195869 0.195869,-0.511163 0,-0.7070316 -0.195868,-0.1958686 -0.511162,-0.1958686 -0.707031,0 L 13,12.585938 V 4 C 13,3.446 12.554,3 12,3 Z m 0,1 h 2 v 9.585938 l -1,1 -1,-1 z"
+         transform="translate(326,534.36218)"
+         class="ColorScheme-Text"
+         fill="currentColor" />
+      <rect
+         y="534.36218"
+         x="326"
+         height="22"
+         width="22"
+         id="rect4148"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path292"
+         d="m 4,15 v 2 c 0,1.108 0.892,2 2,2 h 10 c 1.108,0 2,-0.892 2,-2 v -2 h -1 v 2 c 0,0.554 -0.446,1 -1,1 H 6 C 5.446,18 5,17.554 5,17 v -2 z"
+         transform="translate(326,534.36218)"
+         class="ColorScheme-Text"
+         fill="currentColor" />
+    </g>
+  </g>
+</svg>
