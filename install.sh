@@ -30,6 +30,8 @@ THEME_VARIANTS=('' '-manjaro' '-ubuntu')
 [[ ! -d ${LOOKFEEL_DIR} ]] && mkdir -p ${LOOKFEEL_DIR}
 [[ ! -d ${KVANTUM_DIR} ]] && mkdir -p ${KVANTUM_DIR}
 [[ ! -d ${WALLPAPER_DIR} ]] && mkdir -p ${WALLPAPER_DIR}
+[[ ! -d ${PLASMOIDS_DIR} ]] && mkdir -p ${PLASMOIDS_DIR}
+[[ ! -d ${LAYOUT_DIR} ]] && mkdir -p ${LAYOUT_DIR}
 
 [[ -d ${AURORAE_DIR}/${THEME_NAME} ]] && rm -rf ${AURORAE_DIR}/${THEME_NAME}*
 [[ -d ${PLASMA_DIR}/${THEME_NAME} ]] && rm -rf ${PLASMA_DIR}/${THEME_NAME}*
