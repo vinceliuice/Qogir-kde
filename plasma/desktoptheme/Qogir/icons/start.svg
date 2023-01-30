@@ -4,7 +4,7 @@
    viewBox="0 0 54 32"
    id="svg34"
    sodipodi:docname="start.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -20,15 +20,17 @@
      showgrid="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
-     inkscape:zoom="10"
-     inkscape:cx="-2.5"
-     inkscape:cy="22.1"
-     inkscape:window-width="1920"
-     inkscape:window-height="1008"
+     inkscape:zoom="7.0710678"
+     inkscape:cx="49.143921"
+     inkscape:cy="16.051324"
+     inkscape:window-width="1368"
+     inkscape:window-height="696"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg34">
+     inkscape:current-layer="start-here-kde"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid872" />
@@ -97,9 +99,9 @@
      id="start-here-kde">
     <path
        id="path896"
-       d="M 38 1 A 15 15 0 0 0 23 16 A 15 15 0 0 0 38 31 A 15 15 0 0 0 53 16 A 15 15 0 0 0 38 1 z M 38 3 A 13 13 0 0 1 51 16 A 13 13 0 0 1 38 29 A 13 13 0 0 1 25 16 A 13 13 0 0 1 38 3 z "
-       fill="currentColor"
-       class="ColorScheme-Text" />
+       class="ColorScheme-Text"
+       d="M 38 3 C 30.820312 3 25 8.8203127 25 16 C 25 23.179688 30.820312 29 38 29 C 45.179688 29 51 23.179688 51 16 C 51 8.8203127 45.179688 3 38 3 z M 38 4 A 12 12 0 0 1 50 16 A 12 12 0 0 1 38 28 A 12 12 0 0 1 26 16 A 12 12 0 0 1 38 4 z "
+       fill="currentColor" />
     <rect
        x="22"
        width="32"
@@ -109,13 +111,13 @@
        y="0" />
     <path
        class="ColorScheme-Text"
-       d="M 48,22 H 34.363636 l 6.363682,-11.818227 z"
+       d="M 47,21 H 34.522301 l 5.822968,-10.814047 z"
        id="path25"
        style="opacity:0.5"
        fill="currentColor" />
     <path
        class="ColorScheme-Text"
-       d="M 43.695455,22 H 28 L 35.386001,7.2290913 Z"
+       d="M 42.751109,21 H 29 L 35.471027,8.0589054 Z"
        id="path27"
        fill="currentColor" />
   </g>

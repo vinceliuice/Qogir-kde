@@ -6,7 +6,7 @@
    viewBox="0 0 173 56"
    id="svg139"
    sodipodi:docname="panel-background.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,18 +35,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1008"
+     inkscape:window-width="1368"
+     inkscape:window-height="696"
      id="namedview141"
      showgrid="true"
-     inkscape:zoom="7.1560694"
-     inkscape:cx="38.428917"
-     inkscape:cy="14.533118"
+     inkscape:zoom="10.12021"
+     inkscape:cx="37.49922"
+     inkscape:cy="45.404194"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg139"
-     inkscape:pagecheckerboard="0">
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid1069" />
@@ -732,32 +734,36 @@
      id="hint-bottom-margin"
      x="34"
      y="44"
-     height="6"
+     height="4"
      fill="#800080"
-     width="4" />
+     width="4"
+     style="stroke-width:0.816497" />
   <rect
      id="hint-left-margin"
      transform="rotate(90)"
      x="28"
-     y="-19"
+     y="-17"
      width="4"
-     height="6"
-     fill="#800080" />
+     height="4"
+     fill="#800080"
+     style="stroke-width:0.816497" />
   <rect
      id="hint-top-margin"
      x="30"
      y="6"
      width="4"
-     height="6"
-     fill="#800080" />
+     height="4"
+     fill="#800080"
+     style="stroke-width:0.816497" />
   <rect
      id="hint-right-margin"
      transform="rotate(90)"
      x="24"
-     y="-57"
+     y="-55"
      width="4"
-     height="6"
-     fill="#800080" />
+     height="4"
+     fill="#800080"
+     style="stroke-width:0.816497" />
   <rect
      style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke:none;stop-color:#eff0f1"
      id="thick-center"
