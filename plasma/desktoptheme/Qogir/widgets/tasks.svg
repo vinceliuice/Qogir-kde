@@ -4257,4 +4257,32 @@
        fill="currentColor"
        id="rect1051" />
   </g>
+  <rect
+     id="normal-hint-top-margin"
+     x="16.000002"
+     y="43"
+     width="4"
+     height="4"
+     fill="#ff00ff" />
+  <rect
+     id="normal-hint-bottom-margin"
+     x="2"
+     y="50"
+     width="4"
+     height="4"
+     fill="#ff00ff" />
+  <rect
+     id="normal-hint-right-margin"
+     x="30"
+     y="50"
+     width="4"
+     height="4"
+     fill="#ff00ff" />
+  <rect
+     id="normal-hint-left-margin"
+     x="16.000002"
+     y="57"
+     width="4"
+     height="4"
+     fill="#ff00ff" />
 </svg>
