@@ -11,11 +11,11 @@ toolbar_item_spacing=1
 toolbar_interior_spacing=3
 spread_progressbar=true
 composite=true
-menu_shadow_depth=2
+menu_shadow_depth=5
 menu_separator_height=6
 tooltip_shadow_depth=6
-splitter_width=4
-scroll_width=9
+splitter_width=1
+scroll_width=12
 scroll_arrows=false
 scroll_min_extent=60
 slider_width=6
@@ -63,7 +63,7 @@ no_inactiveness=false
 no_window_pattern=false
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,trojita,dragon,digikam,lyx
 reduce_menu_opacity=20
-reduce_window_opacity=0
+reduce_window_opacity=20
 respect_DE=true
 saturation=1.00
 scrollable_menu=true
@@ -71,6 +71,8 @@ submenu_delay=250
 click_behavior=0
 shadowless_popup=false
 drag_from_buttons=false
+menu_blur_radius=0
+tooltip_blur_radius=0
 
 [GeneralColors]
 window.color=#32343D
@@ -123,6 +125,8 @@ scroll_jump_workaround=false
 kinetic_scrolling=false
 centered_forms=false
 noninteger_translucency=false
+blur_only_active_window=false
+style_vertical_toolbars=false
 
 [PanelButtonCommand]
 frame=true
@@ -380,7 +384,9 @@ text.toggle.color=#ffffff
 frame.expansion=0
 
 [Splitter]
-indicator.size=48
+interior.element=splitter
+frame=false
+indicator.size=0
 
 [Scrollbar]
 inherits=PanelButtonCommand

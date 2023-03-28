@@ -11,10 +11,10 @@ toolbar_item_spacing=1
 toolbar_interior_spacing=3
 spread_progressbar=true
 composite=true
-menu_shadow_depth=2
+menu_shadow_depth=5
 menu_separator_height=6
 tooltip_shadow_depth=6
-splitter_width=4
+splitter_width=1
 scroll_width=9
 scroll_arrows=false
 scroll_min_extent=60
@@ -393,7 +393,9 @@ text.toggle.color=white
 frame.expansion=0
 
 [Splitter]
-indicator.size=48
+interior.element=splitter
+frame=false
+indicator.size=0
 
 [Scrollbar]
 inherits=PanelButtonCommand
