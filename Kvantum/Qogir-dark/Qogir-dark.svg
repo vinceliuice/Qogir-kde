@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="450"
    version="1.0"
    height="1000"
    id="svg949"
    sodipodi:docname="Qogir-dark.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata953">
     <rdf:RDF>
@@ -23,12 +22,11 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#1d1e23"
+     pagecolor="#4a4c59"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -36,13 +34,13 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="701"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
      id="namedview951"
-     showgrid="false"
-     inkscape:zoom="6.6183368"
-     inkscape:cx="128.15029"
-     inkscape:cy="572.48697"
+     showgrid="true"
+     inkscape:zoom="32"
+     inkscape:cx="311.75"
+     inkscape:cy="563.65625"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -57,7 +55,10 @@
      inkscape:snap-intersection-paths="true"
      inkscape:document-rotation="0"
      inkscape:snap-others="false"
-     inkscape:snap-page="true">
+     inkscape:snap-page="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#e3e4e8">
     <inkscape:grid
        type="xygrid"
        id="grid6702" />
@@ -153,7 +154,7 @@
        y2="-167.63782" />
     <linearGradient
        id="selected_bg_color"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#5294e2;stop-opacity:1;"
          offset="0"
@@ -486,7 +487,7 @@
   <g
      style="stroke:none"
      id="common-normal-left"
-     transform="translate(34.495857,-254.49643)">
+     transform="matrix(0.333338,0,0,1,215.99874,-255)">
     <rect
        width="2"
        x="271"
@@ -495,9 +496,9 @@
        style="opacity:0;fill:#22252e"
        id="rect4962" />
     <path
-       style="fill:#32343d"
+       style="fill:#ffffff;stroke-width:1.73205;opacity:0.12"
        id="path5131"
-       d="m 272,1170 v 30 h 1 v -30 z" />
+       d="m 270,1170 v 30 h 3 v -30 z" />
     <path
        style="fill-opacity:0;fill-rule:evenodd"
        id="rect5135"
@@ -506,16 +507,16 @@
   <g
      style="stroke:none"
      id="common-normal-topleft"
-     transform="translate(34.495857,-254.49643)">
+     transform="matrix(0.333338,0,0,0.333338,215.99874,524.99454)">
     <path
        style="opacity:0;fill:#22252e"
        id="rect5015"
        d="m 308.5,1173 h -2 v 2 h 2 z"
        transform="translate(-35.5,-5)" />
     <path
-       style="fill:#32343d"
        id="path5157"
-       d="m 273,1169 h -1 v 1 h 1 z" />
+       d="m 273,1167 h -3 v 3 h 3 z"
+       style="fill:#ffffff;opacity:0.12" />
     <path
        style="fill-opacity:0"
        id="path5159"
@@ -536,7 +537,7 @@
      height="1230"
      xlink:href="#common-normal-left"
      id="common-normal-top"
-     transform="rotate(90,322.49586,930.50362)" />
+     transform="rotate(90,322.00001,930.00005)" />
   <use
      width="450"
      x="0"
@@ -544,7 +545,7 @@
      height="1230"
      xlink:href="#common-normal-topleft"
      id="common-normal-topright"
-     transform="rotate(90,322.49586,930.50362)" />
+     transform="rotate(90,322.00001,930.00005)" />
   <use
      width="450"
      x="0"
@@ -552,7 +553,7 @@
      height="1230"
      xlink:href="#common-normal-left"
      id="common-normal-right"
-     transform="matrix(-1,0,0,1,644.9917,1.4214055e-6)" />
+     transform="matrix(-1,0,0,1,644.00002,1.4185945e-6)" />
   <use
      width="450"
      x="0"
@@ -560,7 +561,7 @@
      height="1230"
      xlink:href="#common-normal-topleft"
      id="common-normal-bottomright"
-     transform="rotate(180,322.49586,930.5036)" />
+     transform="rotate(180,322.00002,930.00002)" />
   <use
      width="450"
      x="0"
@@ -568,7 +569,7 @@
      height="1230"
      xlink:href="#common-normal-left"
      id="common-normal-bottom"
-     transform="rotate(-90,322.49586,930.50362)" />
+     transform="rotate(-90,322.00001,930.00005)" />
   <use
      width="450"
      x="0"
@@ -576,7 +577,7 @@
      height="1230"
      xlink:href="#common-normal-topleft"
      id="common-normal-bottomleft"
-     transform="rotate(-90,322.49586,930.50362)" />
+     transform="rotate(-90,322.00001,930.00005)" />
   <path
      style="fill:#282a33;fill-opacity:1;stroke:none"
      id="titlebar-normal"
@@ -637,11 +638,11 @@
      transform="rotate(90)" />
   <rect
      id="dock-normal"
-     style="fill:#32343d;stroke:none"
      height="30"
      y="910.5036"
      x="354.49585"
-     width="30" />
+     width="30"
+     style="fill:none" />
   <rect
      style="fill:#1e1e1e;stroke:none"
      width="5"
@@ -767,7 +768,7 @@
      id="menubar-normal-topright"
      transform="rotate(90)" />
   <rect
-     style="fill:#3c3f4c;fill-opacity:1;stroke:none;stroke-width:1"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;opacity:0.12"
      width="1"
      x="565.5036"
      y="-304.49585"
@@ -789,7 +790,7 @@
      style="fill:#ffffff;fill-opacity:0.235;stroke:none" />
   <rect
      id="menubar-normal-bottom"
-     style="fill:#3c3f4c;fill-opacity:1;stroke:none;stroke-width:1"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;opacity:0.12"
      height="1"
      y="565.5036"
      x="304.49585"
@@ -804,11 +805,11 @@
      transform="matrix(1,0,0,-1,0,965.00732)" />
   <rect
      id="dock-focused"
-     style="color:#000000;fill:#32343d;stroke:none"
      height="30"
      y="910.5036"
      x="406.49585"
-     width="30" />
+     width="30"
+     style="fill:none" />
   <g
      style="stroke:none"
      id="button-normal-left"
@@ -844,7 +845,7 @@
   <rect
      transform="rotate(90)"
      id="menubar-normal-bottomright"
-     style="fill:#3c3f4c;fill-opacity:1;stroke:none;stroke-width:1"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;opacity:0.12"
      height="5"
      y="-329.49585"
      x="565.5036"
@@ -1563,7 +1564,7 @@
      inkscape:connector-curvature="0"
      d="m 284.99585,624.00357 v 32 h 32 v -32 z"
      id="tabframe-normal"
-     style="fill:#32343d;fill-rule:evenodd;stroke:none" />
+     style="fill:#282a33;fill-rule:evenodd;stroke:none;fill-opacity:1" />
   <g
      style="stroke:none"
      transform="matrix(0.8,0,0,0.98461538,263.99605,576.00199)"
@@ -1572,7 +1573,7 @@
        inkscape:connector-curvature="0"
        d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"
        id="path5181"
-       style="fill:#32343d;fill-rule:evenodd" />
+       style="fill:#282a33;fill-rule:evenodd;fill-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        d="m 21.25,48.7516 v 32.5 h 1.2497 v -32.5 z"
@@ -1584,7 +1585,7 @@
      id="tabframe-normal-topleft"
      transform="matrix(0.8,0,0,0.8,263.99605,587.00229)">
     <path
-       style="fill:#32343d;fill-rule:evenodd"
+       style="fill:#282a33;fill-rule:evenodd;fill-opacity:1"
        id="path5188"
        d="m 26.25,41.2516 h -5 v 5 h 5 z" />
     <path
@@ -1597,7 +1598,7 @@
      id="tabframe-normal-top"
      transform="matrix(0,0.8,-0.98461538,0,364.99743,603.00357)">
     <path
-       style="fill:#32343d;fill-rule:evenodd"
+       style="fill:#282a33;fill-rule:evenodd;fill-opacity:1"
        id="path5194"
        d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z" />
     <path
@@ -1621,7 +1622,7 @@
        inkscape:connector-curvature="0"
        d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"
        id="path5202"
-       style="fill:#32343d;fill-rule:evenodd" />
+       style="fill:#282a33;fill-rule:evenodd;fill-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        d="m 21.25,48.7516 v 32.5 h 1.25 v -32.5 z"
@@ -1636,7 +1637,7 @@
        inkscape:connector-curvature="0"
        d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"
        id="path5208"
-       style="fill:#32343d;fill-rule:evenodd" />
+       style="fill:#282a33;fill-rule:evenodd;fill-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        d="m 21.25,48.7516 v 32.5 h 1.2499 v -32.5 z"
@@ -1847,36 +1848,20 @@
   <g
      style="stroke:none"
      id="common-focused-left"
-     transform="translate(-9.504143,-254.49643)">
-    <rect
-       width="1"
-       x="272"
-       y="1170"
-       height="30"
-       style="fill:#32343d;fill-opacity:1;stroke-width:0.632456"
-       id="rect4870" />
+     transform="matrix(0.333338,0,0,1,171.99874,-255)">
     <path
-       style="fill:#32343d"
        id="path4872"
-       d="m 272,1170 v 30 h 1 v -30 z" />
-    <path
-       style="fill-opacity:0;fill-rule:evenodd"
-       id="path4874"
-       d="m 270,1170 v 30 h 1 v -30 z" />
+       d="m 270,1170 v 30 h 3 v -30 z"
+       style="fill:#ffffff;opacity:0.12" />
   </g>
   <g
      style="stroke:none"
      id="common-focused-topleft"
-     transform="translate(-9.504143,-254.49643)">
+     transform="matrix(0.33333333,0,0,0.33333333,172.00001,525)">
     <path
-       style="fill:#32343d;fill-opacity:1;stroke-width:0.4"
-       id="path4878"
-       d="m 273,1169 h -1 v 1 h 1 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#32343d"
+       style="fill:#ffffff;stroke-width:3;opacity:0.12"
        id="path4880"
-       d="m 273,1169 h -1 v 1 h 1 z" />
+       d="m 273,1167 h -3 v 3 h 3 z" />
     <path
        style="fill-opacity:0"
        id="path4882"
@@ -1889,7 +1874,7 @@
      height="100%"
      xlink:href="#common-focused-left"
      id="common-focused-top"
-     transform="rotate(90,278.49586,930.50362)" />
+     transform="rotate(90,278.00001,930.00005)" />
   <use
      width="100%"
      x="0"
@@ -1897,7 +1882,7 @@
      height="100%"
      xlink:href="#common-focused-topleft"
      id="common-focused-topright"
-     transform="rotate(90,278.49586,930.50362)" />
+     transform="rotate(90,278.00001,930.00005)" />
   <use
      width="100%"
      x="0"
@@ -1905,7 +1890,7 @@
      height="100%"
      xlink:href="#common-focused-left"
      id="common-focused-right"
-     transform="matrix(-1,0,0,1,556.9917,1.4214055e-6)" />
+     transform="matrix(-1,0,0,1,556.00002,1.4185945e-6)" />
   <use
      width="100%"
      x="0"
@@ -1913,7 +1898,7 @@
      height="100%"
      xlink:href="#common-focused-left"
      id="common-focused-bottom"
-     transform="rotate(-90,278.49586,930.50362)" />
+     transform="rotate(-90,278.00001,930.00005)" />
   <use
      width="100%"
      x="0"
@@ -1921,7 +1906,7 @@
      height="100%"
      xlink:href="#common-focused-topleft"
      id="common-focused-bottomleft"
-     transform="rotate(-90,278.49586,930.50362)" />
+     transform="rotate(-90,278.00001,930.00005)" />
   <use
      width="100%"
      x="0"
@@ -1929,7 +1914,7 @@
      height="100%"
      xlink:href="#common-focused-topleft"
      id="common-focused-bottomright"
-     transform="rotate(180,278.49586,930.5036)" />
+     transform="rotate(180,278.00002,930.00002)" />
   <g
      id="menu-shadow-top"
      style="fill-rule:evenodd;stroke:none"
@@ -3976,13 +3961,11 @@
      transform="rotate(180,395,91.99995)"
      style="fill:#2e303a;fill-opacity:1" />
   <path
-     inkscape:connector-curvature="0"
-     style="opacity:0.8;fill:#32343d;fill-opacity:1;fill-rule:evenodd;paint-order:normal"
+     style="fill:#32343d"
      id="window-normal"
      d="m 357.49585,855.50357 h 30 v 30 h -30 z" />
   <path
-     inkscape:connector-curvature="0"
-     style="opacity:0.8;fill:#32343d;fill-opacity:1;fill-rule:evenodd;paint-order:normal"
+     style="fill:#32343d"
      id="window-normal-inactive"
      d="m 389.49585,855.50357 h 30 v 30 h -30 z" />
   <path
@@ -4166,195 +4149,6 @@
      width="100%"
      height="100%"
      style="opacity:0.35" />
-  <g
-     style="fill-rule:evenodd"
-     id="scrollbarslider-normal-topleft"
-     transform="translate(-132.50415,-248.49643)">
-    <path
-       style="fill:#969696;fill-opacity:0"
-       id="scrollbarslider-normal-topleft0-9"
-       d="m 155,1089 c -6.648,0 -12,5.3521 -12,12 h 12 z"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       style="opacity:0.5;fill:#b8babf"
-       d="m 19,1098 c -2.216,0 -4,1.784 -4,4 v 5 h 4 z"
-       transform="translate(136,-6)"
-       id="path4475-1" />
-  </g>
-  <g
-     style="fill-rule:evenodd"
-     id="scrollbarslider-normal-left"
-     transform="matrix(1,0,0,0.96967383,-132.50415,-215.10733)">
-    <path
-       style="fill:#969696;fill-opacity:0"
-       id="scrollbarslider-normal-left0-1"
-       d="m 143,1101 v 16.4064 0.094 h 12 v -16.5 h -12 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="opacity:0.5;fill:#b8babf"
-       id="path4477-3"
-       d="m 151,1100.9998 v 16.4064 0.094 l 4,2e-4 v -16.5 l -4,-2e-4 z"
-       inkscape:connector-curvature="0" />
-  </g>
-  <use
-     width="450"
-     x="0"
-     y="0"
-     height="1230"
-     xlink:href="#scrollbarslider-normal-left"
-     id="scrollbarslider-normal-right"
-     transform="matrix(-1,0,0,1,44.991714,1.4214055e-6)" />
-  <use
-     width="450"
-     x="0"
-     y="0"
-     height="1230"
-     xlink:href="#scrollbarslider-normal-topleft"
-     id="scrollbarslider-normal-topright"
-     transform="matrix(-1,0,0,1,44.991714,1.4214055e-6)" />
-  <use
-     width="450"
-     x="0"
-     y="0"
-     height="1230"
-     xlink:href="#scrollbarslider-normal-topleft"
-     id="scrollbarslider-normal-bottomleft"
-     transform="matrix(1,0,0,-1,0,1721.007)" />
-  <use
-     width="450"
-     x="0"
-     y="0"
-     height="1230"
-     xlink:href="#scrollbarslider-normal-topleft"
-     id="scrollbarslider-normal-bottomright"
-     transform="rotate(180,22.495858,860.50356)" />
-  <g
-     id="scrollbarslider-focused-topright"
-     transform="matrix(0.75,0,0,1.0341089,-114.25364,149.85863)">
-    <path
-       style="opacity:0"
-       id="rect5155"
-       d="m 225,669.797 c 6.66669,-2.7e-4 12,3.86779 12,8.70287 h -12 z"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.665681"
-       d="m 51,1099 v 6.998 h 4 V 1103 c 0,-2.216 -1.784,-4 -4,-4 z"
-       transform="matrix(1.3333333,0,0,0.96701614,156.99932,-391.01787)"
-       id="path5158" />
-  </g>
-  <g
-     id="scrollbarslider-focused-topleft"
-     transform="matrix(0.75,0,0,1.0341101,-114.25365,149.85794)">
-    <path
-       style="opacity:0"
-       id="rect5162"
-       d="m 225,669.79687 v 8.70291 h -12 c -2e-5,-4.8351 5.33333,-8.70316 12,-8.70291 z"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.665767"
-       d="m 51,1099 c -2.216,0 -4,1.784 -4,4 v 2.998 h 4 z"
-       transform="matrix(1.3333333,0,0,0.96701502,156.99933,-391.01675)"
-       id="path5164" />
-  </g>
-  <g
-     id="scrollbarslider-focused-left"
-     transform="matrix(0.75,0,0,0.73921626,-114.25415,349.94336)">
-    <rect
-       width="12"
-       x="213"
-       y="678.49976"
-       height="23"
-       style="opacity:0"
-       id="rect5168" />
-    <path
-       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.755929"
-       id="path5170"
-       d="m 219.66667,678.5 v 23 H 225 v -23 z"
-       inkscape:connector-curvature="0" />
-  </g>
-  <g
-     id="scrollbarslider-focused-right"
-     transform="matrix(0.75,0,0,0.73920868,-114.25415,349.94831)">
-    <rect
-       width="12"
-       x="225"
-       y="678.50287"
-       height="22.993509"
-       style="opacity:0"
-       id="rect5174" />
-    <path
-       style="fill:#5294e2;fill-rule:evenodd;stroke-width:0.75593"
-       id="path5176"
-       d="m 225,678.5005 v 23 h 5.33333 v -23 z"
-       inkscape:connector-curvature="0" />
-  </g>
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     id="scrollbarslider-focused-bottomright"
-     xlink:href="#scrollbarslider-focused-topright"
-     transform="matrix(1,0,0,-1,-1.3004632e-5,1720.0049)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     id="scrollbarslider-focused-bottomleft"
-     xlink:href="#scrollbarslider-focused-topleft"
-     transform="matrix(1,0,0,-1,0,1720.0048)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     id="scrollbarslider-pressed-topright"
-     xlink:href="#scrollbarslider-focused-topright"
-     transform="translate(37.9995,0.50210142)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     id="scrollbarslider-pressed-topleft"
-     xlink:href="#scrollbarslider-focused-topleft"
-     transform="translate(37.9995,0.50210142)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     id="scrollbarslider-pressed-left"
-     xlink:href="#scrollbarslider-focused-left"
-     transform="translate(38,0.50210142)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     id="scrollbarslider-pressed-right"
-     xlink:href="#scrollbarslider-focused-right"
-     transform="translate(38,0.50210142)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     id="scrollbarslider-pressed-bottomright"
-     xlink:href="#scrollbarslider-focused-topright"
-     transform="matrix(1,0,0,-1,37.999487,1720.507)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     id="scrollbarslider-pressed-bottomleft"
-     xlink:href="#scrollbarslider-focused-topleft"
-     transform="matrix(1,0,0,-1,37.9995,1720.5071)" />
   <g
      id="menu-shadow-right"
      transform="translate(-0.50414286,-259.49643)">
@@ -6711,4 +6505,318 @@
      xlink:href="#flat-arrow-down-normal"
      id="menuitem-left-focused"
      transform="rotate(90,114.50232,240.49768)" />
+  <g
+     id="splitter-normal"
+     transform="translate(-64,-34)">
+    <rect
+       width="1"
+       height="24"
+       id="rect1942"
+       x="309"
+       y="818"
+       style="opacity:0.12;fill:#ffffff;fill-opacity:1" />
+  </g>
+  <g
+     id="scrollbarslider-normal-topleft"
+     transform="matrix(0.3571425,0,0,0.3571425,40.071457,576.85745)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect913-9"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800007,854.4 c -5.052649,0 -8.400004,3.36014 -8.400004,8.4 h 8.400004 z"
+       id="path915-3"
+       style="opacity:0.15;fill:#ffffff;stroke-width:0.933334" />
+  </g>
+  <g
+     id="scrollbarslider-normal-left"
+     transform="matrix(0.3571425,0,0,0.39130443,40.071458,548.47819)">
+    <rect
+       x="67"
+       y="860"
+       width="14"
+       height="23"
+       id="rect918-6"
+       style="fill:none;stroke-width:1.08012" />
+    <path
+       d="m 75.399999,860 v 23 h 8.400004 v -23 z"
+       id="path920-0"
+       style="opacity:0.15;fill:#ffffff;stroke-width:1.0247" />
+  </g>
+  <g
+     id="scrollbarslider-normal-topright"
+     transform="matrix(-0.3571425,0,0,0.3571425,99.928542,576.85745)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1941-6"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.799997,854.39999 c -5.052651,0 -8.400008,3.36015 -8.400008,8.40001 h 8.400008 z"
+       id="path1943-2"
+       style="opacity:0.15;fill:#ffffff;stroke-width:0.933334" />
+  </g>
+  <g
+     id="scrollbarslider-normal-bottomleft"
+     transform="matrix(0.3571425,0,0,-0.3571425,40.071457,1202.1426)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1947-6"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800007,854.40014 c -5.052649,0 -8.400004,3.36014 -8.400004,8.4 h 8.400004 z"
+       id="path1949-1"
+       style="opacity:0.15;fill:#ffffff;stroke-width:0.933334" />
+  </g>
+  <g
+     id="scrollbarslider-normal-bottomright"
+     transform="matrix(-0.3571425,0,0,-0.3571425,99.928548,1202.1426)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1953-8"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800015,854.40027 c -5.052567,0 -8.399868,3.3601 -8.399868,8.39987 h 8.399868 z"
+       id="path1955-7"
+       style="opacity:0.15;fill:#ffffff;stroke-width:0.933319" />
+  </g>
+  <g
+     id="scrollbarslider-normal-right"
+     transform="matrix(-0.3571425,0,0,0.39130443,99.928542,548.47819)">
+    <rect
+       x="67"
+       y="860"
+       width="14"
+       height="23"
+       id="rect2069-9"
+       style="fill:none;stroke-width:1.08012" />
+    <path
+       d="m 75.399979,860 v 23 h 8.400015 v -23 z"
+       id="path2071-2"
+       style="opacity:0.15;fill:#ffffff;stroke-width:1.0247" />
+  </g>
+  <g
+     id="scrollbarslider-pressed-topleft"
+     transform="matrix(0.35714249,0,0,0.35714249,75.071441,576.85746)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect913-9-7"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800007,854.4 c -5.052649,0 -8.400004,3.36014 -8.400004,8.4 h 8.400004 z"
+       id="path915-3-59"
+       style="opacity:1;fill:#5294e2;stroke-width:0.933334;fill-opacity:1" />
+  </g>
+  <g
+     id="scrollbarslider-pressed-left"
+     transform="matrix(0.35714249,0,0,0.39130443,75.071441,548.4782)">
+    <rect
+       x="67"
+       y="860"
+       width="14"
+       height="23"
+       id="rect918-6-2"
+       style="fill:none;stroke-width:1.08012" />
+    <path
+       d="m 75.399999,860 v 23 h 8.400004 v -23 z"
+       id="path920-0-28"
+       style="opacity:1;fill:#5294e2;stroke-width:1.0247;fill-opacity:1" />
+  </g>
+  <g
+     id="scrollbarslider-pressed-topright"
+     transform="matrix(-0.35714249,0,0,0.35714249,134.92854,576.85746)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1941-6-97"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.799997,854.39999 c -5.052651,0 -8.400008,3.36015 -8.400008,8.40001 h 8.400008 z"
+       id="path1943-2-3"
+       style="opacity:1;fill:#5294e2;stroke-width:0.933334;fill-opacity:1" />
+  </g>
+  <g
+     id="scrollbarslider-pressed-bottomleft"
+     transform="matrix(0.35714249,0,0,-0.35714249,75.071441,1202.1426)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1947-6-6"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800007,854.40014 c -5.052649,0 -8.400004,3.36014 -8.400004,8.4 h 8.400004 z"
+       id="path1949-1-1"
+       style="opacity:1;fill:#5294e2;stroke-width:0.933334;fill-opacity:1" />
+  </g>
+  <g
+     id="scrollbarslider-pressed-bottomright"
+     transform="matrix(-0.35714249,0,0,-0.35714249,134.92854,1202.1426)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1953-8-2"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800015,854.40027 c -5.052567,0 -8.399868,3.3601 -8.399868,8.39987 h 8.399868 z"
+       id="path1955-7-93"
+       style="opacity:1;fill:#5294e2;stroke-width:0.933319;fill-opacity:1" />
+  </g>
+  <g
+     id="scrollbarslider-pressed-right"
+     transform="matrix(-0.35714249,0,0,0.39130443,134.92854,548.4782)">
+    <rect
+       x="67"
+       y="860"
+       width="14"
+       height="23"
+       id="rect2069-9-1"
+       style="fill:none;stroke-width:1.08012" />
+    <path
+       d="m 75.399979,860 v 23 h 8.400015 v -23 z"
+       id="path2071-2-9"
+       style="opacity:1;fill:#5294e2;stroke-width:1.0247;fill-opacity:1" />
+  </g>
+  <g
+     id="scrollbarslider-focused-topleft"
+     transform="matrix(0.35714249,0,0,0.35714249,58.071441,576.85746)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect913-9-4"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800007,854.4 c -5.052649,0 -8.400004,3.36014 -8.400004,8.4 h 8.400004 z"
+       id="path915-3-7"
+       style="opacity:0.5;fill:#ffffff;stroke-width:0.933334" />
+  </g>
+  <g
+     id="scrollbarslider-focused-left"
+     transform="matrix(0.35714249,0,0,0.39130443,58.071441,548.4782)">
+    <rect
+       x="67"
+       y="860"
+       width="14"
+       height="23"
+       id="rect918-6-8"
+       style="fill:none;stroke-width:1.08012" />
+    <path
+       d="m 75.399999,860 v 23 h 8.400004 v -23 z"
+       id="path920-0-4"
+       style="opacity:0.5;fill:#ffffff;stroke-width:1.0247" />
+  </g>
+  <g
+     id="scrollbarslider-focused-topright"
+     transform="matrix(-0.35714249,0,0,0.35714249,117.92854,576.85746)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1941-6-5"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.799997,854.39999 c -5.052651,0 -8.400008,3.36015 -8.400008,8.40001 h 8.400008 z"
+       id="path1943-2-0"
+       style="opacity:0.5;fill:#ffffff;stroke-width:0.933334" />
+  </g>
+  <g
+     id="scrollbarslider-focused-bottomleft"
+     transform="matrix(0.35714249,0,0,-0.35714249,58.071441,1202.1426)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1947-6-3"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800007,854.40014 c -5.052649,0 -8.400004,3.36014 -8.400004,8.4 h 8.400004 z"
+       id="path1949-1-6"
+       style="opacity:0.5;fill:#ffffff;stroke-width:0.933334" />
+  </g>
+  <g
+     id="scrollbarslider-focused-bottomright"
+     transform="matrix(-0.35714249,0,0,-0.35714249,117.92854,1202.1426)">
+    <rect
+       x="67"
+       y="846"
+       width="14"
+       height="14"
+       opacity="0"
+       id="rect1953-8-1"
+       style="stroke-width:1.16667" />
+    <path
+       d="m 83.800015,854.40027 c -5.052567,0 -8.399868,3.3601 -8.399868,8.39987 h 8.399868 z"
+       id="path1955-7-0"
+       style="opacity:0.5;fill:#ffffff;stroke-width:0.933319" />
+  </g>
+  <g
+     id="scrollbarslider-focused-right"
+     transform="matrix(-0.35714249,0,0,0.39130443,117.92854,548.4782)">
+    <rect
+       x="67"
+       y="860"
+       width="14"
+       height="23"
+       id="rect2069-9-6"
+       style="fill:none;stroke-width:1.08012" />
+    <path
+       d="m 75.399979,860 v 23 h 8.400015 v -23 z"
+       id="path2071-2-3"
+       style="opacity:0.5;fill:#ffffff;stroke-width:1.0247" />
+  </g>
+  <g
+     id="common-focused">
+    <rect
+       style="opacity:1;fill:#32343d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke;stop-color:#000000"
+       id="rect31051"
+       width="30"
+       height="30"
+       x="263"
+       y="915" />
+  </g>
+  <g
+     id="common-normal"
+     transform="translate(44)">
+    <rect
+       style="opacity:1;fill:#32343d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke;stop-color:#000000"
+       id="rect31056"
+       width="30"
+       height="30"
+       x="263"
+       y="915" />
+  </g>
 </svg>

@@ -2,26 +2,22 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="256"
    height="256"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    version="1.0"
-   sodipodi:docname="monitor.svgz"
+   sodipodi:docname="monitor.svg"
    inkscape:output_extension="org.inkscape.output.svgz.inkscape"
    inkscape:export-filename="/home/pinheiro/pics/oxygen-icons/scalable/devices/video-display.png"
    inkscape:export-xdpi="720"
-   inkscape:export-ydpi="720">
+   inkscape:export-ydpi="720"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs4">
     <linearGradient
@@ -497,7 +493,7 @@
        y1="9.7622004"
        x2="47.9995"
        y2="89.741203"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#A14DDB"
@@ -562,7 +558,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="90.757004"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#BA66E0"
@@ -631,7 +627,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#E64DD4"
@@ -700,7 +696,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#FF61C7"
@@ -761,7 +757,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#6BCFDB"
@@ -826,7 +822,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#63B3E0"
@@ -891,7 +887,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#66A2D3"
@@ -956,7 +952,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#4791D9"
@@ -1017,7 +1013,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#9CD061"
@@ -1078,7 +1074,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#75B561"
@@ -1143,7 +1139,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#70B83B"
@@ -1192,7 +1188,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#6BAB40"
@@ -1243,13 +1239,13 @@
          offset="1" />
     </linearGradient>
     <linearGradient
-       osb:paint="gradient"
        y2="87.9897"
        x2="47.9995"
        y1="8.0107002"
        x1="47.9995"
        gradientUnits="userSpaceOnUse"
-       id="RED_x2F_ORANGE_1_2_">
+       id="RED_x2F_ORANGE_1_2_"
+       inkscape:swatch="gradient">
       <stop
          id="stop6128"
          style="stop-color:#FF8A36"
@@ -1298,7 +1294,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#FAA824"
@@ -1351,7 +1347,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#F6B85E"
@@ -1420,7 +1416,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#FBBF60"
@@ -1481,7 +1477,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0"
          style="stop-color:#FFDB62"
@@ -1538,7 +1534,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#F9F9F9"
@@ -1591,7 +1587,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#EEEEEE"
@@ -1640,7 +1636,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#E9E9E9"
@@ -1689,7 +1685,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#E0E0E0"
@@ -1714,7 +1710,7 @@
        y1="8.0107002"
        x2="47.9995"
        y2="87.9897"
-       osb:paint="gradient">
+       inkscape:swatch="gradient">
       <stop
          offset="0.0364"
          style="stop-color:#DDDDDD"
@@ -1730,7 +1726,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-6-8-7-5-3-7"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#cecece;stop-opacity:1;"
          offset="0"
@@ -1738,7 +1734,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-0-9-4-6-4"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#d3d3d3;stop-opacity:1;"
          offset="0"
@@ -1746,7 +1742,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-6-8-7-5-3"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#e0e0e0;stop-opacity:1;"
          offset="0"
@@ -1754,7 +1750,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-0-9-4-6"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#e8e8e8;stop-opacity:1;"
          offset="0"
@@ -1762,7 +1758,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-0-1-6-6"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#f7d303;stop-opacity:1;"
          offset="0"
@@ -1770,7 +1766,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-3-0-1-5"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#ffa300;stop-opacity:1;"
          offset="0"
@@ -1778,7 +1774,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-6-8-7-5"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#ff7a0d;stop-opacity:1;"
          offset="0"
@@ -1786,7 +1782,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-0-9-4"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#ff5b00;stop-opacity:1;"
          offset="0"
@@ -1794,7 +1790,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-0-1-6"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#f74000;stop-opacity:1;"
          offset="0"
@@ -1802,7 +1798,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-3-0-1"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#e21429;stop-opacity:1;"
          offset="0"
@@ -1810,7 +1806,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-6-8-7"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#ec297b;stop-opacity:1;"
          offset="0"
@@ -1818,7 +1814,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-0-9"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#e50c98;stop-opacity:1;"
          offset="0"
@@ -1826,7 +1822,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-0-1"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#bc55c9;stop-opacity:1;"
          offset="0"
@@ -1834,7 +1830,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-3-0"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#2c00a5;stop-opacity:1;"
          offset="0"
@@ -1842,7 +1838,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-6-8"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#1b34b2;stop-opacity:1;"
          offset="0"
@@ -1850,7 +1846,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-0"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#0066a8;stop-opacity:1;"
          offset="0"
@@ -1858,7 +1854,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-0"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#0082b6;stop-opacity:1;"
          offset="0"
@@ -1866,7 +1862,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-3"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#0d9758;stop-opacity:1;"
          offset="0"
@@ -1874,7 +1870,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5-6"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#009351;stop-opacity:1;"
          offset="0"
@@ -1882,7 +1878,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1-5"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#128406;stop-opacity:1;"
          offset="0"
@@ -1890,7 +1886,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113-1"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#449311;stop-opacity:1;"
          offset="0"
@@ -1898,7 +1894,7 @@
     </linearGradient>
     <linearGradient
        id="linearGradient5113"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#64af2d;stop-opacity:1;"
          offset="0"
@@ -2095,7 +2091,11 @@
     <filter
        inkscape:collect="always"
        id="filter5021"
-       color-interpolation-filters="sRGB">
+       color-interpolation-filters="sRGB"
+       x="-0.0031858368"
+       y="-0.019937942"
+       width="1.0063717"
+       height="1.0398759">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.11215092"
@@ -2478,17 +2478,17 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="67.144429"
-     inkscape:cy="55.980088"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="3.5355339"
+     inkscape:cy="149.19953"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="128px"
      height="128px"
      showgrid="false"
      inkscape:grid-points="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="712"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
      inkscape:window-x="0"
      inkscape:window-y="0"
      showguides="true"
@@ -2508,7 +2508,10 @@
      inkscape:snap-grids="true"
      inkscape:snap-nodes="true"
      inkscape:snap-global="true"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        id="GridFromPre046Settings"
        type="xygrid"
@@ -2524,56 +2527,7 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="66.423843,-1.125"
-       id="guide5261"
-       inkscape:locked="false" />
   </sodipodi:namedview>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-        <dc:date />
-        <dc:creator>
-          <cc:Agent>
-            <dc:title />
-          </cc:Agent>
-        </dc:creator>
-        <dc:rights>
-          <cc:Agent>
-            <dc:title />
-          </cc:Agent>
-        </dc:rights>
-        <dc:publisher>
-          <cc:Agent>
-            <dc:title />
-          </cc:Agent>
-        </dc:publisher>
-        <dc:identifier />
-        <dc:source />
-        <dc:relation />
-        <dc:language />
-        <dc:subject>
-          <rdf:Bag />
-        </dc:subject>
-        <dc:coverage />
-        <dc:description />
-        <dc:contributor>
-          <cc:Agent>
-            <dc:title />
-          </cc:Agent>
-        </dc:contributor>
-        <cc:license
-           rdf:resource="" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
   <g
      inkscape:groupmode="layer"
      id="layer2"
