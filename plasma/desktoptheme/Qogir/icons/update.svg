@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   viewBox="0 0 22 22"
+   id="svg195"
+   sodipodi:docname="update.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview197"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.6818182"
+     inkscape:cx="17.152542"
+     inkscape:cy="20.135593"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg195">
+    <inkscape:grid
+       type="xygrid"
+       id="grid488" />
+  </sodipodi:namedview>
+  <defs
+     id="defs163">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#f5f5f5; }</style>
+  </defs>
+  <g
+     id="22-22-update-none">
+    <rect
+       width="22"
+       height="22"
+       clip-rule="evenodd"
+       fill-opacity="0"
+       stroke-linejoin="round"
+       stroke-miterlimit="1.4142"
+       stroke-width=".54635"
+       id="rect165" />
+    <g
+       class="ColorScheme-Text"
+       transform="translate(0,-23)"
+       fill="currentColor"
+       id="g171">
+      <path
+         d="m10.99 25a9 9 0 0 0-8.9902 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9 9 9 0 0 0-0.0098 0zm0.0098 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z"
+         id="path167" />
+      <path
+         d="m15.596 30.318c-0.1278 0-0.25558 0.04855-0.35352 0.14648l-6.0098 6.0098-2.4746-2.4746c-0.19587-0.19587-0.51116-0.19587-0.70703-1e-6s-0.19587 0.51116 0 0.70703l2.793 2.791c0.010713 0.01312 0.022903 0.02488 0.035143 0.03712 0.02448 0.02448 0.050353 0.04611 0.078148 0.06443 0.027726 0.01839 0.057799 0.03463 0.087886 0.04687s0.060309 0.02122 0.09179 0.02734c0.031487 0.0061 0.063753 0.0078 0.095707 0.0078 0.031947 0 0.064212-0.0017 0.095707-0.0078 0.031487-0.0061 0.061709-0.0151 0.09179-0.02734 0.030087-0.01224 0.060139-0.02852 0.087886-0.04687 0.027726-0.01839 0.053662-0.03994 0.078148-0.06443 0.01224-0.01224 0.024445-0.02399 0.035143-0.03712l6.3281-6.3262c0.19587-0.19587 0.19587-0.51116 0-0.70703-0.09793-0.09793-0.22571-0.14648-0.35352-0.14648z"
+         opacity=".45"
+         id="path169"
+         style="opacity:1" />
+    </g>
+  </g>
+  <g
+     id="22-22-update-low">
+    <rect
+       width="22"
+       height="22"
+       clip-rule="evenodd"
+       fill-opacity="0"
+       stroke-linejoin="round"
+       stroke-miterlimit="1.4142"
+       stroke-width="0.54635"
+       id="rect474"
+       x="22"
+       y="0" />
+    <g
+       class="ColorScheme-Text"
+       transform="translate(22,-23)"
+       fill="currentColor"
+       id="g480">
+      <path
+         id="rect542"
+         d="m 11,29 -0.707031,0.707031 -3.5351566,3.535157 0.7070318,0.707031 3.0351568,-3.035156 V 39 h 1 l -10e-7,-8.085938 3.035157,3.035157 0.707031,-0.707031 -3.535156,-3.535156 z" />
+      <path
+         id="path476"
+         d="M 10.990234 25 A 9 9 0 0 0 2 34 A 9 9 0 0 0 11 43 A 9 9 0 0 0 14.492188 42.279297 A 3.5 3.5 0 0 1 14.111328 41.34375 A 8 8 0 0 1 11 42 A 8 8 0 0 1 3 34 A 8 8 0 0 1 11 26 A 8 8 0 0 1 19 34 A 8 8 0 0 1 18.345703 37.105469 A 3.5 3.5 0 0 1 19.279297 37.486328 A 9 9 0 0 0 20 34 A 9 9 0 0 0 11 25 A 9 9 0 0 0 10.990234 25 z " />
+    </g>
+    <circle
+       id="path622"
+       cx="39.5"
+       cy="17.5"
+       r="2.5"
+       class="ColorScheme-Highlight"
+       fill="currentColor"
+       style="opacity:0.35" />
+  </g>
+  <g
+     id="22-22-update-medium"
+     transform="translate(22)">
+    <rect
+       width="22"
+       height="22"
+       clip-rule="evenodd"
+       fill-opacity="0"
+       stroke-linejoin="round"
+       stroke-miterlimit="1.4142"
+       stroke-width="0.54635"
+       id="rect634"
+       x="22"
+       y="0" />
+    <g
+       class="ColorScheme-Text"
+       transform="translate(22,-23)"
+       fill="currentColor"
+       id="g640">
+      <path
+         id="path636"
+         d="m 11,29 -0.707031,0.707031 -3.5351566,3.535157 0.7070318,0.707031 3.0351568,-3.035156 V 39 h 1 l -10e-7,-8.085938 3.035157,3.035157 0.707031,-0.707031 -3.535156,-3.535156 z" />
+      <path
+         id="path638"
+         d="M 10.990234,25 A 9,9 0 0 0 2,34 9,9 0 0 0 11,43 9,9 0 0 0 14.492188,42.279297 3.5,3.5 0 0 1 14.111328,41.34375 8,8 0 0 1 11,42 8,8 0 0 1 3,34 a 8,8 0 0 1 8,-8 8,8 0 0 1 8,8 8,8 0 0 1 -0.654297,3.105469 3.5,3.5 0 0 1 0.933594,0.380859 A 9,9 0 0 0 20,34 9,9 0 0 0 11,25 9,9 0 0 0 10.9902,25 Z" />
+    </g>
+    <circle
+       id="circle642"
+       cx="39.5"
+       cy="17.5"
+       r="2.5"
+       class="ColorScheme-Highlight"
+       fill="currentColor"
+       style="opacity:0.65" />
+  </g>
+  <g
+     id="22-22-update-high"
+     transform="translate(44)">
+    <rect
+       width="22"
+       height="22"
+       clip-rule="evenodd"
+       fill-opacity="0"
+       stroke-linejoin="round"
+       stroke-miterlimit="1.4142"
+       stroke-width="0.54635"
+       id="rect646"
+       x="22"
+       y="0" />
+    <g
+       class="ColorScheme-Text"
+       transform="translate(22,-23)"
+       fill="currentColor"
+       id="g652">
+      <path
+         id="path648"
+         d="m 11,29 -0.707031,0.707031 -3.5351566,3.535157 0.7070318,0.707031 3.0351568,-3.035156 V 39 h 1 l -10e-7,-8.085938 3.035157,3.035157 0.707031,-0.707031 -3.535156,-3.535156 z" />
+      <path
+         id="path650"
+         d="M 10.990234,25 A 9,9 0 0 0 2,34 9,9 0 0 0 11,43 9,9 0 0 0 14.492188,42.279297 3.5,3.5 0 0 1 14.111328,41.34375 8,8 0 0 1 11,42 8,8 0 0 1 3,34 a 8,8 0 0 1 8,-8 8,8 0 0 1 8,8 8,8 0 0 1 -0.654297,3.105469 3.5,3.5 0 0 1 0.933594,0.380859 A 9,9 0 0 0 20,34 9,9 0 0 0 11,25 9,9 0 0 0 10.9902,25 Z" />
+    </g>
+    <circle
+       id="circle654"
+       cx="39.5"
+       cy="17.5"
+       r="2.5"
+       class="ColorScheme-Highlight"
+       fill="currentColor" />
+  </g>
+  <g
+     id="update-none">
+    <path
+       id="path658"
+       d="M 16 26 A 12 12 0 0 0 4 38 A 12 12 0 0 0 16 50 A 12 12 0 0 0 28 38 A 12 12 0 0 0 16 26 z M 16 27 A 11 11 0 0 1 27 38 A 11 11 0 0 1 16 49 A 11 11 0 0 1 5 38 A 11 11 0 0 1 16 27 z M 22.472656 33.453125 L 13.986328 41.939453 L 9.0371094 36.990234 L 8.3300781 37.697266 L 13.279297 42.646484 L 13.986328 43.353516 L 14.695312 42.646484 L 23.179688 34.162109 L 22.472656 33.453125 z "
+       class="ColorScheme-Text"
+       fill="currentColor" />
+    <rect
+       id="rect854"
+       width="32"
+       height="32"
+       x="0"
+       y="22"
+       style="fill:none" />
+  </g>
+  <g
+     id="update-low">
+    <path
+       id="path970"
+       class="ColorScheme-Text"
+       d="M 48 26 C 41.372597 26 36 31.372597 36 38 C 36 44.627403 41.372597 50 48 50 C 49.696298 50 51.310596 49.646605 52.773438 49.011719 A 4.5 4.5 0 0 1 52.3125 48.121094 C 50.988099 48.686153 49.530883 49 48 49 C 41.92488 49 37 44.07512 37 38 C 37 31.92488 41.92488 27 48 27 C 54.07512 27 59 31.92488 59 38 C 59 39.527786 58.687897 40.982427 58.125 42.304688 A 4.5 4.5 0 0 1 59.013672 42.767578 C 59.647014 41.30623 60 39.694115 60 38 C 60 31.372597 54.627403 26 48 26 z M 48 31 L 47.292969 31.707031 L 41.636719 37.363281 L 42.34375 38.070312 L 47.5 32.914062 L 47.5 45 L 48.5 45 L 48.5 32.914062 L 53.65625 38.070312 L 54.363281 37.363281 L 48.707031 31.707031 L 48 31 z "
+       fill="currentColor" />
+    <rect
+       id="rect972"
+       width="32"
+       height="32"
+       x="32"
+       y="22"
+       style="fill:none" />
+    <circle
+       id="path1693"
+       cx="56.5"
+       cy="46.5"
+       r="3.5"
+       class="ColorScheme-Highlight"
+       fill="currentColor"
+       style="opacity:0.35" />
+  </g>
+  <g
+     id="update-medium"
+     transform="translate(32)">
+    <path
+       id="path1703"
+       class="ColorScheme-Text"
+       d="m 48,26 c -6.627403,0 -12,5.372597 -12,12 0,6.627403 5.372597,12 12,12 1.696298,0 3.310596,-0.353395 4.773438,-0.988281 A 4.5,4.5 0 0 1 52.3125,48.121094 C 50.988099,48.686153 49.530883,49 48,49 41.92488,49 37,44.07512 37,38 c 0,-6.07512 4.92488,-11 11,-11 6.07512,0 11,4.92488 11,11 0,1.527786 -0.312103,2.982427 -0.875,4.304688 a 4.5,4.5 0 0 1 0.888672,0.46289 C 59.647014,41.30623 60,39.694115 60,38 60,31.372597 54.627403,26 48,26 Z m 0,5 -0.707031,0.707031 -5.65625,5.65625 0.707031,0.707031 L 47.5,32.914062 V 45 h 1 V 32.914062 l 5.15625,5.15625 0.707031,-0.707031 -5.65625,-5.65625 z"
+       fill="currentColor" />
+    <rect
+       id="rect1705"
+       width="32"
+       height="32"
+       x="32"
+       y="22"
+       style="fill:none" />
+    <circle
+       id="circle1707"
+       cx="56.5"
+       cy="46.5"
+       r="3.5"
+       class="ColorScheme-Highlight"
+       fill="currentColor"
+       style="opacity:0.65" />
+  </g>
+  <g
+     id="update-high"
+     transform="translate(64)">
+    <path
+       id="path1711"
+       class="ColorScheme-Text"
+       d="m 48,26 c -6.627403,0 -12,5.372597 -12,12 0,6.627403 5.372597,12 12,12 1.696298,0 3.310596,-0.353395 4.773438,-0.988281 A 4.5,4.5 0 0 1 52.3125,48.121094 C 50.988099,48.686153 49.530883,49 48,49 41.92488,49 37,44.07512 37,38 c 0,-6.07512 4.92488,-11 11,-11 6.07512,0 11,4.92488 11,11 0,1.527786 -0.312103,2.982427 -0.875,4.304688 a 4.5,4.5 0 0 1 0.888672,0.46289 C 59.647014,41.30623 60,39.694115 60,38 60,31.372597 54.627403,26 48,26 Z m 0,5 -0.707031,0.707031 -5.65625,5.65625 0.707031,0.707031 L 47.5,32.914062 V 45 h 1 V 32.914062 l 5.15625,5.15625 0.707031,-0.707031 -5.65625,-5.65625 z"
+       fill="currentColor" />
+    <rect
+       id="rect1713"
+       width="32"
+       height="32"
+       x="32"
+       y="22"
+       style="fill:none" />
+    <circle
+       id="circle1715"
+       cx="56.5"
+       cy="46.5"
+       r="3.5"
+       class="ColorScheme-Highlight"
+       fill="currentColor" />
+  </g>
+</svg>

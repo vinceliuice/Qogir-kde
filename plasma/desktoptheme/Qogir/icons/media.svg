@@ -1,141 +1,117 @@
-<svg version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
             color:#5c616c;
         }</style>
- <g id="media-playback-playing">
-  <path d="m0 0h22v22h-22z" fill="none"/>
-  <g class="ColorScheme-Text" fill="currentColor" fill-rule="evenodd">
-   <path d="m11 3a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7z"/>
-   <path d="m9 14 6-3-6-3z"/>
-  </g>
+ <g id="22-22-media-playback-paused" transform="translate(-6,-42)">
+  <rect x="-28" y="42" width="22" height="22" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" transform="translate(0,-47)" d="m-17 91a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm0 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8zm-2.5 4c-0.277 0-0.5 0.223-0.5 0.5v7c0 0.277 0.223 0.5 0.5 0.5s0.5-0.223 0.5-0.5v-7c0-0.277-0.223-0.5-0.5-0.5zm5 0c-0.277 0-0.5 0.223-0.5 0.5v7c0 0.277 0.223 0.5 0.5 0.5s0.5-0.223 0.5-0.5v-7c0-0.277-0.223-0.5-0.5-0.5z" fill="currentColor"/>
  </g>
- <g id="media-playback-stopped" transform="translate(24)">
-  <path d="m24 0h22v22h-22z" fill="none"/>
-  <g class="ColorScheme-Text" fill="currentColor" fill-rule="evenodd">
-   <path d="m35 3a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7z"/>
-   <path d="m32 8h6v6h-6z"/>
-  </g>
+ <g id="22-22-media-playback-playing" transform="translate(-6,-42)">
+  <rect x="6" y="42" width="22" height="22" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" transform="translate(0,-47)" d="m17 91a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm0 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8zm-1.9883 4.002a1.0001 1.0001 0 0 0-0.50391 0.12891 1.0001 1.0001 0 0 0-0.50781 0.86914v6a1.0001 1.0001 0 0 0 1.5137 0.85742l5-3a1.0001 1.0001 0 0 0 0-1.7148l-5-3a1.0001 1.0001 0 0 0-0.50195-0.14062zm-0.011719 0.99805 5 3-5 3z" fill="currentColor"/>
  </g>
- <g id="media-playback-paused" transform="translate(48)">
-  <path d="m-24 0h22v22h-22z" fill="none"/>
-  <g class="ColorScheme-Text" fill="currentColor" fill-rule="evenodd">
-   <path d="m-16 8h2v6h-2z"/>
-   <path d="m-12 8h2v6h-2z"/>
-   <path d="m-13 3a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7z"/>
-  </g>
+ <g id="22-22-media-playback-stopped" transform="translate(-6,-42)">
+  <rect x="39" y="42" width="22" height="22" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" transform="translate(0,-47)" d="m50 91a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm0 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8zm-2 4c-1.108 0-2 0.892-2 2v4c0 1.108 0.892 2 2 2h4c1.108 0 2-0.892 2-2v-4c0-1.108-0.892-2-2-2zm0 1h4c0.554 0 1 0.446 1 1v4c0 0.554-0.446 1-1 1h-4c-0.554 0-1-0.446-1-1v-4c0-0.554 0.446-1 1-1z" fill="currentColor"/>
  </g>
- <g id="16-16-media-playback-pause" transform="translate(223 -26)">
-  <path d="m-117 48h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-115 50v12h4v-12zm8 0v12h4v-12z" fill="currentColor"/>
+ <g id="16-16-media-playback-stopped" transform="translate(-6 -103)">
+  <path class="ColorScheme-Text" transform="translate(0 14.002)" d="m42 60.998a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7zm-2 3c-1.108 0-2 0.892-2 2v4c0 1.108 0.892 2 2 2h4c1.108 0 2-0.892 2-2v-4c0-1.108-0.892-2-2-2zm0 1h4c0.554 0 1 0.446 1 1v4c0 0.554-0.446 1-1 1h-4c-0.554 0-1-0.446-1-1v-4c0-0.554 0.446-1 1-1z" fill="currentColor"/>
  </g>
- <g id="22-22-media-playback-pause" transform="translate(207 -43)">
-  <path d="m-101 43h22v22h-22z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-98 46v16h6v-16zm10 0v16h6v-16z" fill="currentColor"/>
+ <g id="16-16-media-playback-paused" transform="translate(-6 -103)">
+  <path class="ColorScheme-Text" transform="translate(0 14.002)" d="m-17 60.998a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7zm-1.5 3c-0.277 0-0.5 0.223-0.5 0.5v7c0 0.277 0.223 0.5 0.5 0.5s0.5-0.223 0.5-0.5v-7c0-0.277-0.223-0.5-0.5-0.5zm3 0c-0.277 0-0.5 0.223-0.5 0.5v7c0 0.277 0.223 0.5 0.5 0.5s0.5-0.223 0.5-0.5v-7c0-0.277-0.223-0.5-0.5-0.5z" fill="currentColor"/>
  </g>
- <g id="32-32-media-playback-pause" transform="translate(178 -66)">
-  <path d="m-72 34h32v32h-32z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-68 38v24h9v-24zm15 0v24h9v-24z" fill="currentColor"/>
+ <g id="16-16-media-playback-playing" transform="translate(-6 -103)">
+  <path class="ColorScheme-Text" transform="translate(0 14.002)" d="m15 60.998a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7zm-1.9883 3.002a1.0001 1.0001 0 0 0-0.50391 0.12891 1.0001 1.0001 0 0 0-0.50781 0.86914v6a1.0001 1.0001 0 0 0 1.5137 0.85742l5-3a1.0001 1.0001 0 0 0 0-1.7148l-5-3a1.0001 1.0001 0 0 0-0.50195-0.14062zm-0.011719 0.99805 5 3-5 3z" fill="currentColor"/>
  </g>
- <g id="32-32-media-playback-start" transform="translate(24 -68)">
-  <path d="m48 36h32v32h-32z" fill="none"/>
-  <path class="ColorScheme-Text" d="m52 40v24l24-12z" fill="currentColor"/>
+ <g id="media-playback-paused" transform="translate(-22,-89)">
+  <rect x="-25" y="122" width="32" height="32" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m-9 124a14 14 0 0 0-14 14 14 14 0 0 0 14 14 14 14 0 0 0 14-14 14 14 0 0 0-14-14zm0 1a13 13 0 0 1 13 13 13 13 0 0 1-13 13 13 13 0 0 1-13-13 13 13 0 0 1 13-13z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="-13" y="132" width="1" height="13" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="-6" y="132" width="1" height="13" fill="currentColor"/>
  </g>
- <g id="22-22-media-playback-start" transform="translate(48 -46)">
-  <path d="m24 46h22v22h-22z" fill="none"/>
-  <path class="ColorScheme-Text" d="m27 49v16l16-8z" fill="currentColor"/>
+ <g id="media-playback-playing" transform="translate(-23,-89)">
+  <path class="ColorScheme-Text" d="m35.264 131.56a0.50005 0.50005 0 0 0-0.26367 0.44141v12a0.50005 0.50005 0 0 0 0.77734 0.41602l9-6a0.50005 0.50005 0 0 0 0-0.83203l-9-6a0.50005 0.50005 0 0 0-0.51367-0.0254zm0.73633 1.375 7.5977 5.0664-7.5977 5.0664z" fill="currentColor"/>
+  <rect x="23" y="122" width="32" height="32" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m39 124a14 14 0 0 0-14 14 14 14 0 0 0 14 14 14 14 0 0 0 14-14 14 14 0 0 0-14-14zm0 1a13 13 0 0 1 13 13 13 13 0 0 1-13 13 13 13 0 0 1-13-13 13 13 0 0 1 13-13z" fill="currentColor"/>
  </g>
- <g id="16-16-media-playback-start" transform="translate(66 -30)">
-  <path d="m6 52h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m8 54v12l12-6z" fill="currentColor"/>
+ <g id="media-playback-stopped" transform="translate(-22,-89)">
+  <rect x="73" y="122" width="32" height="32" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m89 124a14 14 0 0 0-14 14 14 14 0 0 0 14 14 14 14 0 0 0 14-14 14 14 0 0 0-14-14zm0 1a13 13 0 0 1 13 13 13 13 0 0 1-13 13 13 13 0 0 1-13-13 13 13 0 0 1 13-13z" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m86 133c-1.108 0-2 0.892-2 2v6c0 1.108 0.892 2 2 2h6c1.108 0 2-0.892 2-2v-6c0-1.108-0.892-2-2-2h-6zm0 1h6c0.554 0 1 0.446 1 1v6c0 0.554-0.446 1-1 1h-6c-0.554 0-1-0.446-1-1v-6c0-0.554 0.446-1 1-1z" fill="currentColor"/>
  </g>
- <g id="16-16-media-playback-stop" transform="translate(254 -86)">
-  <path d="m-114 108h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-112 110h12v12h-12z" fill="currentColor" fill-rule="evenodd"/>
+ <use id="22-22-media-playback-pause" transform="translate(168)" width="100%" height="100%" xlink:href="#22-22-media-playback-paused"/>
+ <use id="22-22-media-playback-start" transform="translate(168)" width="100%" height="100%" xlink:href="#22-22-media-playback-playing"/>
+ <use id="22-22-media-playback-stop" transform="translate(168)" width="100%" height="100%" xlink:href="#22-22-media-playback-stopped"/>
+ <use id="16-16-media-playback-stop" transform="translate(168)" width="100%" height="100%" xlink:href="#16-16-media-playback-stopped"/>
+ <use id="16-16-media-playback-pause" transform="translate(168)" width="100%" height="100%" xlink:href="#16-16-media-playback-paused"/>
+ <use id="16-16-media-playback-start" transform="translate(168)" width="100%" height="100%" xlink:href="#16-16-media-playback-playing"/>
+ <use id="media-playback-pause" transform="translate(167)" width="100%" height="100%" xlink:href="#media-playback-paused"/>
+ <use id="media-playback-start" transform="translate(168)" width="100%" height="100%" xlink:href="#media-playback-playing"/>
+ <use id="media-playback-stop" transform="translate(167.67)" width="100%" height="100%" xlink:href="#media-playback-stopped"/>
+ <g id="16-16-media-record" fill="#da4453">
+  <path d="m256-28.002c-4.4183 0-8 3.5817-8 8s3.5817 8 8 8 8-3.5817 8-8-3.5817-8-8-8zm0 1c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7z"/>
+  <circle cx="256" cy="-20" r="5"/>
  </g>
- <g id="22-22-media-playback-stop" transform="translate(236 -102)">
-  <path d="m-96 102h22v22h-22z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-93 105h16v16h-16z" fill="currentColor" fill-rule="evenodd"/>
+ <g id="22-22-media-record">
+  <rect x="253" width="22" height="22" rx="0" ry="0" fill="none"/>
+  <path d="m264 2c-4.9706 0-9 4.0294-9 9 0 4.9706 4.0294 9 9 9s9-4.0294 9-9c0-4.9706-4.0294-9-9-9zm0 1c4.4183 0 8 3.5817 8 8s-3.5817 8-8 8-8-3.5817-8-8 3.5817-8 8-8z" fill="#da4453"/>
+  <circle cx="264" cy="11" r="6" fill="#da4453"/>
  </g>
- <g id="32-32-media-playback-stop" transform="translate(212 -124)">
-  <path d="m-72 92h32v32h-32z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-68 96h24v24h-24z" fill="currentColor" fill-rule="evenodd"/>
+ <g id="media-record">
+  <rect x="270.67" y="33" width="32" height="32" rx="0" ry="0" fill="none"/>
+  <path d="m286 35c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14zm0 1a13 13 0 0 1 13 13 13 13 0 0 1-13 13 13 13 0 0 1-13-13 13 13 0 0 1 13-13z" fill="#da4453"/>
+  <circle cx="286" cy="49" r="9" fill="#da4453"/>
  </g>
- <g id="32-32-media-record" transform="translate(184 -160)">
-  <path d="m-10 128h32v32h-32z" fill="none"/>
-  <path d="m18 144a12 12 0 0 1-12 12 12 12 0 0 1-12-12 12 12 0 0 1 12-12 12 12 0 0 1 12 12z" fill="#da4453"/>
+ <g id="16-16-media-seek-backward" transform="matrix(-1 0 0 1 719.96 0)" fill="currentColor">
+  <path class="ColorScheme-Text" d="m375.94-22.998a1.0001 1.0001 0 0 1 0.61524 0.16602l3 2a1.0001 1.0001 0 0 1 0 1.6641l-3 2a1.0001 1.0001 0 0 1-1.5547-0.83203v-0.79883l-2.4453 1.6309a1.0001 1.0001 0 0 1-1.5547-0.83203v-4a1.0001 1.0001 0 0 1 0.52734-0.88086 1.0001 1.0001 0 0 1 0.41211-0.11719 1.0001 1.0001 0 0 1 0.61524 0.16602l2.4453 1.6309v-0.79883a1.0001 1.0001 0 0 1 0.52734-0.88086 1.0001 1.0001 0 0 1 0.41211-0.11719zm0.06055 0.99805v4l3-2zm-4 0v4l3-2z"/>
+  <path class="ColorScheme-Text" d="m375-28.002c4.4183 0 8 3.5817 8 8s-3.5817 8-8 8-8-3.5817-8-8 3.5817-8 8-8zm0 1c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"/>
  </g>
- <g id="16-16-media-record" transform="translate(226 -122)">
-  <path d="m-52 144h16v16h-16z" fill="none"/>
-  <path d="m-38 152a6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6z" fill="#da4453"/>
+ <g id="22-22-media-seek-backward" transform="matrix(-1 0 0 1 719.96 0)">
+  <rect transform="scale(-1,1)" x="-386" width="22" height="22" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m375 2c4.9706 0 9 4.0294 9 9 0 4.9706-4.0294 9-9 9s-9-4.0294-9-9c0-4.9706 4.0294-9 9-9zm0 1c-4.4183 0-8 3.5817-8 8s3.5817 8 8 8 8-3.5817 8-8-3.5817-8-8-8z" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m376.09 7.0039a1.0001 1.0001 0 0 1 0.50977 0.19531l4 3a1.0001 1.0001 0 0 1 0 1.6016l-4 3a1.0001 1.0001 0 0 1-1.5996-0.80078v-1.75l-3.4004 2.5508a1.0001 1.0001 0 0 1-1.5996-0.80078v-6a1.0001 1.0001 0 0 1 0.55273-0.89453 1.0001 1.0001 0 0 1 0.53711-0.10156 1.0001 1.0001 0 0 1 0.50977 0.19531l3.4004 2.5508v-1.75a1.0001 1.0001 0 0 1 0.55273-0.89453 1.0001 1.0001 0 0 1 0.53711-0.10156zm-0.08984 0.99609v6l4-3zm-5 0v6l4-3z" fill="currentColor"/>
  </g>
- <g id="22-22-media-record" transform="translate(208 -138)">
-  <path d="m-34 138h22v22h-22z" fill="none"/>
-  <path d="m-15 149a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8z" fill="#da4453"/>
+ <g id="media-seek-backward" transform="translate(-40)">
+  <path class="ColorScheme-Text" d="m379.01 42.848a0.50005 0.50005 0 0 0-0.34766 0.097656l-7.5391 5.6543a0.50005 0.50005 0 0 0 0 0.80078l7.5391 5.6543a0.50005 0.50005 0 0 0 0.79883-0.40039v-4.6543l6.7383 5.0547a0.50005 0.50005 0 0 0 0.80078-0.40039v-11.309a0.50005 0.50005 0 0 0-0.27734-0.44726 0.50005 0.50005 0 0 0-0.52344 0.046874l-6.7383 5.0547v-4.6543a0.50005 0.50005 0 0 0-0.27539-0.44726 0.50005 0.50005 0 0 0-0.17578-0.050782zm-0.54883 1.5v4.6523 4.6523l-6.2051-4.6523 6.2051-4.6523zm7.5391 0v9.3047l-6.2051-4.6523 6.2051-4.6523z" fill="currentColor"/>
+  <rect transform="scale(-1,1)" x="-396" y="33" width="32" height="32" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m380 34.998c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14zm0 1.002a13 13 0 0 1 13 13 13 13 0 0 1-13 13 13 13 0 0 1-13-13 13 13 0 0 1 13-13z" fill="currentColor"/>
  </g>
- <g id="16-16-media-eject" transform="translate(286 -224)">
-  <path d="m58 246h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m66 248-6 8h12zm-6 10v2h12v-2z" fill="currentColor"/>
+ <g id="16-16-media-skip-backward" transform="matrix(-1 0 0 1 941 .00195)" fill="currentColor">
+  <path class="ColorScheme-Text" d="m504.94-22.998c0.2177-0.01323 0.43375 0.04507 0.61524 0.16602l3 2c0.59359 0.39588 0.59359 1.2682 0 1.6641l-3 2c-0.66455 0.44284-1.5545-0.03344-1.5547-0.83203v-4c1.6e-4 -0.36832 0.20277-0.70675 0.52734-0.88086 0.12729-0.06837 0.26789-0.10835 0.41211-0.11719zm0.06055 0.99805v4l3-2z"/>
+  <path class="ColorScheme-Text" d="m505-28.002c4.4183 0 8 3.5817 8 8s-3.5817 8-8 8-8-3.5817-8-8 3.5817-8 8-8zm0 1c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"/>
+  <rect class="ColorScheme-Text" x="502" y="-23" width="1" height="6" rx=".5" ry=".5"/>
  </g>
- <g id="22-22-media-eject" transform="translate(268 -240)">
-  <path d="m76 240h22v22h-22z" fill="none"/>
-  <path class="ColorScheme-Text" d="m87 243-8 11h16z" fill="currentColor"/>
-  <path class="ColorScheme-Text" d="m79 256v3h16v-3z" fill="currentColor"/>
+ <g id="22-22-media-skip-backward" transform="matrix(-1,0,0,1,941,0)">
+  <rect transform="scale(-1,1)" x="-516" width="22" height="22" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m505 2c4.9706 0 9 4.0294 9 9 0 4.9706-4.0294 9-9 9s-9-4.0294-9-9c0-4.9706 4.0294-9 9-9zm0 1c-4.4183 0-8 3.5817-8 8s3.5817 8 8 8 8-3.5817 8-8-3.5817-8-8-8z" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m505.09 7.0039c0.18475 0.016571 0.36125 0.084194 0.50977 0.19531l4 3c0.53463 0.4 0.53463 1.2016 0 1.6016l-4 3c-0.65949 0.49391-1.5998 0.023163-1.5996-0.80078v-6c-3e-5 -0.37879 0.21395-0.72509 0.55273-0.89453 0.16613-0.083075 0.35212-0.11824 0.53711-0.10156zm-0.08984 0.99609v6l4-3z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" x="502" y="7" width="1" height="8" rx=".5" ry=".5" fill="currentColor"/>
  </g>
- <g id="32-32-media-eject" transform="translate(244 -262)">
-  <path d="m100 230h32v32h-32z" fill="none"/>
-  <path class="ColorScheme-Text" d="m116 234-12 17h24z" fill="currentColor"/>
-  <path class="ColorScheme-Text" d="m104 254v4h24v-4z" fill="currentColor"/>
+ <g id="media-skip-backward" transform="matrix(-1,0,0,1,941,0)">
+  <rect x="494" y="33" width="32" height="32" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m510 34.998c7.732 0 14 6.268 14 14s-6.268 14-14 14-14-6.268-14-14 6.268-14 14-14zm0 1.002a13 13 0 0 0-13 13 13 13 0 0 0 13 13 13 13 0 0 0 13-13 13 13 0 0 0-13-13z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" transform="scale(-1,1)" x="-507" y="43" width="1" height="12" rx="0" ry="0" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m509.28 42.553a0.50005 0.50005 0 0 0-0.27734 0.44727v12a0.50005 0.50005 0 0 0 0.80078 0.40039l8-6a0.50005 0.50005 0 0 0 0-0.80078l-8-6a0.50005 0.50005 0 0 0-0.52344-0.04687zm0.72266 1.4473 6.666 5-6.666 5z" fill="currentColor"/>
  </g>
- <g id="16-16-media-skip-forward" transform="translate(60 -104)">
-  <path d="m250 126h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m257 128v12l7-6zm7 6v6h2v-12h-2zm-14-6v12l7-6z" fill="currentColor"/>
+ <g id="16-16-media-eject" transform="translate(-120.04)" fill="currentColor">
+  <path class="ColorScheme-Text" d="m619-20.002c0 4.4183 3.5817 8 8 8s8-3.5817 8-8-3.5817-8-8-8-8 3.5817-8 8zm1 0c0-3.866 3.134-7 7-7s7 3.134 7 7-3.134 7-7 7-7-3.134-7-7zm3.002 0.99022c-2e-3 0.1764 0.0422 0.35025 0.12891 0.50391 0.1772 0.31336 0.50915 0.5073 0.86914 0.50781h6c0.77653-5.77e-4 1.2562-0.84735 0.85742-1.5137l-3-5c-0.3885-0.64705-1.3263-0.64705-1.7148 0l-3 5c-0.0904 0.15194-0.13895 0.32515-0.14063 0.50195zm0.99805 0.01172 3-5 3 5z"/>
+  <rect class="ColorScheme-Text" transform="matrix(0,-1,-1,0,0,0)" x="16" y="-631" width="1" height="8" rx=".5" ry=".5"/>
  </g>
- <g id="22-22-media-skip-forward" transform="translate(310)">
-  <path d="m0 0h22v22h-22z" fill="none"/>
-  <path class="ColorScheme-Text" d="m0 3v16l10-8zm10 8v8l10-8-10-8zm10 0v8h2v-16h-2z" fill="currentColor"/>
+ <g id="22-22-media-eject" transform="translate(-120.04)">
+  <rect transform="rotate(-90)" x="-22" y="618" width="22" height="22" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m620 11c0 4.9706 4.0294 9 9 9s9-4.0294 9-9c0-4.9706-4.0294-9-9-9s-9 4.0294-9 9zm1 0c0-4.4183 3.5817-8 8-8s8 3.5817 8 8-3.5817 8-8 8-8-3.5817-8-8zm4.002 0.98828c-2e-3 0.1764 0.0423 0.35025 0.12891 0.50391 0.1772 0.31336 0.50915 0.5073 0.86914 0.50781h6c0.77653-5.77e-4 1.2562-0.84735 0.85742-1.5137l-3-5c-0.3885-0.64705-1.3263-0.64705-1.7148 0l-3 5c-0.0904 0.15194-0.13895 0.32515-0.14063 0.50195zm0.99805 0.011719 3-5 3 5z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" transform="matrix(0,-1,-1,0,0,0)" x="-15" y="-633" width="1" height="8" rx=".5" ry=".5" fill="currentColor"/>
  </g>
- <g id="32-32-media-skip-forward" transform="translate(18 -142)">
-  <path d="m292 110h32v32h-32z" fill="none"/>
-  <path class="ColorScheme-Text" d="m324 114v24h-4v-24zm-18 12-14 12v-24zm14 0-14 12v-24z" fill="currentColor"/>
+ <g id="media-eject" transform="translate(-120)">
+  <rect transform="rotate(-90)" x="-65" y="618" width="32" height="32" rx="0" ry="0" fill="none"/>
+  <path class="ColorScheme-Text" d="m634 35c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14zm0 1a13 13 0 0 1 13 13 13 13 0 0 1-13 13 13 13 0 0 1-13-13 13 13 0 0 1 13-13z" fill="currentColor"/>
+  <rect class="ColorScheme-Text" transform="matrix(0,-1,-1,0,0,0)" x="-54" y="-640" width="1" height="12" rx="0" ry="0" fill="currentColor"/>
+  <path class="ColorScheme-Text" d="m634 42a0.50005 0.50005 0 0 0-0.42383 0.23438l-5 8a0.50005 0.50005 0 0 0 0.42383 0.76562h10a0.50005 0.50005 0 0 0 0.42383-0.76562l-5-8a0.50005 0.50005 0 0 0-0.42383-0.23438zm0 1.4434 4.0977 6.5566h-8.1953z" fill="currentColor"/>
  </g>
- <g id="16-16-media-skip-backward" transform="translate(26 -40)">
-  <path d="m250 62h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m259 64v12l-7-6zm-7 6v6h-2v-12h2zm14-6v12l-7-6z" fill="currentColor"/>
- </g>
- <g id="22-22-media-skip-backward" transform="translate(276 -1)">
-  <path d="m0 1h22v22h-22z" fill="none"/>
-  <path class="ColorScheme-Text" d="m0 4v16h2v-16zm2 8 10 8v-16zm10 0 10 8v-16z" fill="currentColor"/>
- </g>
- <g id="32-32-media-skip-backward" transform="translate(-16 -78)">
-  <path d="m292 46h32v32h-32z" fill="none"/>
-  <path class="ColorScheme-Text" d="m292 50v24h4v-24zm18 12 14 12v-24zm-14 0 14 12v-24z" fill="currentColor"/>
- </g>
- <g id="16-16-media-seek-forward" transform="translate(448 -168)">
-  <path d="m-206 190h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-198 192v12l7-6zm-7 0v12l7-6z" fill="currentColor"/>
- </g>
- <g id="22-22-media-seek-forward" transform="translate(430 -184)">
-  <path d="m-188 184h22v22h-22z" fill="none"/>
-  <g class="ColorScheme-Text" transform="translate(-188 184)" fill="currentColor">
-   <path d="m1 3v16l10-8zm10 8v8l10-8-10-8z"/>
-  </g>
- </g>
- <g id="32-32-media-seek-forward" transform="translate(406 -206)">
-  <path d="m-164 174h32v32h-32z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-148 190-14 12v-24zm14 0-14 12v-24z" fill="currentColor"/>
- </g>
- <g id="16-16-media-seek-backward" transform="translate(414 -232)">
-  <path d="m-206 254h16v16h-16z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-198 256v12l-7-6zm7 0v12l-7-6z" fill="currentColor"/>
- </g>
- <g id="22-22-media-seek-backward" transform="translate(396 -248)">
-  <path d="m-188 248h22v22h-22z" fill="none"/>
-  <g class="ColorScheme-Text" transform="translate(-188 248)" fill="currentColor">
-   <path d="m11 3-10 8 10 8v-8zm0 8 10 8v-16z"/>
-  </g>
- </g>
- <g id="32-32-media-seek-backward" transform="translate(372 -270)">
-  <path d="m-164 238h32v32h-32z" fill="none"/>
-  <path class="ColorScheme-Text" d="m-148 254 14 12v-24zm-14 0 14 12v-24z" fill="currentColor"/>
- </g>
+ <use id="16-16-media-seek-forward" transform="matrix(-1 0 0 1 719.96 0)" width="100%" height="100%" xlink:href="#16-16-media-seek-backward"/>
+ <use id="22-22-media-seek-forward" transform="matrix(-1 0 0 1 719.96 0)" width="100%" height="100%" xlink:href="#22-22-media-seek-backward"/>
+ <use id="media-seek-forward" transform="matrix(-1,0,0,1,720,0)" width="100%" height="100%" xlink:href="#media-seek-backward"/>
+ <use id="16-16-media-skip-forward" transform="matrix(-1 0 0 1 903 -.00195)" width="100%" height="100%" xlink:href="#16-16-media-skip-backward"/>
+ <use id="22-22-media-skip-forward" transform="matrix(-1,0,0,1,903,0)" width="100%" height="100%" xlink:href="#22-22-media-skip-backward"/>
+ <use id="media-skip-forward" transform="matrix(-1,0,0,1,903,0)" width="100%" height="100%" xlink:href="#media-skip-backward"/>
 </svg>
