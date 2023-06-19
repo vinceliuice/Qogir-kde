@@ -5,7 +5,7 @@
    id="svg3869"
    version="1.1"
    sodipodi:docname="go.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -18,16 +18,22 @@
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="1.4965754"
-     inkscape:cx="18.375285"
-     inkscape:cy="36.75057"
+     showgrid="true"
+     inkscape:zoom="8.4659089"
+     inkscape:cx="64.434901"
+     inkscape:cy="5.3154364"
      inkscape:window-width="1920"
-     inkscape:window-height="1003"
+     inkscape:window-height="1010"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="34"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg3869" />
+     inkscape:current-layer="svg3869"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid205" />
+  </sodipodi:namedview>
   <defs
      id="defs3871">
     <style
@@ -77,18 +83,11 @@
        stroke-dashoffset="0"
        stroke-opacity="1"
        d="m 414,534.362 h 22 v 22 h -22 z" />
-    <g
-       id="layer1-0"
-       transform="translate(414,-496)">
-      <path
-         d="M 3.707,7 3,7.707 9.125,13.832 11,15.707 12.875,13.832 19,7.707 18.293,7 12.168,13.125 11,14.293 9.832,13.125 Z"
-         transform="translate(0,1030.362)"
-         id="rect4176"
-         class="ColorScheme-Text"
-         fill="currentColor"
-         fill-opacity="1"
-         stroke="none" />
-    </g>
+    <path
+       d="m 417.707,541.362 -0.707,0.707 6.125,6.125 1.875,1.875 1.875,-1.875 6.125,-6.125 -0.707,-0.707 -6.125,6.125 -1.168,1.168 -1.168,-1.168 z"
+       id="rect4176"
+       class="ColorScheme-Text"
+       fill="currentColor" />
   </g>
   <g
      id="go-next"
@@ -107,18 +106,11 @@
        stroke-dashoffset="0"
        stroke-opacity="1"
        d="m 370,534.362 h 22 v 22 h -22 z" />
-    <g
-       id="layer1-3"
-       transform="translate(370,-496)">
-      <path
-         d="M 7.707,3 7,3.707 13.125,9.832 14.293,11 13.125,12.168 7,18.293 7.707,19 13.832,12.875 15.707,11 13.832,9.125 Z"
-         transform="translate(0,1030.362)"
-         id="rect4176-0"
-         class="ColorScheme-Text"
-         fill="currentColor"
-         fill-opacity="1"
-         stroke="none" />
-    </g>
+    <path
+       d="m 377.707,537.362 -0.707,0.707 6.125,6.125 1.168,1.168 -1.168,1.168 -6.125,6.125 0.707,0.707 6.125,-6.125 1.875,-1.875 -1.875,-1.875 z"
+       id="rect4176-0"
+       class="ColorScheme-Text"
+       fill="currentColor" />
   </g>
   <g
      id="go-previous"
@@ -137,51 +129,15 @@
        stroke-dashoffset="0"
        stroke-opacity="1"
        d="m 348,534.362 h 22 v 22 h -22 z" />
-    <g
-       id="layer1-1"
-       transform="translate(348,-496)">
-      <path
-         d="M 14.293,3 8.168,9.125 6.293,11 8.168,12.875 14.293,19 15,18.293 8.875,12.168 7.707,11 8.875,9.832 15,3.707 Z"
-         transform="translate(0,1030.362)"
-         id="rect4176-7"
-         class="ColorScheme-Text"
-         fill="currentColor"
-         fill-opacity="1"
-         stroke="none" />
-    </g>
-  </g>
-  <g
-     id="go-up"
-     transform="translate(-326,-534.362)">
     <path
-       id="rect4409"
-       opacity="1"
-       fill="none"
-       fill-opacity="1"
-       stroke="none"
-       stroke-width="3.567"
-       stroke-linecap="butt"
-       stroke-linejoin="miter"
-       stroke-miterlimit="4"
-       stroke-dasharray="none"
-       stroke-dashoffset="0"
-       stroke-opacity="1"
-       d="m 392,534.362 h 22 v 22 h -22 z" />
-    <path
-       id="path4165"
-       d="m 403,543.362 -5,4 h 10 z"
+       d="m 362.293,537.362 -6.125,6.125 -1.875,1.875 1.875,1.875 6.125,6.125 0.707,-0.707 -6.125,-6.125 -1.168,-1.168 1.168,-1.168 6.125,-6.125 z"
+       id="rect4176-7"
        class="ColorScheme-Text"
-       fill="currentColor"
-       fill-rule="evenodd"
-       stroke="none"
-       stroke-width="1"
-       stroke-linecap="butt"
-       stroke-linejoin="miter"
-       stroke-opacity="1" />
+       fill="currentColor" />
   </g>
   <g
      id="32-32-go-down"
-     transform="matrix(1.4545455,0,0,1.4545455,-484.18182,-819.53026)">
+     transform="matrix(1.4545455,0,0,1.4545455,-484.18182,-819.25384)">
     <path
        id="path859"
        opacity="1"
@@ -196,22 +152,15 @@
        stroke-dashoffset="0"
        stroke-opacity="1"
        d="m 414,534.362 h 22 v 22 h -22 z" />
-    <g
-       id="g863"
-       transform="translate(414,-496)">
-      <path
-         d="M 3.707,7 3,7.707 9.125,13.832 11,15.707 12.875,13.832 19,7.707 18.293,7 12.168,13.125 11,14.293 9.832,13.125 Z"
-         transform="translate(0,1030.362)"
-         id="path861"
-         class="ColorScheme-Text"
-         fill="currentColor"
-         fill-opacity="1"
-         stroke="none" />
-    </g>
+    <path
+       d="m 417.707,541.362 -0.707,0.707 6.125,6.125 1.875,1.875 1.875,-1.875 6.125,-6.125 -0.707,-0.707 -6.125,6.125 -1.168,1.168 -1.168,-1.168 z"
+       id="path861"
+       class="ColorScheme-Text"
+       fill="currentColor" />
   </g>
   <g
      id="32-32-go-next"
-     transform="matrix(1.4545455,0,0,1.4545455,-484.18182,-819.53026)">
+     transform="matrix(1.4545455,0,0,1.4545455,-484.18182,-819.25384)">
     <path
        id="path867"
        opacity="1"
@@ -226,22 +175,15 @@
        stroke-dashoffset="0"
        stroke-opacity="1"
        d="m 370,534.362 h 22 v 22 h -22 z" />
-    <g
-       id="g871"
-       transform="translate(370,-496)">
-      <path
-         d="M 7.707,3 7,3.707 13.125,9.832 14.293,11 13.125,12.168 7,18.293 7.707,19 13.832,12.875 15.707,11 13.832,9.125 Z"
-         transform="translate(0,1030.362)"
-         id="path869"
-         class="ColorScheme-Text"
-         fill="currentColor"
-         fill-opacity="1"
-         stroke="none" />
-    </g>
+    <path
+       d="m 377.707,537.362 -0.707,0.707 6.125,6.125 1.168,1.168 -1.168,1.168 -6.125,6.125 0.707,0.707 6.125,-6.125 1.875,-1.875 -1.875,-1.875 z"
+       id="path869"
+       class="ColorScheme-Text"
+       fill="currentColor" />
   </g>
   <g
      id="32-32-go-previous"
-     transform="matrix(1.4545455,0,0,1.4545455,-484.18182,-819.53026)">
+     transform="matrix(1.4545455,0,0,1.4545455,-484.18182,-819.25384)">
     <path
        id="path875"
        opacity="1"
@@ -256,24 +198,17 @@
        stroke-dashoffset="0"
        stroke-opacity="1"
        d="m 348,534.362 h 22 v 22 h -22 z" />
-    <g
-       id="g879"
-       transform="translate(348,-496)">
-      <path
-         d="M 14.293,3 8.168,9.125 6.293,11 8.168,12.875 14.293,19 15,18.293 8.875,12.168 7.707,11 8.875,9.832 15,3.707 Z"
-         transform="translate(0,1030.362)"
-         id="path877"
-         class="ColorScheme-Text"
-         fill="currentColor"
-         fill-opacity="1"
-         stroke="none" />
-    </g>
+    <path
+       d="m 362.293,537.362 -6.125,6.125 -1.875,1.875 1.875,1.875 6.125,6.125 0.707,-0.707 -6.125,-6.125 -1.168,-1.168 1.168,-1.168 6.125,-6.125 z"
+       id="path877"
+       class="ColorScheme-Text"
+       fill="currentColor" />
   </g>
   <g
      id="32-32-go-up"
-     transform="matrix(1.4545455,0,0,1.4545455,-484.18182,-819.53026)">
+     transform="matrix(1.4545455,0,0,-1.4545455,-516.18184,767.16663)">
     <path
-       id="path883"
+       id="path197"
        opacity="1"
        fill="none"
        fill-opacity="1"
@@ -285,17 +220,34 @@
        stroke-dasharray="none"
        stroke-dashoffset="0"
        stroke-opacity="1"
-       d="m 392,534.362 h 22 v 22 h -22 z" />
+       d="m 414,534.362 h 22 v 22 h -22 z" />
     <path
-       id="path885"
-       d="m 403,543.362 -5,4 h 10 z"
+       d="m 417.707,541.362 -0.707,0.707 6.125,6.125 1.875,1.875 1.875,-1.875 6.125,-6.125 -0.707,-0.707 -6.125,6.125 -1.168,1.168 -1.168,-1.168 z"
+       id="path199"
        class="ColorScheme-Text"
-       fill="currentColor"
-       fill-rule="evenodd"
+       fill="currentColor" />
+  </g>
+  <g
+     id="go-up"
+     transform="matrix(1,0,0,-1,-349,556.362)">
+    <path
+       id="path209"
+       opacity="1"
+       fill="none"
+       fill-opacity="1"
        stroke="none"
-       stroke-width="1"
+       stroke-width="3.567"
        stroke-linecap="butt"
        stroke-linejoin="miter"
-       stroke-opacity="1" />
+       stroke-miterlimit="4"
+       stroke-dasharray="none"
+       stroke-dashoffset="0"
+       stroke-opacity="1"
+       d="m 414,534.362 h 22 v 22 h -22 z" />
+    <path
+       d="m 417.707,541.362 -0.707,0.707 6.125,6.125 1.875,1.875 1.875,-1.875 6.125,-6.125 -0.707,-0.707 -6.125,6.125 -1.168,1.168 -1.168,-1.168 z"
+       id="path211"
+       class="ColorScheme-Text"
+       fill="currentColor" />
   </g>
 </svg>
