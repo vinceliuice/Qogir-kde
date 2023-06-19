@@ -10,22 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <metadata
-     id="metadata931">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+   xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      pagecolor="#dedede"
      bordercolor="#666666"
@@ -36,14 +21,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1006"
+     inkscape:window-height="1010"
      id="namedview929"
-     showgrid="false"
+     showgrid="true"
      inkscape:zoom="5.656854"
-     inkscape:cx="223.62253"
-     inkscape:cy="755.36685"
+     inkscape:cx="230.6936"
+     inkscape:cy="179.0748"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="34"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg927"
      inkscape:snap-bbox="true"
@@ -56,11 +41,7 @@
      inkscape:document-rotation="0"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#dedede">
-    <inkscape:grid
-       type="xygrid"
-       id="grid1859" />
-  </sodipodi:namedview>
+     inkscape:deskcolor="#dedede" />
   <defs
      id="defs5">
     <linearGradient
@@ -377,14 +358,6 @@
        xlink:href="#linearGradient3837"
        gradientUnits="userSpaceOnUse" />
   </defs>
-  <text
-     x="44.75"
-     y="257.31104"
-     id="text6990"
-     xml:space="preserve"><tspan
-       x="44.75"
-       y="257.31104"
-       id="tspan6992" /></text>
   <g
      id="tab-tear">
     <path
@@ -894,7 +867,7 @@
      cy="436.00006"
      cx="425" />
   <path
-     style="fill:#c8c8c8;fill-rule:evenodd"
+     style="fill:#000000;fill-rule:evenodd;opacity:0.15"
      id="progress-pattern-disabled-topleft"
      d="M 210,142.5 V 135 c -4,0 -7.5,3.5 -7.5,7.5 z" />
   <rect
@@ -902,7 +875,7 @@
      x="202.5"
      y="142.5"
      height="16"
-     style="fill:#c8c8c8"
+     style="fill:#000000;opacity:0.15"
      id="progress-pattern-disabled-left"
      d="m 495.50262,453.85937 -1173.01685,0 m 1176.01685,3 -1173.01685,0 m 1176.01685,3 -1173.01685,0 m 1176.01685,3 -1173.01685,0 m 1164.01685,-9 9,9 m -400.00562,-9 9,9 m -400.00561,-9 9,9 m -400.00562,-9 9,9" />
   <use
@@ -1466,42 +1439,30 @@
   <path
      style="fill:#ffffff;fill-rule:evenodd"
      id="tabframe-normal"
-     d="m 285.5,576.00005 v 32 h 32 v -32 z" />
+     d="m 285,575 v 32 h 32 v -32 z" />
   <g
      id="tabframe-normal-left"
-     transform="matrix(0.8,0,0,0.98461538,264.5002,527.99847)">
+     transform="matrix(0.8,0,0,0.98461538,264.0002,526.99842)">
     <path
-       style="fill:#ffffff;fill-rule:evenodd"
-       id="path5181"
-       d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z" />
-    <path
-       style="color:#000000;fill:#d2d2d2"
        id="path5183"
-       d="m 21.25,48.7516 v 32.5 h 1.2497 v -32.5 z" />
+       d="m 25.0003,48.7516 v 32.5 H 26.25 v -32.5 z"
+       style="opacity:0.12;fill:#000000" />
   </g>
   <g
      id="tabframe-normal-topleft"
-     transform="matrix(0.8,0,0,0.8,264.5002,538.99877)">
+     transform="matrix(0.8,0,0,0.8,264.0002,537.99872)">
     <path
-       style="fill:#ffffff;fill-rule:evenodd"
        id="path5188"
-       d="m 26.25,41.2516 h -5 v 5 h 5 z" />
-    <path
-       style="color:#000000;fill:#d2d2d2"
-       id="path5190"
-       d="m 26.25,41.2516 h -5 v 5 h 1.2497 l -3e-4,-3.75 h 3.7503 z" />
+       d="M 26.25,45.0016 H 25 v 1.25 h 1.25 z"
+       style="fill:#000000;opacity:0.12" />
   </g>
   <g
      id="tabframe-normal-top"
-     transform="matrix(0,0.8,-0.98461538,0,365.50158,555.00005)">
+     transform="matrix(0,0.8,-0.98461538,0,365.00158,554)">
     <path
-       style="fill:#ffffff;fill-rule:evenodd"
-       id="path5194"
-       d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z" />
-    <path
-       style="color:#000000;fill:#d2d2d2"
        id="path5196"
-       d="m 21.25,48.7516 v 32.5 h 1.25 v -32.5 z" />
+       d="m 24.999994,48.7516 v 32.5 h 1.25 v -32.5 z"
+       style="fill:#000000;opacity:0.12" />
   </g>
   <use
      width="100%"
@@ -1510,30 +1471,22 @@
      height="100%"
      xlink:href="#tabframe-normal-topleft"
      id="tabframe-normal-topright"
-     transform="matrix(-1,0,0,1,603.0002,0)" />
+     transform="matrix(-1,0,0,1,602.0002,0)" />
   <g
      id="tabframe-normal-right"
-     transform="matrix(-0.8,0,0,-0.98461538,338.5,656.00163)">
+     transform="matrix(-0.8,0,0,-0.98461538,338,655.00158)">
     <path
-       style="fill:#ffffff;fill-rule:evenodd"
-       id="path5202"
-       d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z" />
-    <path
-       style="color:#000000;fill:#d2d2d2"
        id="path5204"
-       d="m 21.25,48.7516 v 32.5 h 1.25 v -32.5 z" />
+       d="m 25,48.7516 v 32.5 h 1.25 v -32.5 z"
+       style="fill:#000000;opacity:0.12" />
   </g>
   <g
      id="tabframe-normal-bottom"
-     transform="matrix(0,-0.8,0.98461538,0,237.49862,628.99995)">
+     transform="matrix(0,-0.8,0.98461538,0,236.99862,627.9999)">
     <path
-       style="fill:#ffffff;fill-rule:evenodd"
-       id="path5208"
-       d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z" />
-    <path
-       style="color:#000000;fill:#d2d2d2"
        id="path5210"
-       d="m 21.25,48.7516 v 32.5 h 1.2499 v -32.5 z" />
+       d="m 24.999969,48.7516 v 32.5 h 1.2499 v -32.5 z"
+       style="fill:#000000;opacity:0.12" />
   </g>
   <use
      width="100%"
@@ -1542,7 +1495,7 @@
      height="100%"
      xlink:href="#tabframe-normal-topleft"
      id="tabframe-normal-bottomleft"
-     transform="matrix(1,0,0,-1,0,1184.0001)" />
+     transform="matrix(1,0,0,-1,0,1182)" />
   <use
      width="100%"
      x="0"
@@ -1550,7 +1503,7 @@
      height="100%"
      xlink:href="#tabframe-normal-topleft"
      id="tabframe-normal-bottomright"
-     transform="rotate(180,301.50015,592.00001)" />
+     transform="rotate(180,301.00015,590.99995)" />
   <rect
      style="fill-opacity:0;fill-rule:evenodd"
      id="tab-normal"
