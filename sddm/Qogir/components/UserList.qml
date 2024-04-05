@@ -17,13 +17,14 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.2
+import QtQuick
+import org.kde.kirigami as Kirigami
 
 ListView {
     id: view
     readonly property string selectedUser: currentItem ? currentItem.userName : ""
-    readonly property int userItemWidth: units.gridUnit * 8
-    readonly property int userItemHeight: units.gridUnit * 8
+    readonly property int userItemWidth: Kirigami.Units.gridUnit * 8
+    readonly property int userItemHeight: Kirigami.Units.gridUnit * 8
 
     implicitHeight: userItemHeight
 

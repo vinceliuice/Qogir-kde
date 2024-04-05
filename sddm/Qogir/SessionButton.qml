@@ -17,20 +17,19 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.2
+import QtQuick
 
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
-
-import QtQuick.Controls 1.3 as QQC
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponents
+import org.kde.kirigami as Kirigami
 
 PlasmaComponents.ToolButton {
     id: root
     property int currentIndex: -1
 
-    implicitWidth: minimumWidth
+    //implicitWidth: minimumWidth
 
-    visible: menu.items.length > 1
+    visible: menu.count > 1
 
     text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Desktop Session: %1", instantiator.objectAt(currentIndex).text || "")
 
@@ -40,15 +39,27 @@ PlasmaComponents.ToolButton {
         currentIndex = sessionModel.lastIndex
     }
 
-    menu: QQC.Menu {
+    checkable: true
+    checked: menu.opened
+    onToggled: {
+        if (checked) {
+            menu.popup(root, 0, 0)
+        } else {
+            menu.dismiss()
+        }
+    }
+
+    PlasmaComponents.Menu {
+        Kirigami.Theme.colorSet: Kirigami.Theme.Window
+        Kirigami.Theme.inherit: false
+
         id: menu
-        style: BreezeMenuStyle {}
         Instantiator {
             id: instantiator
             model: sessionModel
-            onObjectAdded: menu.insertItem(index, object)
-            onObjectRemoved: menu.removeItem( object )
-            delegate: QQC.MenuItem {
+            onObjectAdded: (index, object) => menu.insertItem(index, object)
+            onObjectRemoved: (index, object) => menu.removeItem(object)
+            delegate: PlasmaComponents.MenuItem {
                 text: model.name
                 onTriggered: {
                     root.currentIndex = model.index

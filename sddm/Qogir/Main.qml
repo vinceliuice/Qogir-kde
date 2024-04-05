@@ -17,27 +17,31 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.8
+import QtQuick
 
-import QtQuick.Layouts 1.1
-import QtQuick.Controls 1.1
-import QtGraphicalEffects 1.0
+import QtQuick.Layouts
+import QtQuick.Controls
+import Qt5Compat.GraphicalEffects
 
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
-import org.kde.plasma.extras 2.0 as PlasmaExtras
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponents
+import org.kde.plasma.extras as PlasmaExtras
+import org.kde.plasma.plasma5support as Plasma5Support
+import org.kde.kirigami as Kirigami
+
+import org.kde.breeze.components
 
 import "components"
 
-PlasmaCore.ColorScope {
+Item {
     id: root
 
     // If we're using software rendering, draw outlines instead of shadows
     // See https://bugs.kde.org/show_bug.cgi?id=398317
     readonly property bool softwareRendering: GraphicsInfo.api === GraphicsInfo.Software
 
-    colorGroup: PlasmaCore.Theme.ComplementaryColorGroup
-    readonly property bool lightBackground: Math.max(PlasmaCore.ColorScope.backgroundColor.r, PlasmaCore.ColorScope.backgroundColor.g, PlasmaCore.ColorScope.backgroundColor.b) > 0.5
+    Kirigami.Theme.colorGroup: PlasmaCore.Theme.ComplementaryColorGroup
+    readonly property bool lightBackground: Math.max(Kirigami.Theme.backgroundColor.r, Kirigami.Theme.backgroundColor.g, Kirigami.Theme.backgroundColor.b) > 0.5
 
     width: 1600
     height: 900
@@ -47,7 +51,7 @@ PlasmaCore.ColorScope {
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
 
-    PlasmaCore.DataSource {
+    Plasma5Support.DataSource {
         id: keystateSource
         engine: "keystate"
         connectedSources: "Caps Lock"
@@ -95,7 +99,7 @@ PlasmaCore.ColorScope {
             }
         }
 
-        Keys.onPressed: {
+        Keys.onPressed: event => {
             uiVisible = true;
             event.accepted = false;
         }
@@ -131,7 +135,7 @@ PlasmaCore.ColorScope {
             radius: 6
             samples: 14
             spread: 0.3
-            color: root.lightBackground ? PlasmaCore.ColorScope.backgroundColor : "black" // black matches Breeze window decoration and desktopcontainment
+            color: root.lightBackground ? Kirigami.Theme.backgroundColor : "black" // black matches Breeze window decoration and desktopcontainment
             Behavior on opacity {
                 OpacityAnimator {
                     duration: 1000
@@ -154,7 +158,7 @@ PlasmaCore.ColorScope {
                 left: parent.left
                 right: parent.right
             }
-            height: root.height + units.gridUnit * 3
+            height: root.height + Kirigami.Units.gridUnit * 3
 
             focus: true //StackView is an implicit focus scope, so we need to give this focus so the item inside will have it
 
@@ -237,12 +241,12 @@ PlasmaCore.ColorScope {
 
             Behavior on opacity {
                 OpacityAnimator {
-                    duration: units.longDuration
+                    duration: Kirigami.Units.longDuration
                 }
             }
         }
 
-        Loader {
+        /*Loader {
             id: inputPanel
             state: "hidden"
             property bool keyboardActive: item ? item.active : false
@@ -304,18 +308,18 @@ PlasmaCore.ColorScope {
                             NumberAnimation {
                                 target: mainStack
                                 property: "y"
-                                duration: units.longDuration
+                                duration: Kirigami.Units.longDuration
                                 easing.type: Easing.InOutQuad
                             }
                             NumberAnimation {
                                 target: inputPanel
                                 property: "y"
-                                duration: units.longDuration
+                                duration: Kirigami.Units.longDuration
                                 easing.type: Easing.OutQuad
                             }
                             OpacityAnimator {
                                 target: inputPanel
-                                duration: units.longDuration
+                                duration: Kirigami.Units.longDuration
                                 easing.type: Easing.OutQuad
                             }
                         }
@@ -329,18 +333,18 @@ PlasmaCore.ColorScope {
                             NumberAnimation {
                                 target: mainStack
                                 property: "y"
-                                duration: units.longDuration
+                                duration: Kirigami.Units.longDuration
                                 easing.type: Easing.InOutQuad
                             }
                             NumberAnimation {
                                 target: inputPanel
                                 property: "y"
-                                duration: units.longDuration
+                                duration: Kirigami.Units.longDuration
                                 easing.type: Easing.InQuad
                             }
                             OpacityAnimator {
                                 target: inputPanel
-                                duration: units.longDuration
+                                duration: Kirigami.Units.longDuration
                                 easing.type: Easing.InQuad
                             }
                         }
@@ -352,8 +356,18 @@ PlasmaCore.ColorScope {
                     }
                 }
             ]
-        }
+        }*/
 
+        VirtualKeyboardLoader {
+            id: inputPanel
+
+            z: 1
+
+            screenRoot: root
+            mainStack: mainStack
+            mainBlock: userListComponent
+            passwordField: userListComponent.mainPasswordBox
+        }
 
         Component {
             id: userPromptComponent
@@ -417,15 +431,15 @@ PlasmaCore.ColorScope {
             source: config.logo
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.bottom: footer.top
-            anchors.bottomMargin: units.largeSpacing
+            anchors.bottomMargin: Kirigami.Units.largeSpacing
             asynchronous: true
             sourceSize.height: height
             opacity: loginScreenRoot.uiVisible ? 0 : 1
             fillMode: Image.PreserveAspectFit
-            height: Math.round(units.gridUnit * 3.5)
+            height: Math.round(Kirigami.Units.gridUnit * 3.5)
             Behavior on opacity {
                 OpacityAnimator {
-                    duration: units.longDuration
+                    duration: Kirigami.Units.longDuration
                     easing.type: Easing.InOutQuad
                 }
             }
@@ -445,7 +459,7 @@ PlasmaCore.ColorScope {
             opacity: loginScreenRoot.uiVisible ? 0 : 1
             Behavior on opacity {
                 OpacityAnimator {
-                    duration: units.longDuration
+                    duration: Kirigami.Units.longDuration
                     easing.type: Easing.InOutQuad
                 }
             }
@@ -458,21 +472,36 @@ PlasmaCore.ColorScope {
                 bottom: parent.bottom
                 left: parent.left
                 right: parent.right
-                margins: units.smallSpacing
+                margins: Kirigami.Units.smallSpacing
             }
 
             Behavior on opacity {
                 OpacityAnimator {
-                    duration: units.longDuration
+                    duration: Kirigami.Units.longDuration
                 }
             }
 
             PlasmaComponents.ToolButton {
+                id: virtualKeyboardButton
+
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
                 font.pointSize: config.fontSize
-                iconName: inputPanel.keyboardActive ? "input-keyboard-virtual-on" : "input-keyboard-virtual-off"
-                onClicked: inputPanel.showHide()
-                visible: inputPanel.status == Loader.Ready
+                icon.name: inputPanel.keyboardActive ? "input-keyboard-virtual-on" : "input-keyboard-virtual-off"
+                onClicked: {
+                    // Otherwise the password field loses focus and virtual keyboard
+                    // keystrokes get eaten
+                    userListComponent.mainPasswordBox.forceActiveFocus();
+                    inputPanel.showHide()
+                }
+                visible: inputPanel.status === Loader.Ready
+
+                Layout.fillHeight: true
+                containmentMask: Item {
+                    parent: virtualKeyboardButton
+                    anchors.fill: parent
+                    anchors.leftMargin: -footer.anchors.margins
+                    anchors.bottomMargin: -footer.anchors.margins
+                }
             }
 
             KeyboardButton {
@@ -492,13 +521,13 @@ PlasmaCore.ColorScope {
 
     Connections {
         target: sddm
-        onLoginFailed: {
+        function onLoginFailed() {
             notificationMessage = i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Login Failed")
             footer.enabled = true
             mainStack.enabled = true
             userListComponent.userList.opacity = 1
         }
-        onLoginSucceeded: {
+        function onLoginSucceeded() {
             //note SDDM will kill the greeter at some random point after this
             //there is no certainty any transition will finish, it depends on the time it
             //takes to complete the init

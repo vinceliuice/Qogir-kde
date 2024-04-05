@@ -17,15 +17,16 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 *********************************************************************/
 
-import QtQuick 2.6
-import QtQuick.Controls 1.1
-import QtQuick.Layouts 1.1
-import QtGraphicalEffects 1.0
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
+import Qt5Compat.GraphicalEffects
 
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponents
+import org.kde.kirigami as Kirigami
 
-import org.kde.plasma.private.sessions 2.0
+import org.kde.plasma.private.sessions
 import "../components"
 
 Item {
@@ -36,7 +37,7 @@ Item {
     property alias source: wallpaperBlur.source
     state: lockScreenRoot.uiVisible ? "on" : "off"
     property real factor: 0
-    readonly property bool lightBackground: Math.max(PlasmaCore.ColorScope.backgroundColor.r, PlasmaCore.ColorScope.backgroundColor.g, PlasmaCore.ColorScope.backgroundColor.b) > 0.5
+    readonly property bool lightBackground: Math.max(Kirigami.Theme.backgroundColor.r, Kirigami.Theme.backgroundColor.g, Kirigami.Theme.backgroundColor.b) > 0.5
 
     property bool alwaysShowClock: typeof config === "undefined" || config.alwaysShowClock === true
 
@@ -53,7 +54,7 @@ Item {
         anchors.fill: parent
         radius: 50 * wallpaperFader.factor
     }
-    ShaderEffect {
+    /*ShaderEffect {
         id: wallpaperShader
         anchors.fill: parent
         supportsAtlasTextures: true
@@ -100,7 +101,7 @@ Item {
                 mediump vec4 tex = texture2D(source, qt_TexCoord0);
                 gl_FragColor = tex * colorMatrix * qt_Opacity;
             }"
-    }
+    }*/
 
     states: [
         State {
@@ -158,7 +159,7 @@ Item {
             NumberAnimation {
                 targets: [mainStack, footer, clock]
                 property: "opacity"
-                duration: units.longDuration
+                duration: Kirigami.Units.longDuration
                 easing.type: Easing.InOutQuad
             }
         },
