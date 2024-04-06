@@ -54,7 +54,7 @@ Item {
         anchors.fill: parent
         radius: 50 * wallpaperFader.factor
     }
-    /*ShaderEffect {
+    ShaderEffect {
         id: wallpaperShader
         anchors.fill: parent
         supportsAtlasTextures: true
@@ -90,18 +90,8 @@ Item {
                 ));
     
 
-        fragmentShader: "
-            uniform mediump mat4 colorMatrix;
-            uniform mediump sampler2D source;
-            varying mediump vec2 qt_TexCoord0;
-            uniform lowp float qt_Opacity;
-
-            void main(void)
-            {
-                mediump vec4 tex = texture2D(source, qt_TexCoord0);
-                gl_FragColor = tex * colorMatrix * qt_Opacity;
-            }"
-    }*/
+        fragmentShader: "WallpaperFader.frag.qsb"
+    }
 
     states: [
         State {
