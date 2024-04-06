@@ -1,9 +1,9 @@
-import QtQuick 2.2
+import QtQuick
 
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponents
 
-import QtQuick.Controls 1.3 as QQC
+import org.kde.kirigami 2.20 as Kirigami
 
 PlasmaComponents.ToolButton {
     id: keyboardButton
@@ -11,22 +11,34 @@ PlasmaComponents.ToolButton {
     property int currentIndex: -1
 
     text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Keyboard Layout: %1", instantiator.objectAt(currentIndex).shortName)
-    implicitWidth: minimumWidth
+    //implicitWidth: minimumWidth
     font.pointSize: config.fontSize
 
-    visible: menu.items.length > 1
+    visible: keyboard.layouts.length > 1
 
     Component.onCompleted: currentIndex = Qt.binding(function() {return keyboard.currentLayout});
 
-    menu: QQC.Menu {
+    checkable: true
+    checked: keyboardMenu.opened
+    onToggled: {
+        if (checked) {
+            keyboardMenu.popup(keyboardButton, 0, 0)
+        } else {
+            keyboardMenu.dismiss()
+        }
+    }
+
+    PlasmaComponents.Menu {
         id: keyboardMenu
-        style: BreezeMenuStyle {}
+        Kirigami.Theme.colorSet: Kirigami.Theme.Window
+        Kirigami.Theme.inherit: false
+
         Instantiator {
             id: instantiator
             model: keyboard.layouts
-            onObjectAdded: keyboardMenu.insertItem(index, object)
-            onObjectRemoved: keyboardMenu.removeItem( object )
-            delegate: QQC.MenuItem {
+            onObjectAdded: (index, object) => keyboardMenu.insertItem(index, object)
+            onObjectRemoved: (index, object) => keyboardMenu.removeItem(object)
+            delegate: PlasmaComponents.MenuItem {
                 text: modelData.longName
                 property string shortName: modelData.shortName
                 onTriggered: {

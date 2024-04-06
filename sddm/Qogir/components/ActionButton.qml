@@ -17,9 +17,10 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.8
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
+import QtQuick
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponents
+import org.kde.kirigami as Kirigami
 
 Item {
     id: root
@@ -36,15 +37,15 @@ Item {
 
     activeFocusOnTab: true
 
-    property int iconSize: units.gridUnit * 3
+    property int iconSize: Kirigami.Units.gridUnit * 3
 
-    implicitWidth: Math.max(iconSize + units.largeSpacing * 2, label.contentWidth)
-    implicitHeight: iconSize + units.smallSpacing + label.implicitHeight
+    implicitWidth: Math.max(iconSize + Kirigami.Units.largeSpacing * 2, label.contentWidth)
+    implicitHeight: iconSize + Kirigami.Units.smallSpacing + label.implicitHeight
 
     opacity: activeFocus || containsMouse ? 1 : 0.85
         Behavior on opacity {
             PropertyAnimation { // OpacityAnimator makes it turn black at random intervals
-                duration: units.longDuration * 2
+                duration: Kirigami.Units.longDuration * 2
                 easing.type: Easing.InOutQuad
             }
     }
@@ -52,14 +53,14 @@ Item {
     Rectangle {
         id: iconCircle
         anchors.centerIn: icon
-        width: iconSize + units.smallSpacing
+        width: iconSize + Kirigami.Units.smallSpacing
         height: width
         radius: width / 2
-        color: softwareRendering ?  PlasmaCore.ColorScope.backgroundColor : PlasmaCore.ColorScope.textColor
+        color: softwareRendering ?  Kirigami.Theme.backgroundColor : Kirigami.Theme.textColor
         opacity: activeFocus || containsMouse ? (softwareRendering ? 0.8 : 0.15) : (softwareRendering ? 0.6 : 0)
         Behavior on opacity {
                 PropertyAnimation { // OpacityAnimator makes it turn black at random intervals
-                    duration: units.longDuration * 3
+                    duration: Kirigami.Units.longDuration * 3
                     easing.type: Easing.InOutQuad
                 }
         }
@@ -71,17 +72,17 @@ Item {
         height: width
         radius: width / 2
         scale: mouseArea.containsPress ? 1 : 0
-        color: PlasmaCore.ColorScope.textColor
+        color: Kirigami.Theme.textColor
         opacity: 0.15
         Behavior on scale {
                 PropertyAnimation {
-                    duration: units.shortDuration
+                    duration: Kirigami.Units.shortDuration
                     easing.type: Easing.InOutQuart
                 }
         }
     }
 
-    PlasmaCore.IconItem {
+    Kirigami.Icon {
         id: icon
         anchors {
             top: parent.top
@@ -90,21 +91,21 @@ Item {
         width: iconSize
         height: iconSize
 
-        colorGroup: PlasmaCore.ColorScope.colorGroup
+        Kirigami.Theme.colorGroup: Kirigami.Theme.Active
         active: mouseArea.containsMouse || root.activeFocus
     }
 
     PlasmaComponents.Label {
         id: label
-        font.pointSize: Math.max(fontSize + 1,theme.defaultFont.pointSize + 1)
+        font.pointSize: Math.max(fontSize + 1,Kirigami.Theme.defaultFont.pointSize + 1)
         anchors {
             top: icon.bottom
-            topMargin: (softwareRendering ? 1.5 : 1) * units.smallSpacing
+            topMargin: (softwareRendering ? 1.5 : 1) * Kirigami.Units.smallSpacing
             left: parent.left
             right: parent.right
         }
         style: softwareRendering ? Text.Outline : Text.Normal
-        styleColor: softwareRendering ? PlasmaCore.ColorScope.backgroundColor : "transparent" //no outline, doesn't matter
+        styleColor: softwareRendering ? Kirigami.Theme.backgroundColor : "transparent" //no outline, doesn't matter
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignTop
         wrapMode: Text.WordWrap

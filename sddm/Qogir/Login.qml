@@ -1,10 +1,11 @@
 import "components"
 
-import QtQuick 2.0
-import QtQuick.Layouts 1.2
+import QtQuick
+import QtQuick.Layouts
 
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponents
+import org.kde.kirigami as Kirigami
 
 SessionManagementScreen {
     id: root
@@ -17,7 +18,7 @@ SessionManagementScreen {
 
     //the y position that should be ensured visible when the on screen keyboard is visible
     property int visibleBoundary: mapFromItem(loginButton, 0, 0).y
-    onHeightChanged: visibleBoundary = mapFromItem(loginButton, 0, 0).y + loginButton.height + units.smallSpacing
+    onHeightChanged: visibleBoundary = mapFromItem(loginButton, 0, 0).y + loginButton.height + Kirigami.Units.smallSpacing
 
     property int fontSize: config.fontSize
 
@@ -75,7 +76,7 @@ SessionManagementScreen {
             placeholderText: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Password")
             focus: !showUsernamePrompt || lastUserName
             echoMode: TextInput.Password
-            revealPasswordButtonShown: false // Disabled whilst SDDM does not have the breeze icon set loaded
+            //revealPasswordButtonShown: false // Disabled whilst SDDM does not have the breeze icon set loaded
 
             onAccepted: {
                 if (root.loginScreenUiVisible) {
@@ -89,7 +90,7 @@ SessionManagementScreen {
 
             //if empty and left or right is pressed change selection in user switch
             //this cannot be in keys.onLeftPressed as then it doesn't reach the password box
-            Keys.onPressed: {
+            Keys.onPressed: event => {
                 if (event.key === Qt.Key_Left && !text) {
                     userList.decrementCurrentIndex();
                     event.accepted = true
@@ -102,7 +103,7 @@ SessionManagementScreen {
 
             Connections {
                 target: sddm
-                onLoginFailed: {
+                function onLoginFailed() {
                     passwordBox.selectAll()
                     passwordBox.forceActiveFocus()
                 }
@@ -112,13 +113,13 @@ SessionManagementScreen {
         PlasmaComponents.Button {
             id: loginButton
             Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log In")
-            implicitHeight: passwordBox.height - units.smallSpacing * 0.5 // otherwise it comes out taller than the password field
+            implicitHeight: passwordBox.height - Kirigami.Units.smallSpacing * 0.5 // otherwise it comes out taller than the password field
             implicitWidth: loginButton.implicitHeight
             Layout.rightMargin: 1 // prevents it from extending beyond the username field
 
-            PlasmaCore.IconItem { // no iconSource because if you take away half a unit (implicitHeight), "go-next" gets cut off
+            Kirigami.Icon { // no iconSource because if you take away half a unit (implicitHeight), "go-next" gets cut off
                 anchors.fill: parent
-                anchors.margins: units.smallSpacing
+                anchors.margins: Kirigami.Units.smallSpacing
                 source: "go-next"
             }
             onClicked: startLogin();

@@ -17,12 +17,12 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA .        *
  ***************************************************************************/
 
-import QtQuick 2.1
-import QtQuick.Controls 1.1 as QQC
+import QtQuick
+import QtQuick.Controls as QQC
 
-import org.kde.plasma.components 2.0 as PlasmaComponents
+import org.kde.plasma.components as PlasmaComponents
 
-import org.kde.plasma.workspace.keyboardlayout 1.0
+import org.kde.plasma.workspace.keyboardlayout
 
 PlasmaComponents.ToolButton {
 
