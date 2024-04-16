@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "vinceliuice@hotmail.com",
+                "Name": "Vince Liuice"
+            }
+        ],
+        "Category": "",
+        "Description": "Qogir ubuntu dark theme for kde plasma",
+        "Id": "com.github.vinceliuice.Qogir-ubuntu-dark",
+        "License": "GPLv3",
+        "Name": "Qogir-ubuntu-dark",
+        "Website": "https://github.com/vinceliuice/Qogir-kde",
+        "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+        "X-Plasma-APIVersion": "2"
+    }
+}

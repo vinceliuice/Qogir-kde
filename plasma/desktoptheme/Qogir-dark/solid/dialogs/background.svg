@@ -6,7 +6,7 @@
    viewBox="0 0 173 56"
    id="svg166"
    sodipodi:docname="background.svg"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -21,26 +21,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="true"
-     inkscape:zoom="3.7861272"
-     inkscape:cx="53.880916"
-     inkscape:cy="18.488549"
+     inkscape:zoom="10.708785"
+     inkscape:cx="36.231936"
+     inkscape:cy="16.341724"
      inkscape:window-width="1920"
-     inkscape:window-height="954"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg166"
-     inkscape:showpageshadow="2"
-     inkscape:deskcolor="#d1d1d1">
+     inkscape:current-layer="svg166">
     <inkscape:grid
        type="xygrid"
-       id="grid1337"
-       originx="0"
-       originy="0"
-       spacingy="1"
-       spacingx="1"
-       units="px"
-       visible="true" />
+       id="grid1337" />
   </sodipodi:namedview>
   <style
      id="current-color-scheme"
@@ -138,6 +130,14 @@
       .ColorScheme-ButtonFocus{
         color:#3daee9;
       }</style>
+    <radialGradient
+       id="radialGradient1433"
+       cx="22.2"
+       cy="913.97"
+       r="6"
+       gradientTransform="matrix(2.5385e-6,-2.1667,2.1667,2.5385e-6,-1907.3,56.098)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4270" />
     <linearGradient
        id="linearGradient1537"
        x1="19"
@@ -145,6 +145,14 @@
        y1="8"
        y2="-5"
        gradientTransform="translate(58)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4270" />
+    <linearGradient
+       id="linearGradient1637"
+       x1="15"
+       x2="2"
+       y1="12"
+       y2="12"
        gradientUnits="userSpaceOnUse"
        xlink:href="#linearGradient4270" />
     <linearGradient
@@ -166,6 +174,38 @@
        gradientTransform="translate(58)" />
     <radialGradient
        id="radialGradient1433-5"
+       cx="22.200001"
+       cy="913.96997"
+       r="6"
+       gradientTransform="matrix(2.5385e-6,-2.1667,2.1667,2.5385e-6,-1907.3,56.098)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4270" />
+    <radialGradient
+       id="radialGradient960"
+       cx="22.200001"
+       cy="913.96997"
+       r="6"
+       gradientTransform="matrix(2.5385e-6,-2.1667,2.1667,2.5385e-6,-1907.3,56.098)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4270" />
+    <radialGradient
+       id="radialGradient984"
+       cx="22.200001"
+       cy="913.96997"
+       r="6"
+       gradientTransform="matrix(2.5385e-6,-2.1667,2.1667,2.5385e-6,-1907.3,56.098)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4270" />
+    <radialGradient
+       id="radialGradient1008"
+       cx="22.200001"
+       cy="913.96997"
+       r="6"
+       gradientTransform="matrix(2.5385e-6,-2.1667,2.1667,2.5385e-6,-1907.3,56.098)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4270" />
+    <radialGradient
+       id="radialGradient1032"
        cx="22.200001"
        cy="913.96997"
        r="6"
@@ -216,7 +256,7 @@
        height="32"
        fill="currentColor"
        id="rect28"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="topleft"
@@ -226,7 +266,7 @@
        d="m 16,910.36 c -2,0 -3,1 -3,3 v 3 h 6 v -6 z"
        fill="currentColor"
        id="path31"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="center"
@@ -246,7 +286,7 @@
        height="32"
        fill="currentColor"
        id="rect36"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <rect
      id="hint-top-margin"
@@ -310,7 +350,9 @@
        transform="translate(-58,904.36)"
        d="m 77,6 h 32 V 5 H 77 Z"
        id="path49"
-       style="opacity:0.65" />
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.2" />
   </g>
   <g
      id="shadow-topleft"
@@ -357,9 +399,24 @@
        fill="none"
        id="rect62" />
     <path
+       d="m 12,913.36 v 3 h 1 v -3 z"
        id="path64"
-       d="M 16 909.36 C 13.784002 909.36 12 911.144 12 913.36 L 12 916.36 L 13 916.36 L 13 913.36 C 13 911.698 14.338002 910.36 16 910.36 L 19 910.36 L 19 909.36 L 16 909.36 z "
-       style="opacity:0.65" />
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.2" />
+    <path
+       transform="translate(-58,904.36)"
+       d="m 74,5 c -2.216,0 -4,1.784 -4,4 h 1 c 0,-1.662 1.338,-3 3,-3 z"
+       id="path66"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.2" />
+    <path
+       d="m 19,909.36 h -3 v 1 h 3 z"
+       id="path68"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:0.2" />
   </g>
   <g
      id="shadow-center"

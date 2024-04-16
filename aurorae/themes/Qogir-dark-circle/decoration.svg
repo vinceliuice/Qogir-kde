@@ -5,7 +5,7 @@
    height="84"
    version="1"
    sodipodi:docname="decoration.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -34,13 +34,13 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1368"
-     inkscape:window-height="706"
+     inkscape:window-width="1920"
+     inkscape:window-height="954"
      id="namedview56"
      showgrid="false"
-     inkscape:zoom="3.9732666"
-     inkscape:cx="64.933976"
-     inkscape:cy="43.792682"
+     inkscape:zoom="22.47619"
+     inkscape:cx="69.562501"
+     inkscape:cy="73.989408"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -49,10 +49,18 @@
      inkscape:snap-intersection-paths="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true"
-     inkscape:pagecheckerboard="0">
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
-       id="grid866" />
+       id="grid866"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="false" />
   </sodipodi:namedview>
   <defs
      id="defs3644">
@@ -189,7 +197,7 @@
     <path
        id="path4438"
        d="M 10 17 L 10 67 L 11 67 L 11 17 L 10 17 z"
-       style="fill:#ffffff;opacity:0.15" />
+       style="fill:#000000;opacity:0.65" />
   </g>
   <g
      id="decoration-right">
@@ -220,7 +228,7 @@
     <path
        id="path4440"
        d="M 73 17 L 73 67 L 74 67 L 74 17 L 73 17 z"
-       style="fill:#ffffff;opacity:0.15" />
+       style="fill:#000000;opacity:0.65" />
   </g>
   <g
      id="decoration-bottom">
@@ -251,7 +259,7 @@
     <path
        id="path4436"
        d="M 17 73 L 17 74 L 67 74 L 67 73 L 17 73 z"
-       style="fill:#ffffff;opacity:0.15" />
+       style="fill:#000000;opacity:0.65" />
     <path
        d="m 17,72 v 1 h 50 v -1 z"
        id="path67"
@@ -286,7 +294,7 @@
     <path
        id="path4433"
        d="M 17 10 L 17 11 L 67 11 L 67 10 L 17 10 z"
-       style="fill:#ffffff;opacity:0.15" />
+       style="fill:#000000;opacity:0.65" />
   </g>
   <g
      id="decoration-topright">
@@ -304,7 +312,7 @@
     <path
        id="path4445"
        d="m 67,10 v 1 h 2 4 v 6 h 1 v -7 h -5 z"
-       style="fill:#ffffff;opacity:0.15" />
+       style="fill:#000000;opacity:0.65" />
   </g>
   <g
      id="decoration-topleft"
@@ -323,7 +331,7 @@
     <path
        d="m 67,10 v 1 h 2 4 v 6 h 1 v -7 h -5 z"
        id="path872"
-       style="fill:#ffffff;opacity:0.15" />
+       style="fill:#000000;opacity:0.65" />
   </g>
   <g
      transform="rotate(-180,42,42)"
@@ -341,7 +349,7 @@
     <path
        id="path882"
        d="m 67,10 v 1 h 2 4 v 6 h 1 v -7 h -5 z"
-       style="fill:#ffffff;opacity:0.15" />
+       style="fill:#000000;opacity:0.65" />
     <path
        id="path62"
        d="M 11 67 L 11 73 L 15 73 L 17 73 L 17 72 L 15.333984 72 L 12 72 L 12 67 L 11 67 z "
@@ -364,7 +372,7 @@
     <path
        d="m 67,10 v 1 h 2 4 v 6 h 1 v -7 h -5 z"
        id="path892"
-       style="fill:#ffffff;opacity:0.15" />
+       style="fill:#000000;opacity:0.65" />
     <path
        d="M 72 67 L 72 72 L 68.666016 72 L 67 72 L 67 73 L 69 73 L 73 73 L 73 67 L 72 67 z "
        transform="matrix(1,0,0,-1,0,84)"

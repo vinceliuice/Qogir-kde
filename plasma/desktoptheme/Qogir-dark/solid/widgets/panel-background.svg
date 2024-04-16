@@ -39,9 +39,9 @@
      inkscape:window-height="954"
      id="namedview141"
      showgrid="true"
-     inkscape:zoom="14.312139"
-     inkscape:cx="94.884489"
-     inkscape:cy="24.105412"
+     inkscape:zoom="14.312138"
+     inkscape:cx="94.046045"
+     inkscape:cy="40.245559"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -114,8 +114,7 @@
        y1="932.36"
        y2="932.36"
        gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient4270"
-       gradientTransform="translate(8e-7,2.9296876e-5)" />
+       xlink:href="#linearGradient4270" />
     <linearGradient
        id="linearGradient4270">
       <stop
@@ -184,7 +183,7 @@
        height="32"
        fill="currentColor"
        id="rect16"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="topleft"
@@ -195,7 +194,7 @@
        d="M 19 6 C 15.676 6 13 8.676 13 12 L 17 12 L 18 12 L 19 12 L 19 11 L 19 7 L 19 6 z "
        transform="translate(0,904.36)"
        fill="currentColor"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="topright"
@@ -206,7 +205,7 @@
        d="M 51 6 L 51 7 L 51 11 L 51 12 L 52 12 L 53 12 L 56 12 L 57 12 C 57 8.676 54.324 6 51 6 z "
        transform="translate(0,904.36)"
        fill="currentColor"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="bottom"
@@ -220,7 +219,7 @@
        height="32"
        fill="currentColor"
        id="rect25"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="bottomleft"
@@ -231,7 +230,7 @@
        d="M 13 44 C 13 47.324 15.676 50 19 50 L 19 49 L 19 45 L 19 44 L 18 44 L 17 44 L 14 44 L 13 44 z "
        transform="translate(0,904.36)"
        fill="currentColor"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="bottomright"
@@ -242,7 +241,7 @@
        d="M 51 44 L 51 45 L 51 49 L 51 50 C 54.324 50 57 47.324 57 44 L 56 44 L 53 44 L 52 44 L 51 44 z "
        transform="translate(0,904.36)"
        fill="currentColor"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="left"
@@ -256,7 +255,7 @@
        height="32"
        fill="currentColor"
        id="rect34"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="right"
@@ -269,7 +268,7 @@
        height="32"
        fill="currentColor"
        id="rect37"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <g
      id="center"
@@ -289,7 +288,7 @@
        height="32"
        fill="currentColor"
        id="rect42"
-       style="opacity:0.8" />
+       style="opacity:1" />
   </g>
   <rect
      id="hint-top-inset"
@@ -444,12 +443,14 @@
        id="rect78" />
     <rect
        transform="matrix(0,-1,-1,0,0,0)"
-       x="-909.35999"
+       x="-910.35999"
        y="-51"
-       width="13.000014"
+       width="14"
        height="32"
+       fill="url(#linearGradient4920)"
+       opacity="0.15"
        id="rect80"
-       style="fill:url(#linearGradient4920);stroke-width:1;opacity:0.15" />
+       style="fill:url(#linearGradient4920)" />
     <rect
        transform="matrix(0,-1,-1,0,0,0)"
        x="-911.35999"
@@ -471,10 +472,13 @@
      id="shadow-topleft"
      transform="translate(58,-904.36)">
     <path
+       transform="translate(-58,904.36)"
+       d="m 57,-8 v 20 c 4.6667,6e-6 9.3333,9e-6 14,0 v -1 c 0,-2.77 2.23,-5 5,-5 h 1 V -8 Z"
+       fill="url(#radialGradient1805)"
+       fill-rule="evenodd"
+       opacity="0.15"
        id="path87"
-       style="fill:url(#radialGradient1805);opacity:0.15"
-       d="M 57 -8 L 57 12 C 61.333364 12.000006 65.666648 12.000007 70 12 L 70 11 C 70 7.676 72.676 5 76 5 L 77 5 L 77 -8 L 57 -8 z "
-       transform="translate(-58,904.36)" />
+       style="fill:url(#radialGradient1805)" />
     <rect
        transform="scale(-1,1)"
        x="-19"
@@ -520,13 +524,14 @@
        id="rect98" />
     <rect
        transform="rotate(90)"
-       x="955.35999"
+       x="954.35999"
        y="-51"
-       width="12.999986"
+       width="14"
        height="32"
        fill="url(#linearGradient4934)"
+       opacity="0.15"
        id="rect100"
-       style="fill:url(#linearGradient4934);opacity:0.15" />
+       style="fill:url(#linearGradient4934)" />
     <rect
        transform="rotate(90)"
        x="953.35999"
@@ -557,12 +562,14 @@
        id="rect107" />
     <rect
        transform="scale(-1,1)"
-       x="-12"
+       x="-13"
        y="916.35999"
-       width="13"
-       height="31.999985"
+       width="14"
+       height="32"
+       fill="url(#linearGradient4948)"
+       opacity="0.15"
        id="rect109"
-       style="fill:url(#linearGradient4948);stroke-width:1;opacity:0.15" />
+       style="fill:url(#linearGradient4948)" />
     <rect
        transform="scale(-1,1)"
        x="-14"
@@ -591,12 +598,14 @@
        fill="none"
        id="rect116" />
     <rect
-       x="58"
+       x="57"
        y="916.35999"
-       width="13"
-       height="31.999985"
+       width="14"
+       height="32"
+       fill="url(#linearGradient4950)"
+       opacity="0.15"
        id="rect118"
-       style="fill:url(#linearGradient4950);stroke-width:1;opacity:0.15" />
+       style="fill:url(#linearGradient4950)" />
     <rect
        x="56"
        y="916.35999"
@@ -721,36 +730,36 @@
      id="hint-bottom-margin"
      x="34"
      y="44"
-     height="4"
+     height="6"
      fill="#800080"
      width="4"
-     style="stroke-width:0.816497" />
+     style="stroke-width:1" />
   <rect
      id="hint-left-margin"
      transform="rotate(90)"
      x="28"
-     y="-17"
+     y="-19"
      width="4"
-     height="4"
+     height="6"
      fill="#800080"
-     style="stroke-width:0.816497" />
+     style="stroke-width:1" />
   <rect
      id="hint-top-margin"
      x="30"
      y="6"
      width="4"
-     height="4"
+     height="6"
      fill="#800080"
-     style="stroke-width:0.816497" />
+     style="stroke-width:1" />
   <rect
      id="hint-right-margin"
      transform="rotate(90)"
      x="24"
-     y="-55"
+     y="-57"
      width="4"
-     height="4"
+     height="6"
      fill="#800080"
-     style="stroke-width:0.816497" />
+     style="stroke-width:1" />
   <rect
      style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke:none;stop-color:#eff0f1"
      id="thick-center"

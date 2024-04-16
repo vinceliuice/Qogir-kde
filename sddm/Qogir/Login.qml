@@ -1,11 +1,12 @@
-import "components"
+import org.kde.breeze.components
 
-import QtQuick
-import QtQuick.Layouts
+import QtQuick 2.15
+import QtQuick.Layouts 1.15
+import QtQuick.Controls 2.15 as QQC2
 
-import org.kde.plasma.core as PlasmaCore
-import org.kde.plasma.components as PlasmaComponents
-import org.kde.kirigami as Kirigami
+import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.extras 2.0 as PlasmaExtras
+import org.kde.kirigami 2.20 as Kirigami
 
 SessionManagementScreen {
     id: root
@@ -20,7 +21,7 @@ SessionManagementScreen {
     property int visibleBoundary: mapFromItem(loginButton, 0, 0).y
     onHeightChanged: visibleBoundary = mapFromItem(loginButton, 0, 0).y + loginButton.height + Kirigami.Units.smallSpacing
 
-    property int fontSize: config.fontSize
+    property int fontSize: parseInt(config.fontSize)
 
     signal loginRequest(string username, string password)
 
@@ -30,26 +31,50 @@ SessionManagementScreen {
         }
     }
 
+    onUserSelected: {
+        // Don't startLogin() here, because the signal is connected to the
+        // Escape key as well, for which it wouldn't make sense to trigger
+        // login.
+        focusFirstVisibleFormControl();
+    }
+
+    QQC2.StackView.onActivating: {
+        // Controls are not visible yet.
+        Qt.callLater(focusFirstVisibleFormControl);
+    }
+
+    function focusFirstVisibleFormControl() {
+        const nextControl = (userNameInput.visible
+            ? userNameInput
+            : (passwordBox.visible
+                ? passwordBox
+                : loginButton));
+        // Using TabFocusReason, so that the loginButton gets the visual highlight.
+        nextControl.forceActiveFocus(Qt.TabFocusReason);
+    }
+
     /*
-    * Login has been requested with the following username and password
-    * If username field is visible, it will be taken from that, otherwise from the "name" property of the currentIndex
-    */
+     * Login has been requested with the following username and password
+     * If username field is visible, it will be taken from that, otherwise from the "name" property of the currentIndex
+     */
     function startLogin() {
-        var username = showUsernamePrompt ? userNameInput.text : userList.selectedUser
-        var password = passwordBox.text
+        const username = showUsernamePrompt ? userNameInput.text : userList.selectedUser
+        const password = passwordBox.text
 
         footer.enabled = false
         mainStack.enabled = false
         userListComponent.userList.opacity = 0.5
 
-        //this is partly because it looks nicer
-        //but more importantly it works round a Qt bug that can trigger if the app is closed with a TextField focused
-        //DAVE REPORT THE FRICKING THING AND PUT A LINK
+        // This is partly because it looks nicer, but more importantly it
+        // works round a Qt bug that can trigger if the app is closed with a
+        // TextField focused.
+        //
+        // See https://bugreports.qt.io/browse/QTBUG-55460
         loginButton.forceActiveFocus();
         loginRequest(username, password);
     }
 
-    PlasmaComponents.TextField {
+    PlasmaComponents3.TextField {
         id: userNameInput
         font.pointSize: fontSize + 1
         Layout.fillWidth: true
@@ -59,30 +84,34 @@ SessionManagementScreen {
         focus: showUsernamePrompt && !lastUserName //if there's a username prompt it gets focus first, otherwise password does
         placeholderText: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Username")
 
-        onAccepted:
+        onAccepted: {
             if (root.loginScreenUiVisible) {
                 passwordBox.forceActiveFocus()
             }
+        }
     }
 
     RowLayout {
         Layout.fillWidth: true
 
-        PlasmaComponents.TextField {
+        PlasmaExtras.PasswordField {
             id: passwordBox
             font.pointSize: fontSize + 1
             Layout.fillWidth: true
 
             placeholderText: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Password")
             focus: !showUsernamePrompt || lastUserName
-            echoMode: TextInput.Password
-            //revealPasswordButtonShown: false // Disabled whilst SDDM does not have the breeze icon set loaded
+
+            // Disable reveal password action because SDDM does not have the breeze icon set loaded
+            rightActions: []
 
             onAccepted: {
                 if (root.loginScreenUiVisible) {
                     startLogin();
                 }
             }
+
+            visible: root.showUsernamePrompt || userList.currentItem.needsPassword
 
             Keys.onEscapePressed: {
                 mainStack.currentItem.forceActiveFocus();
@@ -110,19 +139,18 @@ SessionManagementScreen {
             }
         }
 
-        PlasmaComponents.Button {
+        PlasmaComponents3.Button {
             id: loginButton
             Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log In")
-            implicitHeight: passwordBox.height - Kirigami.Units.smallSpacing * 0.5 // otherwise it comes out taller than the password field
-            implicitWidth: loginButton.implicitHeight
-            Layout.rightMargin: 1 // prevents it from extending beyond the username field
+            Layout.preferredHeight: passwordBox.implicitHeight
+            Layout.preferredWidth: text.length === 0 ? loginButton.Layout.preferredHeight : -1
 
-            Kirigami.Icon { // no iconSource because if you take away half a unit (implicitHeight), "go-next" gets cut off
-                anchors.fill: parent
-                anchors.margins: Kirigami.Units.smallSpacing
-                source: "go-next"
-            }
-            onClicked: startLogin();
+            icon.name: text.length === 0 ? (root.LayoutMirroring.enabled ? "go-previous" : "go-next") : ""
+
+            text: root.showUsernamePrompt || userList.currentItem.needsPassword ? "" : i18n("Log In")
+            onClicked: startLogin()
+            Keys.onEnterPressed: clicked()
+            Keys.onReturnPressed: clicked()
         }
     }
 }

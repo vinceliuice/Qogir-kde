@@ -1,37 +1,24 @@
 /*
- *   Copyright 2016 David Edmundson <davidedmundson@kde.org>
- *
- *   This program is free software; you can redistribute it and/or modify
- *   it under the terms of the GNU Library General Public License as
- *   published by the Free Software Foundation; either version 2 or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details
- *
- *   You should have received a copy of the GNU Library General Public
- *   License along with this program; if not, write to the
- *   Free Software Foundation, Inc.,
- *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- */
+    SPDX-FileCopyrightText: 2016 David Edmundson <davidedmundson@kde.org>
 
-import QtQuick
+    SPDX-License-Identifier: LGPL-2.0-or-later
+*/
 
-import QtQuick.Layouts
-import QtQuick.Controls
+import QtQuick 2.15
+import QtQuick.Layouts 1.15
+import QtQuick.Controls 2.15 as QQC2
 import Qt5Compat.GraphicalEffects
 
-import org.kde.plasma.core as PlasmaCore
-import org.kde.plasma.components as PlasmaComponents
-import org.kde.plasma.extras as PlasmaExtras
-import org.kde.plasma.plasma5support as Plasma5Support
-import org.kde.kirigami as Kirigami
+import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.plasma5support 2.0 as P5Support
+import org.kde.kirigami 2.20 as Kirigami
 
 import org.kde.breeze.components
 
-import "components"
+// TODO: Once SDDM 0.19 is released and we are setting the font size using the
+// SDDM KCM's syncing feature, remove the `config.fontSize` overrides here and
+// the fontSize properties in various components, because the theme's default
+// font size will be correctly propagated to the login screen
 
 Item {
     id: root
@@ -40,8 +27,8 @@ Item {
     // See https://bugs.kde.org/show_bug.cgi?id=398317
     readonly property bool softwareRendering: GraphicsInfo.api === GraphicsInfo.Software
 
-    Kirigami.Theme.colorGroup: PlasmaCore.Theme.ComplementaryColorGroup
-    readonly property bool lightBackground: Math.max(Kirigami.Theme.backgroundColor.r, Kirigami.Theme.backgroundColor.g, Kirigami.Theme.backgroundColor.b) > 0.5
+    Kirigami.Theme.colorSet: Kirigami.Theme.Complementary
+    Kirigami.Theme.inherit: false
 
     width: 1600
     height: 900
@@ -51,7 +38,7 @@ Item {
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
 
-    Plasma5Support.DataSource {
+    P5Support.DataSource {
         id: keystateSource
         engine: "keystate"
         connectedSources: "Caps Lock"
@@ -70,6 +57,11 @@ Item {
                 sceneBackgroundImage: config.background
             }
         }
+    }
+
+    RejectPasswordAnimation {
+        id: rejectPasswordAnimation
+        target: mainStack
     }
 
     MouseArea {
@@ -111,6 +103,7 @@ Item {
             interval: 60000
             onTriggered: {
                 if (!loginScreenRoot.blockUI) {
+                    userListComponent.mainPasswordBox.showPassword = false;
                     loginScreenRoot.uiVisible = false;
                 }
             }
@@ -130,15 +123,13 @@ Item {
             anchors.fill: clock
             source: clock
             visible: !softwareRendering
-            horizontalOffset: 1
-            verticalOffset: 1
             radius: 6
             samples: 14
             spread: 0.3
-            color: root.lightBackground ? Kirigami.Theme.backgroundColor : "black" // black matches Breeze window decoration and desktopcontainment
+            color : "black" // shadows should always be black
             Behavior on opacity {
                 OpacityAnimator {
-                    duration: 1000
+                    duration: Kirigami.Units.veryLongDuration * 2
                     easing.type: Easing.InOutQuad
                 }
             }
@@ -146,19 +137,27 @@ Item {
 
         Clock {
             id: clock
-            visible: y > 0
             property Item shadow: clockShadow
-            y: (userListComponent.userList.y + mainStack.y)/2 - height/2
+            visible: y > 0
             anchors.horizontalCenter: parent.horizontalCenter
+            y: (userListComponent.userList.y + mainStack.y)/2 - height/2
+            Layout.alignment: Qt.AlignBaseline
         }
 
-        StackView {
+        QQC2.StackView {
             id: mainStack
             anchors {
                 left: parent.left
                 right: parent.right
             }
             height: root.height + Kirigami.Units.gridUnit * 3
+
+            // If true (depends on the style and environment variables), hover events are always accepted
+            // and propagation stopped. This means the parent MouseArea won't get them and the UI won't be shown.
+            // Disable capturing those events while the UI is hidden to avoid that, while still passing events otherwise.
+            // One issue is that while the UI is visible, mouse activity won't keep resetting the timer, but when it
+            // finally expires, the next event should immediately set uiVisible = true again.
+            hoverEnabled: loginScreenRoot.uiVisible ? undefined : false
 
             focus: true //StackView is an implicit focus scope, so we need to give this focus so the item inside will have it
 
@@ -176,61 +175,67 @@ Item {
             initialItem: Login {
                 id: userListComponent
                 userListModel: userModel
-                loginScreenUiVisible: loginScreenRoot.uiVisible
+                //loginScreenUiVisible: loginScreenRoot.uiVisible
                 userListCurrentIndex: userModel.lastIndex >= 0 ? userModel.lastIndex : 0
                 lastUserName: userModel.lastUser
                 showUserList: {
-                    if ( !userListModel.hasOwnProperty("count")
-                    || !userListModel.hasOwnProperty("disableAvatarsThreshold"))
-                        return (userList.y + mainStack.y) > 0
+                    if (!userListModel.hasOwnProperty("count")
+                        || !userListModel.hasOwnProperty("disableAvatarsThreshold")) {
+                        return false
+                    }
 
-                    if ( userListModel.count === 0 ) return false
+                    if (userListModel.count === 0 ) {
+                        return false
+                    }
 
-                    if ( userListModel.hasOwnProperty("containsAllUsers") && !userListModel.containsAllUsers ) return false
+                    if (userListModel.hasOwnProperty("containsAllUsers") && !userListModel.containsAllUsers) {
+                        return false
+                    }
 
-                    return userListModel.count <= userListModel.disableAvatarsThreshold && (userList.y + mainStack.y) > 0
+                    return userListModel.count <= userListModel.disableAvatarsThreshold
                 }
 
                 notificationMessage: {
-                    var text = ""
+                    const parts = [];
                     if (keystateSource.data["Caps Lock"]["Locked"]) {
-                        text += i18nd("plasma_lookandfeel_org.kde.lookandfeel","Caps Lock is on")
-                        if (root.notificationMessage) {
-                            text += " • "
-                        }
+                        parts.push(i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Caps Lock is on"));
                     }
-                    text += root.notificationMessage
-                    return text
+                    if (root.notificationMessage) {
+                        parts.push(root.notificationMessage);
+                    }
+                    return parts.join(" • ");
                 }
 
+                actionItemsVisible: !inputPanel.keyboardActive
                 actionItems: [
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/suspend_primary.svgz"
-                        text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel","Suspend to RAM","Sleep")
+                        text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
+                        fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
-                        visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/restart_primary.svgz"
-                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Restart")
+                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
+                        fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
-                        visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/shutdown_primary.svgz"
-                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Shut Down")
+                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
+                        fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.powerOff()
                         enabled: sddm.canPowerOff
-                        visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/switch_primary.svgz"
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "For switching to a username and password prompt", "Other…")
+                        fontSize: parseInt(config.fontSize) + 1
                         onClicked: mainStack.push(userPromptComponent)
                         enabled: true
-                        visible: !userListComponent.showUsernamePrompt && !inputPanel.keyboardActive
+                        visible: !userListComponent.showUsernamePrompt
                     }]
 
                 onLoginRequest: {
@@ -244,119 +249,69 @@ Item {
                     duration: Kirigami.Units.longDuration
                 }
             }
+
+            readonly property real zoomFactor: 1.5
+
+            popEnter: Transition {
+                ScaleAnimator {
+                    from: mainStack.zoomFactor
+                    to: 1
+                    duration: Kirigami.Units.veryLongDuration
+                    easing.type: Easing.OutCubic
+                }
+                OpacityAnimator {
+                    from: 0
+                    to: 1
+                    duration: Kirigami.Units.veryLongDuration
+                    easing.type: Easing.OutCubic
+                }
+            }
+
+            popExit: Transition {
+                ScaleAnimator {
+                    from: 1
+                    to: 1 / mainStack.zoomFactor
+                    duration: Kirigami.Units.veryLongDuration
+                    easing.type: Easing.OutCubic
+                }
+                OpacityAnimator {
+                    from: 1
+                    to: 0
+                    duration: Kirigami.Units.veryLongDuration
+                    easing.type: Easing.OutCubic
+                }
+            }
+
+            pushEnter: Transition {
+                ScaleAnimator {
+                    from: 1 / mainStack.zoomFactor
+                    to: 1
+                    duration: Kirigami.Units.veryLongDuration
+                    easing.type: Easing.OutCubic
+                }
+                OpacityAnimator {
+                    from: 0
+                    to: 1
+                    duration: Kirigami.Units.veryLongDuration
+                    easing.type: Easing.OutCubic
+                }
+            }
+
+            pushExit: Transition {
+                ScaleAnimator {
+                    from: 1
+                    to: mainStack.zoomFactor
+                    duration: Kirigami.Units.veryLongDuration
+                    easing.type: Easing.OutCubic
+                }
+                OpacityAnimator {
+                    from: 1
+                    to: 0
+                    duration: Kirigami.Units.veryLongDuration
+                    easing.type: Easing.OutCubic
+                }
+            }
         }
-
-        /*Loader {
-            id: inputPanel
-            state: "hidden"
-            property bool keyboardActive: item ? item.active : false
-            onKeyboardActiveChanged: {
-                if (keyboardActive) {
-                    state = "visible"
-                } else {
-                    state = "hidden";
-                }
-            }
-            source: "components/VirtualKeyboard.qml"
-            anchors {
-                left: parent.left
-                right: parent.right
-            }
-
-            function showHide() {
-                state = state == "hidden" ? "visible" : "hidden";
-            }
-
-            states: [
-                State {
-                    name: "visible"
-                    PropertyChanges {
-                        target: mainStack
-                        y: Math.min(0, root.height - inputPanel.height - userListComponent.visibleBoundary)
-                    }
-                    PropertyChanges {
-                        target: inputPanel
-                        y: root.height - inputPanel.height
-                        opacity: 1
-                    }
-                },
-                State {
-                    name: "hidden"
-                    PropertyChanges {
-                        target: mainStack
-                        y: 0
-                    }
-                    PropertyChanges {
-                        target: inputPanel
-                        y: root.height - root.height/4
-                        opacity: 0
-                    }
-                }
-            ]
-            transitions: [
-                Transition {
-                    from: "hidden"
-                    to: "visible"
-                    SequentialAnimation {
-                        ScriptAction {
-                            script: {
-                                inputPanel.item.activated = true;
-                                Qt.inputMethod.show();
-                            }
-                        }
-                        ParallelAnimation {
-                            NumberAnimation {
-                                target: mainStack
-                                property: "y"
-                                duration: Kirigami.Units.longDuration
-                                easing.type: Easing.InOutQuad
-                            }
-                            NumberAnimation {
-                                target: inputPanel
-                                property: "y"
-                                duration: Kirigami.Units.longDuration
-                                easing.type: Easing.OutQuad
-                            }
-                            OpacityAnimator {
-                                target: inputPanel
-                                duration: Kirigami.Units.longDuration
-                                easing.type: Easing.OutQuad
-                            }
-                        }
-                    }
-                },
-                Transition {
-                    from: "visible"
-                    to: "hidden"
-                    SequentialAnimation {
-                        ParallelAnimation {
-                            NumberAnimation {
-                                target: mainStack
-                                property: "y"
-                                duration: Kirigami.Units.longDuration
-                                easing.type: Easing.InOutQuad
-                            }
-                            NumberAnimation {
-                                target: inputPanel
-                                property: "y"
-                                duration: Kirigami.Units.longDuration
-                                easing.type: Easing.InQuad
-                            }
-                            OpacityAnimator {
-                                target: inputPanel
-                                duration: Kirigami.Units.longDuration
-                                easing.type: Easing.InQuad
-                            }
-                        }
-                        ScriptAction {
-                            script: {
-                                Qt.inputMethod.hide();
-                            }
-                        }
-                    }
-                }
-            ]
-        }*/
 
         VirtualKeyboardLoader {
             id: inputPanel
@@ -374,17 +329,19 @@ Item {
             Login {
                 showUsernamePrompt: true
                 notificationMessage: root.notificationMessage
-                loginScreenUiVisible: loginScreenRoot.uiVisible
+                //loginScreenUiVisible: loginScreenRoot.uiVisible
+                fontSize: parseInt(config.fontSize) + 2
 
                 // using a model rather than a QObject list to avoid QTBUG-75900
                 userListModel: ListModel {
                     ListElement {
                         name: ""
-                        iconSource: ""
+                        icon: ""
                     }
                     Component.onCompleted: {
                         // as we can't bind inside ListElement
                         setProperty(0, "name", i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Type in Username and Password"));
+                        setProperty(0, "icon", Qt.resolvedUrl("faces/.face.icon"))
                     }
                 }
 
@@ -393,41 +350,63 @@ Item {
                     sddm.login(username, password, sessionButton.currentIndex)
                 }
 
+                actionItemsVisible: !inputPanel.keyboardActive
                 actionItems: [
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/suspend_primary.svgz"
-                        text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel","Suspend to RAM","Sleep")
+                        text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
+                        fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
-                        visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/restart_primary.svgz"
-                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Restart")
+                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
+                        fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
-                        visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/shutdown_primary.svgz"
-                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Shut Down")
+                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
+                        fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.powerOff()
                         enabled: sddm.canPowerOff
-                        visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
                         iconSource: "/usr/share/sddm/themes/Qogir/assets/switch_primary.svgz"
-                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","List Users")
+                        text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "List Users")
+                        fontSize: parseInt(config.fontSize) + 1
                         onClicked: mainStack.pop()
-                        visible: !inputPanel.keyboardActive
                     }
                 ]
             }
         }
 
+        DropShadow {
+            id: logoShadow
+            anchors.fill: logo
+            source: logo
+            visible: !softwareRendering && config.showlogo === "shown"
+            horizontalOffset: 1
+            verticalOffset: 1
+            radius: 6
+            samples: 14
+            spread: 0.3
+            color : "black" // shadows should always be black
+            opacity: loginScreenRoot.uiVisible ? 0 : 1
+            Behavior on opacity {
+                //OpacityAnimator when starting from 0 is buggy (it shows one frame with opacity 1)"
+                NumberAnimation {
+                    duration: Kirigami.Units.longDuration
+                    easing.type: Easing.InOutQuad
+                }
+            }
+        }
+
         Image {
             id: logo
-            visible: config.showlogo == "shown"
+            visible: config.showlogo === "shown"
             source: config.logo
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.bottom: footer.top
@@ -438,34 +417,20 @@ Item {
             fillMode: Image.PreserveAspectFit
             height: Math.round(Kirigami.Units.gridUnit * 3.5)
             Behavior on opacity {
-                OpacityAnimator {
+                // OpacityAnimator when starting from 0 is buggy (it shows one frame with opacity 1)"
+                NumberAnimation {
                     duration: Kirigami.Units.longDuration
                     easing.type: Easing.InOutQuad
                 }
             }
         }
 
-        DropShadow {
-            id: logoShadow
-            anchors.fill: logo
-            source: logo
-            visible: !softwareRendering && config.showlogo == "shown"
-            horizontalOffset: 1
-            verticalOffset: 1
-            radius: 6
-            samples: 14
-            spread: 0.3
-            color: "black" // matches Breeze window decoration and desktopcontainment
-            opacity: loginScreenRoot.uiVisible ? 0 : 1
-            Behavior on opacity {
-                OpacityAnimator {
-                    duration: Kirigami.Units.longDuration
-                    easing.type: Easing.InOutQuad
-                }
-            }
-        }
-
-        //Footer
+        // Note: Containment masks stretch clickable area of their buttons to
+        // the screen edges, essentially making them adhere to Fitts's law.
+        // Due to virtual keyboard button having an icon, buttons may have
+        // different heights, so fillHeight is required.
+        //
+        // Note for contributors: Keep this in sync with LockScreenUi.qml footer.
         RowLayout {
             id: footer
             anchors {
@@ -474,6 +439,7 @@ Item {
                 right: parent.right
                 margins: Kirigami.Units.smallSpacing
             }
+            spacing: Kirigami.Units.smallSpacing
 
             Behavior on opacity {
                 OpacityAnimator {
@@ -481,7 +447,7 @@ Item {
                 }
             }
 
-            PlasmaComponents.ToolButton {
+            PlasmaComponents3.ToolButton {
                 id: virtualKeyboardButton
 
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
@@ -493,7 +459,7 @@ Item {
                     userListComponent.mainPasswordBox.forceActiveFocus();
                     inputPanel.showHide()
                 }
-                visible: inputPanel.status === Loader.Ready
+                visible: false
 
                 Layout.fillHeight: true
                 containmentMask: Item {
@@ -505,17 +471,53 @@ Item {
             }
 
             KeyboardButton {
+                id: keyboardButton
+
+                font.pointSize: config.fontSize
+
+                onKeyboardLayoutChanged: {
+                    // Otherwise the password field loses focus and virtual keyboard
+                    // keystrokes get eaten
+                    userListComponent.mainPasswordBox.forceActiveFocus();
+                }
+
+                Layout.fillHeight: true
+                containmentMask: Item {
+                    parent: keyboardButton
+                    anchors.fill: parent
+                    anchors.leftMargin: virtualKeyboardButton.visible ? 0 : -footer.anchors.margins
+                    anchors.bottomMargin: -footer.anchors.margins
+                }
             }
 
             SessionButton {
                 id: sessionButton
+
+                font.pointSize: config.fontSize
+
+                onSessionChanged: {
+                    // Otherwise the password field loses focus and virtual keyboard
+                    // keystrokes get eaten
+                    userListComponent.mainPasswordBox.forceActiveFocus();
+                }
+
+                Layout.fillHeight: true
+                containmentMask: Item {
+                    parent: sessionButton
+                    anchors.fill: parent
+                    anchors.leftMargin: virtualKeyboardButton.visible || keyboardButton.visible
+                        ? 0 : -footer.anchors.margins
+                    anchors.bottomMargin: -footer.anchors.margins
+                }
             }
 
             Item {
                 Layout.fillWidth: true
             }
 
-            Battery { }
+            Battery {
+                fontSize: config.fontSize
+            }
         }
     }
 
@@ -526,6 +528,7 @@ Item {
             footer.enabled = true
             mainStack.enabled = true
             userListComponent.userList.opacity = 1
+            rejectPasswordAnimation.start()
         }
         function onLoginSucceeded() {
             //note SDDM will kill the greeter at some random point after this

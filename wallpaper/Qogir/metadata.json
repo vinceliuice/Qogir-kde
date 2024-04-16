@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "vinceliuice@hotmail.com",
+                "Name": "Vince Liuice"
+            }
+        ],
+        "Id": "Qogir",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Qogir"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": "#5294E2"
+}
