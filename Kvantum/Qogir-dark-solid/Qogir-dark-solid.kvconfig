@@ -31,8 +31,8 @@ double_click=false
 translucent_windows=false
 blurring=false
 popup_blurring=false
-vertical_spin_indicators=false
-spin_button_width=32
+vertical_spin_indicators=true
+spin_button_width=16
 fill_rubberband=false
 merge_menubar_with_toolbar=true
 small_icon_size=16
@@ -190,7 +190,7 @@ frame=true
 interior=true
 frame.left=1
 indicator.element=spin
-indicator.size=10
+indicator.size=9
 text.normal.color=#e0e5eb
 
 [RadioButton]
