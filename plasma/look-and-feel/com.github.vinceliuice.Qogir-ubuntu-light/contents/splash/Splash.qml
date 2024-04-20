@@ -40,16 +40,19 @@ Image {
             source: "images/kde.svg"
             anchors.centerIn: parent
         }
+    }
+
+    Rectangle {
+        id: bottomRect
+        width: parent.width
+        y: -height
+
         Rectangle {
             radius: 3
             color: "#bbbbbb"
-            anchors {
-                bottom: parent.bottom
-                bottomMargin: 50
-                horizontalCenter: parent.horizontalCenter
-            }
-            height: 6
-            width: height*36
+            anchors.centerIn: parent
+            height: 8
+            width: height*32
             Rectangle {
                 radius: 3
                 anchors {
@@ -59,7 +62,7 @@ Image {
                 }
                 width: (parent.width / 6) * (stage - 1)
                 color: "#fb8441"
-                Behavior on width { 
+                Behavior on width {
                     PropertyAnimation {
                         duration: 250
                         easing.type: Easing.InOutQuad
