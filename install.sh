@@ -84,6 +84,7 @@ install() {
   mkdir -p                                                                           ${PLASMA_DIR}/${name}${theme}${ELSE_DARK}
   cp -r ${SRC_DIR}/plasma/desktoptheme/Qogir/*                                       ${PLASMA_DIR}/${name}${theme}${ELSE_DARK}
   sed -i "s|Name=Qogir|Name=${name}${theme}${ELSE_DARK}|"                            ${PLASMA_DIR}/${name}${theme}${ELSE_DARK}/metadata.desktop
+  sed -i "s/Qogir/${name}${theme}${ELSE_DARK}/g"                            ${PLASMA_DIR}/${name}${theme}${ELSE_DARK}/metadata.json
   sed -i "s|defaultWallpaperTheme=Qogir|defaultWallpaperTheme=${name}${theme}${ELSE_DARK}|" ${PLASMA_DIR}/${name}${theme}${ELSE_DARK}/metadata.desktop
 
   if [[ ${color} == '-dark' ]]; then
