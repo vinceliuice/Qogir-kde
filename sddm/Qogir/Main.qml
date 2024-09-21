@@ -175,7 +175,7 @@ Item {
             initialItem: Login {
                 id: userListComponent
                 userListModel: userModel
-                //loginScreenUiVisible: loginScreenRoot.uiVisible
+                loginScreenUiVisible: loginScreenRoot.uiVisible
                 userListCurrentIndex: userModel.lastIndex >= 0 ? userModel.lastIndex : 0
                 lastUserName: userModel.lastUser
                 showUserList: {
@@ -329,7 +329,7 @@ Item {
             Login {
                 showUsernamePrompt: true
                 notificationMessage: root.notificationMessage
-                //loginScreenUiVisible: loginScreenRoot.uiVisible
+                loginScreenUiVisible: loginScreenRoot.uiVisible
                 fontSize: parseInt(config.fontSize) + 2
 
                 // using a model rather than a QObject list to avoid QTBUG-75900
