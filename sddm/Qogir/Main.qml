@@ -209,30 +209,30 @@ Item {
                 actionItemsVisible: !inputPanel.keyboardActive
                 actionItems: [
                     ActionButton {
-                        iconSource: "/usr/share/sddm/themes/Qogir/assets/suspend_primary.svgz"
+                        icon.name: "/usr/share/sddm/themes/Qogir/assets/suspend_primary.svgz"
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
-                        fontSize: parseInt(config.fontSize) + 1
+                        font.pointSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
                     },
                     ActionButton {
-                        iconSource: "/usr/share/sddm/themes/Qogir/assets/restart_primary.svgz"
+                        icon.name: "/usr/share/sddm/themes/Qogir/assets/restart_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
-                        fontSize: parseInt(config.fontSize) + 1
+                        font.pointSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
                     },
                     ActionButton {
-                        iconSource: "/usr/share/sddm/themes/Qogir/assets/shutdown_primary.svgz"
+                        icon.name: "/usr/share/sddm/themes/Qogir/assets/shutdown_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
-                        fontSize: parseInt(config.fontSize) + 1
+                        font.pointSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.powerOff()
                         enabled: sddm.canPowerOff
                     },
                     ActionButton {
-                        iconSource: "/usr/share/sddm/themes/Qogir/assets/switch_primary.svgz"
+                        icon.name: "/usr/share/sddm/themes/Qogir/assets/switch_primary.svgz"
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "For switching to a username and password prompt", "Other…")
-                        fontSize: parseInt(config.fontSize) + 1
+                        font.pointSize: parseInt(config.fontSize) + 1
                         onClicked: mainStack.push(userPromptComponent)
                         enabled: true
                         visible: !userListComponent.showUsernamePrompt
@@ -353,30 +353,30 @@ Item {
                 actionItemsVisible: !inputPanel.keyboardActive
                 actionItems: [
                     ActionButton {
-                        iconSource: "/usr/share/sddm/themes/Qogir/assets/suspend_primary.svgz"
+                        icon.name: "/usr/share/sddm/themes/Qogir/assets/suspend_primary.svgz"
                         text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
-                        fontSize: parseInt(config.fontSize) + 1
+                        font.pointSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
                     },
                     ActionButton {
-                        iconSource: "/usr/share/sddm/themes/Qogir/assets/restart_primary.svgz"
+                        icon.name: "/usr/share/sddm/themes/Qogir/assets/restart_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
-                        fontSize: parseInt(config.fontSize) + 1
+                        font.pointSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
                     },
                     ActionButton {
-                        iconSource: "/usr/share/sddm/themes/Qogir/assets/shutdown_primary.svgz"
+                        icon.name: "/usr/share/sddm/themes/Qogir/assets/shutdown_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
-                        fontSize: parseInt(config.fontSize) + 1
+                        font.pointSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.powerOff()
                         enabled: sddm.canPowerOff
                     },
                     ActionButton {
-                        iconSource: "/usr/share/sddm/themes/Qogir/assets/switch_primary.svgz"
+                        icon.name: "/usr/share/sddm/themes/Qogir/assets/switch_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "List Users")
-                        fontSize: parseInt(config.fontSize) + 1
+                        font.pointSize: parseInt(config.fontSize) + 1
                         onClicked: mainStack.pop()
                     }
                 ]
