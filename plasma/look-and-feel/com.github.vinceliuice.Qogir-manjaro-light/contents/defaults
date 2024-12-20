@@ -5,7 +5,7 @@ cursorTheme=Qogir-manjaro
 ColorScheme=QogirManjaroLight
 
 [kdeglobals][Icons]
-Theme=Qogir-manjaro
+Theme=Qogir-Manjaro-Light
 
 [kdeglobals][KDE]
 widgetStyle=kvantum

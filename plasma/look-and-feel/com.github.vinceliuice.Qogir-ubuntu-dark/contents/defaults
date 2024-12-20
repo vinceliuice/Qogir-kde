@@ -5,7 +5,7 @@ cursorTheme=Qogir-ubuntu-dark
 ColorScheme=QogirUbuntuDark
 
 [kdeglobals][Icons]
-Theme=Qogir-ubuntu-dark
+Theme=Qogir-Ubuntu-Dark
 
 [kdeglobals][KDE]
 widgetStyle=kvantum-dark
